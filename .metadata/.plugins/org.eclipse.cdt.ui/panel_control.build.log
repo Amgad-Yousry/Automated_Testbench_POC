@@ -1,0 +1,12 @@
+10:43:34 **** Incremental Build of configuration Debug for project panel_control ****
+make -j8 all 
+Executing target #14 panel_control.siz
+Invoking: Standard S32DS Print Size
+arm-none-eabi-size --format=berkeley  panel_control.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10112	   2448	   3136	  15696	   3d50	panel_control.elf
+Finished building: panel_control.siz
+ 
+
+10:43:34 Build Finished (took 364ms)
+

@@ -1,0 +1,24 @@
+15:46:59 **** Incremental Build of configuration Debug_RAM for project lpi2c_master_s32k144 ****
+make -j8 all 
+Building file: ../Sources/main.c
+Executing target #21 ../Sources/main.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/main.args" -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: lpi2c_master_s32k144.elf
+Executing target #22 lpi2c_master_s32k144.elf
+Invoking: Standard S32DS C Linker
+arm-none-eabi-gcc -o "lpi2c_master_s32k144.elf" "@lpi2c_master_s32k144.args"   
+Finished building target: lpi2c_master_s32k144.elf
+ 
+Executing target #23 lpi2c_master_s32k144.siz
+Invoking: Standard S32DS Print Size
+arm-none-eabi-size --format=berkeley  lpi2c_master_s32k144.elf 
+   text	   data	    bss	    dec	    hex	filename
+  12820	   2464	   2144	  17428	   4414	lpi2c_master_s32k144.elf
+Finished building: lpi2c_master_s32k144.siz
+ 
+
+15:47:00 Build Finished (took 1s.422ms)
+

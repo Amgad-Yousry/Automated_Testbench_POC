@@ -1,0 +1,1322 @@
+!SESSION 2023-05-02 10:39:40.280 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.freescale.s32ds.arm.ide -product com.freescale.s32ds.arm.ide -product com.freescale.s32ds.arm.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.freescale.s32ds.arm.ide -product com.freescale.s32ds.arm.ide -data C:\Users\amgad\OneDrive\Documents\GitHub\Internship -product com.freescale.s32ds.arm.ide
+
+This is a continuation of log file C:\Users\amgad\OneDrive\Documents\GitHub\Internship\.metadata\.bak_3.log
+Created Time: 2023-05-02 15:46:57.421
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:57.421
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1052:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1052:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:57.432
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1053:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1053:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:57.456
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1054:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1054:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:57.471
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1055:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1055:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:57.486
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1057:5: warning: braces around scalar initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1057:5: warning: braces around scalar initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:57.486
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1058:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1058:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:57.502
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1059:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1059:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:57.517
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1060:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1060:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:57.534
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1061:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1061:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:57.549
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1062:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1062:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:57.566
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1063:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1063:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:57.569
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1064:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1064:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:57.584
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1065:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1065:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:57.600
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1066:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1066:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:57.621
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1067:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1067:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:57.631
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1069:5: warning: braces around scalar initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1069:5: warning: braces around scalar initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:57.647
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1070:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1070:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:57.647
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1071:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1071:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:57.663
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1072:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1072:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:57.679
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1073:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1073:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:57.694
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1074:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1074:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:57.710
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1075:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1075:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:57.726
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1076:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1076:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:57.741
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1077:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1077:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:57.757
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1078:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1078:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:57.773
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1079:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1079:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:57.789
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1081:5: warning: braces around scalar initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1081:5: warning: braces around scalar initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:57.804
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1082:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1082:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:57.804
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1083:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1083:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:57.832
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1084:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1084:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:57.855
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1085:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1085:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:57.870
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1086:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1086:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:57.871
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1087:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1087:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:57.887
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1088:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1088:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:57.903
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1089:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1089:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:57.922
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1090:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1090:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:57.934
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1091:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1091:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:57.960
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1093:5: warning: braces around scalar initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1093:5: warning: braces around scalar initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:57.966
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1094:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1094:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:57.966
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1095:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1095:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:57.981
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1096:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1096:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:57.997
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1097:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1097:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:58.032
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1098:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1098:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:58.047
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1099:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1099:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:58.052
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1100:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1100:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:58.067
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1101:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1101:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:58.083
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1102:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1102:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:58.099
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1103:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1103:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:58.122
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1105:5: warning: braces around scalar initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1105:5: warning: braces around scalar initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:58.130
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1106:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1106:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:58.130
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1107:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1107:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:58.146
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1108:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1108:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:58.162
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1109:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1109:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:58.177
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1110:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1110:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:58.193
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1111:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1111:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:58.209
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1112:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1112:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:58.225
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1113:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1113:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:58.240
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1114:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1114:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:58.257
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1115:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1115:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:58.272
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1117:5: warning: braces around scalar initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1117:5: warning: braces around scalar initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:58.288
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1118:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1118:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:58.288
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1119:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1119:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:58.303
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1120:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1120:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:58.322
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1121:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1121:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:58.342
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1122:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1122:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:58.358
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1123:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1123:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:58.375
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1124:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1124:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:58.389
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1125:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1125:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:58.404
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1126:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1126:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:58.420
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1127:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1127:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:58.435
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1129:5: warning: braces around scalar initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1129:5: warning: braces around scalar initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:58.435
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1130:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1130:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:58.451
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1131:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1131:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:58.467
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1132:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1132:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:58.482
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1133:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1133:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:58.498
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1134:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1134:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:58.523
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1135:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1135:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:58.530
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1136:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1136:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:58.559
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1137:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1137:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:58.570
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1138:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1138:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:58.586
+!MESSAGE Error: Line ../Generated_Code/pin_mux.c:1139:12: error: field name not in record or union initializer wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Generated_Code/pin_mux.c:1139:12: error: field name not in record or union initializer wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-02 15:46:58.603
+!MESSAGE Error: Line make: *** [Generated_Code/subdir.mk:110: Generated_Code/pin_mux.o] Error 1 wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line make: *** [Generated_Code/subdir.mk:110: Generated_Code/pin_mux.o] Error 1 wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
