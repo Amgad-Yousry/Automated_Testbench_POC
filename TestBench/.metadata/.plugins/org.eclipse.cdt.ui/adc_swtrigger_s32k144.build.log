@@ -1,0 +1,18 @@
+11:32:37 **** Incremental Build of configuration Debug_FLASH for project adc_swtrigger_s32k144 ****
+make -j8 all 
+Building file: ../Sources/main.c
+Executing target #29 ../Sources/main.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/main.args" -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: adc_swtrigger_s32k144.elf
+Executing target #30 adc_swtrigger_s32k144.elf
+Invoking: Standard S32DS C Linker
+arm-none-eabi-gcc -o "adc_swtrigger_s32k144.elf" "@adc_swtrigger_s32k144.args"   
+./Generated_Code/lpi2c1.o:(.rodata.lpi2c1_MasterConfig0+0xc): undefined reference to `lpi2c1_MasterCallback0'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:70: adc_swtrigger_s32k144.elf] Error 1
+
+11:32:39 Build Finished (took 1s.545ms)
+
