@@ -59,7 +59,7 @@ uint8_t	 TX_buffer[TX_BUFFER_SIZE] = {0x11, 0x02, 0x02, 0x00, 0xEB}; /* Read O2 
 //* Declaration of the LPI2C transfer buffer */
 
 float gfFlowSMF;
-
+uint16_t u16CountsSMF;
 
 
 /*!
@@ -89,8 +89,8 @@ int main(void)
 
 
 	/*necessary datasheet values for flow calculations*/
-	const uint64_t SFLOW = 100;
-	const uint64_t OFFSET = 32768;
+	const float SFLOW = 100;
+	const float OFFSET = 32768;
 
 
 
@@ -180,7 +180,7 @@ int main(void)
 	    /* Declaration of the LPI2C transfer buffer */
 	    uint8_t buffer[TRANSFER_SIZE_F];
 	    uint8_t SEND[2] = {0x10, 0x00};
-	    uint16_t u16CountsSMF;
+
 
 	    /* Variable used for the loop that initializes the data buffer */
 	    uint16_t i;
@@ -255,7 +255,7 @@ int main(void)
 
 
 		    u16CountsSMF = (buffer[0]<<8)|buffer[1];
-		    gfFlowSMF = (u16CountsSMF - OFFSET)/SFLOW;
+		    gfFlowSMF =((float)u16CountsSMF - OFFSET)/SFLOW;
 
 
 

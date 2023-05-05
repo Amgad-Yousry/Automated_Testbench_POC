@@ -5145,3 +5145,420 @@ java.lang.UnsupportedOperationException
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+
+!ENTRY org.eclipse.core.jobs 2 2 2023-05-05 14:22:21.438
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$InputReadJob
+!SESSION 2023-05-05 14:33:22.616 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.freescale.s32ds.arm.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.freescale.s32ds.arm.ide
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-05-05 14:33:39.608
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\kamil'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2023-05-05 14:33:42.172
+!MESSAGE Connection to http://www.pemicro.com/eclipse/updates/p2.index failed on sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target. Retry attempt 0 started
+!STACK 0
+javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.fatal(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.processMessage(Unknown Source)
+	at sun.security.ssl.Handshaker.processLoop(Unknown Source)
+	at sun.security.ssl.Handshaker.process_record(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.writeRecord(Unknown Source)
+	at sun.security.ssl.AppOutputStream.write(Unknown Source)
+	at org.apache.http.impl.io.AbstractSessionOutputBuffer.flushBuffer(AbstractSessionOutputBuffer.java:159)
+	at org.apache.http.impl.io.AbstractSessionOutputBuffer.flush(AbstractSessionOutputBuffer.java:166)
+	at org.apache.http.impl.AbstractHttpClientConnection.doFlush(AbstractHttpClientConnection.java:272)
+	at org.apache.http.impl.AbstractHttpClientConnection.flush(AbstractHttpClientConnection.java:277)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.flush(AbstractClientConnAdapter.java:201)
+	at org.apache.http.protocol.HttpRequestExecutor.doSendRequest(HttpRequestExecutor.java:239)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:121)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:685)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:487)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.validator.PKIXValidator.doBuild(Unknown Source)
+	at sun.security.validator.PKIXValidator.engineValidate(Unknown Source)
+	at sun.security.validator.Validator.validate(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.validate(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source)
+	... 24 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.provider.certpath.SunCertPathBuilder.build(Unknown Source)
+	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(Unknown Source)
+	at java.security.cert.CertPathBuilder.build(Unknown Source)
+	... 30 more
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2023-05-05 14:33:44.224
+!MESSAGE Unable to read repository at http://www.pemicro.com/eclipse/updates/content.xml.
+!STACK 0
+javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.fatal(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.processMessage(Unknown Source)
+	at sun.security.ssl.Handshaker.processLoop(Unknown Source)
+	at sun.security.ssl.Handshaker.process_record(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:535)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.SNIAwareHttpClient$1.connectSocket(SNIAwareHttpClient.java:63)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:403)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:177)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:304)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.validator.PKIXValidator.doBuild(Unknown Source)
+	at sun.security.validator.PKIXValidator.engineValidate(Unknown Source)
+	at sun.security.validator.Validator.validate(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.validate(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source)
+	... 20 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.provider.certpath.SunCertPathBuilder.build(Unknown Source)
+	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(Unknown Source)
+	at java.security.cert.CertPathBuilder.build(Unknown Source)
+	... 26 more
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-05 14:36:54.864
+!MESSAGE Error: Line ../Sources/main.c:226:38: warning: passing argument 2 of 'LPUART_DRV_SendDataBlocking' from incompatible pointer type wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Sources/main.c:226:38: warning: passing argument 2 of 'LPUART_DRV_SendDataBlocking' from incompatible pointer type wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.launchbar.core 2 0 2023-05-05 14:37:08.577
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2023-05-05 14:37:08.578
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-05-05 14:37:10.355
+!MESSAGE Request monitor: 'Sequence "", result for executing step #0 = Status CANCEL: com.pemicro.debug.gdbjtag.pne code=1 PEmicro GDB Launch Failure : Unable to auto-detect debug hardware. Please specify on the command-line. If running from Eclipse, check the launch Debug Configuration settings. Halting. null' resulted in a cancel status: Status CANCEL: com.pemicro.debug.gdbjtag.pne code=1 PEmicro GDB Launch Failure : Unable to auto-detect debug hardware. Please specify on the command-line. If running from Eclipse, check the launch Debug Configuration settings. Halting. null, even though the request is not set to cancel.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-05-05 14:37:10.356
+!MESSAGE Request monitor: 'Sequence "Initializing debugger services", result for executing step #0 = Status CANCEL: com.pemicro.debug.gdbjtag.pne code=1 PEmicro GDB Launch Failure : Unable to auto-detect debug hardware. Please specify on the command-line. If running from Eclipse, check the launch Debug Configuration settings. Halting. null' resulted in a cancel status: Status CANCEL: com.pemicro.debug.gdbjtag.pne code=1 PEmicro GDB Launch Failure : Unable to auto-detect debug hardware. Please specify on the command-line. If running from Eclipse, check the launch Debug Configuration settings. Halting. null, even though the request is not set to cancel.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-05-05 14:37:10.357
+!MESSAGE Request monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitorWithProgress@c32b6): Status CANCEL: com.pemicro.debug.gdbjtag.pne code=1 PEmicro GDB Launch Failure : Unable to auto-detect debug hardware. Please specify on the command-line. If running from Eclipse, check the launch Debug Configuration settings. Halting. null' resulted in a cancel status: Status CANCEL: com.pemicro.debug.gdbjtag.pne code=1 PEmicro GDB Launch Failure : Unable to auto-detect debug hardware. Please specify on the command-line. If running from Eclipse, check the launch Debug Configuration settings. Halting. null, even though the request is not set to cancel.
+
+!ENTRY com.pemicro.debug.gdbjtag.pne 4 5012 2023-05-05 14:37:10.366
+!MESSAGE Error in services launch sequence
+!STACK 1
+org.eclipse.core.runtime.CoreException: PEmicro GDB Launch Failure : Unable to auto-detect debug hardware. Please specify on the command-line. If running from Eclipse, check the launch Debug Configuration settings. Halting.
+	at org.eclipse.cdt.dsf.concurrent.Sequence.abortExecution(Sequence.java:582)
+	at org.eclipse.cdt.dsf.concurrent.Sequence.access$4(Sequence.java:574)
+	at org.eclipse.cdt.dsf.concurrent.Sequence$2.handleErrorOrWarning(Sequence.java:431)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor.handleFailure(RequestMonitor.java:424)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor.handleCompleted(RequestMonitor.java:387)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor$2.run(RequestMonitor.java:312)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+!SUBENTRY 1 com.pemicro.debug.gdbjtag.pne 8 1 2023-05-05 14:37:10.367
+!MESSAGE PEmicro GDB Launch Failure : Unable to auto-detect debug hardware. Please specify on the command-line. If running from Eclipse, check the launch Debug Configuration settings. Halting.
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-05 14:39:46.087
+!MESSAGE Error: Line ../Sources/main.c:226:38: warning: passing argument 2 of 'LPUART_DRV_SendDataBlocking' from incompatible pointer type wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Sources/main.c:226:38: warning: passing argument 2 of 'LPUART_DRV_SendDataBlocking' from incompatible pointer type wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-05-05 14:40:01.463
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.mi.service.MIRunControl$9@12e4e0e): Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Context cannot be suspended. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2023-05-05 14:40:01.463
+!MESSAGE Context cannot be suspended.
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-05 14:41:31.098
+!MESSAGE Error: Line ../Sources/main.c:226:38: warning: passing argument 2 of 'LPUART_DRV_SendDataBlocking' from incompatible pointer type wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Sources/main.c:226:38: warning: passing argument 2 of 'LPUART_DRV_SendDataBlocking' from incompatible pointer type wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-05-05 14:41:46.412
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.mi.service.MIRunControl$9@10375b): Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Context cannot be suspended. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2023-05-05 14:41:46.412
+!MESSAGE Context cannot be suspended.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-05-05 14:41:58.972
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.mi.service.MIRunControl$9@46ac1b): Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Context cannot be suspended. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2023-05-05 14:41:58.972
+!MESSAGE Context cannot be suspended.
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-05 14:44:29.908
+!MESSAGE Error: Line ../Sources/main.c:226:38: warning: passing argument 2 of 'LPUART_DRV_SendDataBlocking' from incompatible pointer type wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Sources/main.c:226:38: warning: passing argument 2 of 'LPUART_DRV_SendDataBlocking' from incompatible pointer type wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-05-05 14:44:57.998
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.mi.service.MIRunControl$9@a97afb): Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Context cannot be suspended. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2023-05-05 14:44:57.998
+!MESSAGE Context cannot be suspended.
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-05 14:47:31.723
+!MESSAGE Error: Line ../Sources/main.c:226:38: warning: passing argument 2 of 'LPUART_DRV_SendDataBlocking' from incompatible pointer type wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Sources/main.c:226:38: warning: passing argument 2 of 'LPUART_DRV_SendDataBlocking' from incompatible pointer type wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-05 14:47:56.728
+!MESSAGE Error: Line ../Sources/main.c:75:2: warning: implicit declaration of function 'enableFPU' [-Wimplicit-function-declaration] wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Sources/main.c:75:2: warning: implicit declaration of function 'enableFPU' [-Wimplicit-function-declaration] wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-05 14:47:56.730
+!MESSAGE Error: Line ../Sources/main.c:170:6: warning: initialization makes integer from pointer without a cast wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Sources/main.c:170:6: warning: initialization makes integer from pointer without a cast wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-05 14:47:56.732
+!MESSAGE Error: Line ../Sources/main.c:226:38: warning: passing argument 2 of 'LPUART_DRV_SendDataBlocking' from incompatible pointer type wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Sources/main.c:226:38: warning: passing argument 2 of 'LPUART_DRV_SendDataBlocking' from incompatible pointer type wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-05 14:47:56.737
+!MESSAGE Error: Line ../Sources/main.c:229:40: warning: passing argument 2 of 'LPUART_DRV_ReceiveDataBlocking' from incompatible pointer type wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Sources/main.c:229:40: warning: passing argument 2 of 'LPUART_DRV_ReceiveDataBlocking' from incompatible pointer type wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.freescale.s32ds.cdt.core 4 0 2023-05-05 14:47:56.741
+!MESSAGE Error: Line ../Sources/main.c:234:37: warning: iteration 12u invokes undefined behavior [-Waggressive-loop-optimizations] wasn't registered in the queue!
+!STACK 0
+java.lang.IllegalArgumentException: Line ../Sources/main.c:234:37: warning: iteration 12u invokes undefined behavior [-Waggressive-loop-optimizations] wasn't registered in the queue!
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.logError(OutputLineQueue.java:90)
+	at com.freescale.s32ds.cdt.core.OutputLineQueue.setDone(OutputLineQueue.java:56)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.outputLine(FSLErrorParserManager.java:473)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processErrorParsers(FSLErrorParserManager.java:459)
+	at com.freescale.s32ds.cdt.core.FSLErrorParserManager.processLine(FSLErrorParserManager.java:358)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-05-05 14:48:13.609
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.mi.service.MIRunControl$9@b3d7e8): Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Context cannot be suspended. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2023-05-05 14:48:13.609
+!MESSAGE Context cannot be suspended.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-05-05 15:05:32.617
+!MESSAGE Request monitor: 'Sequence "", result for executing step #0 = Status CANCEL: com.pemicro.debug.gdbjtag.pne code=1 PEmicro GDB Launch Failure : Unable to auto-detect debug hardware. Please specify on the command-line. If running from Eclipse, check the launch Debug Configuration settings. Halting. null' resulted in a cancel status: Status CANCEL: com.pemicro.debug.gdbjtag.pne code=1 PEmicro GDB Launch Failure : Unable to auto-detect debug hardware. Please specify on the command-line. If running from Eclipse, check the launch Debug Configuration settings. Halting. null, even though the request is not set to cancel.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-05-05 15:05:32.618
+!MESSAGE Request monitor: 'Sequence "Initializing debugger services", result for executing step #0 = Status CANCEL: com.pemicro.debug.gdbjtag.pne code=1 PEmicro GDB Launch Failure : Unable to auto-detect debug hardware. Please specify on the command-line. If running from Eclipse, check the launch Debug Configuration settings. Halting. null' resulted in a cancel status: Status CANCEL: com.pemicro.debug.gdbjtag.pne code=1 PEmicro GDB Launch Failure : Unable to auto-detect debug hardware. Please specify on the command-line. If running from Eclipse, check the launch Debug Configuration settings. Halting. null, even though the request is not set to cancel.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-05-05 15:05:32.618
+!MESSAGE Request monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitorWithProgress@14c0b73): Status CANCEL: com.pemicro.debug.gdbjtag.pne code=1 PEmicro GDB Launch Failure : Unable to auto-detect debug hardware. Please specify on the command-line. If running from Eclipse, check the launch Debug Configuration settings. Halting. null' resulted in a cancel status: Status CANCEL: com.pemicro.debug.gdbjtag.pne code=1 PEmicro GDB Launch Failure : Unable to auto-detect debug hardware. Please specify on the command-line. If running from Eclipse, check the launch Debug Configuration settings. Halting. null, even though the request is not set to cancel.
+
+!ENTRY com.pemicro.debug.gdbjtag.pne 4 5012 2023-05-05 15:05:32.620
+!MESSAGE Error in services launch sequence
+!STACK 1
+org.eclipse.core.runtime.CoreException: PEmicro GDB Launch Failure : Unable to auto-detect debug hardware. Please specify on the command-line. If running from Eclipse, check the launch Debug Configuration settings. Halting.
+	at org.eclipse.cdt.dsf.concurrent.Sequence.abortExecution(Sequence.java:582)
+	at org.eclipse.cdt.dsf.concurrent.Sequence.access$4(Sequence.java:574)
+	at org.eclipse.cdt.dsf.concurrent.Sequence$2.handleErrorOrWarning(Sequence.java:431)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor.handleFailure(RequestMonitor.java:424)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor.handleCompleted(RequestMonitor.java:387)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor$2.run(RequestMonitor.java:312)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+!SUBENTRY 1 com.pemicro.debug.gdbjtag.pne 8 1 2023-05-05 15:05:32.621
+!MESSAGE PEmicro GDB Launch Failure : Unable to auto-detect debug hardware. Please specify on the command-line. If running from Eclipse, check the launch Debug Configuration settings. Halting.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-05-05 15:09:27.743
+!MESSAGE Request monitor: 'Sequence "", result for executing step #0 = Status CANCEL: com.pemicro.debug.gdbjtag.pne code=1 PEmicro GDB Launch Failure : Unable to auto-detect debug hardware. Please specify on the command-line. If running from Eclipse, check the launch Debug Configuration settings. Halting. null' resulted in a cancel status: Status CANCEL: com.pemicro.debug.gdbjtag.pne code=1 PEmicro GDB Launch Failure : Unable to auto-detect debug hardware. Please specify on the command-line. If running from Eclipse, check the launch Debug Configuration settings. Halting. null, even though the request is not set to cancel.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-05-05 15:09:27.743
+!MESSAGE Request monitor: 'Sequence "Initializing debugger services", result for executing step #0 = Status CANCEL: com.pemicro.debug.gdbjtag.pne code=1 PEmicro GDB Launch Failure : Unable to auto-detect debug hardware. Please specify on the command-line. If running from Eclipse, check the launch Debug Configuration settings. Halting. null' resulted in a cancel status: Status CANCEL: com.pemicro.debug.gdbjtag.pne code=1 PEmicro GDB Launch Failure : Unable to auto-detect debug hardware. Please specify on the command-line. If running from Eclipse, check the launch Debug Configuration settings. Halting. null, even though the request is not set to cancel.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-05-05 15:09:27.744
+!MESSAGE Request monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitorWithProgress@31e516): Status CANCEL: com.pemicro.debug.gdbjtag.pne code=1 PEmicro GDB Launch Failure : Unable to auto-detect debug hardware. Please specify on the command-line. If running from Eclipse, check the launch Debug Configuration settings. Halting. null' resulted in a cancel status: Status CANCEL: com.pemicro.debug.gdbjtag.pne code=1 PEmicro GDB Launch Failure : Unable to auto-detect debug hardware. Please specify on the command-line. If running from Eclipse, check the launch Debug Configuration settings. Halting. null, even though the request is not set to cancel.
+
+!ENTRY com.pemicro.debug.gdbjtag.pne 4 5012 2023-05-05 15:09:27.746
+!MESSAGE Error in services launch sequence
+!STACK 1
+org.eclipse.core.runtime.CoreException: PEmicro GDB Launch Failure : Unable to auto-detect debug hardware. Please specify on the command-line. If running from Eclipse, check the launch Debug Configuration settings. Halting.
+	at org.eclipse.cdt.dsf.concurrent.Sequence.abortExecution(Sequence.java:582)
+	at org.eclipse.cdt.dsf.concurrent.Sequence.access$4(Sequence.java:574)
+	at org.eclipse.cdt.dsf.concurrent.Sequence$2.handleErrorOrWarning(Sequence.java:431)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor.handleFailure(RequestMonitor.java:424)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor.handleCompleted(RequestMonitor.java:387)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor$2.run(RequestMonitor.java:312)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+!SUBENTRY 1 com.pemicro.debug.gdbjtag.pne 8 1 2023-05-05 15:09:27.746
+!MESSAGE PEmicro GDB Launch Failure : Unable to auto-detect debug hardware. Please specify on the command-line. If running from Eclipse, check the launch Debug Configuration settings. Halting.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-05-05 15:14:55.168
+!MESSAGE Request monitor: 'Sequence "", result for executing step #0 = Status CANCEL: com.pemicro.debug.gdbjtag.pne code=1 PEmicro GDB Launch Failure : Unable to auto-detect debug hardware. Please specify on the command-line. If running from Eclipse, check the launch Debug Configuration settings. Halting. null' resulted in a cancel status: Status CANCEL: com.pemicro.debug.gdbjtag.pne code=1 PEmicro GDB Launch Failure : Unable to auto-detect debug hardware. Please specify on the command-line. If running from Eclipse, check the launch Debug Configuration settings. Halting. null, even though the request is not set to cancel.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-05-05 15:14:55.169
+!MESSAGE Request monitor: 'Sequence "Initializing debugger services", result for executing step #0 = Status CANCEL: com.pemicro.debug.gdbjtag.pne code=1 PEmicro GDB Launch Failure : Unable to auto-detect debug hardware. Please specify on the command-line. If running from Eclipse, check the launch Debug Configuration settings. Halting. null' resulted in a cancel status: Status CANCEL: com.pemicro.debug.gdbjtag.pne code=1 PEmicro GDB Launch Failure : Unable to auto-detect debug hardware. Please specify on the command-line. If running from Eclipse, check the launch Debug Configuration settings. Halting. null, even though the request is not set to cancel.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-05-05 15:14:55.170
+!MESSAGE Request monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitorWithProgress@c2466f): Status CANCEL: com.pemicro.debug.gdbjtag.pne code=1 PEmicro GDB Launch Failure : Unable to auto-detect debug hardware. Please specify on the command-line. If running from Eclipse, check the launch Debug Configuration settings. Halting. null' resulted in a cancel status: Status CANCEL: com.pemicro.debug.gdbjtag.pne code=1 PEmicro GDB Launch Failure : Unable to auto-detect debug hardware. Please specify on the command-line. If running from Eclipse, check the launch Debug Configuration settings. Halting. null, even though the request is not set to cancel.
+
+!ENTRY com.pemicro.debug.gdbjtag.pne 4 5012 2023-05-05 15:14:55.172
+!MESSAGE Error in services launch sequence
+!STACK 1
+org.eclipse.core.runtime.CoreException: PEmicro GDB Launch Failure : Unable to auto-detect debug hardware. Please specify on the command-line. If running from Eclipse, check the launch Debug Configuration settings. Halting.
+	at org.eclipse.cdt.dsf.concurrent.Sequence.abortExecution(Sequence.java:582)
+	at org.eclipse.cdt.dsf.concurrent.Sequence.access$4(Sequence.java:574)
+	at org.eclipse.cdt.dsf.concurrent.Sequence$2.handleErrorOrWarning(Sequence.java:431)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor.handleFailure(RequestMonitor.java:424)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor.handleCompleted(RequestMonitor.java:387)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor$2.run(RequestMonitor.java:312)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+!SUBENTRY 1 com.pemicro.debug.gdbjtag.pne 8 1 2023-05-05 15:14:55.173
+!MESSAGE PEmicro GDB Launch Failure : Unable to auto-detect debug hardware. Please specify on the command-line. If running from Eclipse, check the launch Debug Configuration settings. Halting.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-05-05 15:15:12.312
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.mi.service.MIRunControl$9@1bc157a): Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Context cannot be suspended. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2023-05-05 15:15:12.312
+!MESSAGE Context cannot be suspended.

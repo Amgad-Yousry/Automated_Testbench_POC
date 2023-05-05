@@ -822,7 +822,7 @@
         <ReadOnly>false</ReadOnly>
         <ListItemCount>1</ListItemCount>
         <UserReadOnly>false</UserReadOnly>
-        <Expanded>false</Expanded>
+        <Expanded>true</Expanded>
         <ItemsTypeState>CPUs\S32K144_100\CPU_ClockSettingsItem.item</ItemsTypeState>
       </ItemState>
       <ItemState>
@@ -34043,7 +34043,7 @@
         <ReadOnly>false</ReadOnly>
         <ListItemCount>1</ListItemCount>
         <UserReadOnly>false</UserReadOnly>
-        <Expanded>false</Expanded>
+        <Expanded>true</Expanded>
       </ItemState>
       <ItemState>
         <ItemSymbol>adcConvCfg_0</ItemSymbol>
