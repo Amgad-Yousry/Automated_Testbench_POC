@@ -2,7 +2,7 @@
 <GenerationInfo_G_C>
   <Options>
     <ProjectName>panel_control_v2</ProjectName>
-    <ProjectDirectory>C:\Users\amgad\Downloads\nx\panel_control_v2\</ProjectDirectory>
+    <ProjectDirectory>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\panel_control_v2\</ProjectDirectory>
     <ProjectMainModuleName>main</ProjectMainModuleName>
     <DestEventsDirectory>Sources\</DestEventsDirectory>
     <DestDriversSubDirectory>..\Generated_Code\</DestDriversSubDirectory>

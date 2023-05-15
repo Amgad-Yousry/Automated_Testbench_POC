@@ -30,7 +30,7 @@
 #include "pin_mux.h"
 #include <stdint.h>
 #include <stdbool.h>
-  volatile int exit_code = 0;
+volatile int exit_code = 0;
 #if CPU_INIT_CONFIG
   #include "Init_Config.h"
 #endif
@@ -38,89 +38,81 @@
 #define EVB
 #define LED0_PIN_INDEX  0U
 #define LED_GPIO_PORT	PTD
-#define panel 	    PORTA
-#define GPIO_PORT	PTA
+
+#define GPIO_PORT	PORTA
 #define PCC_CLOCK	PCC_PORTA_CLOCK
 #define ONOFF		3U
 #define PLUS		2U
 #define MINUS		9U
 #define BELL		8U
 
-unsigned char  bells =0;
-unsigned char  power =0;
-unsigned char  plus =0;
-unsigned char  minus =0;
-unsigned char increments=0;
-unsigned char automate=0;
-volatile int keeppress;
-#define LPIT_CHANNEL	    0UL
+#define LPIT0_CHANNEL	    0UL
 #define LPIT_Channel_IRQn   LPIT0_Ch0_IRQn
 
-/********************* Interrupt service routine ISR functions declarations*******************************/
-/* first ISR from example, toggling LEDS*/
-void LPIT_ISR(void)
-{
-	/* Clear LPIT channel flag */
-	LPIT_DRV_ClearInterruptFlagTimerChannels(INST_LPIT1, (1 << LPIT_CHANNEL));
-	/* Toggle LED0 */
-	PINS_DRV_TogglePins(LED_GPIO_PORT, (1 << LED0_PIN_INDEX));
+/* User includes (#include below this line is not maintained by Processor Expert) */
+/* Global variables for each button's state and counter */
+typedef enum {
+    BUTTON_STATE_IDLE,
+    BUTTON_STATE_PRESSED,
+    BUTTON_STATE_RELEASED,
+    BUTTON_STATE_WAIT,
+} button_state_t;
+volatile button_state_t onoff_state = BUTTON_STATE_IDLE;
+volatile uint32_t onoff_counter = 0;
+
+volatile button_state_t bell_state = BUTTON_STATE_IDLE;
+volatile uint32_t bell_counter = 0;
+volatile uint32_t bell_duration = 6000000; /* Default press duration */
+
+volatile button_state_t plus_state = BUTTON_STATE_IDLE;
+volatile uint32_t plus_counter = 0;
+
+volatile button_state_t minus_state = BUTTON_STATE_IDLE;
+volatile uint32_t minus_counter = 0;
+
+void update_button_state(volatile button_state_t* state, volatile uint32_t*counter, uint32_t pin, uint32_t release_delay) {
+    /* State machine */
+    switch (*state) {
+        case BUTTON_STATE_IDLE:
+            PINS_DRV_WritePin(PTA, pin, 0); /* Begin button press */
+            *state = BUTTON_STATE_PRESSED;
+             /* Set the press delay */
+            break;
+
+        case BUTTON_STATE_PRESSED:
+            if (*counter > 0) {
+                (*counter)--;
+            } else {
+                *state = BUTTON_STATE_RELEASED;
+                *counter = release_delay; /* Set the release delay */
+            }
+            break;
+
+        case BUTTON_STATE_RELEASED:
+            if (*counter > 0) {
+                (*counter)--;
+            } else {
+                PINS_DRV_WritePin(PTA, pin, 1); /* End button press */
+                *state = BUTTON_STATE_IDLE;
+            }
+            break;
+
+        default:
+            break;
+    }
 }
-/* the transparent sensor isr*/
-void FLOWSMF_ISR(void)
+
+void LPIT0_Ch0_IRQHandler(void)
 {
-	/* Clear LPIT channel flag */
-	LPIT_DRV_ClearInterruptFlagTimerChannels(INST_LPIT1, (1 << LPIT_CHANNEL));
+    /* Clear interrupt flag.*/
+    LPIT_DRV_ClearInterruptFlagTimerChannels(INST_LPIT1, (1U << LPIT0_CHANNEL));
 
+    update_button_state(&onoff_state, &onoff_counter, ONOFF, 6000000);
+    update_button_state(&bell_state, &bell_counter, BELL, bell_duration);
+    update_button_state(&plus_state, &plus_counter, PLUS, 900000);
+    update_button_state(&minus_state, &minus_counter, MINUS, 900000);
 }
-/*plus button*/
-void PLUS_ISR(void)
-{
-	PINS_DRV_WritePin(GPIO_PORT,PLUS,0);
 
-    PINS_DRV_WritePin(GPIO_PORT,PLUS,1);
-	plus=0;
-	/* Clear LPIT channel flag */
-	LPIT_DRV_ClearInterruptFlagTimerChannels(INST_LPIT1, (1 << LPIT_CHANNEL));
-
-}
-/* minus button*/
-void MINUS_ISR(void)
-{
-	PINS_DRV_WritePin(GPIO_PORT,MINUS,0);
-
-	PINS_DRV_WritePin(GPIO_PORT,MINUS,1);
-	minus=0;
-	/* Clear LPIT channel flag */
-	LPIT_DRV_ClearInterruptFlagTimerChannels(INST_LPIT1, (1 << LPIT_CHANNEL));
-
-}
-/* bell button*/
-void BELL_ISR(void)
-{
-	PINS_DRV_WritePin(GPIO_PORT,BELL,0);
-		 	      	  	PINS_DRV_WritePin(GPIO_PORT,BELL,1);
-		 	      	  			bells=0;
-	/* Clear LPIT channel flag */
-	LPIT_DRV_ClearInterruptFlagTimerChannels(INST_LPIT1, (1 << LPIT_CHANNEL));
-
-}
-/* power button*/
-void POWER_ISR(void)
-{
-	PINS_DRV_WritePin(GPIO_PORT,ONOFF,0);
-
-	PINS_DRV_WritePin(GPIO_PORT,ONOFF,1);
-			      	  			power=0;
-	/* Clear LPIT channel flag */
-	LPIT_DRV_ClearInterruptFlagTimerChannels(INST_LPIT1, (1 << LPIT_CHANNEL));
-
-}
-/*!
-  \brief The main function for the project.
-  \details The startup initialization sequence is the following:
- * - startup asm routine
- * - main()
-*/
 int main(void)
 {
   /* Write your local variable definition here */
@@ -131,46 +123,43 @@ int main(void)
   #endif
   /*** End of Processor Expert internal initialization.                    ***/
 
-  /* initialization */
-    CLOCK_SYS_Init(g_clockManConfigsArr,   CLOCK_MANAGER_CONFIG_CNT,
-                       g_clockManCallbacksArr, CLOCK_MANAGER_CALLBACK_CNT);
-        CLOCK_SYS_UpdateConfiguration(0U, CLOCK_MANAGER_POLICY_AGREEMENT);
+  /* Write your code here */
 
-    	/* Initialize pins
-    	 *	-	Setup pin used for LED(used as GPIO)
-    	 */
-        PINS_DRV_Init(NUM_OF_CONFIGURED_PINS, g_pin_mux_InitConfigArr);
-        /* Set LED pin direction as output */
-        PINS_DRV_SetPinsDirection(LED_GPIO_PORT, (1 << LED0_PIN_INDEX));
-        /* Turn off LED0 */
-         PINS_DRV_SetPins(LED_GPIO_PORT, (1 << LED0_PIN_INDEX));
-         PINS_DRV_SetPinDirection(GPIO_PORT,ONOFF,1);
-         PINS_DRV_SetPinDirection(GPIO_PORT,PLUS,1);
-         PINS_DRV_SetPinDirection(GPIO_PORT,MINUS,1);
-         PINS_DRV_SetPinDirection(GPIO_PORT,BELL,1);
-         PINS_DRV_WritePin(GPIO_PORT,ONOFF,1);
-         PINS_DRV_WritePin(GPIO_PORT,BELL,1);
-         PINS_DRV_WritePin(GPIO_PORT,PLUS,1);
-         PINS_DRV_WritePin(GPIO_PORT,MINUS,1);
+    CLOCK_SYS_Init(g_clockManConfigsArr, CLOCK_MANAGER_CONFIG_CNT,
+          						g_clockManCallbacksArr, CLOCK_MANAGER_CALLBACK_CNT);
+    CLOCK_SYS_UpdateConfiguration(0U, CLOCK_MANAGER_POLICY_AGREEMENT);
 
+    /* Initialize LPIT */
+    lpit_user_config_t lpitConfig;
+    lpitConfig.enableRunInDebug = false;
+    lpitConfig.enableRunInDoze = true;
+    LPIT_DRV_Init(INST_LPIT1, &lpitConfig);
+    /* Initialize LPIT channel */
+    lpit_user_channel_config_t chConfig;
+    chConfig.timerMode = LPIT_PERIODIC_COUNTER;
+    chConfig.periodUnits = LPIT_PERIOD_UNITS_COUNTS;
+    chConfig.period = 48000000; // Adjust this to change the frequency of the interrupt
+    chConfig.triggerSource = LPIT_TRIGGER_SOURCE_INTERNAL;
+    chConfig.triggerSelect = 0U;
+    chConfig.enableReloadOnTrigger = false;
+    chConfig.enableStopOnInterrupt = false;
+    chConfig.enableStartOnTrigger = false;
+    chConfig.chainChannel = false;
+    chConfig.isInterruptEnabled = true;
+    LPIT_DRV_InitChannel(INST_LPIT1, 0U, &chConfig); // 0U is the channel number
+    INT_SYS_InstallHandler(LPIT0_Ch0_IRQn, LPIT0_Ch0_IRQHandler, (isr_t *)0);
+    PINS_DRV_Init(NUM_OF_CONFIGURED_PINS, g_pin_mux_InitConfigArr);
+    PINS_DRV_SetPinDirection(GPIO_PORT,ONOFF,1);
+       PINS_DRV_SetPinDirection(GPIO_PORT,PLUS,1);
+       PINS_DRV_SetPinDirection(GPIO_PORT,MINUS,1);
+       PINS_DRV_SetPinDirection(GPIO_PORT,BELL,1);
+       PINS_DRV_WritePin(GPIO_PORT,ONOFF,1);
+       PINS_DRV_WritePin(GPIO_PORT,BELL,1);
+       PINS_DRV_WritePin(GPIO_PORT,PLUS,1);
+       PINS_DRV_WritePin(GPIO_PORT,MINUS,1);
+    for(;;) {
+    }
 
-         /***********************************************initializations provided in LPIT example*******************************************************/
-         /* Initialize LPIT instance 0
-         	 *	-	Reset and enable peripheral
-         	 */
-         LPIT_DRV_Init(INST_LPIT1, &lpit1_InitConfig);
-             /* Initialize LPIT channel 0 and configure it as a periodic counter
-              * which is used to generate an interrupt every second.
-              */
-         LPIT_DRV_InitChannel(INST_LPIT1, LPIT_CHANNEL, &lpit1_ChnConfig0);
-
-             /* Install LPIT_ISR as LPIT interrupt handler */
-  //INT_SYS_InstallHandler(LPIT_Channel_IRQn, &LPIT_ISR, (isr_t *)0);
-             /* Start LPIT0 channel 0 counter */
-         LPIT_DRV_StartTimerChannels(INST_LPIT1, (1 << LPIT_CHANNEL));
-             /* Peripherals Initialization is complete, now the program will wait for
-              * LPIT interrupt.
-              */
   /*** Don't write any code pass this line, or it will be deleted during code generation. ***/
   /*** RTOS startup code. Macro PEX_RTOS_START is defined by the RTOS component. DON'T MODIFY THIS CODE!!! ***/
   #ifdef PEX_RTOS_START
@@ -199,3 +188,4 @@ int main(void)
 **
 ** ###################################################################
 */
+
