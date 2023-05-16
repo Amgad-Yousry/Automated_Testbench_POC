@@ -40,9 +40,10 @@ volatile int exit_code = 0;
 #define LED_GPIO_PORT	PTD
 
 #define GPIO_PORT	PORTA
+#define GPIO_PORT1	PTA
 #define PCC_CLOCK	PCC_PORTA_CLOCK
-#define ONOFF		3U
-#define PLUS		2U
+#define ONOFF		17U
+#define PLUS		11U
 #define MINUS		9U
 #define BELL		8U
 
@@ -59,38 +60,34 @@ typedef enum {
 } button_state_t;
 volatile button_state_t onoff_state = BUTTON_STATE_IDLE;
 volatile uint32_t onoff_counter = 0;
+ uint32_t onoff_release_delay=2000000;
 
 volatile button_state_t bell_state = BUTTON_STATE_IDLE;
 volatile uint32_t bell_counter = 0;
-volatile uint32_t bell_duration = 6000000; /* Default press duration */
+uint32_t bell_release_delay = 5000000; /* Default press duration */
 
 volatile button_state_t plus_state = BUTTON_STATE_IDLE;
 volatile uint32_t plus_counter = 0;
+ uint32_t plus_release_delay=5000000;
 
 volatile button_state_t minus_state = BUTTON_STATE_IDLE;
 volatile uint32_t minus_counter = 0;
+uint32_t minus_release_delay=1000000;
 
-void update_button_state(volatile button_state_t* state, volatile uint32_t*counter, uint32_t pin, uint32_t release_delay) {
+void update_button_state(volatile button_state_t* state, volatile uint32_t counter, uint32_t pin, uint32_t release_delay)
+{
     /* State machine */
     switch (*state) {
         case BUTTON_STATE_IDLE:
-            PINS_DRV_WritePin(PTA, pin, 0); /* Begin button press */
+            PINS_DRV_WritePin(GPIO_PORT1, pin, 0);
+            /* Begin button press */
             *state = BUTTON_STATE_PRESSED;
-             /* Set the press delay */
-            break;
 
+            break;
         case BUTTON_STATE_PRESSED:
-            if (*counter > 0) {
-                (*counter)--;
-            } else {
-                *state = BUTTON_STATE_RELEASED;
-                *counter = release_delay; /* Set the release delay */
-            }
-            break;
-
-        case BUTTON_STATE_RELEASED:
-            if (*counter > 0) {
-                (*counter)--;
+        	counter = release_delay;
+            if (counter > 0) {
+                (counter)--;
             } else {
                 PINS_DRV_WritePin(PTA, pin, 1); /* End button press */
                 *state = BUTTON_STATE_IDLE;
@@ -106,11 +103,15 @@ void LPIT0_Ch0_IRQHandler(void)
 {
     /* Clear interrupt flag.*/
     LPIT_DRV_ClearInterruptFlagTimerChannels(INST_LPIT1, (1U << LPIT0_CHANNEL));
+    PINS_DRV_WritePin(GPIO_PORT1,ONOFF,1);
+    PINS_DRV_WritePin(GPIO_PORT1,BELL,1);
+    PINS_DRV_WritePin(GPIO_PORT1,PLUS,1);
+    PINS_DRV_WritePin(GPIO_PORT1,MINUS,1);
+    update_button_state(&onoff_state, &onoff_counter, ONOFF,1000000);
+    update_button_state(&bell_state, &bell_counter, BELL,2000000);
+    update_button_state(&plus_state, &plus_counter, PLUS, 1000000);
+    update_button_state(&minus_state, &minus_counter, MINUS, 1000000);
 
-    update_button_state(&onoff_state, &onoff_counter, ONOFF, 6000000);
-    update_button_state(&bell_state, &bell_counter, BELL, bell_duration);
-    update_button_state(&plus_state, &plus_counter, PLUS, 900000);
-    update_button_state(&minus_state, &minus_counter, MINUS, 900000);
 }
 
 int main(void)
@@ -137,8 +138,8 @@ int main(void)
     /* Initialize LPIT channel */
     lpit_user_channel_config_t chConfig;
     chConfig.timerMode = LPIT_PERIODIC_COUNTER;
-    chConfig.periodUnits = LPIT_PERIOD_UNITS_COUNTS;
-    chConfig.period = 48000000; // Adjust this to change the frequency of the interrupt
+    chConfig.periodUnits = LPIT_PERIOD_UNITS_MICROSECONDS;
+    chConfig.period = 100000; // Adjust this to change the frequency of the interrupt
     chConfig.triggerSource = LPIT_TRIGGER_SOURCE_INTERNAL;
     chConfig.triggerSelect = 0U;
     chConfig.enableReloadOnTrigger = false;
@@ -146,20 +147,16 @@ int main(void)
     chConfig.enableStartOnTrigger = false;
     chConfig.chainChannel = false;
     chConfig.isInterruptEnabled = true;
+
     LPIT_DRV_InitChannel(INST_LPIT1, 0U, &chConfig); // 0U is the channel number
     INT_SYS_InstallHandler(LPIT0_Ch0_IRQn, LPIT0_Ch0_IRQHandler, (isr_t *)0);
-    PINS_DRV_Init(NUM_OF_CONFIGURED_PINS, g_pin_mux_InitConfigArr);
-    PINS_DRV_SetPinDirection(GPIO_PORT,ONOFF,1);
-       PINS_DRV_SetPinDirection(GPIO_PORT,PLUS,1);
-       PINS_DRV_SetPinDirection(GPIO_PORT,MINUS,1);
-       PINS_DRV_SetPinDirection(GPIO_PORT,BELL,1);
-       PINS_DRV_WritePin(GPIO_PORT,ONOFF,1);
-       PINS_DRV_WritePin(GPIO_PORT,BELL,1);
-       PINS_DRV_WritePin(GPIO_PORT,PLUS,1);
-       PINS_DRV_WritePin(GPIO_PORT,MINUS,1);
-    for(;;) {
-    }
 
+    PINS_DRV_Init(NUM_OF_CONFIGURED_PINS, g_pin_mux_InitConfigArr);
+    PINS_DRV_SetPinDirection(GPIO_PORT1,ONOFF,1);
+    PINS_DRV_SetPinDirection(GPIO_PORT1,PLUS,1);
+    PINS_DRV_SetPinDirection(GPIO_PORT1,MINUS,1);
+    PINS_DRV_SetPinDirection(GPIO_PORT1,BELL,1);
+LPIT_DRV_StartTimerChannels(INST_LPIT1,(1U << LPIT0_CHANNEL));
   /*** Don't write any code pass this line, or it will be deleted during code generation. ***/
   /*** RTOS startup code. Macro PEX_RTOS_START is defined by the RTOS component. DON'T MODIFY THIS CODE!!! ***/
   #ifdef PEX_RTOS_START

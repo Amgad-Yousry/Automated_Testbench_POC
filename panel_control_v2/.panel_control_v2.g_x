@@ -58,10 +58,10 @@
       <File Name="SDK/platform/drivers/inc/interrupt_manager.h" FileDate="2023-05-11, 15:27:12" FileAge="1683811632903" FileType="1048576" CompNumb="4" />
       <File Name="SDK/platform/devices/callbacks.h" FileDate="2023-05-11, 15:27:12" FileAge="1683811632950" FileType="1048576" CompNumb="1" />
       <File Name="SDK/platform/devices/S32K144/include/S32K144.h" FileDate="2023-05-11, 15:27:12" FileAge="1683811632982" FileType="1048576" CompNumb="1" />
-      <File Name="Sources/main.c" FileDate="2023-05-11, 16:51:40" FileAge="1683816700047" FileType="128" />
+      <File Name="Sources/main.c" FileDate="2023-05-16, 16:35:04" FileAge="1684247704194" FileType="128" />
       <File Name="Documentation/panel_control_v2_Settings.xml" FileDate="2023-05-11, 15:57:35" FileAge="1683813455986" FileType="3072" />
       <File Name="SDK/platform/devices/devassert.h" FileDate="2023-05-11, 15:27:12" FileAge="1683811632934" FileType="1048576" CompNumb="1" />
     </GeneratedByPE>
   </GeneratedFilesList>
-  <CodeGenReference>4</CodeGenReference>
+  <CodeGenReference>5</CodeGenReference>
 </CodeGenerationInfo>
