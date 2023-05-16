@@ -4,4 +4,12 @@
 		<item value="C:\Users\amgad\OneDrive\Documents\GitHub\Internship\Sensors_Codes\lpi2c_master_HDIB002"/>
 		<item value="C:\Users\amgad\OneDrive\Documents\GitHub\Internship\panel_control"/>
 	</list>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item value="803" key="DIALOG_X_ORIGIN"/>
+		<item value="318" key="DIALOG_Y_ORIGIN"/>
+	</section>
 </section>
