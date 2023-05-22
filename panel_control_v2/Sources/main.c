@@ -74,9 +74,29 @@ volatile uint32_t plus_counter = 0;
 volatile button_state_t minus_state = BUTTON_STATE_IDLE;
 volatile uint32_t minus_counter = 0;
 uint32_t minus_release_delay=10;
-volatile uint32_t   minus_press_init = 0; // Controls initialization of the 15-minute minus button press
-volatile uint32_t minus_press_interval =9000;
-uint32_t minus_press_counter=0;
+ uint32_t   minus_press_init =0; // Controls initialization of the 15-minute minus button press
+volatile uint32_t minus_press_counter=90;
+volatile uint32_t minuss_counter = 0;
+
+void autopulse()
+{
+
+}
+void setting_increment()
+{
+
+}
+void minutescounter()
+{
+if (minus_press_init==1) {
+            (minuss_counter)++;
+            if (minuss_counter>=minus_press_counter)
+            { minus_state =BUTTON_STATE_PRESSED;
+            minuss_counter = 0;
+            }
+						}
+
+}
 void update_button_state(volatile button_state_t* state, volatile uint32_t* counter, uint32_t pin, uint32_t* release_delay)
 {
     /* State machine */
@@ -106,7 +126,9 @@ void LPIT0_Ch0_IRQHandler(void)
     update_button_state(&onoff_state, &onoff_counter, ONOFF, &onoff_release_delay);
     update_button_state(&bell_state, &bell_counter, BELL, &bell_release_delay);
     update_button_state(&plus_state, &plus_counter, PLUS, &plus_release_delay );
-    update_button_state(&minus_state, &minus_counter, MINUS, &minus_release_delay );
+    update_button_state(&minus_state, &minus_counter, MINUS, &minus_release_delay);
+    minutescounter(&minus_press_counter);
+
 }
 
 int main(void)
