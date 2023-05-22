@@ -58,42 +58,42 @@ typedef enum {
     BUTTON_STATE_RELEASED,
     BUTTON_STATE_WAIT,
 } button_state_t;
+
 volatile button_state_t onoff_state = BUTTON_STATE_IDLE;
 volatile uint32_t onoff_counter = 0;
- uint32_t onoff_release_delay=2000000;
+ uint32_t onoff_release_delay=20;
 
 volatile button_state_t bell_state = BUTTON_STATE_IDLE;
 volatile uint32_t bell_counter = 0;
-uint32_t bell_release_delay = 5000000; /* Default press duration */
+uint32_t bell_release_delay = 30; /* Default press duration */
 
 volatile button_state_t plus_state = BUTTON_STATE_IDLE;
 volatile uint32_t plus_counter = 0;
- uint32_t plus_release_delay=5000000;
+ uint32_t plus_release_delay=10;
 
 volatile button_state_t minus_state = BUTTON_STATE_IDLE;
 volatile uint32_t minus_counter = 0;
-uint32_t minus_release_delay=1000000;
-
-void update_button_state(volatile button_state_t* state, volatile uint32_t counter, uint32_t pin, uint32_t release_delay)
+uint32_t minus_release_delay=10;
+volatile uint32_t   minus_press_init = 0; // Controls initialization of the 15-minute minus button press
+volatile uint32_t minus_press_interval =9000;
+uint32_t minus_press_counter=0;
+void update_button_state(volatile button_state_t* state, volatile uint32_t* counter, uint32_t pin, uint32_t* release_delay)
 {
     /* State machine */
     switch (*state) {
         case BUTTON_STATE_IDLE:
-            PINS_DRV_WritePin(GPIO_PORT1, pin, 0);
-            /* Begin button press */
-            *state = BUTTON_STATE_PRESSED;
-
+        	PINS_DRV_WritePin(GPIO_PORT1, pin, 1);
+            *counter = *release_delay;
             break;
         case BUTTON_STATE_PRESSED:
-        	counter = release_delay;
-            if (counter > 0) {
-                (counter)--;
+        	PINS_DRV_WritePin(GPIO_PORT1, pin, 0);
+            if (*counter > 0) {
+                (*counter)--;
             } else {
-                PINS_DRV_WritePin(PTA, pin, 1); /* End button press */
+                 /* End button press */
                 *state = BUTTON_STATE_IDLE;
             }
             break;
-
         default:
             break;
     }
@@ -103,15 +103,10 @@ void LPIT0_Ch0_IRQHandler(void)
 {
     /* Clear interrupt flag.*/
     LPIT_DRV_ClearInterruptFlagTimerChannels(INST_LPIT1, (1U << LPIT0_CHANNEL));
-    PINS_DRV_WritePin(GPIO_PORT1,ONOFF,1);
-    PINS_DRV_WritePin(GPIO_PORT1,BELL,1);
-    PINS_DRV_WritePin(GPIO_PORT1,PLUS,1);
-    PINS_DRV_WritePin(GPIO_PORT1,MINUS,1);
-    update_button_state(&onoff_state, &onoff_counter, ONOFF,1000000);
-    update_button_state(&bell_state, &bell_counter, BELL,2000000);
-    update_button_state(&plus_state, &plus_counter, PLUS, 1000000);
-    update_button_state(&minus_state, &minus_counter, MINUS, 1000000);
-
+    update_button_state(&onoff_state, &onoff_counter, ONOFF, &onoff_release_delay);
+    update_button_state(&bell_state, &bell_counter, BELL, &bell_release_delay);
+    update_button_state(&plus_state, &plus_counter, PLUS, &plus_release_delay );
+    update_button_state(&minus_state, &minus_counter, MINUS, &minus_release_delay );
 }
 
 int main(void)
@@ -139,8 +134,8 @@ int main(void)
     lpit_user_channel_config_t chConfig;
     chConfig.timerMode = LPIT_PERIODIC_COUNTER;
     chConfig.periodUnits = LPIT_PERIOD_UNITS_MICROSECONDS;
-    chConfig.period = 100000; // Adjust this to change the frequency of the interrupt
-    chConfig.triggerSource = LPIT_TRIGGER_SOURCE_INTERNAL;
+    chConfig.period =100000; // Adjust this to change the frequency of the interrupt
+    chConfig.triggerSource = LPIT_TRIGGER_SOURCE_EXTERNAL;
     chConfig.triggerSelect = 0U;
     chConfig.enableReloadOnTrigger = false;
     chConfig.enableStopOnInterrupt = false;
@@ -185,4 +180,3 @@ LPIT_DRV_StartTimerChannels(INST_LPIT1,(1U << LPIT0_CHANNEL));
 **
 ** ###################################################################
 */
-
