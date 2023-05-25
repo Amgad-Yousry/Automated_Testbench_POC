@@ -7,7 +7,7 @@
 **     Version     : Component SDK_S32K14x_09, Driver 01.00, CPU db: 3.00.000
 **     Repository  : SDK_S32K14x_09
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2023-05-11, 15:57, # CodeGen: 1
+**     Date/Time   : 2023-05-25, 12:39, # CodeGen: 11
 **
 **     Copyright 1997 - 2015 Freescale Semiconductor, Inc.
 **     Copyright 2016-2017 NXP
@@ -52,20 +52,6 @@ const lpit_user_config_t lpit1_InitConfig =
     .enableRunInDoze = false           /*!< true: LPIT run in doze mode; false: LPIT stop in doze mode */
 };
 
-/*! User channel configuration 0 */
-lpit_user_channel_config_t lpit1_ChnConfig0 =
-{
-    .timerMode = LPIT_PERIODIC_COUNTER,
-    .periodUnits = LPIT_PERIOD_UNITS_MICROSECONDS,
-    .period = 1000000U,
-    .triggerSource = LPIT_TRIGGER_SOURCE_EXTERNAL,
-    .triggerSelect = 0U,
-    .enableReloadOnTrigger = false,
-    .enableStopOnInterrupt = false,
-    .enableStartOnTrigger = false,
-    .chainChannel = false,
-    .isInterruptEnabled = true
-};
 /* END lpit1. */
 /*!
 ** @}

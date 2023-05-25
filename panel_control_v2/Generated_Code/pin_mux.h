@@ -7,7 +7,7 @@
 **     Version     : Component 1.2.0, Driver 1.4, CPU db: 3.00.000
 **     Repository  : SDK_S32K14x_09
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2023-05-11, 15:27, # CodeGen: 0
+**     Date/Time   : 2023-05-25, 12:57, # CodeGen: 15
 **     Abstract    :
 **
 **     Settings    :
@@ -225,14 +225,14 @@
 **                  Direction                              : <Automatic>
 **                  Pin 7                                  : <Automatic>
 **                  Direction                              : <Automatic>
-**                  Pin 8                                  : <Automatic>
-**                  Direction                              : <Automatic>
-**                  Pin 9                                  : <Automatic>
-**                  Direction                              : <Automatic>
+**                  Pin 8                                  : PTA8
+**                  Direction                              : Output
+**                  Pin 9                                  : PTA9
+**                  Direction                              : Output
 **                  Pin 10                                 : <Automatic>
 **                  Direction                              : <Automatic>
-**                  Pin 11                                 : <Automatic>
-**                  Direction                              : <Automatic>
+**                  Pin 11                                 : PTA11
+**                  Direction                              : Output
 **                  Pin 12                                 : <Automatic>
 **                  Direction                              : <Automatic>
 **                  Pin 13                                 : <Automatic>
@@ -243,8 +243,8 @@
 **                  Direction                              : <Automatic>
 **                  Pin 16                                 : <Automatic>
 **                  Direction                              : <Automatic>
-**                  Pin 17                                 : <Automatic>
-**                  Direction                              : <Automatic>
+**                  Pin 17                                 : PTA17
+**                  Direction                              : Output
 **                Custom name                              : PTB
 **                PTB                                      : 
 **                  Pin 0                                  : <Automatic>

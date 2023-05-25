@@ -49,6 +49,25 @@ Module "pin_mux"   (component PinSettings)
    - pin_mux_PINS_DRV_ReadPins -This function returns the current input values from a port. Only pins configured as input will 
                 have meaningful values
 
+Module "lpit1"     (component lpit)
+   - lpit1_LPIT_DRV_Init -Initializes the LPIT module.
+   - lpit1_LPIT_DRV_Deinit -De-initializes LPIT module.
+   - lpit1_LPIT_DRV_InitChannel -Initializes the LPIT channel.
+   - lpit1_LPIT_DRV_StartTimerChannels -Starts the timer channel counting.
+   - lpit1_LPIT_DRV_StopTimerChannels -Stops the timer channel counting.
+   - lpit1_LPIT_DRV_SetTimerPeriodByUs -Sets the timer channel period in microseconds.
+   - lpit1_LPIT_DRV_SetTimerPeriodInDual16ModeByUs -Sets the timer channel period in microseconds when the timer channel mode 
+                is dual 16 bit periodic counter.
+   - lpit1_LPIT_DRV_GetTimerPeriodByUs -Gets the timer channel period in microseconds.
+   - lpit1_LPIT_DRV_GetCurrentTimerUs -Gets the current timer channel counting value in microseconds.
+   - lpit1_LPIT_DRV_SetTimerPeriodByCount -Sets the timer channel period in count unit.
+   - lpit1_LPIT_DRV_SetTimerPeriodInDual16ModeByCount -Sets the timer channel period in count when the timer channel mode is 
+                dual 16 bit periodic counter.
+   - lpit1_LPIT_DRV_GetTimerPeriodByCount -Gets the current timer channel period in count unit.
+   - lpit1_LPIT_DRV_GetCurrentTimerCount -Gets the current timer channel counting value in count.
+   - lpit1_LPIT_DRV_GetInterruptFlagTimerChannels -Gets the current interrupt flag of timer channels.
+   - lpit1_LPIT_DRV_ClearInterruptFlagTimerChannels -Clears the interrupt flag of timer channels.
+
 Module "clockMan1" (component clock_manager)
    - clockMan1_CLOCK_SYS_Init -Install pre-defined clock configurations.
    - clockMan1_CLOCK_SYS_UpdateConfiguration -Set system clock configuration according to pre-defined structure.
@@ -79,25 +98,6 @@ Module "intMan1"   (component interrupt_manager)
    - intMan1_INT_SYS_SetPending -Set Pending Interrupt.
    - intMan1_INT_SYS_GetPending -Get Pending Interrupt.
    - intMan1_INT_SYS_GetActive -Get Active Interrupt.
-
-Module "lpit1"     (component lpit)
-   - lpit1_LPIT_DRV_Init -Initializes the LPIT module.
-   - lpit1_LPIT_DRV_Deinit -De-initializes LPIT module.
-   - lpit1_LPIT_DRV_InitChannel -Initializes the LPIT channel.
-   - lpit1_LPIT_DRV_StartTimerChannels -Starts the timer channel counting.
-   - lpit1_LPIT_DRV_StopTimerChannels -Stops the timer channel counting.
-   - lpit1_LPIT_DRV_SetTimerPeriodByUs -Sets the timer channel period in microseconds.
-   - lpit1_LPIT_DRV_SetTimerPeriodInDual16ModeByUs -Sets the timer channel period in microseconds when the timer channel mode 
-                is dual 16 bit periodic counter.
-   - lpit1_LPIT_DRV_GetTimerPeriodByUs -Gets the timer channel period in microseconds.
-   - lpit1_LPIT_DRV_GetCurrentTimerUs -Gets the current timer channel counting value in microseconds.
-   - lpit1_LPIT_DRV_SetTimerPeriodByCount -Sets the timer channel period in count unit.
-   - lpit1_LPIT_DRV_SetTimerPeriodInDual16ModeByCount -Sets the timer channel period in count when the timer channel mode is 
-                dual 16 bit periodic counter.
-   - lpit1_LPIT_DRV_GetTimerPeriodByCount -Gets the current timer channel period in count unit.
-   - lpit1_LPIT_DRV_GetCurrentTimerCount -Gets the current timer channel counting value in count.
-   - lpit1_LPIT_DRV_GetInterruptFlagTimerChannels -Gets the current interrupt flag of timer channels.
-   - lpit1_LPIT_DRV_ClearInterruptFlagTimerChannels -Clears the interrupt flag of timer channels.
 
 Module "Cpu"       (component S32K144_100)
    - Cpu_SystemInit -This function disables the watchdog, enables FPU and the power mode protection. SystemInit is called from 

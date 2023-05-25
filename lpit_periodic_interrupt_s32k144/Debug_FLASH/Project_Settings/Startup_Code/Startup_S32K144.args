@@ -1,0 +1,18 @@
+-c
+-I"D:/MASTERS/scaleo/Internship/lpit_periodic_interrupt_s32k144/Sources"
+-I"D:/MASTERS/scaleo/Internship/lpit_periodic_interrupt_s32k144/Generated_Code"
+-I"D:/Program Files (x86)/S32DS/software/S32SDK_S32K1xx_RTM_3.0.0/platform/devices/S32K144/include"
+-I"D:/Program Files (x86)/S32DS/software/S32SDK_S32K1xx_RTM_3.0.0/platform/devices/S32K144"
+-I"D:/Program Files (x86)/S32DS/software/S32SDK_S32K1xx_RTM_3.0.0/platform/devices/common"
+-I"D:/Program Files (x86)/S32DS/software/S32SDK_S32K1xx_RTM_3.0.0/platform/devices/S32K144/startup"
+-I"D:/Program Files (x86)/S32DS/software/S32SDK_S32K1xx_RTM_3.0.0/platform/devices"
+-I"D:/Program Files (x86)/S32DS/software/S32SDK_S32K1xx_RTM_3.0.0/platform/drivers/inc"
+-x assembler-with-cpp
+-DSTART_FROM_FLASH
+-g3
+-mcpu=cortex-m4
+-mfloat-abi=hard
+-mfpu=fpv4-sp-d16
+-specs=nano.specs
+-specs=nosys.specs
+--sysroot="D:/Program Files (x86)/S32DS/build_tools/gcc_v6.3/gcc-6.3-arm32-eabi/arm-none-eabi/newlib"

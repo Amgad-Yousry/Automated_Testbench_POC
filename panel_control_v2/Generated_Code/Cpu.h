@@ -7,7 +7,7 @@
 **     Version     : Component 01.197, Driver 01.00, CPU db: 3.00.000
 **     Datasheet   : S32K14XRM Rev. 2, 02/2017
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2023-05-11, 15:57, # CodeGen: 1
+**     Date/Time   : 2023-05-25, 11:31, # CodeGen: 8
 **     Abstract    :
 **
 **     Settings    :
@@ -64,8 +64,8 @@
 
 /* Including needed modules to compile this module/procedure */
 #include "pin_mux.h"
-#include "clockMan1.h"
 #include "lpit1.h"
+#include "clockMan1.h"
 
 #ifdef __cplusplus
 extern "C" {

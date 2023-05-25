@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;lpit_periodic_interrupt_s32k144&apos;" deleteContents="true" description="Delete resource &apos;lpit_periodic_interrupt_s32k144&apos;" element1="/lpit_periodic_interrupt_s32k144" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1684999783665"/>
+</session>

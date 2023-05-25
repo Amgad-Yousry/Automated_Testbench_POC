@@ -37,6 +37,20 @@
       <EmptySection_DummyValue />
     </Events>
   </Bean>
+  <Bean name="lpit1" type="lpit">
+    <Enabled v="Y" />
+    <Properties>
+      <Component_name v="lpit1" />
+      <Device v="LPIT0" />
+      <Component_version v="S32K144_SDK01" />
+    </Properties>
+    <Methods>
+      <EmptySection_DummyValue />
+    </Methods>
+    <Events>
+      <EmptySection_DummyValue />
+    </Events>
+  </Bean>
   <Bean name="clockMan1" type="clock_manager">
     <Enabled v="Y" />
     <Properties>
@@ -77,20 +91,6 @@
     <Enabled v="Y" />
     <Properties>
       <Component_name v="intMan1" />
-      <Component_version v="S32K144_SDK01" />
-    </Properties>
-    <Methods>
-      <EmptySection_DummyValue />
-    </Methods>
-    <Events>
-      <EmptySection_DummyValue />
-    </Events>
-  </Bean>
-  <Bean name="lpit1" type="lpit">
-    <Enabled v="Y" />
-    <Properties>
-      <Component_name v="lpit1" />
-      <Device v="LPIT0" />
       <Component_version v="S32K144_SDK01" />
     </Properties>
     <Methods>

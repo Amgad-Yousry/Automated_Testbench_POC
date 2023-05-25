@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project>
+	<configuration id="com.freescale.s32ds.cross.gnu.arm.cortexm.exe.debug.1179235037" name="Debug">
+		<extension point="org.eclipse.cdt.core.LanguageSettingsProvider">
+			<provider id="com.freescale.s32ds.cross.gnu.CrossGCCBuiltinSpecsDetector"/>
+		</extension>
+	</configuration>
+	<configuration id="com.freescale.s32ds.cross.gnu.arm.cortexm.exe.release.1716013234" name="Release">
+		<extension point="org.eclipse.cdt.core.LanguageSettingsProvider">
+			<provider id="com.freescale.s32ds.cross.gnu.CrossGCCBuiltinSpecsDetector"/>
+		</extension>
+	</configuration>
+</project>

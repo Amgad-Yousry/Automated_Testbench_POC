@@ -1,0 +1,67 @@
+<CodeGenerationInfo>
+  <ToolchainSettings>
+    <option>
+      <name>PE_G_4PEx_ToolChain_C_Compiler_Includes</name>
+      <values lines_count="6">
+        <Line>"${S32_SDK_PATH}/platform/drivers/src/clock/S32K1xx"</Line>
+        <Line>"${S32_SDK_PATH}/platform/devices"</Line>
+        <Line>"${S32_SDK_PATH}/platform/devices/common"</Line>
+        <Line>"${S32_SDK_PATH}/platform/devices/S32K144/include"</Line>
+        <Line>"${S32_SDK_PATH}/platform/devices/S32K144/startup"</Line>
+        <Line>"${S32_SDK_PATH}/platform/drivers/inc"</Line>
+      </values>
+    </option>
+    <option>
+      <name>PE_G_4PEx_ilg_gnuarmeclipse_managedbuild_cross_option_c_compiler_defs</name>
+      <values lines_count="1">
+        <Line>"CPU_S32K144_100"</Line>
+      </values>
+    </option>
+  </ToolchainSettings>
+  <GeneratedFilesList>
+    <GeneratedByPE>
+      <File Name="SDK/platform/drivers/src/clock/S32K1xx/pcc_hw_access.h" FileDate="2020-01-16, 18:09:20" FileAge="1579194560000" FileType="262144" />
+      <File Name="SDK/platform/devices/common/s32_core_cm4.h" FileDate="2020-01-16, 18:09:20" FileAge="1579194560000" FileType="262144" />
+      <File Name="Generated_Code/pin_mux.h" FileDate="2023-05-25, 10:11:32" FileAge="1685002292848" FileType="45637" CompNumb="36" />
+      <File Name="Generated_Code/clockMan1.h" FileDate="2023-05-25, 10:11:32" FileAge="1685002292865" FileType="45637" CompNumb="34" />
+      <File Name="Generated_Code/pin_mux.c" FileDate="2023-05-25, 10:11:32" FileAge="1685002292844" FileType="45637" CompNumb="36" />
+      <File Name="SDK/platform/drivers/src/clock/S32K1xx/smc_hw_access.h" FileDate="2020-01-16, 18:09:20" FileAge="1579194560000" FileType="262144" />
+      <File Name="Generated_Code/clockMan1.c" FileDate="2023-05-25, 10:11:32" FileAge="1685002292861" FileType="45637" CompNumb="34" />
+      <File Name="SDK/platform/drivers/src/clock/S32K1xx/clock_S32K1xx.h" FileDate="2020-01-16, 18:09:20" FileAge="1579194560000" FileType="262144" />
+      <File Name="Documentation/lpit_periodic_interrupt_s32k144.txt" FileDate="2023-05-25, 10:11:32" FileAge="1685002292894" FileType="3072" />
+      <File Name="SDK/platform/drivers/src/interrupt/interrupt_manager.c" FileDate="2023-05-24, 16:53:51" FileAge="1684940031307" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/clock/S32K1xx/clock_S32K1xx.c" FileDate="2023-05-24, 16:53:51" FileAge="1684940031297" FileType="262144" />
+      <File Name="SDK/platform/devices/device_registers.h" FileDate="2020-01-16, 18:09:20" FileAge="1579194560000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/pins/pins_gpio_hw_access.h" FileDate="2020-01-16, 18:09:20" FileAge="1579194560000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/clock/S32K1xx/sim_hw_access.h" FileDate="2020-01-16, 18:09:20" FileAge="1579194560000" FileType="262144" />
+      <File Name="SDK/platform/devices/S32K144/include/S32K144.h" FileDate="2020-01-16, 18:09:20" FileAge="1579194560000" FileType="262144" />
+      <File Name="Sources/main.c" FileDate="2020-01-16, 18:09:06" FileAge="1579194546000" FileType="128" />
+      <File Name="SDK/platform/drivers/src/clock/S32K1xx/pmc_hw_access.h" FileDate="2020-01-16, 18:09:20" FileAge="1579194560000" FileType="262144" />
+      <File Name="SDK/platform/devices/startup.h" FileDate="2020-01-16, 18:09:20" FileAge="1579194560000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/lpit/lpit_driver.c" FileDate="2020-01-16, 18:09:20" FileAge="1579194560000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/pins/pins_port_hw_access.h" FileDate="2020-01-16, 18:09:20" FileAge="1579194560000" FileType="262144" />
+      <File Name="SDK/platform/devices/startup.c" FileDate="2020-01-16, 18:09:20" FileAge="1579194560000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/pins/pins_port_hw_access.c" FileDate="2020-01-16, 18:09:20" FileAge="1579194560000" FileType="262144" />
+      <File Name="SDK/platform/drivers/inc/clock_manager.h" FileDate="2020-01-16, 18:09:20" FileAge="1579194560000" FileType="262144" />
+      <File Name="Generated_Code/Cpu.h" FileDate="2023-05-25, 10:11:32" FileAge="1685002292838" FileType="45637" CompNumb="1" />
+      <File Name="SDK/platform/drivers/inc/interrupt_manager.h" FileDate="2020-01-16, 18:09:20" FileAge="1579194560000" FileType="262144" />
+      <File Name="SDK/platform/drivers/inc/pins_driver.h" FileDate="2020-01-16, 18:09:20" FileAge="1579194560000" FileType="262144" />
+      <File Name="SDK/platform/devices/S32K144/startup/system_S32K144.h" FileDate="2020-01-16, 18:09:20" FileAge="1579194560000" FileType="262144" />
+      <File Name="Generated_Code/Cpu.c" FileDate="2023-05-25, 10:11:32" FileAge="1685002292833" FileType="45637" CompNumb="1" />
+      <File Name="SDK/platform/drivers/inc/lpit_driver.h" FileDate="2020-01-16, 18:09:20" FileAge="1579194560000" FileType="262144" />
+      <File Name="SDK/platform/drivers/inc/clock.h" FileDate="2020-01-16, 18:09:20" FileAge="1579194560000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/clock/S32K1xx/scg_hw_access.h" FileDate="2020-01-16, 18:09:20" FileAge="1579194560000" FileType="262144" />
+      <File Name="SDK/platform/devices/S32K144/startup/system_S32K144.c" FileDate="2020-01-16, 18:09:20" FileAge="1579194560000" FileType="262144" />
+      <File Name="SDK/platform/devices/status.h" FileDate="2020-01-16, 18:09:20" FileAge="1579194560000" FileType="262144" />
+      <File Name="Generated_Code/lpit1.h" FileDate="2023-05-25, 10:11:32" FileAge="1685002292856" FileType="45637" CompNumb="35" />
+      <File Name="SDK/platform/devices/S32K144/include/S32K144_features.h" FileDate="2023-05-24, 16:53:51" FileAge="1684940031271" FileType="262144" />
+      <File Name="SDK/platform/devices/callbacks.h" FileDate="2020-01-16, 18:09:20" FileAge="1579194560000" FileType="262144" />
+      <File Name="Generated_Code/lpit1.c" FileDate="2023-05-25, 10:11:32" FileAge="1685002292853" FileType="45637" CompNumb="35" />
+      <File Name="SDK/platform/drivers/src/pins/pins_driver.c" FileDate="2020-01-16, 18:09:20" FileAge="1579194560000" FileType="262144" />
+      <File Name="Documentation/lpit_periodic_interrupt_s32k144_Settings.xml" FileDate="2023-05-25, 10:11:32" FileAge="1685002292881" FileType="3072" />
+      <File Name="SDK/platform/drivers/src/lpit/lpit_hw_access.h" FileDate="2020-01-16, 18:09:20" FileAge="1579194560000" FileType="262144" />
+      <File Name="SDK/platform/devices/devassert.h" FileDate="2020-01-16, 18:09:20" FileAge="1579194560000" FileType="262144" />
+    </GeneratedByPE>
+  </GeneratedFilesList>
+  <CodeGenReference>1</CodeGenReference>
+</CodeGenerationInfo>

@@ -3,6 +3,9 @@
 	<storageModule moduleId="org.eclipse.cdt.core.settings">
 		<cconfiguration id="com.freescale.s32ds.cross.gnu.arm.cortexm.exe.debug.1179235037">
 			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.freescale.s32ds.cross.gnu.arm.cortexm.exe.debug.1179235037" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<macros>
+					<stringMacro name="PROJECT_KSDK_PATH" type="VALUE_TEXT" value="${ProcessorExpert_loc}/../../S32DS/S32SDK_S32K14x_EAR_0.8.6"/>
+				</macros>
 				<externalSettings/>
 				<extensions>
 					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
@@ -240,6 +243,8 @@
 							<tool id="com.freescale.s32ds.cross.gnu.c.preprocessor.1765577288" name="Standard S32DS C Preprocessor" superClass="com.freescale.s32ds.cross.gnu.c.preprocessor"/>
 							<tool id="com.freescale.s32ds.cross.gnu.cpp.preprocessor.244785900" name="Standard S32DS C++ Preprocessor" superClass="com.freescale.s32ds.cross.gnu.cpp.preprocessor"/>
 							<tool id="com.freescale.s32ds.cross.gnu.disassembler.1192764388" name="Standard S32DS Disassembler" superClass="com.freescale.s32ds.cross.gnu.disassembler"/>
+							<tool id="com.freescale.s32ds.cross.gnu.arm.cortexm.tool.createlisting.1171124779" name="Standard S32DS Create Listing"/>
+							<tool id="com.freescale.s32ds.cross.gnu.arm.cortexm.tool.printsize.482288183" name="Standard S32DS Print Size"/>
 						</toolChain>
 					</folderInfo>
 					<fileInfo id="com.freescale.s32ds.cross.gnu.arm.cortexm.exe.debug.1179235037.Project_Settings/Debugger/panel_control_v2_Debug_RAM.launch" name="panel_control_v2_Debug_RAM.launch" rcbsApplicability="disable" resourcePath="Project_Settings/Debugger/panel_control_v2_Debug_RAM.launch" toolsToInvoke=""/>
@@ -258,6 +263,9 @@
 		</cconfiguration>
 		<cconfiguration id="com.freescale.s32ds.cross.gnu.arm.cortexm.exe.release.1716013234">
 			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.freescale.s32ds.cross.gnu.arm.cortexm.exe.release.1716013234" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<macros>
+					<stringMacro name="PROJECT_KSDK_PATH" type="VALUE_TEXT" value="${ProcessorExpert_loc}/../../S32DS/S32SDK_S32K14x_EAR_0.8.6"/>
+				</macros>
 				<externalSettings/>
 				<extensions>
 					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
@@ -402,6 +410,8 @@
 							<tool id="com.freescale.s32ds.cross.gnu.c.preprocessor.679923040" name="Standard S32DS C Preprocessor" superClass="com.freescale.s32ds.cross.gnu.c.preprocessor"/>
 							<tool id="com.freescale.s32ds.cross.gnu.cpp.preprocessor.1736127630" name="Standard S32DS C++ Preprocessor" superClass="com.freescale.s32ds.cross.gnu.cpp.preprocessor"/>
 							<tool id="com.freescale.s32ds.cross.gnu.disassembler.723705685" name="Standard S32DS Disassembler" superClass="com.freescale.s32ds.cross.gnu.disassembler"/>
+							<tool id="com.freescale.s32ds.cross.gnu.arm.cortexm.tool.createlisting.1916933830" name="Standard S32DS Create Listing"/>
+							<tool id="com.freescale.s32ds.cross.gnu.arm.cortexm.tool.printsize.121950278" name="Standard S32DS Print Size"/>
 						</toolChain>
 					</folderInfo>
 					<fileInfo id="com.freescale.s32ds.cross.gnu.arm.cortexm.exe.release.1716013234.Project_Settings/Debugger/panel_control_v2_Debug.launch" name="panel_control_v2_Debug.launch" rcbsApplicability="disable" resourcePath="Project_Settings/Debugger/panel_control_v2_Debug.launch" toolsToInvoke=""/>
@@ -420,6 +430,9 @@
 		</cconfiguration>
 		<cconfiguration id="com.freescale.s32ds.cross.gnu.arm.cortexm.exe.Debug_RAM">
 			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.freescale.s32ds.cross.gnu.arm.cortexm.exe.Debug_RAM" moduleId="org.eclipse.cdt.core.settings" name="Debug_RAM">
+				<macros>
+					<stringMacro name="PROJECT_KSDK_PATH" type="VALUE_TEXT" value="${ProcessorExpert_loc}/../../S32DS/S32SDK_S32K14x_EAR_0.8.6"/>
+				</macros>
 				<externalSettings/>
 				<extensions>
 					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
@@ -564,6 +577,8 @@
 							<tool id="com.freescale.s32ds.cross.gnu.c.preprocessor.2060479545" name="Standard S32DS C Preprocessor" superClass="com.freescale.s32ds.cross.gnu.c.preprocessor"/>
 							<tool id="com.freescale.s32ds.cross.gnu.cpp.preprocessor.1428900543" name="Standard S32DS C++ Preprocessor" superClass="com.freescale.s32ds.cross.gnu.cpp.preprocessor"/>
 							<tool id="com.freescale.s32ds.cross.gnu.disassembler.2051115539" name="Standard S32DS Disassembler" superClass="com.freescale.s32ds.cross.gnu.disassembler"/>
+							<tool id="com.freescale.s32ds.cross.gnu.arm.cortexm.tool.createlisting.643368496" name="Standard S32DS Create Listing"/>
+							<tool id="com.freescale.s32ds.cross.gnu.arm.cortexm.tool.printsize.2070567773" name="Standard S32DS Print Size"/>
 						</toolChain>
 					</folderInfo>
 					<fileInfo id="com.freescale.s32ds.cross.gnu.arm.cortexm.exe.Debug_RAM.Project_Settings/Debugger/panel_control_v2_Debug.launch" name="panel_control_v2_Debug.launch" rcbsApplicability="disable" resourcePath="Project_Settings/Debugger/panel_control_v2_Debug.launch" toolsToInvoke=""/>
