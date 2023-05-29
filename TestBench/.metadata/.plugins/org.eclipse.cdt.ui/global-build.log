@@ -1,27 +1,9 @@
-15:14:46 **** Incremental Build of configuration Debug_FLASH for project TestBenchv2 ****
+16:11:58 **** Incremental Build of configuration Debug_RAM for project ADC_PDB_FreeMaster_v3 ****
 make -j8 all 
-Executing target #31 TestBenchv2.siz
+Executing target #30 ADC_PDB_FreeMaster_v3.siz
 Invoking: Standard S32DS Print Size
-arm-none-eabi-size --format=berkeley  TestBenchv2.elf 
+arm-none-eabi-size --format=berkeley  ADC_PDB_FreeMaster_v3.elf 
    text	   data	    bss	    dec	    hex	filename
-  15068	   2356	   3264	  20688	   50d0	TestBenchv2.elf
-Finished building: TestBenchv2.siz
- 
-15:14:53 **** Incremental Build of configuration Debug_FLASH for project TestBenchv2 ****
-make -j8 all 
-Executing target #31 TestBenchv2.siz
-Invoking: Standard S32DS Print Size
-arm-none-eabi-size --format=berkeley  TestBenchv2.elf 
-   text	   data	    bss	    dec	    hex	filename
-  15068	   2356	   3264	  20688	   50d0	TestBenchv2.elf
-Finished building: TestBenchv2.siz
- 
-15:15:06 **** Incremental Build of configuration Debug_FLASH for project TestBenchv2 ****
-make -j8 all 
-Executing target #31 TestBenchv2.siz
-Invoking: Standard S32DS Print Size
-arm-none-eabi-size --format=berkeley  TestBenchv2.elf 
-   text	   data	    bss	    dec	    hex	filename
-  15068	   2356	   3264	  20688	   50d0	TestBenchv2.elf
-Finished building: TestBenchv2.siz
+  12048	   2444	   2148	  16640	   4100	ADC_PDB_FreeMaster_v3.elf
+Finished building: ADC_PDB_FreeMaster_v3.siz
  
