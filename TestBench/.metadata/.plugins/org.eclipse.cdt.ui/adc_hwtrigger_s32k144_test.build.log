@@ -1,0 +1,24 @@
+10:23:14 **** Incremental Build of configuration Debug_FLASH for project adc_hwtrigger_s32k144_test ****
+make -j8 all 
+Building file: ../Sources/main.c
+Executing target #28 ../Sources/main.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/main.args" -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: adc_hwtrigger_s32k144_test.elf
+Executing target #29 adc_hwtrigger_s32k144_test.elf
+Invoking: Standard S32DS C Linker
+arm-none-eabi-gcc -o "adc_hwtrigger_s32k144_test.elf" "@adc_hwtrigger_s32k144_test.args"   
+Finished building target: adc_hwtrigger_s32k144_test.elf
+ 
+Executing target #30 adc_hwtrigger_s32k144_test.siz
+Invoking: Standard S32DS Print Size
+arm-none-eabi-size --format=berkeley  adc_hwtrigger_s32k144_test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  12312	   2348	   3224	  17884	   45dc	adc_hwtrigger_s32k144_test.elf
+Finished building: adc_hwtrigger_s32k144_test.siz
+ 
+
+10:23:15 Build Finished (took 1s.387ms)
+

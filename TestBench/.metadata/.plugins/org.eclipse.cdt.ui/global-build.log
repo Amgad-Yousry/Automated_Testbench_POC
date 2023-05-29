@@ -1,0 +1,9 @@
+16:11:58 **** Incremental Build of configuration Debug_RAM for project ADC_PDB_FreeMaster_v3 ****
+make -j8 all 
+Executing target #30 ADC_PDB_FreeMaster_v3.siz
+Invoking: Standard S32DS Print Size
+arm-none-eabi-size --format=berkeley  ADC_PDB_FreeMaster_v3.elf 
+   text	   data	    bss	    dec	    hex	filename
+  12048	   2444	   2148	  16640	   4100	ADC_PDB_FreeMaster_v3.elf
+Finished building: ADC_PDB_FreeMaster_v3.siz
+ 
