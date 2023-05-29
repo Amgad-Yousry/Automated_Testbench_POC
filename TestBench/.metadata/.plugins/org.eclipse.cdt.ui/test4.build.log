@@ -1,0 +1,250 @@
+10:38:39 **** Build of configuration Debug for project test4 ****
+make -j8 all 
+Building file: ../Generated_Code/Cpu.c
+Building file: ../Generated_Code/adConv1.c
+Building file: ../Generated_Code/clockMan1.c
+Building file: ../Generated_Code/dmaController1.c
+Executing target #1 ../Generated_Code/Cpu.c
+Executing target #2 ../Generated_Code/adConv1.c
+Executing target #3 ../Generated_Code/clockMan1.c
+Executing target #4 ../Generated_Code/dmaController1.c
+Invoking: Standard S32DS C Compiler
+Invoking: Standard S32DS C Compiler
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Generated_Code/Cpu.args" -MMD -MP -MF"Generated_Code/Cpu.d" -MT"Generated_Code/Cpu.o" -c -o "Generated_Code/Cpu.o" "../Generated_Code/Cpu.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Generated_Code/adConv1.args" -MMD -MP -MF"Generated_Code/adConv1.d" -MT"Generated_Code/adConv1.o" -c -o "Generated_Code/adConv1.o" "../Generated_Code/adConv1.c"
+arm-none-eabi-gcc "@Generated_Code/clockMan1.args" -MMD -MP -MF"Generated_Code/clockMan1.d" -MT"Generated_Code/clockMan1.o" -c -o "Generated_Code/clockMan1.o" "../Generated_Code/clockMan1.c"
+arm-none-eabi-gcc "@Generated_Code/dmaController1.args" -MMD -MP -MF"Generated_Code/dmaController1.d" -MT"Generated_Code/dmaController1.o" -c -o "Generated_Code/dmaController1.o" "../Generated_Code/dmaController1.c"
+Building file: ../Generated_Code/lpi2c1.c
+Building file: ../Generated_Code/lpuart1.c
+Building file: ../Generated_Code/osif1.c
+Executing target #5 ../Generated_Code/lpi2c1.c
+Building file: ../Generated_Code/pin_mux.c
+Executing target #6 ../Generated_Code/lpuart1.c
+Executing target #7 ../Generated_Code/osif1.c
+In file included from ../Generated_Code/dmaController1.c:49:0:
+../Generated_Code/dmaController1.h:93:8: error: unknown type name 'edma_state_t'
+ extern edma_state_t dmaController1_State;
+Invoking: Standard S32DS C Compiler
+        ^
+../Generated_Code/dmaController1.h:96:8: error: unknown type name 'edma_chn_state_t'
+ extern edma_chn_state_t dmaController1Chn0_State;
+        ^
+../Generated_Code/dmaController1.h:99:8: error: unknown type name 'edma_chn_state_t'
+ extern edma_chn_state_t * const edmaChnStateArray[EDMA_CONFIGURED_CHANNELS_COUNT];
+        ^
+../Generated_Code/dmaController1.h:102:14: error: unknown type name 'edma_user_config_t'
+ extern const edma_user_config_t dmaController1_InitConfig0;
+              ^
+../Generated_Code/dmaController1.h:105:8: error: unknown type name 'edma_channel_config_t'
+Invoking: Standard S32DS C Compiler
+ extern edma_channel_config_t dmaController1Chn0_Config;
+arm-none-eabi-gcc "@Generated_Code/lpi2c1.args" -MMD -MP -MF"Generated_Code/lpi2c1.d" -MT"Generated_Code/lpi2c1.o" -c -o "Generated_Code/lpi2c1.o" "../Generated_Code/lpi2c1.c"
+        ^
+../Generated_Code/dmaController1.h:108:14: error: unknown type name 'edma_channel_config_t'
+arm-none-eabi-gcc "@Generated_Code/lpuart1.args" -MMD -MP -MF"Generated_Code/lpuart1.d" -MT"Generated_Code/lpuart1.o" -c -o "Generated_Code/lpuart1.o" "../Generated_Code/lpuart1.c"
+ extern const edma_channel_config_t * const edmaChnConfigArray[EDMA_CONFIGURED_CHANNELS_COUNT];
+Executing target #8 ../Generated_Code/pin_mux.c
+              ^
+../Generated_Code/dmaController1.c:51:1: error: unknown type name 'edma_state_t'
+ edma_state_t dmaController1_State;
+ ^
+../Generated_Code/dmaController1.c:53:1: error: unknown type name 'edma_chn_state_t'
+ edma_chn_state_t dmaController1Chn0_State;
+ ^
+../Generated_Code/dmaController1.c:55:1: error: unknown type name 'edma_chn_state_t'
+ edma_chn_state_t * const edmaChnStateArray[] = {
+ ^
+../Generated_Code/dmaController1.c:59:1: error: unknown type name 'edma_channel_config_t'
+ edma_channel_config_t dmaController1Chn0_Config = {
+ ^
+../Generated_Code/dmaController1.c:60:5: error: field name not in record or union initializer
+     .priority = EDMA_CHN_DEFAULT_PRIORITY,
+     ^
+../Generated_Code/dmaController1.c:60:5: error: (near initialization for 'dmaController1Chn0_Config')
+../Generated_Code/dmaController1.c:60:17: error: 'EDMA_CHN_DEFAULT_PRIORITY' undeclared here (not in a function)
+     .priority = EDMA_CHN_DEFAULT_PRIORITY,
+                 ^
+../Generated_Code/dmaController1.c:61:5: error: field name not in record or union initializer
+Invoking: Standard S32DS C Compiler
+     .channel = EDMA_CHN0_NUMBER,
+     ^
+../Generated_Code/dmaController1.c:61:5: error: (near initialization for 'dmaController1Chn0_Config')
+../Generated_Code/dmaController1.c:61:5: warning: excess elements in scalar initializer
+../Generated_Code/dmaController1.c:61:5: warning: (near initialization for 'dmaController1Chn0_Config')
+Invoking: Standard S32DS C Compiler
+../Generated_Code/dmaController1.c:62:5: error: field name not in record or union initializer
+     .source = EDMA_REQ_LPUART0_RX,
+     ^
+../Generated_Code/dmaController1.c:62:5: error: (near initialization for 'dmaController1Chn0_Config')
+../Generated_Code/dmaController1.c:62:5: warning: excess elements in scalar initializer
+../Generated_Code/dmaController1.c:62:5: warning: (near initialization for 'dmaController1Chn0_Config')
+arm-none-eabi-gcc "@Generated_Code/osif1.args" -MMD -MP -MF"Generated_Code/osif1.d" -MT"Generated_Code/osif1.o" -c -o "Generated_Code/osif1.o" "../Generated_Code/osif1.c"
+../Generated_Code/dmaController1.c:63:5: error: field name not in record or union initializer
+arm-none-eabi-gcc "@Generated_Code/pin_mux.args" -MMD -MP -MF"Generated_Code/pin_mux.d" -MT"Generated_Code/pin_mux.o" -c -o "Generated_Code/pin_mux.o" "../Generated_Code/pin_mux.c"
+     .callback = NULL,
+     ^
+../Generated_Code/dmaController1.c:63:5: error: (near initialization for 'dmaController1Chn0_Config')
+../Generated_Code/dmaController1.c:63:17: error: 'NULL' undeclared here (not in a function)
+     .callback = NULL,
+                 ^
+../Generated_Code/dmaController1.c:63:5: warning: excess elements in scalar initializer
+     .callback = NULL,
+     ^
+../Generated_Code/dmaController1.c:63:5: warning: (near initialization for 'dmaController1Chn0_Config')
+../Generated_Code/dmaController1.c:64:5: error: field name not in record or union initializer
+     .callbackParam = NULL
+     ^
+../Generated_Code/dmaController1.c:64:5: error: (near initialization for 'dmaController1Chn0_Config')
+../Generated_Code/dmaController1.c:65:1: warning: excess elements in scalar initializer
+ };
+ ^
+../Generated_Code/dmaController1.c:65:1: warning: (near initialization for 'dmaController1Chn0_Config')
+../Generated_Code/dmaController1.c:67:7: error: unknown type name 'edma_channel_config_t'
+ const edma_channel_config_t * const edmaChnConfigArray[] = {
+       ^
+../Generated_Code/dmaController1.c:71:7: error: unknown type name 'edma_user_config_t'
+Finished building: ../Generated_Code/Cpu.c
+ const edma_user_config_t dmaController1_InitConfig0 = {
+       ^
+../Generated_Code/dmaController1.c:72:3: error: field name not in record or union initializer
+   .chnArbitration = EDMA_ARBITRATION_FIXED_PRIORITY,
+   ^
+../Generated_Code/dmaController1.c:72:3: error: (near initialization for 'dmaController1_InitConfig0')
+../Generated_Code/dmaController1.c:72:21: error: 'EDMA_ARBITRATION_FIXED_PRIORITY' undeclared here (not in a function)
+Finished building: ../Generated_Code/adConv1.c
+   .chnArbitration = EDMA_ARBITRATION_FIXED_PRIORITY,
+                     ^
+../Generated_Code/dmaController1.c:73:3: error: field name not in record or union initializer
+   .notHaltOnError = false,
+   ^
+../Generated_Code/dmaController1.c:73:3: error: (near initialization for 'dmaController1_InitConfig0')
+../Generated_Code/dmaController1.c:73:3: warning: excess elements in scalar initializer
+Finished building: ../Generated_Code/clockMan1.c
+../Generated_Code/dmaController1.c:73:3: warning: (near initialization for 'dmaController1_InitConfig0')
+In file included from ../Generated_Code/lpuart1.h:72:0,
+                 from ../Generated_Code/lpuart1.c:43:
+../Generated_Code/dmaController1.h:93:8: error: unknown type name 'edma_state_t'
+ extern edma_state_t dmaController1_State;
+        ^
+In file included from ../Generated_Code/lpi2c1.h:66:0,
+                 from ../Generated_Code/lpi2c1.c:39:
+../Generated_Code/dmaController1.h:93:8: error: unknown type name 'edma_state_t'
+ 
+ extern edma_state_t dmaController1_State;
+        ^
+../Generated_Code/dmaController1.h:96:8: error: unknown type name 'edma_chn_state_t'
+ extern edma_chn_state_t dmaController1Chn0_State;
+        ^
+../Generated_Code/dmaController1.h:99:8: error: unknown type name 'edma_chn_state_t'
+ extern edma_chn_state_t * const edmaChnStateArray[EDMA_CONFIGURED_CHANNELS_COUNT];
+        ^
+../Generated_Code/dmaController1.h:96:8: error: unknown type name 'edma_chn_state_t'
+ extern edma_chn_state_t dmaController1Chn0_State;
+        ^
+../Generated_Code/dmaController1.h:99:8: error: unknown type name 'edma_chn_state_t'
+ 
+ extern edma_chn_state_t * const edmaChnStateArray[EDMA_CONFIGURED_CHANNELS_COUNT];
+        ^
+../Generated_Code/dmaController1.h:102:14: error: unknown type name 'edma_user_config_t'
+ extern const edma_user_config_t dmaController1_InitConfig0;
+              ^
+../Generated_Code/dmaController1.h:105:8: error: unknown type name 'edma_channel_config_t'
+ extern edma_channel_config_t dmaController1Chn0_Config;
+        ^
+../Generated_Code/dmaController1.h:102:14: error: unknown type name 'edma_user_config_t'
+ extern const edma_user_config_t dmaController1_InitConfig0;
+              ^
+make: *** [Generated_Code/subdir.mk:108: Generated_Code/dmaController1.o] Error 1
+../Generated_Code/dmaController1.h:108:14: error: unknown type name 'edma_channel_config_t'
+ extern const edma_channel_config_t * const edmaChnConfigArray[EDMA_CONFIGURED_CHANNELS_COUNT];
+              ^
+make: *** Waiting for unfinished jobs....
+ 
+../Generated_Code/dmaController1.h:105:8: error: unknown type name 'edma_channel_config_t'
+ extern edma_channel_config_t dmaController1Chn0_Config;
+        ^
+In file included from ../Generated_Code/lpuart1.c:43:0:
+../Generated_Code/lpuart1.h:80:8: error: unknown type name 'lpuart_state_t'
+ extern lpuart_state_t lpuart1_State;
+        ^
+../Generated_Code/dmaController1.h:108:14: error: unknown type name 'edma_channel_config_t'
+ extern const edma_channel_config_t * const edmaChnConfigArray[EDMA_CONFIGURED_CHANNELS_COUNT];
+              ^
+../Generated_Code/lpuart1.h:83:14: error: unknown type name 'lpuart_user_config_t'
+ extern const lpuart_user_config_t lpuart1_InitConfig_Gasboard;
+              ^
+../Generated_Code/lpuart1.c:46:7: error: unknown type name 'lpuart_user_config_t'
+ const lpuart_user_config_t lpuart1_InitConfig_Gasboard = {
+       ^
+../Generated_Code/lpuart1.c:47:3: error: field name not in record or union initializer
+   .transferType = LPUART_USING_INTERRUPTS,
+   ^
+../Generated_Code/lpuart1.c:47:3: error: (near initialization for 'lpuart1_InitConfig_Gasboard')
+../Generated_Code/lpuart1.c:47:19: error: 'LPUART_USING_INTERRUPTS' undeclared here (not in a function)
+   .transferType = LPUART_USING_INTERRUPTS,
+                   ^
+make: *** [Generated_Code/subdir.mk:116: Generated_Code/lpi2c1.o] Error 1
+../Generated_Code/lpuart1.c:48:3: error: field name not in record or union initializer
+   .baudRate = 9600U,
+   ^
+../Generated_Code/lpuart1.c:48:3: error: (near initialization for 'lpuart1_InitConfig_Gasboard')
+../Generated_Code/lpuart1.c:48:3: warning: excess elements in scalar initializer
+../Generated_Code/lpuart1.c:48:3: warning: (near initialization for 'lpuart1_InitConfig_Gasboard')
+../Generated_Code/lpuart1.c:49:3: error: field name not in record or union initializer
+   .parityMode = LPUART_PARITY_DISABLED,
+   ^
+../Generated_Code/lpuart1.c:49:3: error: (near initialization for 'lpuart1_InitConfig_Gasboard')
+../Generated_Code/lpuart1.c:49:17: error: 'LPUART_PARITY_DISABLED' undeclared here (not in a function)
+   .parityMode = LPUART_PARITY_DISABLED,
+                 ^
+../Generated_Code/lpuart1.c:49:3: warning: excess elements in scalar initializer
+   .parityMode = LPUART_PARITY_DISABLED,
+   ^
+../Generated_Code/lpuart1.c:49:3: warning: (near initialization for 'lpuart1_InitConfig_Gasboard')
+../Generated_Code/lpuart1.c:50:3: error: field name not in record or union initializer
+   .stopBitCount = LPUART_ONE_STOP_BIT,
+   ^
+../Generated_Code/lpuart1.c:50:3: error: (near initialization for 'lpuart1_InitConfig_Gasboard')
+../Generated_Code/lpuart1.c:50:19: error: 'LPUART_ONE_STOP_BIT' undeclared here (not in a function)
+   .stopBitCount = LPUART_ONE_STOP_BIT,
+                   ^
+../Generated_Code/lpuart1.c:50:3: warning: excess elements in scalar initializer
+   .stopBitCount = LPUART_ONE_STOP_BIT,
+   ^
+../Generated_Code/lpuart1.c:50:3: warning: (near initialization for 'lpuart1_InitConfig_Gasboard')
+../Generated_Code/lpuart1.c:51:3: error: field name not in record or union initializer
+   .bitCountPerChar = LPUART_8_BITS_PER_CHAR,
+   ^
+../Generated_Code/lpuart1.c:51:3: error: (near initialization for 'lpuart1_InitConfig_Gasboard')
+../Generated_Code/lpuart1.c:51:22: error: 'LPUART_8_BITS_PER_CHAR' undeclared here (not in a function)
+   .bitCountPerChar = LPUART_8_BITS_PER_CHAR,
+                      ^
+../Generated_Code/lpuart1.c:51:3: warning: excess elements in scalar initializer
+   .bitCountPerChar = LPUART_8_BITS_PER_CHAR,
+   ^
+../Generated_Code/lpuart1.c:51:3: warning: (near initialization for 'lpuart1_InitConfig_Gasboard')
+../Generated_Code/lpuart1.c:52:3: error: field name not in record or union initializer
+   .rxDMAChannel = 0U,
+   ^
+../Generated_Code/lpuart1.c:52:3: error: (near initialization for 'lpuart1_InitConfig_Gasboard')
+../Generated_Code/lpuart1.c:52:3: warning: excess elements in scalar initializer
+../Generated_Code/lpuart1.c:52:3: warning: (near initialization for 'lpuart1_InitConfig_Gasboard')
+../Generated_Code/lpuart1.c:53:3: error: field name not in record or union initializer
+   .txDMAChannel = 0U,
+   ^
+../Generated_Code/lpuart1.c:53:3: error: (near initialization for 'lpuart1_InitConfig_Gasboard')
+../Generated_Code/lpuart1.c:53:3: warning: excess elements in scalar initializer
+../Generated_Code/lpuart1.c:53:3: warning: (near initialization for 'lpuart1_InitConfig_Gasboard')
+../Generated_Code/lpuart1.c:58:1: error: unknown type name 'lpuart_state_t'
+ lpuart_state_t lpuart1_State;
+ ^
+make: *** [Generated_Code/subdir.mk:124: Generated_Code/lpuart1.o] Error 1
+Finished building: ../Generated_Code/osif1.c
+ 
+Finished building: ../Generated_Code/pin_mux.c
+ 
+
+10:38:40 Build Finished (took 1s.195ms)
+

@@ -93,7 +93,7 @@
     </GenFiles>
     <SignalListFile />
     <DestinationCompiler>GNUC</DestinationCompiler>
-    <ProjectModificationStamp>23</ProjectModificationStamp>
+    <ProjectModificationStamp>27</ProjectModificationStamp>
   </Options>
   <CpuID_21>
     <Generated>true</Generated>
@@ -169,8 +169,8 @@
     <GenComponentVersion>1.2.0</GenComponentVersion>
     <GenDriverVersion>1.4</GenDriverVersion>
     <GenEventModule />
-    <HeaderAge>1453682185</HeaderAge>
-    <CodeAge>1453682185</CodeAge>
+    <HeaderAge>1453685934</HeaderAge>
+    <CodeAge>1453685863</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>20</GenNumMethods>
     <PINS_DRV_Init>true</PINS_DRV_Init>
@@ -418,8 +418,8 @@
     <GenComponentVersion>SDK_S32K14x_07</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule />
-    <HeaderAge>1453677966</HeaderAge>
-    <CodeAge>1453677966</CodeAge>
+    <HeaderAge>1453686066</HeaderAge>
+    <CodeAge>1453686034</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>16</GenNumMethods>
     <LPUART_DRV_Init>true</LPUART_DRV_Init>

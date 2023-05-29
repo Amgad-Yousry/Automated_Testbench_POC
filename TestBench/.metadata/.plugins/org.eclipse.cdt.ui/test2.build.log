@@ -1,0 +1,37 @@
+10:40:25 **** Incremental Build of configuration Debug for project test2 ****
+make -j8 all 
+Building file: ../Sources/main.c
+Executing target #29 ../Sources/main.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/main.args" -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'main':
+../Sources/main.c:75:2: warning: implicit declaration of function 'enableFPU' [-Wimplicit-function-declaration]
+  enableFPU();
+  ^
+../Sources/main.c:226:46: warning: passing argument 2 of 'LPUART_DRV_SendDataBlocking' from incompatible pointer type
+   LPUART_DRV_SendDataBlocking (INST_LPUART1, &TX_buffer, TX_BUFFER_SIZE, LPUART_TIMEOUT);
+                                              ^
+In file included from C:/Users/kamil/OneDrive/Documents/GitHub/Internship/TestBench/test2/Generated_Code/Cpu.h:62:0,
+                 from ../Sources/main.c:6:
+C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.4/platform/drivers/inc/lpuart_driver.h:229:10: note: expected 'const uint8_t *' but argument is of type 'uint8_t (*)[5]'
+ status_t LPUART_DRV_SendDataBlocking(uint32_t instance,
+          ^
+../Sources/main.c:229:48: warning: passing argument 2 of 'LPUART_DRV_ReceiveDataBlocking' from incompatible pointer type
+   LPUART_DRV_ReceiveDataBlocking(INST_LPUART1, &RX_buffer, RX_BUFFER_SIZE, LPUART_TIMEOUT);
+                                                ^
+In file included from C:/Users/kamil/OneDrive/Documents/GitHub/Internship/TestBench/test2/Generated_Code/Cpu.h:62:0,
+                 from ../Sources/main.c:6:
+C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.4/platform/drivers/inc/lpuart_driver.h:300:10: note: expected 'uint8_t *' but argument is of type 'uint8_t (*)[16]'
+ status_t LPUART_DRV_ReceiveDataBlocking(uint32_t instance,
+          ^
+../Sources/main.c:232:6: error: 'for' loop initial declarations are only allowed in C99 or C11 mode
+      for (uint8_t i = 0; i<RX_BUFFER_SIZE; i++)
+      ^
+../Sources/main.c:232:6: note: use option -std=c99, -std=gnu99, -std=c11 or -std=gnu11 to compile your code
+../Sources/main.c:186:15: warning: unused variable 'i' [-Wunused-variable]
+      uint16_t i;
+               ^
+make: *** [Sources/subdir.mk:50: Sources/main.o] Error 1
+
+10:40:26 Build Finished (took 481ms)
+

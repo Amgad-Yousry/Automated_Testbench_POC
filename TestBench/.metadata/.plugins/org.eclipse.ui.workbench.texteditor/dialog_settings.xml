@@ -2,25 +2,41 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
+<<<<<<< Updated upstream
 		<item value="u16PreTriggerDelay" key="selection"/>
+=======
+		<item value="RMS_BUFFER_SIZE" key="selection"/>
+>>>>>>> Stashed changes
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+<<<<<<< Updated upstream
 			<item value="delayValue"/>
 			<item value="counter"/>
 			<item value="gbgbADCConvDone"/>
 			<item value="adcConvDone"/>
+=======
+>>>>>>> Stashed changes
 			<item value="RMS_BUFFER_SIZE"/>
 			<item value="RMSCurrentAux"/>
 			<item value="fCurrentPol"/>
 			<item value="gfCurrentValue"/>
+<<<<<<< Updated upstream
 		</list>
 		<list key="replacehistory">
 			<item value="u16PreTriggerDelay"/>
 			<item value="gu16NrConvDone"/>
 			<item value="gbADCConvDone"/>
+=======
+			<item value="adcRawValue"/>
+			<item value="PDB_IRQHandler"/>
+			<item value="counter"/>
+			<item value="adcConvDone"/>
+		</list>
+		<list key="replacehistory">
+>>>>>>> Stashed changes
 			<item value="gu16CurrentRawValue"/>
 			<item value="adcCoCo"/>
 		</list>
