@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1685001324495_1" label="Other Projects" name="Other Projects">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/panel_contorl" type="4"/>
+</workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1683016785848_0" label="Window Working Set" name="Aggregate for window 1683016785848"/>
 </workingSetManager>
