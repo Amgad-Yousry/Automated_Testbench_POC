@@ -20,7 +20,7 @@
   </ToolchainSettings>
   <GeneratedFilesList>
     <GeneratedByPE>
-      <File Name="Sources/main.c" FileDate="2023-05-25, 15:35:47" FileAge="1685021747541" FileType="128" />
+      <File Name="Sources/main.c" FileDate="2023-05-26, 10:12:12" FileAge="1685088732086" FileType="128" />
       <File Name="Documentation/panel_control_v2_Settings.xml" FileDate="2023-05-25, 11:31:17" FileAge="1685007077806" FileType="3072" />
       <File Name="SDK/platform/drivers/src/clock/S32K1xx/pcc_hw_access.h" FileDate="2023-05-24, 16:00:10" FileAge="1684936810873" FileType="1048576" CompNumb="3" />
       <File Name="SDK/platform/drivers/inc/clock_manager.h" FileDate="2023-05-24, 16:00:10" FileAge="1684936810826" FileType="1048576" CompNumb="3" />
@@ -57,11 +57,11 @@
       <File Name="SDK/platform/devices/S32K144/include/S32K144.h" FileDate="2023-05-24, 16:00:10" FileAge="1684936810755" FileType="1048576" CompNumb="1" />
       <File Name="Documentation/panel_control_v2.txt" FileDate="2023-05-25, 11:31:17" FileAge="1685007077837" FileType="3072" />
       <File Name="SDK/platform/drivers/inc/lpit_driver.h" FileDate="2023-05-24, 16:00:10" FileAge="1684936810838" FileType="1048576" CompNumb="5" />
-      <File Name="SDK/platform/drivers/inc/pins_driver.h" FileDate="2023-05-24, 16:00:10" FileAge="1684936810838" FileType="1048576" CompNumb="2" />
       <File Name="SDK/platform/drivers/src/clock/S32K1xx/scg_hw_access.h" FileDate="2023-05-24, 16:00:10" FileAge="1684936810874" FileType="1048576" CompNumb="3" />
+      <File Name="SDK/platform/drivers/inc/pins_driver.h" FileDate="2023-05-24, 16:00:10" FileAge="1684936810838" FileType="1048576" CompNumb="2" />
       <File Name="Generated_Code/lpit1.h" FileDate="2023-05-25, 12:39:42" FileAge="1685011182338" FileType="45637" CompNumb="5" />
       <File Name="Generated_Code/lpit1.c" FileDate="2023-05-25, 12:39:42" FileAge="1685011182341" FileType="45637" CompNumb="5" />
     </GeneratedByPE>
   </GeneratedFilesList>
-  <CodeGenReference>17</CodeGenReference>
+  <CodeGenReference>20</CodeGenReference>
 </CodeGenerationInfo>

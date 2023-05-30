@@ -58,25 +58,31 @@ typedef enum {
     BUTTON_STATE_RELEASED,
     BUTTON_STATE_WAIT,
 } button_state_t;
+typedef enum {
+    TIME_STATE_IDLE,
+    TIME_STATE_PRESSED,
+} timecount_state_t;
 /********************buttons state machine declarations************************/
 volatile button_state_t onoff_state = BUTTON_STATE_IDLE;
 volatile uint32_t onoff_counter = 0;
- uint32_t onoff_release_delay=20;
+ uint32_t onoff_release_delay=200;
 
 volatile button_state_t bell_state = BUTTON_STATE_IDLE;
 volatile uint32_t bell_counter = 0;
-uint32_t bell_release_delay = 30; /* Default press duration */
+uint32_t bell_release_delay = 300; /* Default press duration */
 
 volatile button_state_t plus_state = BUTTON_STATE_IDLE;
+volatile timecount_state_t plustime_state = TIME_STATE_IDLE;
 volatile uint32_t plus_counter = 0;
- uint32_t plus_release_delay=10;
+ uint32_t plus_release_delay=100;
 
 volatile button_state_t minus_state = BUTTON_STATE_IDLE;
+volatile timecount_state_t minustime_state = TIME_STATE_IDLE;
 volatile uint32_t minus_counter = 0;
-uint32_t minus_release_delay=10;
+uint32_t minus_release_delay=100;
 /************************auto increment or decrement**********************/
 uint32_t   autotime_press_init =0; // Controls initialization of the 15-minute plus-minus button press
-volatile uint32_t autotime_press_counter=90;
+volatile uint32_t autotime_press_counter=900;
 volatile uint32_t autotime_counter = 0;
 
 //*************** settings increment decrement ISR***************************//
@@ -86,26 +92,21 @@ void autopulse()
 {
 
 }
-void autotimecounter()
+void autotimecounter(volatile timecount_state_t* sstate,volatile button_state_t* timerstate)
 {
-	if (autotime_press_init==1) {
-	            (autotime_counter)++;
-	            if (autotime_counter>=autotime_press_counter)
-	            { minus_state =BUTTON_STATE_PRESSED;
-	            autotime_counter = 0;
 
-	            }
-							    }
-if (autotime_press_init==2) {
-            (autotime_counter)++;
-            if (autotime_counter>=autotime_press_counter)
-            { plus_state =BUTTON_STATE_PRESSED;
-            autotime_counter = 0;
+	switch (*sstate) {
+	case TIME_STATE_PRESSED:
+	        	(autotime_counter)++;
+	        	if (autotime_counter>=autotime_press_counter)
+	        	   {*timerstate= BUTTON_STATE_PRESSED;
+	        	 autotime_counter = 0;
+	        	   }
+	            break;
+	        default:
+	            break;
+	    }
 
-            }
-						    }
-else
-autotime_press_init=0;
 }
 
 void update_button_state(volatile button_state_t* state, volatile uint32_t* counter, uint32_t pin, uint32_t* release_delay)
@@ -138,7 +139,9 @@ void LPIT0_Ch0_IRQHandler(void)
     update_button_state(&bell_state, &bell_counter, BELL, &bell_release_delay);
     update_button_state(&plus_state, &plus_counter, PLUS, &plus_release_delay );
     update_button_state(&minus_state, &minus_counter, MINUS, &minus_release_delay);
-    autotimecounter();
+    autotimecounter(&minustime_state,&minus_state);
+    autotimecounter(&plustime_state,&plus_state);
+
 /***************** setting counter handler************************************/
 	if(count_pm_init==1)
 	{
@@ -163,7 +166,15 @@ void LPIT0_Ch0_IRQHandler(void)
 	}
    /***************** setting counter handler ends here************************************/
 
+/**********************autotimecounter handler********************/
+	if(minustime_state == TIME_STATE_PRESSED) {
+							plustime_state = TIME_STATE_IDLE;
+						}
+	if(plustime_state == TIME_STATE_PRESSED) {
+					minustime_state = TIME_STATE_IDLE;
+						}
 
+	/**********************autotimecounter handler ends here********************/
 }
 
 int main(void)
@@ -191,7 +202,7 @@ int main(void)
     lpit_user_channel_config_t chConfig;
     chConfig.timerMode = LPIT_PERIODIC_COUNTER;
     chConfig.periodUnits = LPIT_PERIOD_UNITS_MICROSECONDS;
-    chConfig.period =100000; // Adjust this to change the frequency of the interrupt
+    chConfig.period =10000; // Adjust this to change the frequency of the interrupt
     chConfig.triggerSource = LPIT_TRIGGER_SOURCE_EXTERNAL;
     chConfig.triggerSelect = 0U;
     chConfig.enableReloadOnTrigger = false;
