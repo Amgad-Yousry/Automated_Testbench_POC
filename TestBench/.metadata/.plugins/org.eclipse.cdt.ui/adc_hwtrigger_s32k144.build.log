@@ -1,0 +1,60 @@
+10:23:13 **** Incremental Build of configuration Debug_FLASH for project adc_hwtrigger_s32k144 ****
+make -j8 all 
+Building file: ../FreeMASTER/src_common/freemaster_appcmd.c
+Building file: ../FreeMASTER/src_common/freemaster_bdm.c
+Building file: ../FreeMASTER/src_common/freemaster_can.c
+Executing target #1 ../FreeMASTER/src_common/freemaster_appcmd.c
+Building file: ../FreeMASTER/src_common/freemaster_lin.c
+Executing target #3 ../FreeMASTER/src_common/freemaster_can.c
+Executing target #2 ../FreeMASTER/src_common/freemaster_bdm.c
+Executing target #4 ../FreeMASTER/src_common/freemaster_lin.c
+Invoking: Standard S32DS C Compiler
+Invoking: Standard S32DS C Compiler
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@FreeMASTER/src_common/freemaster_appcmd.args" -MMD -MP -MF"FreeMASTER/src_common/freemaster_appcmd.d" -MT"FreeMASTER/src_common/freemaster_appcmd.o" -c -o "FreeMASTER/src_common/freemaster_appcmd.o" "../FreeMASTER/src_common/freemaster_appcmd.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@FreeMASTER/src_common/freemaster_can.args" -MMD -MP -MF"FreeMASTER/src_common/freemaster_can.d" -MT"FreeMASTER/src_common/freemaster_can.o" -c -o "FreeMASTER/src_common/freemaster_can.o" "../FreeMASTER/src_common/freemaster_can.c"
+arm-none-eabi-gcc "@FreeMASTER/src_common/freemaster_bdm.args" -MMD -MP -MF"FreeMASTER/src_common/freemaster_bdm.d" -MT"FreeMASTER/src_common/freemaster_bdm.o" -c -o "FreeMASTER/src_common/freemaster_bdm.o" "../FreeMASTER/src_common/freemaster_bdm.c"
+arm-none-eabi-gcc "@FreeMASTER/src_common/freemaster_lin.args" -MMD -MP -MF"FreeMASTER/src_common/freemaster_lin.d" -MT"FreeMASTER/src_common/freemaster_lin.o" -c -o "FreeMASTER/src_common/freemaster_lin.o" "../FreeMASTER/src_common/freemaster_lin.c"
+../FreeMASTER/src_common/freemaster_appcmd.c:16:24: fatal error: freemaster.h: No such file or directory
+ #include "freemaster.h"
+                        ^
+compilation terminated.
+Building file: ../FreeMASTER/src_common/freemaster_pipes.c
+make: *** [FreeMASTER/src_common/subdir.mk:105: FreeMASTER/src_common/freemaster_appcmd.o] Error 1
+make: *** Waiting for unfinished jobs....
+../FreeMASTER/src_common/freemaster_can.c:16:24: fatal error: freemaster.h: No such file or directory
+ #include "freemaster.h"
+                        ^
+compilation terminated.
+Building file: ../FreeMASTER/src_common/freemaster_protocol.c
+../FreeMASTER/src_common/freemaster_bdm.c:16:24: fatal error: freemaster.h: No such file or directory
+ #include "freemaster.h"
+                        ^
+compilation terminated.
+../FreeMASTER/src_common/freemaster_lin.c:16:24: fatal error: freemaster.h: No such file or directory
+ #include "freemaster.h"
+                        ^
+compilation terminated.
+Executing target #5 ../FreeMASTER/src_common/freemaster_pipes.c
+make: *** [FreeMASTER/src_common/subdir.mk:113: FreeMASTER/src_common/freemaster_bdm.o] Error 1
+make: *** [FreeMASTER/src_common/subdir.mk:121: FreeMASTER/src_common/freemaster_can.o] Error 1
+Executing target #6 ../FreeMASTER/src_common/freemaster_protocol.c
+make: *** [FreeMASTER/src_common/subdir.mk:129: FreeMASTER/src_common/freemaster_lin.o] Error 1
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@FreeMASTER/src_common/freemaster_pipes.args" -MMD -MP -MF"FreeMASTER/src_common/freemaster_pipes.d" -MT"FreeMASTER/src_common/freemaster_pipes.o" -c -o "FreeMASTER/src_common/freemaster_pipes.o" "../FreeMASTER/src_common/freemaster_pipes.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@FreeMASTER/src_common/freemaster_protocol.args" -MMD -MP -MF"FreeMASTER/src_common/freemaster_protocol.d" -MT"FreeMASTER/src_common/freemaster_protocol.o" -c -o "FreeMASTER/src_common/freemaster_protocol.o" "../FreeMASTER/src_common/freemaster_protocol.c"
+../FreeMASTER/src_common/freemaster_pipes.c:19:24: fatal error: freemaster.h: No such file or directory
+ #include "freemaster.h"
+                        ^
+compilation terminated.
+../FreeMASTER/src_common/freemaster_protocol.c:16:24: fatal error: freemaster.h: No such file or directory
+ #include "freemaster.h"
+                        ^
+compilation terminated.
+make: *** [FreeMASTER/src_common/subdir.mk:137: FreeMASTER/src_common/freemaster_pipes.o] Error 1
+make: *** [FreeMASTER/src_common/subdir.mk:145: FreeMASTER/src_common/freemaster_protocol.o] Error 1
+
+10:23:13 Build Finished (took 681ms)
+

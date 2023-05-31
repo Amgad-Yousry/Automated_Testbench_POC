@@ -245,17 +245,17 @@ int main(void)
 
 
 		    /* Clear the buffer to prepare it for the next operation */
-		    for (i = 0u; i < TRANSFER_SIZE; i++)
-		    {
-		        buffer[i] = 0u;
-		    }
+//		    for (i = 0u; i < TRANSFER_SIZE; i++)
+//		    {
+//		        buffer[i] = 0u;
+//		    }
 
 		    /* Request data from the bus slave */
-		    LPI2C_DRV_MasterReceiveDataBlocking(INST_LPI2C1, buffer, 3u, true, OSIF_WAIT_FOREVER);
+//		    LPI2C_DRV_MasterReceiveDataBlocking(INST_LPI2C1, buffer, 3u, true, OSIF_WAIT_FOREVER);
 
 
-		    u16CountsSMF = (buffer[0]<<8)|buffer[1];
-		    gfFlowSMF =((float)u16CountsSMF - OFFSET)/SFLOW;
+//		    u16CountsSMF = (buffer[0]<<8)|buffer[1];
+//		    gfFlowSMF =((float)u16CountsSMF - OFFSET)/SFLOW;
 
 
 

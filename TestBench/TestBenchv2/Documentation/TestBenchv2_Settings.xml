@@ -122,7 +122,7 @@
     <Enabled v="Y" />
     <Properties>
       <Component_name v="lpuart1" />
-      <Device v="LPUART0" />
+      <Device v="LPUART1" />
       <Component_version v="S32K144_SDK01" />
     </Properties>
     <Methods>

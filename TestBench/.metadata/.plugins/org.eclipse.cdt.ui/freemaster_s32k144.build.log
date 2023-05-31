@@ -1,0 +1,12 @@
+10:21:21 **** Incremental Build of configuration Debug_FLASH for project freemaster_s32k144 ****
+make -j8 all 
+Executing target #41 freemaster_s32k144.siz
+Invoking: Standard S32DS Print Size
+arm-none-eabi-size --format=berkeley  freemaster_s32k144.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16360	   2356	   4376	  23092	   5a34	freemaster_s32k144.elf
+Finished building: freemaster_s32k144.siz
+ 
+
+10:21:22 Build Finished (took 593ms)
+

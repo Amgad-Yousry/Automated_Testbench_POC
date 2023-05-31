@@ -1,0 +1,12 @@
+15:58:47 **** Incremental Build of configuration Debug for project test5 ****
+make -j8 all 
+Executing target #31 test5.siz
+Invoking: Standard S32DS Print Size
+arm-none-eabi-size --format=berkeley  test5.elf 
+   text	   data	    bss	    dec	    hex	filename
+  14900	   2336	   3232	  20468	   4ff4	test5.elf
+Finished building: test5.siz
+ 
+
+15:58:48 Build Finished (took 431ms)
+
