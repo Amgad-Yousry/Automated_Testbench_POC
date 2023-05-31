@@ -26,10 +26,12 @@
 /* Including necessary module. Cpu.h contains other modules needed for compiling.*/
 #include "Cpu.h"
 #include "lpit1.h"
+#include "lpuart1.h"
 #include "clockMan1.h"
 #include "pin_mux.h"
 #include <stdint.h>
 #include <stdbool.h>
+#include <string.h>
 volatile int exit_code = 0;
 #if CPU_INIT_CONFIG
   #include "Init_Config.h"
@@ -41,17 +43,27 @@ volatile int exit_code = 0;
 
 #define GPIO_PORT	PORTA
 #define GPIO_PORT1	PTA
+#define GPIO_PORT2	PTC
 #define PCC_CLOCK	PCC_PORTA_CLOCK
 #define ONOFF		17U
 #define PLUS		11U
 #define MINUS		9U
 #define BELL		8U
-
+#define Tx			7U
+#define Rx			6U
 #define LPIT0_CHANNEL	    0UL
 #define LPIT_Channel_IRQn   LPIT0_Ch0_IRQn
 
+
+
+
 /* User includes (#include below this line is not maintained by Processor Expert) */
 /* Global variables for each button's state and counter */
+typedef enum {
+    UART_STATE_IDLE,
+    UART_STATE_SEND,
+    UART_STATE_RECEIVE,
+} uart_state_t;
 typedef enum {
     BUTTON_STATE_IDLE,
     BUTTON_STATE_PRESSED,
@@ -65,33 +77,100 @@ typedef enum {
 /********************buttons state machine declarations************************/
 volatile button_state_t onoff_state = BUTTON_STATE_IDLE;
 volatile uint32_t onoff_counter = 0;
- uint32_t onoff_release_delay=200;
+ uint32_t onoff_release_delay=2000;
 
 volatile button_state_t bell_state = BUTTON_STATE_IDLE;
 volatile uint32_t bell_counter = 0;
-uint32_t bell_release_delay = 300; /* Default press duration */
+uint32_t bell_release_delay = 3000; /* Default press duration */
 
 volatile button_state_t plus_state = BUTTON_STATE_IDLE;
 volatile timecount_state_t plustime_state = TIME_STATE_IDLE;
 volatile uint32_t plus_counter = 0;
- uint32_t plus_release_delay=100;
+ uint32_t plus_release_delay=1000;
 
 volatile button_state_t minus_state = BUTTON_STATE_IDLE;
 volatile timecount_state_t minustime_state = TIME_STATE_IDLE;
 volatile uint32_t minus_counter = 0;
-uint32_t minus_release_delay=100;
+uint32_t minus_release_delay=1000;
 /************************auto increment or decrement**********************/
 uint32_t   autotime_press_init =0; // Controls initialization of the 15-minute plus-minus button press
-volatile uint32_t autotime_press_counter=900;
+volatile uint32_t autotime_press_counter=9000;
 volatile uint32_t autotime_counter = 0;
 
 //*************** settings increment decrement ISR***************************//
 uint32_t  count_pm_init=0; // initialization of counter for settings increment and decrement
 volatile uint32_t setting_counter = 1;
-void autopulse()
-{
 
+
+/*****************************handshake parameters**************************/
+#define CHECK_COMMAND "Get_STATUS" // The command to send to the device for checking UART connection
+#define EXPECTED_RESPONSE "OK_STATUS" // The expected response from the device
+#define PACKET_SIZE 256
+#define TIME_INDEX 2 // Index of the time field in the packet
+#define SESSION_TIMER_INDEX 4 // ...
+#define CONSIGNE_INDEX 5 // ...
+#define BOLUS_PER_MINUTE_INDEX 6 // ...
+#define TAUX_OXYGENE_INDEX 7 // ...
+#define TEMPERATURE_INDEX 8 // ...
+#define VITESSE_COMPRESSEUR_INDEX 9 // ...
+#define PRESSION_ATMOSPHERIQUE_INDEX 10 // ...
+#define TIMEOUT_VALUE 1000 // Define a suitable timeout value in milliseconds
+ // Define a char array large enough to hold the string
+uint32_t statuss =0;
+uint32_t speed= VITESSE_COMPRESSEUR_INDEX;
+uint32_t temp= TEMPERATURE_INDEX;
+
+volatile uart_state_t uart_state = UART_STATE_IDLE;
+
+/**********************************handshake parameters end******************/
+void p5handshake(volatile uart_state_t* uartstate)
+{
+    uint8_t packet[PACKET_SIZE];
+    const uint8_t checkCommand[] = CHECK_COMMAND;
+    status_t status;
+    switch (*uartstate)
+    {
+    case UART_STATE_SEND:
+        // Send check command to the device
+        status = LPUART_DRV_SendData(INST_LPUART1, checkCommand, sizeof(checkCommand)-1);
+        if(status == STATUS_SUCCESS) {
+            // Send successful, now wait for response
+         *uartstate = UART_STATE_RECEIVE;
+        }
+        break;
+    case UART_STATE_RECEIVE:
+        status = LPUART_DRV_ReceiveData(INST_LPUART1, packet, sizeof(packet)-1);
+        if(status == STATUS_SUCCESS) {
+            // Null-terminate the received string
+            packet[sizeof(packet)-1] = '\0';
+
+            // Now parse the packet
+            char* token = strtok((char*)packet, ",");
+            int fieldIndex = 0;
+            while(token != NULL)
+            {
+                if(fieldIndex == TIME_INDEX || fieldIndex == SESSION_TIMER_INDEX || fieldIndex == CONSIGNE_INDEX ||
+                   fieldIndex == BOLUS_PER_MINUTE_INDEX || fieldIndex == TAUX_OXYGENE_INDEX || fieldIndex == TEMPERATURE_INDEX ||
+                   fieldIndex == VITESSE_COMPRESSEUR_INDEX || fieldIndex == PRESSION_ATMOSPHERIQUE_INDEX)
+                {
+                    // This is one of the fields we are interested in
+                    // Here token is a pointer to the current field in the packet
+                    // You can convert it to a suitable type (integer, float, etc.) and use it as needed
+                    // Go to the next field
+                    token = strtok(NULL, ",");
+                    fieldIndex++;
+                }
+            }
+            *uartstate = UART_STATE_IDLE;
+        }
+        break;
+    case UART_STATE_IDLE:
+    	break;
+    default:
+    break;
+    }
 }
+
 void autotimecounter(volatile timecount_state_t* sstate,volatile button_state_t* timerstate)
 {
 
@@ -141,7 +220,7 @@ void LPIT0_Ch0_IRQHandler(void)
     update_button_state(&minus_state, &minus_counter, MINUS, &minus_release_delay);
     autotimecounter(&minustime_state,&minus_state);
     autotimecounter(&plustime_state,&plus_state);
-
+    p5handshake(&uart_state);
 /***************** setting counter handler************************************/
 	if(count_pm_init==1)
 	{
@@ -202,7 +281,7 @@ int main(void)
     lpit_user_channel_config_t chConfig;
     chConfig.timerMode = LPIT_PERIODIC_COUNTER;
     chConfig.periodUnits = LPIT_PERIOD_UNITS_MICROSECONDS;
-    chConfig.period =10000; // Adjust this to change the frequency of the interrupt
+    chConfig.period =1000; // Adjust this to change the frequency of the interrupt
     chConfig.triggerSource = LPIT_TRIGGER_SOURCE_EXTERNAL;
     chConfig.triggerSelect = 0U;
     chConfig.enableReloadOnTrigger = false;
@@ -220,6 +299,10 @@ int main(void)
     PINS_DRV_SetPinDirection(GPIO_PORT1,MINUS,1);
     PINS_DRV_SetPinDirection(GPIO_PORT1,BELL,1);
 LPIT_DRV_StartTimerChannels(INST_LPIT1,(1U << LPIT0_CHANNEL));
+
+
+LPUART_DRV_Init(INST_LPUART1, &lpuart1_State, &lpuart1_InitConfig0);
+
   /*** Don't write any code pass this line, or it will be deleted during code generation. ***/
   /*** RTOS startup code. Macro PEX_RTOS_START is defined by the RTOS component. DON'T MODIFY THIS CODE!!! ***/
   #ifdef PEX_RTOS_START
