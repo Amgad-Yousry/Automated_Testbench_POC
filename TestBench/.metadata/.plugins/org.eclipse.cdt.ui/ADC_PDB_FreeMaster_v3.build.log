@@ -1,12 +1,20 @@
-16:11:58 **** Incremental Build of configuration Debug_RAM for project ADC_PDB_FreeMaster_v3 ****
+16:20:03 **** Incremental Build of configuration Debug_FLASH for project ADC_PDB_FreeMaster_v3 ****
 make -j8 all 
-Executing target #30 ADC_PDB_FreeMaster_v3.siz
-Invoking: Standard S32DS Print Size
-arm-none-eabi-size --format=berkeley  ADC_PDB_FreeMaster_v3.elf 
-   text	   data	    bss	    dec	    hex	filename
-  12048	   2444	   2148	  16640	   4100	ADC_PDB_FreeMaster_v3.elf
-Finished building: ADC_PDB_FreeMaster_v3.siz
- 
+Building file: ../Sources/main.c
+Executing target #28 ../Sources/main.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/main.args" -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c:33:1: error: stray '`' in program
+ `
+ ^
+../Sources/main.c: In function 'main':
+../Sources/main.c:239:5: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+     gfRMSCurrent = sqrt(RMSCurrentAux/gu16NrConvDone);
+     ^
+../Sources/main.c:239:20: warning: incompatible implicit declaration of built-in function 'sqrt'
+     gfRMSCurrent = sqrt(RMSCurrentAux/gu16NrConvDone);
+                    ^
+make: *** [Sources/subdir.mk:50: Sources/main.o] Error 1
 
-16:11:58 Build Finished (took 506ms)
+16:20:04 Build Finished (took 621ms)
 

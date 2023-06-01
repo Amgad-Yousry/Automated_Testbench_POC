@@ -1,0 +1,112 @@
+<CodeGenerationInfo>
+  <ToolchainSettings>
+    <option>
+      <name>PE_G_4PEx_ToolChain_C_Compiler_Includes</name>
+      <values lines_count="8">
+        <Line>"${S32_SDK_PATH}/platform/drivers/src/clock/S32K1xx"</Line>
+        <Line>"${S32_SDK_PATH}/rtos/osif/"</Line>
+        <Line>"${S32_SDK_PATH}/platform/devices"</Line>
+        <Line>"${S32_SDK_PATH}/platform/devices/common"</Line>
+        <Line>"${S32_SDK_PATH}/platform/devices/S32K144/include"</Line>
+        <Line>"${S32_SDK_PATH}/platform/devices/S32K144/startup"</Line>
+        <Line>"${S32_SDK_PATH}/platform/hal/inc"</Line>
+        <Line>"${S32_SDK_PATH}/platform/drivers/inc"</Line>
+      </values>
+    </option>
+    <option>
+      <name>PE_G_4PEx_ilg_gnuarmeclipse_managedbuild_cross_option_c_compiler_defs</name>
+      <values lines_count="1">
+        <Line>"CPU_S32K144_100"</Line>
+      </values>
+    </option>
+  </ToolchainSettings>
+  <GeneratedFilesList>
+    <GeneratedByPE>
+      <File Name="Generated_Code/Cpu.c" FileDate="2023-05-30, 13:56:00" FileAge="1685447760884" FileType="45637" CompNumb="1" />
+      <File Name="SDK/platform/drivers/inc/edma_driver.h" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="Generated_Code/lpTmr1.h" FileDate="2023-05-30, 13:56:00" FileAge="1685447760889" FileType="45637" CompNumb="19" />
+      <File Name="SDK/platform/devices/S32K144/startup/system_S32K144.h" FileDate="2017-08-10, 20:18:10" FileAge="1502389090000" FileType="262144" />
+      <File Name="Generated_Code/clockMan1.h" FileDate="2023-05-31, 15:51:21" FileAge="1685541081993" FileType="45637" CompNumb="4" />
+      <File Name="SDK/platform/devices/status.h" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="Generated_Code/lpTmr1.c" FileDate="2023-05-30, 13:56:00" FileAge="1685447760889" FileType="45637" CompNumb="19" />
+      <File Name="SDK/platform/devices/S32K144/startup/system_S32K144.c" FileDate="2017-08-10, 20:18:10" FileAge="1502389090000" FileType="262144" />
+      <File Name="Generated_Code/clockMan1.c" FileDate="2023-05-31, 16:37:36" FileAge="1685543856238" FileType="45637" CompNumb="4" />
+      <File Name="SDK/platform/drivers/src/lpuart/lpuart_irq.h" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/platform/drivers/inc/interrupt_manager.h" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/adc/adc_hw_access.h" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/adc/adc_driver.c" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/lpuart/lpuart_irq.c" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/lpuart/lpuart_driver.c" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/lpuart/lpuart_hw_access.h" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/pins/pins_driver.c" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="Documentation/ADC_PDB_FreeMaster_v5_Settings.xml" FileDate="2023-05-31, 14:10:04" FileAge="1685535004622" FileType="3072" />
+      <File Name="SDK/platform/devices/S32K144/include/S32K144_features.h" FileDate="2017-08-10, 20:18:10" FileAge="1502389090000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/power/S32K1xx/power_smc_hw_access.h" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/platform/drivers/inc/clock_manager.h" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/lpuart/lpuart_hw_access.c" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/clock/S32K1xx/scg_hw_access.h" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/power/S32K1xx/power_smc_hw_access.c" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="Documentation/ADC_PDB_FreeMaster_v5.txt" FileDate="2023-05-31, 14:10:04" FileAge="1685535004642" FileType="3072" />
+      <File Name="Generated_Code/dmaController1.h" FileDate="2023-05-30, 13:56:00" FileAge="1685447760899" FileType="45637" CompNumb="11" />
+      <File Name="Generated_Code/lpuart1.h" FileDate="2023-05-30, 13:56:00" FileAge="1685447760894" FileType="45637" CompNumb="9" />
+      <File Name="SDK/platform/drivers/src/clock/S32K1xx/pmc_hw_access.h" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="Generated_Code/dmaController1.c" FileDate="2023-05-30, 13:56:00" FileAge="1685447760899" FileType="45637" CompNumb="11" />
+      <File Name="Generated_Code/lpuart1.c" FileDate="2023-05-30, 14:19:18" FileAge="1685449158776" FileType="45637" CompNumb="9" />
+      <File Name="SDK/platform/drivers/src/lptmr/lptmr_driver.c" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/rtos/osif/osif.h" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/platform/devices/S32K144/include/S32K144.h" FileDate="2017-08-10, 20:18:10" FileAge="1502389090000" FileType="262144" />
+      <File Name="SDK/platform/devices/common/s32_core_cm4.h" FileDate="2017-08-10, 20:18:10" FileAge="1502389090000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/lptmr/lptmr_hw_access.h" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="Generated_Code/pdly1.h" FileDate="2023-05-31, 10:11:38" FileAge="1685520698240" FileType="45637" CompNumb="24" />
+      <File Name="SDK/platform/drivers/src/lptmr/lptmr_hw_access.c" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/power/S32K1xx/power_manager_S32K1xx.h" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="Generated_Code/pdly1.c" FileDate="2023-05-31, 16:48:23" FileAge="1685544503518" FileType="45637" CompNumb="24" />
+      <File Name="Sources/main.c" FileDate="2023-05-31, 17:21:50" FileAge="1685546510295" FileType="128" />
+      <File Name="SDK/platform/drivers/src/power/power_manager.c" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/power/S32K1xx/power_manager_S32K1xx.c" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/pins/pins_port_hw_access.h" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/platform/drivers/inc/lpuart_driver.h" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/pins/pins_port_hw_access.c" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/edma/edma_hw_access.h" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/clock/clock_manager.c" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/edma/edma_hw_access.c" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/edma/edma_driver.c" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="Generated_Code/pin_mux.h" FileDate="2023-05-30, 13:57:55" FileAge="1685447875191" FileType="45637" CompNumb="2" />
+      <File Name="Generated_Code/pin_mux.c" FileDate="2023-05-30, 13:57:55" FileAge="1685447875201" FileType="45637" CompNumb="2" />
+      <File Name="SDK/platform/drivers/inc/adc_driver.h" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/clock/S32K1xx/sim_hw_access.h" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/power/S32K1xx/power_rcm_hw_access.h" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/interrupt/interrupt_manager.c" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/power/S32K1xx/power_pmc_hw_access.h" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/power/S32K1xx/power_rcm_hw_access.c" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/platform/drivers/inc/pdb_driver.h" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/rtos/osif/osif_baremetal.c" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/power/S32K1xx/power_pmc_hw_access.c" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/pdb/pdb_hw_access.h" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/pdb/pdb_hw_access.c" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="Generated_Code/adConv1.h" FileDate="2023-05-30, 13:57:55" FileAge="1685447875211" FileType="45637" CompNumb="17" />
+      <File Name="Generated_Code/adConv1.c" FileDate="2023-05-31, 16:55:20" FileAge="1685544920698" FileType="45637" CompNumb="17" />
+      <File Name="SDK/platform/drivers/inc/pins_driver.h" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/platform/devices/devassert.h" FileDate="2017-08-10, 20:18:10" FileAge="1502389090000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/clock/S32K1xx/smc_hw_access.h" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/platform/drivers/inc/power_manager.h" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/platform/drivers/inc/lptmr_driver.h" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="Generated_Code/pwrMan1.h" FileDate="2023-05-31, 14:10:04" FileAge="1685535004532" FileType="45637" CompNumb="25" />
+      <File Name="SDK/platform/devices/startup.h" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/clock/S32K1xx/clock_S32K1xx.h" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="Generated_Code/pwrMan1.c" FileDate="2023-05-31, 14:10:04" FileAge="1685535004523" FileType="45637" CompNumb="25" />
+      <File Name="SDK/platform/devices/startup.c" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/clock/S32K1xx/clock_S32K1xx.c" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="Generated_Code/osif1.h" FileDate="2023-05-30, 13:56:00" FileAge="1685447760899" FileType="45637" CompNumb="15" />
+      <File Name="SDK/platform/drivers/src/pins/pins_gpio_hw_access.h" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/edma/edma_irq.h" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="Generated_Code/osif1.c" FileDate="2023-05-30, 13:56:00" FileAge="1685447760894" FileType="45637" CompNumb="15" />
+      <File Name="SDK/platform/drivers/src/clock/S32K1xx/pcc_hw_access.h" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/platform/devices/device_registers.h" FileDate="2017-08-10, 20:18:10" FileAge="1502389090000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/edma/edma_irq.c" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/pdb/pdb_driver.c" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="Generated_Code/Cpu.h" FileDate="2023-05-31, 14:10:04" FileAge="1685535004562" FileType="45637" CompNumb="1" />
+    </GeneratedByPE>
+  </GeneratedFilesList>
+  <CodeGenReference>24</CodeGenReference>
+</CodeGenerationInfo>

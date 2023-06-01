@@ -1,0 +1,12 @@
+14:21:11 **** Incremental Build of configuration Debug_FLASH for project adc_hwtrigger_s32k144_2 ****
+make -j8 all 
+Executing target #30 adc_hwtrigger_s32k144_2.siz
+Invoking: Standard S32DS Print Size
+arm-none-eabi-size --format=berkeley  adc_hwtrigger_s32k144_2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  12364	   2348	   3224	  17936	   4610	adc_hwtrigger_s32k144_2.elf
+Finished building: adc_hwtrigger_s32k144_2.siz
+ 
+
+14:21:12 Build Finished (took 503ms)
+

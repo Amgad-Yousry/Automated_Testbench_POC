@@ -1,0 +1,12 @@
+09:52:19 **** Build of configuration Debug_RAM for project hello_world_s32k142 ****
+make -j8 all 
+Executing target #14 hello_world_s32k142.siz
+Invoking: Standard S32DS Print Size
+arm-none-eabi-size --format=berkeley  hello_world_s32k142.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4964	   2300	   2124	   9388	   24ac	hello_world_s32k142.elf
+Finished building: hello_world_s32k142.siz
+ 
+
+09:52:20 Build Finished (took 480ms)
+

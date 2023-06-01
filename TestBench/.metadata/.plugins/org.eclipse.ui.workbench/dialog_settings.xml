@@ -23,7 +23,6 @@
 			<item value="com.processorexpert.ui.importWizards.PExCategory"/>
 		</list>
 		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
-			<item value="org.eclipse.cdt.ui.exportWizardCategory"/>
 			<item value="com.processorexpert.ui.exportWizards.PExCategory"/>
 		</list>
 	</section>

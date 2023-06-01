@@ -30,7 +30,7 @@ volatile int exit_code = 0;
 
 #define OUTPUT_DIR 1
 
-
+`
 /* This example is setup to work by default with EVB. To use it with other boards
    please comment the following line
 */
@@ -220,6 +220,9 @@ int main(void)
 		/* Finished the ADC conversion routine */
 		if (gbADCConvDone == true)
 		{
+			/* Trigger PDB timer */
+			PDB_DRV_SoftTriggerCmd(PDB_INSTANCE);
+
 			/* Update the counter of the number of conversions done */
 			gu16NrConvDone++;
 
@@ -253,8 +256,6 @@ int main(void)
 			/* Clear conversion done interrupt flag */
 			gbADCConvDone = false;
 
-			/* Trigger PDB timer */
-			PDB_DRV_SoftTriggerCmd(PDB_INSTANCE);
 		}
 	}
 	/*** Don't write any code pass this line, or it will be deleted during code generation. ***/
