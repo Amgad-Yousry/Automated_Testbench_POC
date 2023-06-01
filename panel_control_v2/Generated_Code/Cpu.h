@@ -7,7 +7,7 @@
 **     Version     : Component 01.197, Driver 01.00, CPU db: 3.00.000
 **     Datasheet   : S32K14XRM Rev. 2, 02/2017
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2023-05-25, 11:31, # CodeGen: 8
+**     Date/Time   : 2023-05-31, 17:27, # CodeGen: 1
 **     Abstract    :
 **
 **     Settings    :
@@ -60,12 +60,16 @@
 #include "clock_manager.h"
 #include "interrupt_manager.h"
 #include "lpit_driver.h"
+#include "edma_driver.h"
+#include "lpuart_driver.h"
 #include "system_S32K144.h"
 
 /* Including needed modules to compile this module/procedure */
 #include "pin_mux.h"
-#include "lpit1.h"
 #include "clockMan1.h"
+#include "lpit1.h"
+#include "lpuart1.h"
+#include "dmaController1.h"
 
 #ifdef __cplusplus
 extern "C" {

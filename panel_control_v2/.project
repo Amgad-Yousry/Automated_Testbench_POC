@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-<<<<<<<< HEAD:panel_control_v2/.project
 	<name>panel_control_v2</name>
 	<comment></comment>
-========
-	<name>lpit_periodic_interrupt_s32k144</name>
-	<comment>
-	</comment>
->>>>>>>> f76ecdfe66d4711ffc38d5183c63b21726cd4a25:.metadata/.plugins/org.eclipse.core.resources/.history/6d/403e90b0d3fa001d1b8c9750caf42b3f
 	<projects>
 	</projects>
 	<buildSpec>
