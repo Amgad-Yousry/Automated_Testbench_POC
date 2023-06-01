@@ -2,4 +2,5 @@
 <workingSetManager>
 <workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1683618811246_1" label="Other Projects" name="Other Projects"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1683278121772_0" label="Window Working Set" name="Aggregate for window 1683278121772"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1685367769749_2" label="Window Working Set" name="Aggregate for window 1685367769749"/>
 </workingSetManager>

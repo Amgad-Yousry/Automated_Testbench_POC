@@ -1,0 +1,37 @@
+12:53:36 **** Incremental Build of configuration Debug_RAM for project ADC_PDB_FreeMaster_v6 ****
+make -j8 all 
+Building file: ../Sources/helper_functions.c
+Building file: ../Sources/main.c
+Executing target #48 ../Sources/helper_functions.c
+Executing target #49 ../Sources/main.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/helper_functions.args" -MMD -MP -MF"Sources/helper_functions.d" -MT"Sources/helper_functions.o" -c -o "Sources/helper_functions.o" "../Sources/helper_functions.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/main.args" -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'main':
+../Sources/main.c:281:5: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+     gfRMSCurrent = sqrt(RMSCurrentAux/gu16NrConvDone);
+     ^
+../Sources/main.c:281:20: warning: incompatible implicit declaration of built-in function 'sqrt'
+     gfRMSCurrent = sqrt(RMSCurrentAux/gu16NrConvDone);
+                    ^
+Finished building: ../Sources/helper_functions.c
+ 
+Finished building: ../Sources/main.c
+ 
+Building target: ADC_PDB_FreeMaster_v6.elf
+Executing target #50 ADC_PDB_FreeMaster_v6.elf
+Invoking: Standard S32DS C Linker
+arm-none-eabi-gcc -o "ADC_PDB_FreeMaster_v6.elf" "@ADC_PDB_FreeMaster_v6.args"   
+Finished building target: ADC_PDB_FreeMaster_v6.elf
+ 
+Executing target #51 ADC_PDB_FreeMaster_v6.siz
+Invoking: Standard S32DS Print Size
+arm-none-eabi-size --format=berkeley  ADC_PDB_FreeMaster_v6.elf 
+   text	   data	    bss	    dec	    hex	filename
+  14764	   2460	   3204	  20428	   4fcc	ADC_PDB_FreeMaster_v6.elf
+Finished building: ADC_PDB_FreeMaster_v6.siz
+ 
+
+12:53:37 Build Finished (took 1s.420ms)
+

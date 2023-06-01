@@ -1,0 +1,12 @@
+09:52:40 **** Incremental Build of configuration Debug_FLASH for project hello_world_s32k14222 ****
+make -j8 all 
+Executing target #14 hello_world_s32k14222.siz
+Invoking: Standard S32DS Print Size
+arm-none-eabi-size --format=berkeley  hello_world_s32k14222.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4952	   2300	   3144	  10396	   289c	hello_world_s32k14222.elf
+Finished building: hello_world_s32k14222.siz
+ 
+
+09:52:40 Build Finished (took 510ms)
+

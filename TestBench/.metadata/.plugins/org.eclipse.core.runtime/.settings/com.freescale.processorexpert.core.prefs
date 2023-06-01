@@ -1,7 +1,7 @@
 UserPEpath=C\:\\NXP\\S32DS_ARM_v2.0\\eclipse\\ProcessorExpert
 UserPEpath_Default=C\:\\ProgramData\\Processor Expert\\CWMCU_PE5_00
 eclipse.preferences.version=1
-history/lastActiveProject=ADC_PDB_FreeMaster_v3
+history/lastActiveProject=adc_hwtrigger_s32k144_2
 importExportBoardConfigurationPath=C\:\\Users\\kamil\\MyComponents\\BoardConfigurations\\S32K
 importExportComponentsPath=C\:\\Users\\kamil\\MyComponents\\Templates
 localPEpath=C\:\\NXP\\S32DS_ARM_v2.0\\eclipse\\ProcessorExpert

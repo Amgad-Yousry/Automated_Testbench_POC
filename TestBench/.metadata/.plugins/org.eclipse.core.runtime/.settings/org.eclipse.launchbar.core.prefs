@@ -1,10 +1,9 @@
+=\=\=\=\=\=\=
+<<<<<<<=Updated upstream
+>>>>>>>=Stashed changes
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-<<<<<<< Updated upstream
-configDescList=org.eclipse.launchbar.core.descriptorType.default\:pdb_periodic_interrupt_s32k144.elf
-=======
-configDescList=org.eclipse.launchbar.core.descriptorType.default\:pdb_periodic_interrupt_s32k144.elf,org.eclipse.launchbar.core.descriptorType.default\:ADC_PDB_FreeMaster_v3 Debug_FLASH JLink,org.eclipse.launchbar.core.descriptorType.default\:ADC_PDB_FreeMaster_v3 Debug_RAM JLink,org.eclipse.launchbar.core.descriptorType.default\:ADC_PDB_FreeMaster_v3 Debug_RAM PEmicro,org.eclipse.launchbar.core.descriptorType.default\:ADC_PDB_FreeMaster_v3 Debug_FLASH PEmicro
->>>>>>> Stashed changes
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:adc_hwtrigger_s32k144_2 Debug_FLASH JLink,org.eclipse.launchbar.core.descriptorType.default\:adc_hwtrigger_s32k144_2 Debug_FLASH PEmicro,org.eclipse.launchbar.core.descriptorType.default\:adc_hwtrigger_s32k144_2 Debug_RAM JLink,org.eclipse.launchbar.core.descriptorType.default\:adc_hwtrigger_s32k144_2 Debug_RAM PEmicro,org.eclipse.launchbar.core.descriptorType.default\:pdb_periodic_interrupt_s32k144.elf
 eclipse.preferences.version=1
 org.eclipse.launchbar.core.descriptorType.default\:ADC_PDB_FreeMaster\ Debug_FLASH\ JLink/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:ADC_PDB_FreeMaster\ Debug_FLASH\ JLink/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
