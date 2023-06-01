@@ -3630,3 +3630,8 @@ java.lang.UnsupportedOperationException
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+
+!ENTRY org.eclipse.core.resources 2 2 2023-06-01 12:58:32.467
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2023-06-01 12:58:32.467
+!MESSAGE The project description file (.project) for 'freemaster_s32k144' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
