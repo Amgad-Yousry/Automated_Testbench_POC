@@ -7,7 +7,7 @@
 **     Version     : Component SDK_S32K14x_09, Driver 01.00, CPU db: 3.00.000
 **     Repository  : SDK_S32K14x_09
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2023-06-01, 16:03, # CodeGen: 12
+**     Date/Time   : 2023-06-02, 11:53, # CodeGen: 18
 **     Contents    :
 **         LPIT_DRV_Init                              - void LPIT_DRV_Init(uint32_t instance, const lpit_user_config_t *userConfig);
 **         LPIT_DRV_Deinit                            - void LPIT_DRV_Deinit(uint32_t instance);
@@ -70,8 +70,6 @@
 
 /*! Global configuration of lpit1 */
 extern const lpit_user_config_t  lpit1_InitConfig;
-/*! User channel configuration 0 */
-extern lpit_user_channel_config_t lpit1_ChnConfig0;
 
 #endif
 /* END lpit1 */

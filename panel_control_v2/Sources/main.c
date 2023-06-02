@@ -55,9 +55,10 @@ volatile int exit_code = 0;
 /* User includes (#include below this line is not maintained by Processor Expert) */
 /* Global variables for each button's state and counter */
 typedef enum { // UART STATE MACHINE
-    UART_STATE_IDLE,
-    UART_STATE_SEND,
-    UART_STATE_RECEIVE,
+	 UART_STATE_IDLE,
+	 UART_STATE_SEND,
+	 UART_STATE_RECEIVE,
+	 UART_STATE_PROCESS,
 } uart_state_t;
 typedef enum { // SETTING COUNTER MACHINE
     COUNTER_STATE_IDLE,
@@ -103,7 +104,7 @@ const uint32_t MAX_SETTING_COUNTER = 20U;
 const uint32_t MIN_SETTING_COUNTER = 1U;
 
 /*****************************handshake parameters**************************/
-#define CHECK_COMMAND "Get_STATUS" // The command to send to the device for checking UART connection
+#define CHECK_COMMAND "GET_STATUS" // The command to send to the device for checking UART connection
 #define EXPECTED_RESPONSE "OK_STATUS" // The expected response from the device
 #define PACKET_SIZE 256
 #define TIME_INDEX 2 // Index of the time field in the packet
@@ -114,7 +115,7 @@ const uint32_t MIN_SETTING_COUNTER = 1U;
 #define TEMPERATURE_INDEX 8 // ...
 #define VITESSE_COMPRESSEUR_INDEX 9 // ...
 #define PRESSION_ATMOSPHERIQUE_INDEX 10 // ...
-#define TIMEOUT_VALUE 100 // Define a suitable timeout value in milliseconds
+#define TIMEOUT_VALUE 1000 // Define a suitable timeout value in milliseconds
  // Define a char array large enough to hold the string
 uint32_t statuss =0;
 volatile int bolusPerMinute = 0;
@@ -125,53 +126,103 @@ volatile int vitesseCompresseur = 0;
 uint8_t packet[PACKET_SIZE];
 const uint8_t checkCommand[] = CHECK_COMMAND;
 status_t status;
+
 volatile uart_state_t uart_state = UART_STATE_IDLE;
 /**********************************handshake parameters end******************/
 
-void p5handshake(volatile uart_state_t* uartstate)
-{
-    switch (*uartstate) {
-    case UART_STATE_SEND:
-        // Send check command to the device
-        status = LPUART_DRV_SendDataBlocking(INST_LPUART1, checkCommand, sizeof(checkCommand)-1,TIMEOUT_VALUE);
-        if(status == STATUS_SUCCESS) {
-            // Send successful, now wait for response
-         *uartstate = UART_STATE_RECEIVE;
+void sendCheckCommand(volatile uart_state_t* uartstate) {
+	status = LPUART_DRV_SendData(INST_LPUART1, checkCommand, strlen((const char*)checkCommand));
+    if(status == STATUS_SUCCESS) {
+        // Send successful, now wait for response
+        *uartstate = UART_STATE_RECEIVE;
+    } else {
+    	statuss=555;
+        // Handle send error here
+        // ...
+    }
+}
+
+void receiveResponse(volatile uart_state_t* uartstate) {
+	static uint32_t calmDelayCounter = 0;
+		    const uint32_t calmDelay = 1000;
+    status = LPUART_DRV_ReceiveData(INST_LPUART1, packet, sizeof(packet)-1);
+
+    if(status == STATUS_SUCCESS) {
+        // Null-terminate the received string
+        packet[sizeof(packet)-1] = '\0';
+        *uartstate = UART_STATE_PROCESS;
+    }
+    if(status == STATUS_BUSY) {
+    	statuss=777;
+    	*uartstate = UART_STATE_IDLE;
+    }
+    if(status == STATUS_ERROR) {
+        	statuss=555;
+        	*uartstate = UART_STATE_IDLE;
         }
+
+        // Handle receive error here
+        // ...
+    }
+}
+
+void processResponse(volatile uart_state_t* uartstate) {
+    // Parse the packet
+    char* token = strtok((char*)packet, ",");
+    int fieldIndex = 0;
+    while(token != NULL) {
+        if(fieldIndex == BOLUS_PER_MINUTE_INDEX) {
+            bolusPerMinute = atoi(token);
+        } else if(fieldIndex == TAUX_OXYGENE_INDEX) {
+            tauxOxygen = atoi(token);
+        } else if(fieldIndex == TEMPERATURE_INDEX) {
+            temperature = atoi(token);
+        } else if(fieldIndex == VITESSE_COMPRESSEUR_INDEX) {
+            vitesseCompresseur = atoi(token);
+        }
+
+        // Go to the next field
+        token = strtok(NULL, ",");
+        fieldIndex++;
+    }
+    *uartstate = UART_STATE_IDLE;
+}
+
+void p5handshake(volatile uart_state_t* uartstate) {
+	static uint32_t receiveDelayCounter = 0;
+	    const uint32_t receiveDelay = 1000;
+	    static uint32_t processDelayCounter = 0;
+	    	    const uint32_t processDelay = 1000;
+	switch (*uartstate) {
+    case UART_STATE_IDLE:
+        	break;
+    case UART_STATE_SEND:
+        sendCheckCommand(uartstate);
+        receiveDelayCounter = receiveDelay;
+        processDelayCounter = processDelay;
         break;
     case UART_STATE_RECEIVE:
-        status = LPUART_DRV_ReceiveDataBlocking(INST_LPUART1, packet, sizeof(packet)-1,TIMEOUT_VALUE);
-        if(status == STATUS_SUCCESS) {
-            // Null-terminate the received string
-            packet[sizeof(packet)-1] = '\0';
-
-            // Now parse the packet
-            char* token = strtok((char*)packet, ",");
-            int fieldIndex = 0;
-            while(token != NULL) {
-                if(fieldIndex == BOLUS_PER_MINUTE_INDEX) {
-                    bolusPerMinute = atoi(token);
-                } else if(fieldIndex == TAUX_OXYGENE_INDEX) {
-                    tauxOxygen = atoi(token);
-                } else if(fieldIndex == TEMPERATURE_INDEX) {
-                    temperature = atoi(token);
-                } else if(fieldIndex == VITESSE_COMPRESSEUR_INDEX) {
-                    vitesseCompresseur = atoi(token);
-                }
-
-                // Go to the next field
-                token = strtok(NULL, ",");
-                fieldIndex++;
-            }
-            *uartstate = UART_STATE_IDLE;
-        }
+    	if (receiveDelayCounter > 0) {
+    	            // Decrement the counter and skip receiving if it's not zero yet
+    	            receiveDelayCounter--;
+    	        }
+    	else {
+        receiveResponse(uartstate);
+    	        }
         break;
-    case UART_STATE_IDLE:
-    	break;
+    case UART_STATE_PROCESS:
+    	if (processDelayCounter > 0) {
+    	    	            // Decrement the counter and skip receiving if it's not zero yet
+    	    	            processDelayCounter--;
+    	    	        }
+        processResponse(uartstate);
+        break;
+
     default:
     break;
     }
 }
+
 
 void autotimecounter(volatile timecount_state_t* sstate,volatile button_state_t* timerstate, volatile timecount_state_t* other_sstate)
 {
@@ -189,6 +240,7 @@ void autotimecounter(volatile timecount_state_t* sstate,volatile button_state_t*
                 autotime_counter = 0;
             }
             break;
+        case TIME_STATE_IDLE: autotime_counter = 0;
         default:
             break;
     }
@@ -262,6 +314,7 @@ void updatecounter(count_state_t* count_state)
         	break;
     }
 }
+
 void LPIT0_Ch0_IRQHandler(void)
 {
     /* Clear interrupt flag.*/
@@ -301,7 +354,7 @@ int main(void)
     lpit_user_channel_config_t chConfig;
     chConfig.timerMode = LPIT_PERIODIC_COUNTER;
     chConfig.periodUnits = LPIT_PERIOD_UNITS_MICROSECONDS;
-    chConfig.period =1000; // update every 10000 microseconds
+    chConfig.period =1000; // update every 1000 microseconds
     chConfig.triggerSource = LPIT_TRIGGER_SOURCE_EXTERNAL;
     chConfig.triggerSelect = 0U;
     chConfig.enableReloadOnTrigger = false;

@@ -3,7 +3,7 @@
   <Header>
     <Name>panel_control_v2</Name>
     <SavedBy>DELL</SavedBy>
-    <ModificationStamp>8</ModificationStamp>
+    <ModificationStamp>14</ModificationStamp>
     <Date>2023-05-31</Date>
     <IDE>Eclipse IDE</IDE>
     <PEversion>1.12.2.RT7_b1725-0712</PEversion>
@@ -14917,8 +14917,8 @@
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>true</Value>
-        <Expanded>true</Expanded>
+        <Value>false</Value>
+        <Expanded>false</Expanded>
       </ItemState>
       <ItemState>
         <ItemSymbol>Configuration_NAME0</ItemSymbol>
@@ -14947,8 +14947,8 @@
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <EnumSymbVal>LPIT_PERIOD_UNITS_COUNTS</EnumSymbVal>
+        <Index>1</Index>
+        <EnumSymbVal>LPIT_PERIOD_UNITS_MICROSECONDS</EnumSymbVal>
       </ItemState>
       <ItemState>
         <ItemSymbol>TimerPeriod0</ItemSymbol>
