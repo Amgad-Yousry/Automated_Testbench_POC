@@ -3,7 +3,7 @@
   <Header>
     <Name>ADC_PDB_FreeMaster_v5</Name>
     <SavedBy>B58799</SavedBy>
-    <ModificationStamp>31</ModificationStamp>
+    <ModificationStamp>46</ModificationStamp>
     <Date>2016-08-09</Date>
     <IDE>Eclipse IDE</IDE>
     <PEversion>1.12.2.RT7_b1743-0713</PEversion>
@@ -35487,16 +35487,16 @@
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>4</Index>
-        <EnumSymbVal>PDB_CLK_PREDIV_BY_16</EnumSymbVal>
+        <Index>0</Index>
+        <EnumSymbVal>PDB_CLK_PREDIV_BY_1</EnumSymbVal>
       </ItemState>
       <ItemState>
         <ItemSymbol>Multiplier0</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>1</Index>
-        <EnumSymbVal>PDB_CLK_PREMULT_FACT_AS_10</EnumSymbVal>
+        <Index>0</Index>
+        <EnumSymbVal>PDB_CLK_PREMULT_FACT_AS_1</EnumSymbVal>
       </ItemState>
       <ItemState>
         <ItemSymbol>Trigger0</ItemSymbol>

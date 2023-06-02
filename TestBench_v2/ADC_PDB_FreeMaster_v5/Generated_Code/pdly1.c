@@ -7,7 +7,7 @@
 **     Version     : Component SDK_S32K14x_07, Driver 01.00, CPU db: 3.00.000
 **     Repository  : SDK_S32K14x_07
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2023-06-01, 12:00, # CodeGen: 27
+**     Date/Time   : 2023-06-02, 13:06, # CodeGen: 49
 **
 **     Copyright 1997 - 2015 Freescale Semiconductor, Inc.
 **     Copyright 2016-2017 NXP
@@ -56,8 +56,8 @@ const pdb_adc_pretrigger_config_t pdly1_AdcTrigInitConfig0 = {
 const pdb_timer_config_t pdly1_InitConfig0 = {
   .loadValueMode = PDB_LOAD_VAL_IMMEDIATELY,
   .seqErrIntEnable = false,
-  .clkPreDiv = PDB_CLK_PREDIV_BY_16,
-  .clkPreMultFactor = PDB_CLK_PREMULT_FACT_AS_10,
+  .clkPreDiv = PDB_CLK_PREDIV_BY_1,
+  .clkPreMultFactor = PDB_CLK_PREMULT_FACT_AS_1,
   .triggerInput = PDB_SOFTWARE_TRIGGER,
   .continuousModeEnable = true,
   .dmaEnable = false,

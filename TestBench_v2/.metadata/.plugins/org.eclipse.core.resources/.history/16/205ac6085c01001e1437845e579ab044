@@ -1,0 +1,69 @@
+/*
+ * Init.c
+ *
+ *  Created on: Jun 2, 2023
+ *      Author: kamil
+ */
+
+#include "Init.h"
+
+
+/* Including needed modules to compile this module/procedure */
+#include "Cpu.h"
+#include "pin_mux.h"
+#include "osif1.h"
+#include "adConv1.h"
+#include "lpTmr1.h"
+#include "lpuart1.h"
+#include "dmaController1.h"
+#include "pdly1.h"
+#include "pwrMan1.h"
+#include "clockMan1.h"
+#include "freemaster.h"
+
+
+#define ADC_INSTANCE 	0UL
+#define ADC_CHN			0U /* PTB1 */
+#define ADC_VREFH  		3.3f
+#define ADC_VREFL  		0.0f
+#define PDB_INSTANCE	0UL
+#define ADC_COCO_IO		PTD
+#define ADC_COCO_PIN	7
+#define RMS_COCO_IO		PTE
+#define RMS_COCO_PIN	1
+
+
+/* Initialize ADC peripheral*/
+void Init_ADC(void){
+	/* Configure the ADC converter
+		 * 	-	See ADC component for the configuration details
+		 */
+
+		adConv1_ChnConfig0.channel = ADC_CHN;
+
+		ADC_DRV_ConfigConverter(ADC_INSTANCE, &adConv1_ConvConfig0);
+		ADC_DRV_ConfigChan(ADC_INSTANCE, 0UL, &adConv1_ChnConfig0);
+
+		IRQn_Type adcIRQ;
+
+		switch(ADC_INSTANCE)
+		{
+		case 0UL:
+			adcIRQ = ADC0_IRQn;
+			break;
+		case 1UL:
+			adcIRQ = ADC1_IRQn;
+			break;
+		default:
+			adcIRQ = ADC1_IRQn;
+			break;
+		}
+
+		/* The interrupt trigger is the ADC Coco flag, thus it enters the IRQ when the conversion is done*/
+		INT_SYS_InstallHandler(adcIRQ, &ADC_IRQHandler, (isr_t*) 0);
+
+
+
+		/* Enable ADC 1 interrupt */
+		INT_SYS_EnableIRQ(adcIRQ);
+}

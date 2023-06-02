@@ -1,0 +1,12 @@
+17:17:21 **** Incremental Build of configuration Debug_FLASH for project lpit_periodic_interrupt_s32k144 ****
+make -j8 all 
+Executing target #27 lpit_periodic_interrupt_s32k144.siz
+Invoking: Standard S32DS Print Size
+arm-none-eabi-size --format=berkeley  lpit_periodic_interrupt_s32k144.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13524	   2308	   3176	  19008	   4a40	lpit_periodic_interrupt_s32k144.elf
+Finished building: lpit_periodic_interrupt_s32k144.siz
+ 
+
+17:17:21 Build Finished (took 438ms)
+

@@ -1,0 +1,64 @@
+/*
+ * Init.c
+ *
+ *  Created on: Jun 2, 2023
+ *      Author: kamil
+ */
+
+#include "../../ADC_PDB_FreeMaster_v7/Sources/Init.h"
+
+#include "Cpu.h"
+#include "pin_mux.h"
+#include "osif1.h"
+#include "adConv1.h"
+#include "lpTmr1.h"
+#include "lpuart1.h"
+#include "dmaController1.h"
+#include "pdly1.h"
+#include "pwrMan1.h"
+#include "clockMan1.h"
+#include "freemaster.h"
+
+
+#define ADC_INSTANCE 	0UL
+#define ADC_CHN			0U /* PTB1 */
+#define ADC_VREFH  		3.3f
+#define ADC_VREFL  		0.0f
+#define PDB_INSTANCE	0UL
+#define ADC_COCO_IO		PTD
+#define ADC_COCO_PIN	7
+#define RMS_COCO_IO		PTE
+#define RMS_COCO_PIN	1
+
+#define OUTPUT_DIR 1
+
+/* Initialize pins */
+void Init_pins(void)
+{
+	PINS_DRV_Init(NUM_OF_CONFIGURED_PINS, g_pin_mux_InitConfigArr);
+	/* Set the pins to be toggled as output */
+	PINS_DRV_SetPinDirection(ADC_COCO_IO, ADC_COCO_PIN, OUTPUT_DIR);
+	PINS_DRV_SetPinDirection(RMS_COCO_IO, RMS_COCO_PIN, OUTPUT_DIR);
+
+}
+
+
+/* Initialize ADC peripheral*/
+IRQn_Type Init_ADC(void)
+{
+	/* Configure the ADC converter
+		 * 	-	See ADC component for the configuration details
+		 */
+
+
+	//	return adcIRQ;
+}
+
+
+/* Initialize PBD peripheral*/
+void Init_PDB(void)
+{
+
+
+
+}
