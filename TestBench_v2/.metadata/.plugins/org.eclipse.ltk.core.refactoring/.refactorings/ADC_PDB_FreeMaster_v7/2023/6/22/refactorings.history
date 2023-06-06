@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;Init.c, Init.h&apos; to &apos;Sources&apos;" description="Move 2 resources to &apos;Sources&apos;" destination="Sources" element1="/ADC_PDB_FreeMaster_v5/Sources/Init.c" element2="/ADC_PDB_FreeMaster_v5/Sources/Init.h" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="2" stamp="1685720529224" updateReferences="true"/>
+</session>

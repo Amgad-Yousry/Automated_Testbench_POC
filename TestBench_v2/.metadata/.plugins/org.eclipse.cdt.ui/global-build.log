@@ -1,34 +1,98 @@
-12:53:36 **** Incremental Build of configuration Debug_RAM for project ADC_PDB_FreeMaster_v6 ****
+18:40:55 **** Incremental Build of configuration Debug_RAM for project ADC_PDB_FreeMaster_v7 ****
 make -j8 all 
-Building file: ../Sources/helper_functions.c
+Building file: ../Generated_Code/lpi2c1.c
+Building file: ../Generated_Code/pin_mux.c
+Building file: ../Sources/Init.c
 Building file: ../Sources/main.c
-Executing target #48 ../Sources/helper_functions.c
-Executing target #49 ../Sources/main.c
+Executing target #18 ../Generated_Code/lpi2c1.c
+Executing target #23 ../Generated_Code/pin_mux.c
+Executing target #57 ../Sources/main.c
+Executing target #55 ../Sources/Init.c
 Invoking: Standard S32DS C Compiler
-arm-none-eabi-gcc "@Sources/helper_functions.args" -MMD -MP -MF"Sources/helper_functions.d" -MT"Sources/helper_functions.o" -c -o "Sources/helper_functions.o" "../Sources/helper_functions.c"
+Invoking: Standard S32DS C Compiler
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Generated_Code/lpi2c1.args" -MMD -MP -MF"Generated_Code/lpi2c1.d" -MT"Generated_Code/lpi2c1.o" -c -o "Generated_Code/lpi2c1.o" "../Generated_Code/lpi2c1.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Generated_Code/pin_mux.args" -MMD -MP -MF"Generated_Code/pin_mux.d" -MT"Generated_Code/pin_mux.o" -c -o "Generated_Code/pin_mux.o" "../Generated_Code/pin_mux.c"
+arm-none-eabi-gcc "@Sources/main.args" -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+arm-none-eabi-gcc "@Sources/Init.args" -MMD -MP -MF"Sources/Init.d" -MT"Sources/Init.o" -c -o "Sources/Init.o" "../Sources/Init.c"
+../Sources/main.c: In function 'main':
+../Sources/main.c:277:5: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+     gfRMSCurrent = sqrt(RMSCurrentAux/gu16NrConvDone);
+     ^
+../Sources/main.c:277:20: warning: incompatible implicit declaration of built-in function 'sqrt'
+     gfRMSCurrent = sqrt(RMSCurrentAux/gu16NrConvDone);
+                    ^
+../Sources/main.c:156:11: warning: unused variable 'u16PreTriggerDelay' [-Wunused-variable]
+  uint16_t u16PreTriggerDelay = 0U;
+           ^
+Finished building: ../Generated_Code/lpi2c1.c
+Finished building: ../Generated_Code/pin_mux.c
+ 
+ 
+Finished building: ../Sources/Init.c
+Finished building: ../Sources/main.c
+ 
+ 
+Building target: ADC_PDB_FreeMaster_v7.elf
+Executing target #58 ADC_PDB_FreeMaster_v7.elf
+Invoking: Standard S32DS C Linker
+arm-none-eabi-gcc -o "ADC_PDB_FreeMaster_v7.elf" "@ADC_PDB_FreeMaster_v7.args"   
+Finished building target: ADC_PDB_FreeMaster_v7.elf
+ 
+Executing target #59 ADC_PDB_FreeMaster_v7.siz
+Invoking: Standard S32DS Print Size
+arm-none-eabi-size --format=berkeley  ADC_PDB_FreeMaster_v7.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18356	   2484	   2196	  23036	   59fc	ADC_PDB_FreeMaster_v7.elf
+Finished building: ADC_PDB_FreeMaster_v7.siz
+ 
+18:41:02 **** Incremental Build of configuration Debug_FLASH for project ADC_PDB_FreeMaster_v7 ****
+make -j8 all 
+Building file: ../Generated_Code/lpi2c1.c
+Building file: ../Generated_Code/pin_mux.c
+Executing target #18 ../Generated_Code/lpi2c1.c
+Executing target #23 ../Generated_Code/pin_mux.c
+Building file: ../Sources/Init.c
+Building file: ../Sources/main.c
+Invoking: Standard S32DS C Compiler
+Invoking: Standard S32DS C Compiler
+Executing target #55 ../Sources/Init.c
+arm-none-eabi-gcc "@Generated_Code/lpi2c1.args" -MMD -MP -MF"Generated_Code/lpi2c1.d" -MT"Generated_Code/lpi2c1.o" -c -o "Generated_Code/lpi2c1.o" "../Generated_Code/lpi2c1.c"
+Executing target #57 ../Sources/main.c
+arm-none-eabi-gcc "@Generated_Code/pin_mux.args" -MMD -MP -MF"Generated_Code/pin_mux.d" -MT"Generated_Code/pin_mux.o" -c -o "Generated_Code/pin_mux.o" "../Generated_Code/pin_mux.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Init.args" -MMD -MP -MF"Sources/Init.d" -MT"Sources/Init.o" -c -o "Sources/Init.o" "../Sources/Init.c"
 Invoking: Standard S32DS C Compiler
 arm-none-eabi-gcc "@Sources/main.args" -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
 ../Sources/main.c: In function 'main':
-../Sources/main.c:281:5: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+../Sources/main.c:277:5: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
      gfRMSCurrent = sqrt(RMSCurrentAux/gu16NrConvDone);
      ^
-../Sources/main.c:281:20: warning: incompatible implicit declaration of built-in function 'sqrt'
+../Sources/main.c:277:20: warning: incompatible implicit declaration of built-in function 'sqrt'
      gfRMSCurrent = sqrt(RMSCurrentAux/gu16NrConvDone);
                     ^
-Finished building: ../Sources/helper_functions.c
+../Sources/main.c:156:11: warning: unused variable 'u16PreTriggerDelay' [-Wunused-variable]
+  uint16_t u16PreTriggerDelay = 0U;
+           ^
+Finished building: ../Generated_Code/lpi2c1.c
+Finished building: ../Generated_Code/pin_mux.c
+ 
+ 
+Finished building: ../Sources/Init.c
  
 Finished building: ../Sources/main.c
  
-Building target: ADC_PDB_FreeMaster_v6.elf
-Executing target #50 ADC_PDB_FreeMaster_v6.elf
+Building target: ADC_PDB_FreeMaster_v7.elf
+Executing target #58 ADC_PDB_FreeMaster_v7.elf
 Invoking: Standard S32DS C Linker
-arm-none-eabi-gcc -o "ADC_PDB_FreeMaster_v6.elf" "@ADC_PDB_FreeMaster_v6.args"   
-Finished building target: ADC_PDB_FreeMaster_v6.elf
+arm-none-eabi-gcc -o "ADC_PDB_FreeMaster_v7.elf" "@ADC_PDB_FreeMaster_v7.args"   
+Finished building target: ADC_PDB_FreeMaster_v7.elf
  
-Executing target #51 ADC_PDB_FreeMaster_v6.siz
+Executing target #59 ADC_PDB_FreeMaster_v7.siz
 Invoking: Standard S32DS Print Size
-arm-none-eabi-size --format=berkeley  ADC_PDB_FreeMaster_v6.elf 
+arm-none-eabi-size --format=berkeley  ADC_PDB_FreeMaster_v7.elf 
    text	   data	    bss	    dec	    hex	filename
-  14764	   2460	   3204	  20428	   4fcc	ADC_PDB_FreeMaster_v6.elf
-Finished building: ADC_PDB_FreeMaster_v6.siz
+  18372	   2484	   3216	  24072	   5e08	ADC_PDB_FreeMaster_v7.elf
+Finished building: ADC_PDB_FreeMaster_v7.siz
  

@@ -180,11 +180,6 @@ int main(void)
 	INT_SYS_InstallHandler(adcIRQ, &ADC_IRQHandler, (isr_t*) 0);
 
 
-    /* Initialize LPUART instance */
-    LPUART_DRV_Init(INST_LPUART1, &lpuart1_State, &lpuart1_InitConfig0);
-
-    INT_SYS_InstallHandler(LPUART1_RxTx_IRQn, FMSTR_Isr, NULL);
-
 
 
 	 /* Calculate the value needed for PDB instance
@@ -239,27 +234,23 @@ int main(void)
 	PINS_DRV_SetPinDirection(ADC_COCO_IO, ADC_COCO_PIN, OUTPUT_DIR);
 	PINS_DRV_SetPinDirection(RMS_COCO_IO, RMS_COCO_PIN, OUTPUT_DIR);
 
-
-    /* Initialize FreeMASTER driver */
-    FMSTR_Init();
-
+    /* Trigger PDB timer */
+	PDB_DRV_SoftTriggerCmd(PDB_INSTANCE);
 
 	/* Infinite loop
 	 * 	-	Wait for ADC conversion complete interrupt,
 	 * 		then:
 	 * 			 compute the actual current value,
 	 * 			 calculate the RMS value after an predetermined number of measurements,
-	 * 			 toggle the pin referent to a new RMS conversion,
-	 * 			 trigger the PDB timer.
+	 * 			 toggle the pin referent to a new RMS conversion.
+	 *
 	 */
-	PDB_DRV_SoftTriggerCmd(PDB_INSTANCE);
+
 	while (1)
 	{
 		/* Finished the ADC conversion routine */
 		if (gbADCConvDone == true)
 		{
-			/* Trigger PDB timer */
-		//	PDB_DRV_SoftTriggerCmd(PDB_INSTANCE);
 
 			/* Update the counter of the number of conversions done */
 			gu16NrConvDone++;
@@ -296,10 +287,13 @@ int main(void)
 			/* Clear conversion done interrupt flag */
 			gbADCConvDone = false;
 
-				}
+			/* Handle the protocol decoding and execution */
+			FMSTR_Poll();
+
+		} //if (gbADCConvDone == true)
 
 
-	}
+	} //while (1)
 	/*** Don't write any code pass this line, or it will be deleted during code generation. ***/
   /*** RTOS startup code. Macro PEX_RTOS_START is defined by the RTOS component. DON'T MODIFY THIS CODE!!! ***/
   #ifdef PEX_RTOS_START
