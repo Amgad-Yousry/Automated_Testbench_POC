@@ -6,12 +6,12 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS_QUOTED += \
-"C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/pins/pins_driver.c" \
-"C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/pins/pins_port_hw_access.c" \
+"D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/pins/pins_driver.c" \
+"D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/pins/pins_port_hw_access.c" \
 
 C_SRCS += \
-C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/pins/pins_driver.c \
-C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/pins/pins_port_hw_access.c \
+D:/Program\ Files\ (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/pins/pins_driver.c \
+D:/Program\ Files\ (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/pins/pins_port_hw_access.c \
 
 OBJS_OS_FORMAT += \
 ./SDK/platform/drivers/src/pins/pins_driver.o \
@@ -35,7 +35,7 @@ C_DEPS += \
 
 
 # Each subdirectory must supply rules for building sources it contributes
-SDK/platform/drivers/src/pins/pins_driver.o: C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/pins/pins_driver.c
+SDK/platform/drivers/src/pins/pins_driver.o: D:/Program\ Files\ (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/pins/pins_driver.c
 	@echo 'Building file: $<'
 	@echo 'Executing target #18 $<'
 	@echo 'Invoking: Standard S32DS C Compiler'
@@ -43,7 +43,7 @@ SDK/platform/drivers/src/pins/pins_driver.o: C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_
 	@echo 'Finished building: $<'
 	@echo ' '
 
-SDK/platform/drivers/src/pins/pins_port_hw_access.o: C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/pins/pins_port_hw_access.c
+SDK/platform/drivers/src/pins/pins_port_hw_access.o: D:/Program\ Files\ (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/pins/pins_port_hw_access.c
 	@echo 'Building file: $<'
 	@echo 'Executing target #19 $<'
 	@echo 'Invoking: Standard S32DS C Compiler'

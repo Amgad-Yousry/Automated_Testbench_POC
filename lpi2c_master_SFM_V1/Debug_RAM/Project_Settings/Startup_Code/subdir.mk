@@ -6,10 +6,10 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 S_UPPER_SRCS_QUOTED += \
-"C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/startup/gcc/startup_S32K144.S" \
+"D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/startup/gcc/startup_S32K144.S" \
 
 S_UPPER_SRCS += \
-C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/startup/gcc/startup_S32K144.S \
+D:/Program\ Files\ (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/startup/gcc/startup_S32K144.S \
 
 OBJS_OS_FORMAT += \
 ./Project_Settings/Startup_Code/startup_S32K144.o \
@@ -22,7 +22,7 @@ OBJS_QUOTED += \
 
 
 # Each subdirectory must supply rules for building sources it contributes
-Project_Settings/Startup_Code/startup_S32K144.o: C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/startup/gcc/startup_S32K144.S
+Project_Settings/Startup_Code/startup_S32K144.o: D:/Program\ Files\ (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/startup/gcc/startup_S32K144.S
 	@echo 'Building file: $<'
 	@echo 'Executing target #6 $<'
 	@echo 'Invoking: Standard S32DS Assembler'

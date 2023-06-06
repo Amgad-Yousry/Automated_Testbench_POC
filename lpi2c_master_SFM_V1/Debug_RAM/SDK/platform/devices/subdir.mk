@@ -6,10 +6,10 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS_QUOTED += \
-"C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/startup.c" \
+"D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/startup.c" \
 
 C_SRCS += \
-C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/startup.c \
+D:/Program\ Files\ (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/startup.c \
 
 OBJS_OS_FORMAT += \
 ./SDK/platform/devices/startup.o \
@@ -28,7 +28,7 @@ C_DEPS += \
 
 
 # Each subdirectory must supply rules for building sources it contributes
-SDK/platform/devices/startup.o: C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/startup.c
+SDK/platform/devices/startup.o: D:/Program\ Files\ (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/startup.c
 	@echo 'Building file: $<'
 	@echo 'Executing target #8 $<'
 	@echo 'Invoking: Standard S32DS C Compiler'

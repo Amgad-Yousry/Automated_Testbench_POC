@@ -2,7 +2,7 @@
 <GenerationInfo_G_C>
   <Options>
     <ProjectName>lpi2c_master_s32k144kl</ProjectName>
-    <ProjectDirectory>C:\Users\amgad\Downloads\nx\lpi2c_master_s32k144kl\</ProjectDirectory>
+    <ProjectDirectory>D:\MASTERS\scaleo\Internship\lpi2c_master_SFM_V1\</ProjectDirectory>
     <ProjectMainModuleName>main</ProjectMainModuleName>
     <DestEventsDirectory>Sources\</DestEventsDirectory>
     <DestDriversSubDirectory>..\Generated_Code\</DestDriversSubDirectory>
@@ -16,46 +16,46 @@
       <GenSharedModules lines_count="0" />
       <GenExtraFiles lines_count="0" />
       <GenLinkedFiles lines_count="40">
-        <Line>SDK\platform\devices\devassert.h=C:\NXP\S32DS_ARM_v2.0\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\devices\devassert.h</Line>
-        <Line>SDK\platform\devices\status.h=C:\NXP\S32DS_ARM_v2.0\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\devices\status.h</Line>
-        <Line>SDK\platform\devices\device_registers.h=C:\NXP\S32DS_ARM_v2.0\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\devices\device_registers.h</Line>
-        <Line>SDK\platform\devices\callbacks.h=C:\NXP\S32DS_ARM_v2.0\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\devices\callbacks.h</Line>
-        <Line>SDK\platform\devices\common\s32_core_cm4.h=C:\NXP\S32DS_ARM_v2.0\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\devices\common\s32_core_cm4.h</Line>
-        <Line>SDK\platform\devices\startup.h=C:\NXP\S32DS_ARM_v2.0\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\devices\startup.h</Line>
-        <Line>SDK\platform\devices\startup.c=C:\NXP\S32DS_ARM_v2.0\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\devices\startup.c</Line>
-        <Line>SDK\platform\devices\S32K144\startup\system_S32K144.h=C:\NXP\S32DS_ARM_v2.0\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\devices\S32K144\startup\system_S32K144.h</Line>
-        <Line>SDK\platform\devices\S32K144\startup\system_S32K144.c=C:\NXP\S32DS_ARM_v2.0\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\devices\S32K144\startup\system_S32K144.c</Line>
-        <Line>SDK\platform\devices\S32K144\include\S32K144_features.h=C:\NXP\S32DS_ARM_v2.0\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\devices\S32K144\include\S32K144_features.h</Line>
-        <Line>SDK\platform\devices\S32K144\include\S32K144.h=C:\NXP\S32DS_ARM_v2.0\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\devices\S32K144\include\S32K144.h</Line>
-        <Line>SDK\platform\drivers\src\lpi2c\lpi2c_irq.c=C:\NXP\S32DS_ARM_v2.0\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\lpi2c\lpi2c_irq.c</Line>
-        <Line>SDK\platform\drivers\src\lpi2c\lpi2c_driver.c=C:\NXP\S32DS_ARM_v2.0\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\lpi2c\lpi2c_driver.c</Line>
-        <Line>SDK\platform\drivers\src\lpi2c\lpi2c_hw_access.c=C:\NXP\S32DS_ARM_v2.0\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\lpi2c\lpi2c_hw_access.c</Line>
-        <Line>SDK\platform\drivers\src\lpi2c\lpi2c_hw_access.h=C:\NXP\S32DS_ARM_v2.0\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\lpi2c\lpi2c_hw_access.h</Line>
-        <Line>SDK\platform\drivers\inc\lpi2c_driver.h=C:\NXP\S32DS_ARM_v2.0\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\inc\lpi2c_driver.h</Line>
-        <Line>SDK\platform\drivers\src\edma\edma_driver.c=C:\NXP\S32DS_ARM_v2.0\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\edma\edma_driver.c</Line>
-        <Line>SDK\platform\drivers\src\edma\edma_hw_access.c=C:\NXP\S32DS_ARM_v2.0\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\edma\edma_hw_access.c</Line>
-        <Line>SDK\platform\drivers\src\edma\edma_irq.c=C:\NXP\S32DS_ARM_v2.0\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\edma\edma_irq.c</Line>
-        <Line>SDK\platform\drivers\src\edma\edma_hw_access.h=C:\NXP\S32DS_ARM_v2.0\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\edma\edma_hw_access.h</Line>
-        <Line>SDK\platform\drivers\src\edma\edma_irq.h=C:\NXP\S32DS_ARM_v2.0\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\edma\edma_irq.h</Line>
-        <Line>SDK\platform\drivers\inc\edma_driver.h=C:\NXP\S32DS_ARM_v2.0\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\inc\edma_driver.h</Line>
-        <Line>SDK\rtos\osif\osif.h=C:\NXP\S32DS_ARM_v2.0\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\rtos\osif\osif.h</Line>
-        <Line>SDK\rtos\osif\osif_baremetal.c=C:\NXP\S32DS_ARM_v2.0\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\rtos\osif\osif_baremetal.c</Line>
-        <Line>SDK\platform\drivers\src\pins\pins_driver.c=C:\NXP\S32DS_ARM_v2.0\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\pins\pins_driver.c</Line>
-        <Line>SDK\platform\drivers\src\pins\pins_gpio_hw_access.h=C:\NXP\S32DS_ARM_v2.0\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\pins\pins_gpio_hw_access.h</Line>
-        <Line>SDK\platform\drivers\inc\pins_driver.h=C:\NXP\S32DS_ARM_v2.0\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\inc\pins_driver.h</Line>
-        <Line>SDK\platform\drivers\src\pins\pins_port_hw_access.c=C:\NXP\S32DS_ARM_v2.0\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\pins\pins_port_hw_access.c</Line>
-        <Line>SDK\platform\drivers\src\pins\pins_port_hw_access.h=C:\NXP\S32DS_ARM_v2.0\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\pins\pins_port_hw_access.h</Line>
-        <Line>SDK\platform\drivers\src\clock\clock_manager.c=C:\NXP\S32DS_ARM_v2.0\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\clock\clock_manager.c</Line>
-        <Line>SDK\platform\drivers\src\clock\S32K1xx\clock_S32K1xx.c=C:\NXP\S32DS_ARM_v2.0\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\clock\S32K1xx\clock_S32K1xx.c</Line>
-        <Line>SDK\platform\drivers\src\clock\S32K1xx\clock_S32K1xx.h=C:\NXP\S32DS_ARM_v2.0\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\clock\S32K1xx\clock_S32K1xx.h</Line>
-        <Line>SDK\platform\drivers\src\clock\S32K1xx\pcc_hw_access.h=C:\NXP\S32DS_ARM_v2.0\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\clock\S32K1xx\pcc_hw_access.h</Line>
-        <Line>SDK\platform\drivers\src\clock\S32K1xx\pmc_hw_access.h=C:\NXP\S32DS_ARM_v2.0\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\clock\S32K1xx\pmc_hw_access.h</Line>
-        <Line>SDK\platform\drivers\src\clock\S32K1xx\scg_hw_access.h=C:\NXP\S32DS_ARM_v2.0\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\clock\S32K1xx\scg_hw_access.h</Line>
-        <Line>SDK\platform\drivers\src\clock\S32K1xx\sim_hw_access.h=C:\NXP\S32DS_ARM_v2.0\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\clock\S32K1xx\sim_hw_access.h</Line>
-        <Line>SDK\platform\drivers\src\clock\S32K1xx\smc_hw_access.h=C:\NXP\S32DS_ARM_v2.0\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\clock\S32K1xx\smc_hw_access.h</Line>
-        <Line>SDK\platform\drivers\inc\clock_manager.h=C:\NXP\S32DS_ARM_v2.0\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\inc\clock_manager.h</Line>
-        <Line>SDK\platform\drivers\src\interrupt\interrupt_manager.c=C:\NXP\S32DS_ARM_v2.0\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\interrupt\interrupt_manager.c</Line>
-        <Line>SDK\platform\drivers\inc\interrupt_manager.h=C:\NXP\S32DS_ARM_v2.0\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\inc\interrupt_manager.h</Line>
+        <Line>SDK\platform\devices\devassert.h=D:\Program Files (x86)\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\devices\devassert.h</Line>
+        <Line>SDK\platform\devices\status.h=D:\Program Files (x86)\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\devices\status.h</Line>
+        <Line>SDK\platform\devices\device_registers.h=D:\Program Files (x86)\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\devices\device_registers.h</Line>
+        <Line>SDK\platform\devices\callbacks.h=D:\Program Files (x86)\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\devices\callbacks.h</Line>
+        <Line>SDK\platform\devices\common\s32_core_cm4.h=D:\Program Files (x86)\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\devices\common\s32_core_cm4.h</Line>
+        <Line>SDK\platform\devices\startup.h=D:\Program Files (x86)\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\devices\startup.h</Line>
+        <Line>SDK\platform\devices\startup.c=D:\Program Files (x86)\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\devices\startup.c</Line>
+        <Line>SDK\platform\devices\S32K144\startup\system_S32K144.h=D:\Program Files (x86)\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\devices\S32K144\startup\system_S32K144.h</Line>
+        <Line>SDK\platform\devices\S32K144\startup\system_S32K144.c=D:\Program Files (x86)\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\devices\S32K144\startup\system_S32K144.c</Line>
+        <Line>SDK\platform\devices\S32K144\include\S32K144_features.h=D:\Program Files (x86)\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\devices\S32K144\include\S32K144_features.h</Line>
+        <Line>SDK\platform\devices\S32K144\include\S32K144.h=D:\Program Files (x86)\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\devices\S32K144\include\S32K144.h</Line>
+        <Line>SDK\platform\drivers\src\lpi2c\lpi2c_irq.c=D:\Program Files (x86)\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\lpi2c\lpi2c_irq.c</Line>
+        <Line>SDK\platform\drivers\src\lpi2c\lpi2c_driver.c=D:\Program Files (x86)\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\lpi2c\lpi2c_driver.c</Line>
+        <Line>SDK\platform\drivers\src\lpi2c\lpi2c_hw_access.c=D:\Program Files (x86)\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\lpi2c\lpi2c_hw_access.c</Line>
+        <Line>SDK\platform\drivers\src\lpi2c\lpi2c_hw_access.h=D:\Program Files (x86)\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\lpi2c\lpi2c_hw_access.h</Line>
+        <Line>SDK\platform\drivers\inc\lpi2c_driver.h=D:\Program Files (x86)\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\inc\lpi2c_driver.h</Line>
+        <Line>SDK\platform\drivers\src\edma\edma_driver.c=D:\Program Files (x86)\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\edma\edma_driver.c</Line>
+        <Line>SDK\platform\drivers\src\edma\edma_hw_access.c=D:\Program Files (x86)\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\edma\edma_hw_access.c</Line>
+        <Line>SDK\platform\drivers\src\edma\edma_irq.c=D:\Program Files (x86)\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\edma\edma_irq.c</Line>
+        <Line>SDK\platform\drivers\src\edma\edma_hw_access.h=D:\Program Files (x86)\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\edma\edma_hw_access.h</Line>
+        <Line>SDK\platform\drivers\src\edma\edma_irq.h=D:\Program Files (x86)\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\edma\edma_irq.h</Line>
+        <Line>SDK\platform\drivers\inc\edma_driver.h=D:\Program Files (x86)\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\inc\edma_driver.h</Line>
+        <Line>SDK\rtos\osif\osif.h=D:\Program Files (x86)\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\rtos\osif\osif.h</Line>
+        <Line>SDK\rtos\osif\osif_baremetal.c=D:\Program Files (x86)\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\rtos\osif\osif_baremetal.c</Line>
+        <Line>SDK\platform\drivers\src\pins\pins_driver.c=D:\Program Files (x86)\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\pins\pins_driver.c</Line>
+        <Line>SDK\platform\drivers\src\pins\pins_gpio_hw_access.h=D:\Program Files (x86)\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\pins\pins_gpio_hw_access.h</Line>
+        <Line>SDK\platform\drivers\inc\pins_driver.h=D:\Program Files (x86)\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\inc\pins_driver.h</Line>
+        <Line>SDK\platform\drivers\src\pins\pins_port_hw_access.c=D:\Program Files (x86)\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\pins\pins_port_hw_access.c</Line>
+        <Line>SDK\platform\drivers\src\pins\pins_port_hw_access.h=D:\Program Files (x86)\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\pins\pins_port_hw_access.h</Line>
+        <Line>SDK\platform\drivers\src\clock\clock_manager.c=D:\Program Files (x86)\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\clock\clock_manager.c</Line>
+        <Line>SDK\platform\drivers\src\clock\S32K1xx\clock_S32K1xx.c=D:\Program Files (x86)\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\clock\S32K1xx\clock_S32K1xx.c</Line>
+        <Line>SDK\platform\drivers\src\clock\S32K1xx\clock_S32K1xx.h=D:\Program Files (x86)\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\clock\S32K1xx\clock_S32K1xx.h</Line>
+        <Line>SDK\platform\drivers\src\clock\S32K1xx\pcc_hw_access.h=D:\Program Files (x86)\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\clock\S32K1xx\pcc_hw_access.h</Line>
+        <Line>SDK\platform\drivers\src\clock\S32K1xx\pmc_hw_access.h=D:\Program Files (x86)\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\clock\S32K1xx\pmc_hw_access.h</Line>
+        <Line>SDK\platform\drivers\src\clock\S32K1xx\scg_hw_access.h=D:\Program Files (x86)\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\clock\S32K1xx\scg_hw_access.h</Line>
+        <Line>SDK\platform\drivers\src\clock\S32K1xx\sim_hw_access.h=D:\Program Files (x86)\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\clock\S32K1xx\sim_hw_access.h</Line>
+        <Line>SDK\platform\drivers\src\clock\S32K1xx\smc_hw_access.h=D:\Program Files (x86)\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\clock\S32K1xx\smc_hw_access.h</Line>
+        <Line>SDK\platform\drivers\inc\clock_manager.h=D:\Program Files (x86)\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\inc\clock_manager.h</Line>
+        <Line>SDK\platform\drivers\src\interrupt\interrupt_manager.c=D:\Program Files (x86)\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\interrupt\interrupt_manager.c</Line>
+        <Line>SDK\platform\drivers\inc\interrupt_manager.h=D:\Program Files (x86)\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\inc\interrupt_manager.h</Line>
       </GenLinkedFiles>
       <GenEventModules lines_count="1">
         <Line>Events</Line>
@@ -87,8 +87,8 @@
     <GenComponentVersion>01.197</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule>Events</GenEventModule>
-    <HeaderAge>1453549350</HeaderAge>
-    <CodeAge>1453549350</CodeAge>
+    <HeaderAge>1454931972</HeaderAge>
+    <CodeAge>1454931972</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>3</GenNumMethods>
     <SystemInit>true</SystemInit>
@@ -102,17 +102,17 @@
     <GenSmartUserChangesDetected_Code>false</GenSmartUserChangesDetected_Code>
     <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
     <GenExtraFilesCount>11</GenExtraFilesCount>
-    <ExtraFile0>C:\Users\amgad\Downloads\nx\lpi2c_master_s32k144kl\SDK\platform\devices\S32K144\include\S32K144.h</ExtraFile0>
-    <ExtraFile1>C:\Users\amgad\Downloads\nx\lpi2c_master_s32k144kl\SDK\platform\devices\S32K144\include\S32K144_features.h</ExtraFile1>
-    <ExtraFile2>C:\Users\amgad\Downloads\nx\lpi2c_master_s32k144kl\SDK\platform\devices\S32K144\startup\system_S32K144.c</ExtraFile2>
-    <ExtraFile3>C:\Users\amgad\Downloads\nx\lpi2c_master_s32k144kl\SDK\platform\devices\S32K144\startup\system_S32K144.h</ExtraFile3>
-    <ExtraFile4>C:\Users\amgad\Downloads\nx\lpi2c_master_s32k144kl\SDK\platform\devices\startup.c</ExtraFile4>
-    <ExtraFile5>C:\Users\amgad\Downloads\nx\lpi2c_master_s32k144kl\SDK\platform\devices\startup.h</ExtraFile5>
-    <ExtraFile6>C:\Users\amgad\Downloads\nx\lpi2c_master_s32k144kl\SDK\platform\devices\common\s32_core_cm4.h</ExtraFile6>
-    <ExtraFile7>C:\Users\amgad\Downloads\nx\lpi2c_master_s32k144kl\SDK\platform\devices\callbacks.h</ExtraFile7>
-    <ExtraFile8>C:\Users\amgad\Downloads\nx\lpi2c_master_s32k144kl\SDK\platform\devices\device_registers.h</ExtraFile8>
-    <ExtraFile9>C:\Users\amgad\Downloads\nx\lpi2c_master_s32k144kl\SDK\platform\devices\status.h</ExtraFile9>
-    <ExtraFile10>C:\Users\amgad\Downloads\nx\lpi2c_master_s32k144kl\SDK\platform\devices\devassert.h</ExtraFile10>
+    <ExtraFile0>D:\MASTERS\scaleo\Internship\lpi2c_master_SFM_V1\SDK\platform\devices\S32K144\include\S32K144.h</ExtraFile0>
+    <ExtraFile1>D:\MASTERS\scaleo\Internship\lpi2c_master_SFM_V1\SDK\platform\devices\S32K144\include\S32K144_features.h</ExtraFile1>
+    <ExtraFile2>D:\MASTERS\scaleo\Internship\lpi2c_master_SFM_V1\SDK\platform\devices\S32K144\startup\system_S32K144.c</ExtraFile2>
+    <ExtraFile3>D:\MASTERS\scaleo\Internship\lpi2c_master_SFM_V1\SDK\platform\devices\S32K144\startup\system_S32K144.h</ExtraFile3>
+    <ExtraFile4>D:\MASTERS\scaleo\Internship\lpi2c_master_SFM_V1\SDK\platform\devices\startup.c</ExtraFile4>
+    <ExtraFile5>D:\MASTERS\scaleo\Internship\lpi2c_master_SFM_V1\SDK\platform\devices\startup.h</ExtraFile5>
+    <ExtraFile6>D:\MASTERS\scaleo\Internship\lpi2c_master_SFM_V1\SDK\platform\devices\common\s32_core_cm4.h</ExtraFile6>
+    <ExtraFile7>D:\MASTERS\scaleo\Internship\lpi2c_master_SFM_V1\SDK\platform\devices\callbacks.h</ExtraFile7>
+    <ExtraFile8>D:\MASTERS\scaleo\Internship\lpi2c_master_SFM_V1\SDK\platform\devices\device_registers.h</ExtraFile8>
+    <ExtraFile9>D:\MASTERS\scaleo\Internship\lpi2c_master_SFM_V1\SDK\platform\devices\status.h</ExtraFile9>
+    <ExtraFile10>D:\MASTERS\scaleo\Internship\lpi2c_master_SFM_V1\SDK\platform\devices\devassert.h</ExtraFile10>
   </CpuID_21>
   <ComponentID_4>
     <Generated>true</Generated>
@@ -120,8 +120,8 @@
     <GenComponentVersion>SDK_S32K14x_09</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule />
-    <HeaderAge>1453549350</HeaderAge>
-    <CodeAge>1453549350</CodeAge>
+    <HeaderAge>1454931972</HeaderAge>
+    <CodeAge>1454931972</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>16</GenNumMethods>
     <CLOCK_SYS_Init>true</CLOCK_SYS_Init>
@@ -146,15 +146,15 @@
     <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
     <GenMethodPos>0</GenMethodPos>
     <GenExtraFilesCount>9</GenExtraFilesCount>
-    <ExtraFile0>C:\Users\amgad\Downloads\nx\lpi2c_master_s32k144kl\SDK\platform\drivers\inc\clock_manager.h</ExtraFile0>
-    <ExtraFile1>C:\Users\amgad\Downloads\nx\lpi2c_master_s32k144kl\SDK\platform\drivers\src\clock\S32K1xx\smc_hw_access.h</ExtraFile1>
-    <ExtraFile2>C:\Users\amgad\Downloads\nx\lpi2c_master_s32k144kl\SDK\platform\drivers\src\clock\S32K1xx\sim_hw_access.h</ExtraFile2>
-    <ExtraFile3>C:\Users\amgad\Downloads\nx\lpi2c_master_s32k144kl\SDK\platform\drivers\src\clock\S32K1xx\scg_hw_access.h</ExtraFile3>
-    <ExtraFile4>C:\Users\amgad\Downloads\nx\lpi2c_master_s32k144kl\SDK\platform\drivers\src\clock\S32K1xx\pmc_hw_access.h</ExtraFile4>
-    <ExtraFile5>C:\Users\amgad\Downloads\nx\lpi2c_master_s32k144kl\SDK\platform\drivers\src\clock\S32K1xx\pcc_hw_access.h</ExtraFile5>
-    <ExtraFile6>C:\Users\amgad\Downloads\nx\lpi2c_master_s32k144kl\SDK\platform\drivers\src\clock\S32K1xx\clock_S32K1xx.h</ExtraFile6>
-    <ExtraFile7>C:\Users\amgad\Downloads\nx\lpi2c_master_s32k144kl\SDK\platform\drivers\src\clock\S32K1xx\clock_S32K1xx.c</ExtraFile7>
-    <ExtraFile8>C:\Users\amgad\Downloads\nx\lpi2c_master_s32k144kl\SDK\platform\drivers\src\clock\clock_manager.c</ExtraFile8>
+    <ExtraFile0>D:\MASTERS\scaleo\Internship\lpi2c_master_SFM_V1\SDK\platform\drivers\inc\clock_manager.h</ExtraFile0>
+    <ExtraFile1>D:\MASTERS\scaleo\Internship\lpi2c_master_SFM_V1\SDK\platform\drivers\src\clock\S32K1xx\smc_hw_access.h</ExtraFile1>
+    <ExtraFile2>D:\MASTERS\scaleo\Internship\lpi2c_master_SFM_V1\SDK\platform\drivers\src\clock\S32K1xx\sim_hw_access.h</ExtraFile2>
+    <ExtraFile3>D:\MASTERS\scaleo\Internship\lpi2c_master_SFM_V1\SDK\platform\drivers\src\clock\S32K1xx\scg_hw_access.h</ExtraFile3>
+    <ExtraFile4>D:\MASTERS\scaleo\Internship\lpi2c_master_SFM_V1\SDK\platform\drivers\src\clock\S32K1xx\pmc_hw_access.h</ExtraFile4>
+    <ExtraFile5>D:\MASTERS\scaleo\Internship\lpi2c_master_SFM_V1\SDK\platform\drivers\src\clock\S32K1xx\pcc_hw_access.h</ExtraFile5>
+    <ExtraFile6>D:\MASTERS\scaleo\Internship\lpi2c_master_SFM_V1\SDK\platform\drivers\src\clock\S32K1xx\clock_S32K1xx.h</ExtraFile6>
+    <ExtraFile7>D:\MASTERS\scaleo\Internship\lpi2c_master_SFM_V1\SDK\platform\drivers\src\clock\S32K1xx\clock_S32K1xx.c</ExtraFile7>
+    <ExtraFile8>D:\MASTERS\scaleo\Internship\lpi2c_master_SFM_V1\SDK\platform\drivers\src\clock\clock_manager.c</ExtraFile8>
   </ComponentID_4>
   <ComponentID_13>
     <Generated>true</Generated>
@@ -162,8 +162,8 @@
     <GenComponentVersion>1.2.0</GenComponentVersion>
     <GenDriverVersion>1.4</GenDriverVersion>
     <GenEventModule />
-    <HeaderAge>1453610779</HeaderAge>
-    <CodeAge>1453610779</CodeAge>
+    <HeaderAge>1454931972</HeaderAge>
+    <CodeAge>1454931972</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>25</GenNumMethods>
     <PINS_DRV_Init>true</PINS_DRV_Init>
@@ -197,11 +197,11 @@
     <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
     <GenMethodPos>0</GenMethodPos>
     <GenExtraFilesCount>5</GenExtraFilesCount>
-    <ExtraFile0>C:\Users\amgad\Downloads\nx\lpi2c_master_s32k144kl\SDK\platform\drivers\src\pins\pins_port_hw_access.h</ExtraFile0>
-    <ExtraFile1>C:\Users\amgad\Downloads\nx\lpi2c_master_s32k144kl\SDK\platform\drivers\src\pins\pins_port_hw_access.c</ExtraFile1>
-    <ExtraFile2>C:\Users\amgad\Downloads\nx\lpi2c_master_s32k144kl\SDK\platform\drivers\inc\pins_driver.h</ExtraFile2>
-    <ExtraFile3>C:\Users\amgad\Downloads\nx\lpi2c_master_s32k144kl\SDK\platform\drivers\src\pins\pins_gpio_hw_access.h</ExtraFile3>
-    <ExtraFile4>C:\Users\amgad\Downloads\nx\lpi2c_master_s32k144kl\SDK\platform\drivers\src\pins\pins_driver.c</ExtraFile4>
+    <ExtraFile0>D:\MASTERS\scaleo\Internship\lpi2c_master_SFM_V1\SDK\platform\drivers\src\pins\pins_port_hw_access.h</ExtraFile0>
+    <ExtraFile1>D:\MASTERS\scaleo\Internship\lpi2c_master_SFM_V1\SDK\platform\drivers\src\pins\pins_port_hw_access.c</ExtraFile1>
+    <ExtraFile2>D:\MASTERS\scaleo\Internship\lpi2c_master_SFM_V1\SDK\platform\drivers\inc\pins_driver.h</ExtraFile2>
+    <ExtraFile3>D:\MASTERS\scaleo\Internship\lpi2c_master_SFM_V1\SDK\platform\drivers\src\pins\pins_gpio_hw_access.h</ExtraFile3>
+    <ExtraFile4>D:\MASTERS\scaleo\Internship\lpi2c_master_SFM_V1\SDK\platform\drivers\src\pins\pins_driver.c</ExtraFile4>
   </ComponentID_13>
   <ComponentID_40>
     <Generated>true</Generated>
@@ -229,8 +229,8 @@
     <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
     <GenMethodPos>0</GenMethodPos>
     <GenExtraFilesCount>2</GenExtraFilesCount>
-    <ExtraFile0>C:\Users\amgad\Downloads\nx\lpi2c_master_s32k144kl\SDK\rtos\osif\osif_baremetal.c</ExtraFile0>
-    <ExtraFile1>C:\Users\amgad\Downloads\nx\lpi2c_master_s32k144kl\SDK\rtos\osif\osif.h</ExtraFile1>
+    <ExtraFile0>D:\MASTERS\scaleo\Internship\lpi2c_master_SFM_V1\SDK\rtos\osif\osif_baremetal.c</ExtraFile0>
+    <ExtraFile1>D:\MASTERS\scaleo\Internship\lpi2c_master_SFM_V1\SDK\rtos\osif\osif.h</ExtraFile1>
   </ComponentID_40>
   <ComponentID_41>
     <Generated>true</Generated>
@@ -262,8 +262,8 @@
     <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
     <GenMethodPos>0</GenMethodPos>
     <GenExtraFilesCount>2</GenExtraFilesCount>
-    <ExtraFile0>C:\Users\amgad\Downloads\nx\lpi2c_master_s32k144kl\SDK\platform\drivers\inc\interrupt_manager.h</ExtraFile0>
-    <ExtraFile1>C:\Users\amgad\Downloads\nx\lpi2c_master_s32k144kl\SDK\platform\drivers\src\interrupt\interrupt_manager.c</ExtraFile1>
+    <ExtraFile0>D:\MASTERS\scaleo\Internship\lpi2c_master_SFM_V1\SDK\platform\drivers\inc\interrupt_manager.h</ExtraFile0>
+    <ExtraFile1>D:\MASTERS\scaleo\Internship\lpi2c_master_SFM_V1\SDK\platform\drivers\src\interrupt\interrupt_manager.c</ExtraFile1>
   </ComponentID_41>
   <ComponentID_42>
     <Generated>true</Generated>
@@ -271,8 +271,8 @@
     <GenComponentVersion>SDK_S32K14x_09</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule />
-    <HeaderAge>1453617155</HeaderAge>
-    <CodeAge>1453618322</CodeAge>
+    <HeaderAge>1454931972</HeaderAge>
+    <CodeAge>1454931972</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>23</GenNumMethods>
     <LPI2C_DRV_MasterInit>true</LPI2C_DRV_MasterInit>
@@ -304,11 +304,11 @@
     <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
     <GenMethodPos>0</GenMethodPos>
     <GenExtraFilesCount>5</GenExtraFilesCount>
-    <ExtraFile0>C:\Users\amgad\Downloads\nx\lpi2c_master_s32k144kl\SDK\platform\drivers\inc\lpi2c_driver.h</ExtraFile0>
-    <ExtraFile1>C:\Users\amgad\Downloads\nx\lpi2c_master_s32k144kl\SDK\platform\drivers\src\lpi2c\lpi2c_hw_access.h</ExtraFile1>
-    <ExtraFile2>C:\Users\amgad\Downloads\nx\lpi2c_master_s32k144kl\SDK\platform\drivers\src\lpi2c\lpi2c_hw_access.c</ExtraFile2>
-    <ExtraFile3>C:\Users\amgad\Downloads\nx\lpi2c_master_s32k144kl\SDK\platform\drivers\src\lpi2c\lpi2c_driver.c</ExtraFile3>
-    <ExtraFile4>C:\Users\amgad\Downloads\nx\lpi2c_master_s32k144kl\SDK\platform\drivers\src\lpi2c\lpi2c_irq.c</ExtraFile4>
+    <ExtraFile0>D:\MASTERS\scaleo\Internship\lpi2c_master_SFM_V1\SDK\platform\drivers\inc\lpi2c_driver.h</ExtraFile0>
+    <ExtraFile1>D:\MASTERS\scaleo\Internship\lpi2c_master_SFM_V1\SDK\platform\drivers\src\lpi2c\lpi2c_hw_access.h</ExtraFile1>
+    <ExtraFile2>D:\MASTERS\scaleo\Internship\lpi2c_master_SFM_V1\SDK\platform\drivers\src\lpi2c\lpi2c_hw_access.c</ExtraFile2>
+    <ExtraFile3>D:\MASTERS\scaleo\Internship\lpi2c_master_SFM_V1\SDK\platform\drivers\src\lpi2c\lpi2c_driver.c</ExtraFile3>
+    <ExtraFile4>D:\MASTERS\scaleo\Internship\lpi2c_master_SFM_V1\SDK\platform\drivers\src\lpi2c\lpi2c_irq.c</ExtraFile4>
   </ComponentID_42>
   <ComponentID_44>
     <Generated>true</Generated>
@@ -316,8 +316,8 @@
     <GenComponentVersion>SDK_S32K14x_09</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule />
-    <HeaderAge>1453549350</HeaderAge>
-    <CodeAge>1453552428</CodeAge>
+    <HeaderAge>1454931972</HeaderAge>
+    <CodeAge>1454931972</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>32</GenNumMethods>
     <EDMA_DRV_Init>true</EDMA_DRV_Init>
@@ -358,23 +358,23 @@
     <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
     <GenMethodPos>0</GenMethodPos>
     <GenExtraFilesCount>6</GenExtraFilesCount>
-    <ExtraFile0>C:\Users\amgad\Downloads\nx\lpi2c_master_s32k144kl\SDK\platform\drivers\inc\edma_driver.h</ExtraFile0>
-    <ExtraFile1>C:\Users\amgad\Downloads\nx\lpi2c_master_s32k144kl\SDK\platform\drivers\src\edma\edma_irq.h</ExtraFile1>
-    <ExtraFile2>C:\Users\amgad\Downloads\nx\lpi2c_master_s32k144kl\SDK\platform\drivers\src\edma\edma_hw_access.h</ExtraFile2>
-    <ExtraFile3>C:\Users\amgad\Downloads\nx\lpi2c_master_s32k144kl\SDK\platform\drivers\src\edma\edma_irq.c</ExtraFile3>
-    <ExtraFile4>C:\Users\amgad\Downloads\nx\lpi2c_master_s32k144kl\SDK\platform\drivers\src\edma\edma_hw_access.c</ExtraFile4>
-    <ExtraFile5>C:\Users\amgad\Downloads\nx\lpi2c_master_s32k144kl\SDK\platform\drivers\src\edma\edma_driver.c</ExtraFile5>
+    <ExtraFile0>D:\MASTERS\scaleo\Internship\lpi2c_master_SFM_V1\SDK\platform\drivers\inc\edma_driver.h</ExtraFile0>
+    <ExtraFile1>D:\MASTERS\scaleo\Internship\lpi2c_master_SFM_V1\SDK\platform\drivers\src\edma\edma_irq.h</ExtraFile1>
+    <ExtraFile2>D:\MASTERS\scaleo\Internship\lpi2c_master_SFM_V1\SDK\platform\drivers\src\edma\edma_hw_access.h</ExtraFile2>
+    <ExtraFile3>D:\MASTERS\scaleo\Internship\lpi2c_master_SFM_V1\SDK\platform\drivers\src\edma\edma_irq.c</ExtraFile3>
+    <ExtraFile4>D:\MASTERS\scaleo\Internship\lpi2c_master_SFM_V1\SDK\platform\drivers\src\edma\edma_hw_access.c</ExtraFile4>
+    <ExtraFile5>D:\MASTERS\scaleo\Internship\lpi2c_master_SFM_V1\SDK\platform\drivers\src\edma\edma_driver.c</ExtraFile5>
   </ComponentID_44>
   <UsedSrcFiles>
     <SrcFile0>Drivers\interrupt_manager.src=-1</SrcFile0>
     <SrcFile1>Drivers\osifcommon\osif.drv=-1</SrcFile1>
     <SrcFile2>Drivers\Common\Header.h=1266523040</SrcFile2>
     <SrcFile3>Beans\_SDK\SdkOptions.chg=1266523026</SrcFile3>
-    <SrcFile4>Drivers\sw\RTOSAdaptor\Common_RTOSAdaptor.prg=1448499792</SrcFile4>
+    <SrcFile4>Drivers\sw\RTOSAdaptor\Common_RTOSAdaptor.prg=1454988146</SrcFile4>
     <SrcFile5>Drivers\Common\EBGNSupport\StringLib.prg=1266523040</SrcFile5>
     <SrcFile6>Drivers\Common\Header.c=1266523040</SrcFile6>
     <SrcFile7>Drivers\osif.src=-1</SrcFile7>
-    <SrcFile8>Drivers\sw\RTOSAdaptor\Default_RTOSAdaptor.prg=1448499792</SrcFile8>
+    <SrcFile8>Drivers\sw\RTOSAdaptor\Default_RTOSAdaptor.prg=1454988146</SrcFile8>
     <SrcFile9>Drivers\Common\S32KSettings.inc=1266523040</SrcFile9>
     <SrcFile10>Drivers\S32K\PinSettings_S32K144_100.prg=-1</SrcFile10>
     <SrcFile11>Drivers\S32K\S32K144_SDK01\lpi2c_code.drv=-1</SrcFile11>
@@ -384,7 +384,7 @@
     <SrcFile15>Drivers\Common\WriteBlock_NotRst.prg=1266523040</SrcFile15>
     <SrcFile16>Drivers\S32K\S32K144_SDK01\HAL_Port_Bridge.prg=1266523040</SrcFile16>
     <SrcFile17>Drivers\sw\PinSettings.drv=-1</SrcFile17>
-    <SrcFile18>Drivers\Common\Header.doxy=1448499792</SrcFile18>
+    <SrcFile18>Drivers\Common\Header.doxy=1454988146</SrcFile18>
     <SrcFile19>Drivers\Common\GenInitConfigSequence.prg=1266523040</SrcFile19>
     <SrcFile20>Drivers\S32_SDK_DMA_16CH\edma_code.drv=-1</SrcFile20>
     <SrcFile21>Drivers\S32K\S32K144_SDK01\interrupt_manager.drv=1266523040</SrcFile21>

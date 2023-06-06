@@ -25,7 +25,7 @@
 	.type	init_data_bss, %function
 init_data_bss:
 .LFB1:
-	.file 1 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/startup.c"
+	.file 1 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/startup.c"
 	.loc 1 88 0
 	.cfi_startproc
 	@ args = 0, pretend = 0, frame = 0
@@ -156,9 +156,9 @@ init_data_bss:
 	.size	init_data_bss, .-init_data_bss
 	.text
 .Letext0:
-	.file 2 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\machine\\_default_types.h"
-	.file 3 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_stdint.h"
-	.file 4 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+	.file 2 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\machine\\_default_types.h"
+	.file 3 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_stdint.h"
+	.file 4 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 	.section	.debug_info,"",%progbits
 .Ldebug_info0:
 	.4byte	0x42c
@@ -2118,7 +2118,7 @@ init_data_bss:
 	.byte	0x5
 	.uleb128 0x3
 	.4byte	.LASF360
-	.file 5 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/startup.h"
+	.file 5 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/startup.h"
 	.byte	0x3
 	.uleb128 0x37
 	.uleb128 0x5
@@ -2126,13 +2126,13 @@ init_data_bss:
 	.uleb128 0x14
 	.4byte	.LASF361
 	.byte	0x4
-	.file 6 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/device_registers.h"
+	.file 6 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/device_registers.h"
 	.byte	0x3
 	.uleb128 0x38
 	.uleb128 0x6
 	.byte	0x7
 	.4byte	.Ldebug_macro1
-	.file 7 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common/s32_core_cm4.h"
+	.file 7 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common/s32_core_cm4.h"
 	.byte	0x3
 	.uleb128 0x33
 	.uleb128 0x7
@@ -2147,11 +2147,11 @@ init_data_bss:
 	.uleb128 0x4
 	.byte	0x7
 	.4byte	.Ldebug_macro3
-	.file 8 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stdint.h"
+	.file 8 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stdint.h"
 	.byte	0x3
 	.uleb128 0xbf
 	.uleb128 0x8
-	.file 9 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h"
+	.file 9 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h"
 	.byte	0x3
 	.uleb128 0x9
 	.uleb128 0x9
@@ -2164,7 +2164,7 @@ init_data_bss:
 	.byte	0x5
 	.uleb128 0x6
 	.4byte	.LASF386
-	.file 10 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\features.h"
+	.file 10 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\features.h"
 	.byte	0x3
 	.uleb128 0x8
 	.uleb128 0xa
@@ -2174,7 +2174,7 @@ init_data_bss:
 	.byte	0x7
 	.4byte	.Ldebug_macro5
 	.byte	0x4
-	.file 11 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h"
+	.file 11 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h"
 	.byte	0x3
 	.uleb128 0xd
 	.uleb128 0xb
@@ -2197,21 +2197,21 @@ init_data_bss:
 	.byte	0x7
 	.4byte	.Ldebug_macro9
 	.byte	0x4
-	.file 12 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144_features.h"
+	.file 12 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144_features.h"
 	.byte	0x3
 	.uleb128 0x4e
 	.uleb128 0xc
 	.byte	0x7
 	.4byte	.Ldebug_macro10
 	.byte	0x4
-	.file 13 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h"
+	.file 13 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h"
 	.byte	0x3
 	.uleb128 0xb2
 	.uleb128 0xd
 	.byte	0x5
 	.uleb128 0x14
 	.4byte	.LASF9533
-	.file 14 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stdbool.h"
+	.file 14 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stdbool.h"
 	.byte	0x3
 	.uleb128 0x16
 	.uleb128 0xe
@@ -36523,6 +36523,8 @@ init_data_bss:
 .LASF3558:
 	.ascii	"FTM_EXTTRIG_TRIGF(x) (((uint32_t)(((uint32_t)(x))<<"
 	.ascii	"FTM_EXTTRIG_TRIGF_SHIFT))&FTM_EXTTRIG_TRIGF_MASK)\000"
+.LASF7200:
+	.ascii	"S32_NVIC_IP_PRI42_SHIFT 0u\000"
 .LASF1021:
 	.ascii	"CAN_CTRL1_LPB_WIDTH 1u\000"
 .LASF4491:
@@ -36696,8 +36698,6 @@ init_data_bss:
 	.ascii	"AN_IFLAG1_BUF0I_SHIFT))&CAN_IFLAG1_BUF0I_MASK)\000"
 .LASF3909:
 	.ascii	"FTM_PWMLOAD_CH4SEL_WIDTH 1u\000"
-.LASF2807:
-	.ascii	"FLEXIO_PIN_PDI_SHIFT 0u\000"
 .LASF7971:
 	.ascii	"S32_NVIC_IP_PRI235_MASK 0xFFu\000"
 .LASF2758:
@@ -39336,8 +39336,8 @@ init_data_bss:
 	.ascii	"SCG_FIRCCFG_RANGE_WIDTH 2u\000"
 .LASF6385:
 	.ascii	"PCC_PCCn_PR_MASK 0x80000000u\000"
-.LASF459:
-	.ascii	"INT32_MAX (__INT32_MAX__)\000"
+.LASF5624:
+	.ascii	"LPUART_WATER_TXWATER_MASK 0x3u\000"
 .LASF9056:
 	.ascii	"TRGMUX_TRGMUXn_SEL1_MASK 0x3F00u\000"
 .LASF8547:
@@ -41843,8 +41843,8 @@ init_data_bss:
 	.ascii	"RCM_SRS_LOCKUP_MASK 0x200u\000"
 .LASF3563:
 	.ascii	"FTM_EXTTRIG_CH7TRIG_MASK 0x200u\000"
-.LASF7200:
-	.ascii	"S32_NVIC_IP_PRI42_SHIFT 0u\000"
+.LASF459:
+	.ascii	"INT32_MAX (__INT32_MAX__)\000"
 .LASF183:
 	.ascii	"__DEC128_MIN_EXP__ (-6142)\000"
 .LASF7105:
@@ -45033,8 +45033,6 @@ init_data_bss:
 	.ascii	"MSCM_CPxCFG3_MMU_MASK 0x8u\000"
 .LASF3095:
 	.ascii	"FTM3 ((FTM_Type *)FTM3_BASE)\000"
-.LASF5624:
-	.ascii	"LPUART_WATER_TXWATER_MASK 0x3u\000"
 .LASF9114:
 	.ascii	"WDOG_CS_RCS_WIDTH 1u\000"
 .LASF5455:
@@ -46672,9 +46670,8 @@ init_data_bss:
 	.ascii	"S32_SCB_SHCSR_USGFAULTENA_WIDTH 1u\000"
 .LASF350:
 	.ascii	"__ARM_NEON_FP 4\000"
-.LASF9600:
-	.ascii	"C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8."
-	.ascii	"6/platform/devices/startup.c\000"
+.LASF2807:
+	.ascii	"FLEXIO_PIN_PDI_SHIFT 0u\000"
 .LASF2016:
 	.ascii	"DMA_ERQ_ERQ12_WIDTH 1u\000"
 .LASF1145:
@@ -51943,6 +51940,9 @@ init_data_bss:
 	.ascii	"FTM1_BASE (0x40039000u)\000"
 .LASF1413:
 	.ascii	"CAN_PL1_HI_Data_byte_5_WIDTH 8u\000"
+.LASF9600:
+	.ascii	"D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8"
+	.ascii	".6/platform/devices/startup.c\000"
 .LASF3887:
 	.ascii	"FTM_SWOCTRL_CH7OCV_MASK 0x8000u\000"
 .LASF553:

@@ -28,6 +28,7 @@
 #include "lpuart1.h"
 #include "clockMan1.h"
 #include "pin_mux.h"
+#include "lpi2c1.h"
 #include <stdint.h>
 #include <stdbool.h>
 #include <string.h>
@@ -51,7 +52,14 @@ volatile int exit_code = 0;
 #define Rx			6U
 #define LPIT0_CHANNEL	    0UL
 #define LPIT_Channel_IRQn   LPIT0_Ch0_IRQn
-
+#define TRANSFER_SIZE 2U
+uint8_t buffer[TRANSFER_SIZE];
+uint8_t send[2] = {0x10, 0X00};
+uint16_t counts_SMF;
+uint16_t flow_SMF;
+const uint64_t SFLOW = 100;
+const uint64_t OFFSET = 32768;
+uint16_t i;
 /* User includes (#include below this line is not maintained by Processor Expert) */
 /* Global variables for each button's state and counter */
 typedef enum { // UART STATE MACHINE
@@ -130,21 +138,21 @@ status_t status;
 volatile uart_state_t uart_state = UART_STATE_IDLE;
 /**********************************handshake parameters end******************/
 
+
+
 void sendCheckCommand(volatile uart_state_t* uartstate) {
 	status = LPUART_DRV_SendData(INST_LPUART1, checkCommand, strlen((const char*)checkCommand));
     if(status == STATUS_SUCCESS) {
         // Send successful, now wait for response
         *uartstate = UART_STATE_RECEIVE;
     } else {
-    	statuss=555;
+
         // Handle send error here
         // ...
     }
 }
-
-void receiveResponse(volatile uart_state_t* uartstate) {
-	static uint32_t calmDelayCounter = 0;
-		    const uint32_t calmDelay = 1000;
+void receiveResponse(volatile uart_state_t* uartstate)
+{
     status = LPUART_DRV_ReceiveData(INST_LPUART1, packet, sizeof(packet)-1);
 
     if(status == STATUS_SUCCESS) {
@@ -153,17 +161,17 @@ void receiveResponse(volatile uart_state_t* uartstate) {
         *uartstate = UART_STATE_PROCESS;
     }
     if(status == STATUS_BUSY) {
-    	statuss=777;
+
     	*uartstate = UART_STATE_IDLE;
     }
     if(status == STATUS_ERROR) {
-        	statuss=555;
+
         	*uartstate = UART_STATE_IDLE;
         }
 
         // Handle receive error here
         // ...
-    }
+
 }
 
 void processResponse(volatile uart_state_t* uartstate) {
@@ -187,7 +195,6 @@ void processResponse(volatile uart_state_t* uartstate) {
     }
     *uartstate = UART_STATE_IDLE;
 }
-
 void p5handshake(volatile uart_state_t* uartstate) {
 	static uint32_t receiveDelayCounter = 0;
 	    const uint32_t receiveDelay = 1000;
@@ -326,13 +333,19 @@ void LPIT0_Ch0_IRQHandler(void)
     autotimecounter(&minustime_state, &minus_state, &plustime_state);
     autotimecounter(&plustime_state, &plus_state, &minustime_state);
     updatecounter(&count_pm_init);
-   p5handshake(&uart_state);
+    p5handshake(&uart_state);
 }
 
 int main(void)
 {
-  /* Write your local variable definition here */
 
+  /* Write your local variable definition here */
+	const uint64_t SFLOW = 100;
+	const uint64_t OFFSET = 32768;
+    /* Allocate memory for the LPI2C driver state structure */
+	lpi2c_master_state_t lpi2c1MasterState;
+	/* Variable used for the loop that initializes the data buffer */
+		    uint16_t i;
   /*** Processor Expert internal initialization. DON'T REMOVE THIS CODE!!! ***/
   #ifdef PEX_RTOS_INIT
     PEX_RTOS_INIT();                   /* Initialization of the selected RTOS. Macro is defined by the RTOS component. */
@@ -354,7 +367,7 @@ int main(void)
     lpit_user_channel_config_t chConfig;
     chConfig.timerMode = LPIT_PERIODIC_COUNTER;
     chConfig.periodUnits = LPIT_PERIOD_UNITS_MICROSECONDS;
-    chConfig.period =1000; // update every 1000 microseconds
+    chConfig.period =1000; // update every 100 microseconds
     chConfig.triggerSource = LPIT_TRIGGER_SOURCE_EXTERNAL;
     chConfig.triggerSelect = 0U;
     chConfig.enableReloadOnTrigger = false;
@@ -373,6 +386,11 @@ int main(void)
     PINS_DRV_SetPinDirection(GPIO_PORT1,BELL,1);
 LPIT_DRV_StartTimerChannels(INST_LPIT1,(1U << LPIT0_CHANNEL));
 LPUART_DRV_Init(INST_LPUART1, &lpuart1_State, &lpuart1_InitConfig0);
+
+/************ transparent flow sensor configurations*********/
+
+LPI2C_DRV_MasterInit(INST_LPI2C1, &lpi2c1_MasterConfig0,&lpi2c1MasterState);
+LPI2C_DRV_MasterSendDataBlocking(INST_LPI2C1, send,2U, true,OSIF_WAIT_FOREVER);
 
   /*** Don't write any code pass this line, or it will be deleted during code generation. ***/
   /*** RTOS startup code. Macro PEX_RTOS_START is defined by the RTOS component. DON'T MODIFY THIS CODE!!! ***/

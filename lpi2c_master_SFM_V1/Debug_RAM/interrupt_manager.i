@@ -1,5 +1,5 @@
-# 1 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/interrupt/interrupt_manager.c"
-# 1 "C:\\Users\\amgad\\Downloads\\nx\\lpi2c_master_s32k144kl\\Debug_RAM//"
+# 1 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/interrupt/interrupt_manager.c"
+# 1 "D:\\MASTERS\\scaleo\\Internship\\lpi2c_master_SFM_V1\\Debug_RAM//"
 # 1 "<built-in>"
 #define __STDC__ 1
 #define __STDC_VERSION__ 199901L
@@ -363,40 +363,40 @@
 #define __USES_INITFINI__ 1
 #define CPU_S32K144HFT0VLLT 1
 #define DEV_ERROR_DETECT 1
-# 1 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/interrupt/interrupt_manager.c"
-# 58 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/interrupt/interrupt_manager.c"
-# 1 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/interrupt_manager.h" 1
-# 19 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/interrupt_manager.h"
+# 1 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/interrupt/interrupt_manager.c"
+# 58 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/interrupt/interrupt_manager.c"
+# 1 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/interrupt_manager.h" 1
+# 19 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/interrupt_manager.h"
 #define INTERRUPT_MANAGER_H 
 
-# 1 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/device_registers.h" 1
-# 28 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/device_registers.h"
+# 1 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/device_registers.h" 1
+# 28 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/device_registers.h"
 #define DEVICE_REGISTERS_H 
-# 48 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/device_registers.h"
+# 48 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/device_registers.h"
 #define S32K14x_SERIES 
 
 
-# 1 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common/s32_core_cm4.h" 1
-# 47 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common/s32_core_cm4.h"
+# 1 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common/s32_core_cm4.h" 1
+# 47 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common/s32_core_cm4.h"
 #define CORE_CM4_H 
-# 58 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common/s32_core_cm4.h"
+# 58 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common/s32_core_cm4.h"
 #define BKPT_ASM __asm("BKPT #0\n\t")
-# 67 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common/s32_core_cm4.h"
+# 67 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common/s32_core_cm4.h"
 #define ENABLE_FPU 
-# 89 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common/s32_core_cm4.h"
+# 89 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common/s32_core_cm4.h"
 #define ENABLE_INTERRUPTS() __asm volatile ("cpsie i" : : : "memory");
-# 98 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common/s32_core_cm4.h"
+# 98 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common/s32_core_cm4.h"
 #define DISABLE_INTERRUPTS() __asm volatile ("cpsid i" : : : "memory");
-# 108 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common/s32_core_cm4.h"
+# 108 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common/s32_core_cm4.h"
 #define STANDBY() __asm volatile ("wfi")
-# 117 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common/s32_core_cm4.h"
+# 117 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common/s32_core_cm4.h"
 #define REV_BYTES_32(a,b) __asm volatile ("rev %0, %1" : "=r" (b) : "r" (a))
-# 126 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common/s32_core_cm4.h"
+# 126 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common/s32_core_cm4.h"
 #define REV_BYTES_16(a,b) __asm volatile ("rev16 %0, %1" : "=r" (b) : "r" (a))
-# 135 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common/s32_core_cm4.h"
+# 135 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common/s32_core_cm4.h"
 #define START_FUNCTION_DECLARATION_RAMSECTION 
 #define END_FUNCTION_DECLARATION_RAMSECTION __attribute__((section (".code_ram")));
-# 165 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common/s32_core_cm4.h"
+# 165 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common/s32_core_cm4.h"
 #define START_FUNCTION_DEFINITION_RAMSECTION 
 #define END_FUNCTION_DEFINITION_RAMSECTION 
 
@@ -419,15 +419,15 @@
 
 
 #define ALIGNED(x) __attribute__((aligned(x)))
-# 198 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common/s32_core_cm4.h"
+# 198 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common/s32_core_cm4.h"
 #define CORE_LITTLE_ENDIAN 
-# 52 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/device_registers.h" 2
-# 73 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/device_registers.h"
+# 52 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/device_registers.h" 2
+# 73 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/device_registers.h"
 #define S32K144_SERIES 
 
 
-# 1 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h" 1
-# 182 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 1 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h" 1
+# 182 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define S32K144_H_ 
 #define MCU_S32K144 
 
@@ -437,13 +437,13 @@
 
 #define MCU_ACTIVE 
 
-# 1 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stdint.h" 1 3 4
-# 9 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stdint.h" 3 4
-# 1 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 1 3 4
-# 10 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
+# 1 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stdint.h" 1 3 4
+# 9 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stdint.h" 3 4
+# 1 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 1 3 4
+# 10 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
 #define _STDINT_H 
 
-# 1 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\machine\\_default_types.h" 1 3 4
+# 1 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\machine\\_default_types.h" 1 3 4
 
 
 
@@ -451,10 +451,10 @@
 
 #define _MACHINE__DEFAULT_TYPES_H 
 
-# 1 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\features.h" 1 3 4
-# 22 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\features.h" 3 4
+# 1 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\features.h" 1 3 4
+# 22 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\features.h" 3 4
 #define _SYS_FEATURES_H 
-# 31 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\features.h" 3 4
+# 31 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\features.h" 3 4
 #define __NEWLIB__ 2
 #define __NEWLIB_MINOR__ 2
 
@@ -469,7 +469,7 @@
 
 
 #define __GNUC_PREREQ__(ma,mi) __GNUC_PREREQ(ma, mi)
-# 9 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\machine\\_default_types.h" 2 3 4
+# 9 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\machine\\_default_types.h" 2 3 4
 
 
 
@@ -477,7 +477,7 @@
 
 
 #define __EXP(x) __ ##x ##__
-# 27 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\machine\\_default_types.h" 3 4
+# 27 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\machine\\_default_types.h" 3 4
 typedef signed char __int8_t;
 
 typedef unsigned char __uint8_t;
@@ -499,7 +499,7 @@ typedef short unsigned int __uint16_t;
 
 
 #define ___int16_t_defined 1
-# 63 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\machine\\_default_types.h" 3 4
+# 63 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\machine\\_default_types.h" 3 4
 typedef long int __int32_t;
 
 typedef long unsigned int __uint32_t;
@@ -507,7 +507,7 @@ typedef long unsigned int __uint32_t;
 
 
 #define ___int32_t_defined 1
-# 89 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\machine\\_default_types.h" 3 4
+# 89 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\machine\\_default_types.h" 3 4
 typedef long long int __int64_t;
 
 typedef long long unsigned int __uint64_t;
@@ -515,7 +515,7 @@ typedef long long unsigned int __uint64_t;
 
 
 #define ___int64_t_defined 1
-# 120 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\machine\\_default_types.h" 3 4
+# 120 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\machine\\_default_types.h" 3 4
 typedef signed char __int_least8_t;
 
 typedef unsigned char __uint_least8_t;
@@ -523,7 +523,7 @@ typedef unsigned char __uint_least8_t;
 
 
 #define ___int_least8_t_defined 1
-# 146 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\machine\\_default_types.h" 3 4
+# 146 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\machine\\_default_types.h" 3 4
 typedef short int __int_least16_t;
 
 typedef short unsigned int __uint_least16_t;
@@ -531,7 +531,7 @@ typedef short unsigned int __uint_least16_t;
 
 
 #define ___int_least16_t_defined 1
-# 168 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\machine\\_default_types.h" 3 4
+# 168 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\machine\\_default_types.h" 3 4
 typedef long int __int_least32_t;
 
 typedef long unsigned int __uint_least32_t;
@@ -539,7 +539,7 @@ typedef long unsigned int __uint_least32_t;
 
 
 #define ___int_least32_t_defined 1
-# 186 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\machine\\_default_types.h" 3 4
+# 186 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\machine\\_default_types.h" 3 4
 typedef long long int __int_least64_t;
 
 typedef long long unsigned int __uint_least64_t;
@@ -557,11 +557,11 @@ typedef long long unsigned int __uint_least64_t;
 typedef int __intptr_t;
 
 typedef unsigned int __uintptr_t;
-# 214 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\machine\\_default_types.h" 3 4
+# 214 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\machine\\_default_types.h" 3 4
 #undef __EXP
-# 13 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 2 3 4
-# 1 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h" 1 3 4
-# 10 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
+# 13 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 2 3 4
+# 1 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h" 1 3 4
+# 10 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
 #define _SYS__INTSUP_H 
 
 
@@ -569,7 +569,7 @@ typedef unsigned int __uintptr_t;
 
 
 #define __STDINT_EXP(x) __ ##x ##__
-# 26 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
+# 26 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
 #define __have_longlong64 1
 
 
@@ -578,7 +578,7 @@ typedef unsigned int __uintptr_t;
 
 
 #define __have_long32 1
-# 49 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
+# 49 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
        
        
        
@@ -597,7 +597,7 @@ typedef unsigned int __uintptr_t;
 #define short +1
 #define int +2
 #define long +4
-# 77 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
+# 77 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
 #define _INT32_EQ_LONG 
 
 
@@ -607,11 +607,11 @@ typedef unsigned int __uintptr_t;
 
 
 #define __INT8 "hh"
-# 96 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
+# 96 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
 #define __INT16 "h"
-# 107 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
+# 107 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
 #define __INT32 "l"
-# 116 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
+# 116 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
 #define __INT64 "ll"
 
 
@@ -620,7 +620,7 @@ typedef unsigned int __uintptr_t;
 
 
 #define __FAST8 
-# 132 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
+# 132 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
 #define __FAST16 
 
 
@@ -629,17 +629,17 @@ typedef unsigned int __uintptr_t;
 
 
 #define __FAST32 
-# 150 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
+# 150 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
 #define __FAST64 "ll"
 
 
 
 #define __LEAST8 "hh"
-# 165 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
+# 165 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
 #define __LEAST16 "h"
-# 176 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
+# 176 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
 #define __LEAST32 "l"
-# 185 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
+# 185 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
 #define __LEAST64 "ll"
 
 #undef signed
@@ -654,11 +654,11 @@ typedef unsigned int __uintptr_t;
        
        
        
-# 14 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 2 3 4
-# 1 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_stdint.h" 1 3 4
-# 10 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_stdint.h" 3 4
+# 14 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 2 3 4
+# 1 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_stdint.h" 1 3 4
+# 10 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_stdint.h" 3 4
 #define _SYS__STDINT_H 
-# 19 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_stdint.h" 3 4
+# 19 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_stdint.h" 3 4
 typedef __int8_t int8_t ;
 typedef __uint8_t uint8_t ;
 #define __int8_t_defined 1
@@ -684,7 +684,7 @@ typedef __uint64_t uint64_t ;
 
 typedef __intptr_t intptr_t;
 typedef __uintptr_t uintptr_t;
-# 15 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 2 3 4
+# 15 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 2 3 4
 
 
 
@@ -712,7 +712,7 @@ typedef __uint_least32_t uint_least32_t;
 typedef __int_least64_t int_least64_t;
 typedef __uint_least64_t uint_least64_t;
 #define __int_least64_t_defined 1
-# 51 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
+# 51 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
   typedef int int_fast8_t;
   typedef unsigned int uint_fast8_t;
 #define __int_fast8_t_defined 1
@@ -746,9 +746,9 @@ typedef __uint_least64_t uint_least64_t;
   typedef long long int int_fast64_t;
   typedef long long unsigned int uint_fast64_t;
 #define __int_fast64_t_defined 1
-# 130 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
+# 130 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
   typedef long long int intmax_t;
-# 139 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
+# 139 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
   typedef long long unsigned int uintmax_t;
 
 
@@ -760,7 +760,7 @@ typedef __uint_least64_t uint_least64_t;
 #define INTPTR_MIN (-__INTPTR_MAX__ - 1)
 #define INTPTR_MAX (__INTPTR_MAX__)
 #define UINTPTR_MAX (__UINTPTR_MAX__)
-# 171 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
+# 171 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
 #define INT8_MIN (-__INT8_MAX__ - 1)
 #define INT8_MAX (__INT8_MAX__)
 #define UINT8_MAX (__UINT8_MAX__)
@@ -774,7 +774,7 @@ typedef __uint_least64_t uint_least64_t;
 #define INT_LEAST8_MIN (-__INT_LEAST8_MAX__ - 1)
 #define INT_LEAST8_MAX (__INT_LEAST8_MAX__)
 #define UINT_LEAST8_MAX (__UINT_LEAST8_MAX__)
-# 193 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
+# 193 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
 #define INT16_MIN (-__INT16_MAX__ - 1)
 #define INT16_MAX (__INT16_MAX__)
 #define UINT16_MAX (__UINT16_MAX__)
@@ -788,39 +788,39 @@ typedef __uint_least64_t uint_least64_t;
 #define INT_LEAST16_MIN (-__INT_LEAST16_MAX__ - 1)
 #define INT_LEAST16_MAX (__INT_LEAST16_MAX__)
 #define UINT_LEAST16_MAX (__UINT_LEAST16_MAX__)
-# 215 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
+# 215 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
 #define INT32_MIN (-__INT32_MAX__ - 1)
 #define INT32_MAX (__INT32_MAX__)
 #define UINT32_MAX (__UINT32_MAX__)
-# 231 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
+# 231 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
 #define INT_LEAST32_MIN (-__INT_LEAST32_MAX__ - 1)
 #define INT_LEAST32_MAX (__INT_LEAST32_MAX__)
 #define UINT_LEAST32_MAX (__UINT_LEAST32_MAX__)
-# 249 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
+# 249 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
 #define INT64_MIN (-__INT64_MAX__ - 1)
 #define INT64_MAX (__INT64_MAX__)
 #define UINT64_MAX (__UINT64_MAX__)
-# 265 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
+# 265 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
 #define INT_LEAST64_MIN (-__INT_LEAST64_MAX__ - 1)
 #define INT_LEAST64_MAX (__INT_LEAST64_MAX__)
 #define UINT_LEAST64_MAX (__UINT_LEAST64_MAX__)
-# 281 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
+# 281 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
 #define INT_FAST8_MIN (-__INT_FAST8_MAX__ - 1)
 #define INT_FAST8_MAX (__INT_FAST8_MAX__)
 #define UINT_FAST8_MAX (__UINT_FAST8_MAX__)
-# 297 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
+# 297 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
 #define INT_FAST16_MIN (-__INT_FAST16_MAX__ - 1)
 #define INT_FAST16_MAX (__INT_FAST16_MAX__)
 #define UINT_FAST16_MAX (__UINT_FAST16_MAX__)
-# 313 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
+# 313 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
 #define INT_FAST32_MIN (-__INT_FAST32_MAX__ - 1)
 #define INT_FAST32_MAX (__INT_FAST32_MAX__)
 #define UINT_FAST32_MAX (__UINT_FAST32_MAX__)
-# 329 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
+# 329 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
 #define INT_FAST64_MIN (-__INT_FAST64_MAX__ - 1)
 #define INT_FAST64_MAX (__INT_FAST64_MAX__)
 #define UINT_FAST64_MAX (__UINT_FAST64_MAX__)
-# 345 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
+# 345 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
 #define INTMAX_MAX (__INTMAX_MAX__)
 #define INTMAX_MIN (-INTMAX_MAX - 1)
 
@@ -859,9 +859,9 @@ typedef __uint_least64_t uint_least64_t;
 
 
 #define WCHAR_MIN (__WCHAR_MIN__)
-# 393 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
+# 393 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
 #define WCHAR_MAX (__WCHAR_MAX__)
-# 403 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
+# 403 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
 #define WINT_MAX (__WINT_MAX__)
 
 
@@ -876,31 +876,31 @@ typedef __uint_least64_t uint_least64_t;
 
 #define INT8_C(x) __INT8_C(x)
 #define UINT8_C(x) __UINT8_C(x)
-# 427 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
+# 427 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
 #define INT16_C(x) __INT16_C(x)
 #define UINT16_C(x) __UINT16_C(x)
-# 439 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
+# 439 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
 #define INT32_C(x) __INT32_C(x)
 #define UINT32_C(x) __UINT32_C(x)
-# 452 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
+# 452 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
 #define INT64_C(x) __INT64_C(x)
 #define UINT64_C(x) __UINT64_C(x)
-# 468 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
+# 468 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
 #define INTMAX_C(x) __INTMAX_C(x)
 #define UINTMAX_C(x) __UINTMAX_C(x)
-# 10 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stdint.h" 2 3 4
+# 10 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stdint.h" 2 3 4
 
 
 
 #define _GCC_WRAP_STDINT_H 
-# 192 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h" 2
+# 192 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h" 2
 
 
 
 #define MCU_MEM_MAP_VERSION 0x0300u
 
 #define MCU_MEM_MAP_VERSION_MINOR 0x0001u
-# 213 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 213 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define __I volatile const
 
 #define __O volatile
@@ -942,9 +942,9 @@ typedef __uint_least64_t uint_least64_t;
 
 
 #define REG_RMW32(address,mask,value) (REG_WRITE32((address), ((REG_READ32(address)& ((uint32_t)~((uint32_t)(mask))))| ((uint32_t)(value)))))
-# 267 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 267 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define NUMBER_OF_INT_VECTORS 139u
-# 276 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 276 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 typedef enum
 {
 
@@ -1052,7 +1052,7 @@ typedef enum
   FTM3_Fault_IRQn = 121u,
   FTM3_Ovf_Reload_IRQn = 122u
 } IRQn_Type;
-# 411 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 411 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define ADC_SC1_COUNT 16u
 #define ADC_R_COUNT 16u
 #define ADC_CV_COUNT 2u
@@ -1112,7 +1112,7 @@ typedef struct {
 #define ADC_IRQS_CH_COUNT (1u)
 
 #define ADC_IRQS { ADC0_IRQn, ADC1_IRQn }
-# 481 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 481 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define ADC_SC1_ADCH_MASK 0x1Fu
 #define ADC_SC1_ADCH_SHIFT 0u
 #define ADC_SC1_ADCH_WIDTH 5u
@@ -1320,7 +1320,7 @@ typedef struct {
 #define ADC_CLP9_OFS_CLP9_OFS_SHIFT 0u
 #define ADC_CLP9_OFS_CLP9_OFS_WIDTH 12u
 #define ADC_CLP9_OFS_CLP9_OFS(x) (((uint32_t)(((uint32_t)(x))<<ADC_CLP9_OFS_CLP9_OFS_SHIFT))&ADC_CLP9_OFS_CLP9_OFS_MASK)
-# 710 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 710 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define AIPS_PACR_COUNT 4u
 #define AIPS_OPACR_COUNT 12u
 
@@ -1346,7 +1346,7 @@ typedef struct {
 #define AIPS_BASE_ADDRS { AIPS_BASE }
 
 #define AIPS_BASE_PTRS { AIPS }
-# 746 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 746 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define AIPS_MPRA_MPL2_MASK 0x100000u
 #define AIPS_MPRA_MPL2_SHIFT 20u
 #define AIPS_MPRA_MPL2_WIDTH 1u
@@ -1517,7 +1517,7 @@ typedef struct {
 #define AIPS_OPACR_SP0_SHIFT 30u
 #define AIPS_OPACR_SP0_WIDTH 1u
 #define AIPS_OPACR_SP0(x) (((uint32_t)(((uint32_t)(x))<<AIPS_OPACR_SP0_SHIFT))&AIPS_OPACR_SP0_MASK)
-# 938 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 938 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define CAN_RAMn_COUNT 128u
 #define CAN_RXIMR_COUNT 32u
 #define CAN_WMB_COUNT 4u
@@ -1617,7 +1617,7 @@ typedef struct {
 #define CAN_Bus_Off_IRQS { CAN0_ORed_IRQn, CAN1_ORed_IRQn, CAN2_ORed_IRQn }
 #define CAN_ORed_0_15_MB_IRQS { CAN0_ORed_0_15_MB_IRQn, CAN1_ORed_0_15_MB_IRQn, CAN2_ORed_0_15_MB_IRQn }
 #define CAN_ORed_16_31_MB_IRQS { CAN0_ORed_16_31_MB_IRQn, NotAvail_IRQn, NotAvail_IRQn }
-# 1048 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 1048 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define CAN_MCR_MAXMB_MASK 0x7Fu
 #define CAN_MCR_MAXMB_SHIFT 0u
 #define CAN_MCR_MAXMB_WIDTH 7u
@@ -2308,7 +2308,7 @@ typedef struct {
 #define CAN_FDCRC_FD_MBCRC_SHIFT 24u
 #define CAN_FDCRC_FD_MBCRC_WIDTH 7u
 #define CAN_FDCRC_FD_MBCRC(x) (((uint32_t)(((uint32_t)(x))<<CAN_FDCRC_FD_MBCRC_SHIFT))&CAN_FDCRC_FD_MBCRC_MASK)
-# 1762 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 1762 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 typedef struct {
   volatile uint32_t C0;
   volatile uint32_t C1;
@@ -2334,7 +2334,7 @@ typedef struct {
 #define CMP_IRQS_CH_COUNT (1u)
 
 #define CMP_IRQS { CMP0_IRQn }
-# 1798 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 1798 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define CMP_C0_HYSTCTR_MASK 0x3u
 #define CMP_C0_HYSTCTR_SHIFT 0u
 #define CMP_C0_HYSTCTR_WIDTH 2u
@@ -2525,7 +2525,7 @@ typedef struct {
 #define CMP_C2_RRE_SHIFT 31u
 #define CMP_C2_RRE_WIDTH 1u
 #define CMP_C2_RRE(x) (((uint32_t)(((uint32_t)(x))<<CMP_C2_RRE_SHIFT))&CMP_C2_RRE_MASK)
-# 2012 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 2012 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 typedef struct {
   union {
     volatile uint32_t DATA;
@@ -2557,7 +2557,7 @@ typedef struct {
 #define CRC_BASE_ADDRS { CRC_BASE }
 
 #define CRC_BASE_PTRS { CRC }
-# 2054 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 2054 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define CRC_DATAu_DATA_LL_MASK 0xFFu
 #define CRC_DATAu_DATA_LL_SHIFT 0u
 #define CRC_DATAu_DATA_LL_WIDTH 8u
@@ -2634,7 +2634,7 @@ typedef struct {
 #define CRC_CTRL_TOT_SHIFT 30u
 #define CRC_CTRL_TOT_WIDTH 2u
 #define CRC_CTRL_TOT(x) (((uint32_t)(((uint32_t)(x))<<CRC_CTRL_TOT_SHIFT))&CRC_CTRL_TOT_MASK)
-# 2152 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 2152 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define CSE_PRAM_RAMn_COUNT 32u
 
 
@@ -2663,7 +2663,7 @@ typedef struct {
 #define CSE_PRAM_BASE_ADDRS { CSE_PRAM_BASE }
 
 #define CSE_PRAM_BASE_PTRS { CSE_PRAM }
-# 2191 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 2191 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define CSE_PRAM_RAMn_DATA_32_BYTE_3_MASK 0xFFu
 #define CSE_PRAM_RAMn_DATA_32_BYTE_3_SHIFT 0u
 #define CSE_PRAM_RAMn_DATA_32_BYTE_3_WIDTH 8u
@@ -2700,7 +2700,7 @@ typedef struct {
 #define CSE_PRAM_RAMn_ACCESS8BIT_DATA_8HU_RAM_HU_SHIFT 0u
 #define CSE_PRAM_RAMn_ACCESS8BIT_DATA_8HU_RAM_HU_WIDTH 8u
 #define CSE_PRAM_RAMn_ACCESS8BIT_DATA_8HU_RAM_HU(x) (((uint8_t)(((uint8_t)(x))<<CSE_PRAM_RAMn_ACCESS8BIT_DATA_8HU_RAM_HU_SHIFT))&CSE_PRAM_RAMn_ACCESS8BIT_DATA_8HU_RAM_HU_MASK)
-# 2249 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 2249 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define DMA_DCHPRI_COUNT 16u
 #define DMA_TCD_COUNT 16u
 
@@ -2778,7 +2778,7 @@ typedef struct {
 
 #define DMA_CHN_IRQS { DMA0_IRQn, DMA1_IRQn, DMA2_IRQn, DMA3_IRQn, DMA4_IRQn, DMA5_IRQn, DMA6_IRQn, DMA7_IRQn, DMA8_IRQn, DMA9_IRQn, DMA10_IRQn, DMA11_IRQn, DMA12_IRQn, DMA13_IRQn, DMA14_IRQn, DMA15_IRQn }
 #define DMA_ERROR_IRQS { DMA_Error_IRQn }
-# 2337 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 2337 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define DMA_CR_EDBG_MASK 0x2u
 #define DMA_CR_EDBG_SHIFT 1u
 #define DMA_CR_EDBG_WIDTH 1u
@@ -3534,7 +3534,7 @@ typedef struct {
 #define DMA_TCD_BITER_ELINKYES_ELINK_SHIFT 15u
 #define DMA_TCD_BITER_ELINKYES_ELINK_WIDTH 1u
 #define DMA_TCD_BITER_ELINKYES_ELINK(x) (((uint16_t)(((uint16_t)(x))<<DMA_TCD_BITER_ELINKYES_ELINK_SHIFT))&DMA_TCD_BITER_ELINKYES_ELINK_MASK)
-# 3114 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 3114 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define DMAMUX_CHCFG_COUNT 16u
 
 
@@ -3555,7 +3555,7 @@ typedef struct {
 #define DMAMUX_BASE_ADDRS { DMAMUX_BASE }
 
 #define DMAMUX_BASE_PTRS { DMAMUX }
-# 3145 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 3145 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define DMAMUX_CHCFG_SOURCE_MASK 0x3Fu
 #define DMAMUX_CHCFG_SOURCE_SHIFT 0u
 #define DMAMUX_CHCFG_SOURCE_WIDTH 6u
@@ -3568,7 +3568,7 @@ typedef struct {
 #define DMAMUX_CHCFG_ENBL_SHIFT 7u
 #define DMAMUX_CHCFG_ENBL_WIDTH 1u
 #define DMAMUX_CHCFG_ENBL(x) (((uint8_t)(((uint8_t)(x))<<DMAMUX_CHCFG_ENBL_SHIFT))&DMAMUX_CHCFG_ENBL_MASK)
-# 3179 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 3179 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define EIM_EICHDn_COUNT 2u
 
 
@@ -3596,7 +3596,7 @@ typedef struct {
 #define EIM_BASE_ADDRS { EIM_BASE }
 
 #define EIM_BASE_PTRS { EIM }
-# 3217 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 3217 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define EIM_EIMCR_GEIEN_MASK 0x1u
 #define EIM_EIMCR_GEIEN_SHIFT 0u
 #define EIM_EIMCR_GEIEN_WIDTH 1u
@@ -3620,7 +3620,7 @@ typedef struct {
 #define EIM_EICHDn_WORD1_B0_3DATA_MASK_SHIFT 0u
 #define EIM_EICHDn_WORD1_B0_3DATA_MASK_WIDTH 32u
 #define EIM_EICHDn_WORD1_B0_3DATA_MASK(x) (((uint32_t)(((uint32_t)(x))<<EIM_EICHDn_WORD1_B0_3DATA_MASK_SHIFT))&EIM_EICHDn_WORD1_B0_3DATA_MASK_MASK)
-# 3262 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 3262 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define ERM_EARn_COUNT 2u
 
 
@@ -3657,7 +3657,7 @@ typedef struct {
 
 #define ERM_SINGLE_IRQS { ERM_single_fault_IRQn }
 #define ERM_DOUBLE_IRQS { ERM_double_fault_IRQn }
-# 3309 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 3309 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define ERM_CR0_ENCIE1_MASK 0x4000000u
 #define ERM_CR0_ENCIE1_SHIFT 26u
 #define ERM_CR0_ENCIE1_WIDTH 1u
@@ -3696,7 +3696,7 @@ typedef struct {
 #define ERM_EARn_EAR_EAR_SHIFT 0u
 #define ERM_EARn_EAR_EAR_WIDTH 32u
 #define ERM_EARn_EAR_EAR(x) (((uint32_t)(((uint32_t)(x))<<ERM_EARn_EAR_EAR_SHIFT))&ERM_EARn_EAR_EAR_MASK)
-# 3371 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 3371 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 typedef struct {
   volatile uint8_t CTRL;
   volatile uint8_t SERV;
@@ -3725,7 +3725,7 @@ typedef struct {
 #define EWM_IRQS_CH_COUNT (1u)
 
 #define EWM_IRQS { WDOG_EWM_IRQn }
-# 3410 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 3410 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define EWM_CTRL_EWMEN_MASK 0x1u
 #define EWM_CTRL_EWMEN_SHIFT 0u
 #define EWM_CTRL_EWMEN_WIDTH 1u
@@ -3762,7 +3762,7 @@ typedef struct {
 #define EWM_CLKPRESCALER_CLK_DIV_SHIFT 0u
 #define EWM_CLKPRESCALER_CLK_DIV_WIDTH 8u
 #define EWM_CLKPRESCALER_CLK_DIV(x) (((uint8_t)(((uint8_t)(x))<<EWM_CLKPRESCALER_CLK_DIV_SHIFT))&EWM_CLKPRESCALER_CLK_DIV_MASK)
-# 3468 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 3468 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define FLEXIO_SHIFTCTL_COUNT 4u
 #define FLEXIO_SHIFTCFG_COUNT 4u
 #define FLEXIO_SHIFTBUF_COUNT 4u
@@ -3827,7 +3827,7 @@ typedef struct {
 #define FLEXIO_IRQS_CH_COUNT (1u)
 
 #define FLEXIO_IRQS { FLEXIO_IRQn }
-# 3543 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 3543 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define FLEXIO_VERID_FEATURE_MASK 0xFFFFu
 #define FLEXIO_VERID_FEATURE_SHIFT 0u
 #define FLEXIO_VERID_FEATURE_WIDTH 16u
@@ -4039,7 +4039,7 @@ typedef struct {
 #define FLEXIO_TIMCMP_CMP_SHIFT 0u
 #define FLEXIO_TIMCMP_CMP_WIDTH 16u
 #define FLEXIO_TIMCMP_CMP(x) (((uint32_t)(((uint32_t)(x))<<FLEXIO_TIMCMP_CMP_SHIFT))&FLEXIO_TIMCMP_CMP_MASK)
-# 3776 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 3776 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define FTFC_FCCOB_COUNT 12u
 #define FTFC_FPROT_COUNT 4u
 
@@ -4083,7 +4083,7 @@ typedef struct {
 
 #define FTFC_COMMAND_COMPLETE_IRQS { FTFC_IRQn }
 #define FTFC_READ_COLLISION_IRQS { Read_Collision_IRQn }
-# 3830 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 3830 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define FTFC_FSTAT_MGSTAT0_MASK 0x1u
 #define FTFC_FSTAT_MGSTAT0_SHIFT 0u
 #define FTFC_FSTAT_MGSTAT0_WIDTH 1u
@@ -4218,7 +4218,7 @@ typedef struct {
 #define FTFC_FERCNFG_FDFD_SHIFT 5u
 #define FTFC_FERCNFG_FDFD_WIDTH 1u
 #define FTFC_FERCNFG_FDFD(x) (((uint8_t)(((uint8_t)(x))<<FTFC_FERCNFG_FDFD_SHIFT))&FTFC_FERCNFG_FDFD_MASK)
-# 3986 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 3986 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define FTM_CONTROLS_COUNT 8u
 
 
@@ -4303,7 +4303,7 @@ typedef struct {
 #define FTM_Fault_IRQS { FTM0_Fault_IRQn, FTM1_Fault_IRQn, FTM2_Fault_IRQn, FTM3_Fault_IRQn }
 #define FTM_Overflow_IRQS { FTM0_Ovf_Reload_IRQn, FTM1_Ovf_Reload_IRQn, FTM2_Ovf_Reload_IRQn, FTM3_Ovf_Reload_IRQn }
 #define FTM_Reload_IRQS { FTM0_Ovf_Reload_IRQn, FTM1_Ovf_Reload_IRQn, FTM2_Ovf_Reload_IRQn, FTM3_Ovf_Reload_IRQn }
-# 4081 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 4081 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define FTM_SC_PS_MASK 0x7u
 #define FTM_SC_PS_SHIFT 0u
 #define FTM_SC_PS_WIDTH 3u
@@ -5217,7 +5217,7 @@ typedef struct {
 #define FTM_PAIR3DEADTIME_DTVALEX_SHIFT 16u
 #define FTM_PAIR3DEADTIME_DTVALEX_WIDTH 4u
 #define FTM_PAIR3DEADTIME_DTVALEX(x) (((uint32_t)(((uint32_t)(x))<<FTM_PAIR3DEADTIME_DTVALEX_SHIFT))&FTM_PAIR3DEADTIME_DTVALEX_MASK)
-# 5018 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 5018 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 typedef struct {
   volatile uint32_t PDOR;
   volatile uint32_t PSOR;
@@ -5257,7 +5257,7 @@ typedef struct {
 #define GPIO_BASE_ADDRS { PTA_BASE, PTB_BASE, PTC_BASE, PTD_BASE, PTE_BASE }
 
 #define GPIO_BASE_PTRS { PTA, PTB, PTC, PTD, PTE }
-# 5068 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 5068 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define GPIO_PDOR_PDO_MASK 0xFFFFFFFFu
 #define GPIO_PDOR_PDO_SHIFT 0u
 #define GPIO_PDOR_PDO_WIDTH 32u
@@ -5292,7 +5292,7 @@ typedef struct {
 #define GPIO_PIDR_PID_SHIFT 0u
 #define GPIO_PIDR_PID_WIDTH 32u
 #define GPIO_PIDR_PID(x) (((uint32_t)(((uint32_t)(x))<<GPIO_PIDR_PID_SHIFT))&GPIO_PIDR_PID_MASK)
-# 5126 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 5126 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 typedef struct {
   volatile uint32_t PCCCR;
   volatile uint32_t PCCLCR;
@@ -5315,7 +5315,7 @@ typedef struct {
 #define LMEM_BASE_ADDRS { LMEM_BASE }
 
 #define LMEM_BASE_PTRS { LMEM }
-# 5159 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 5159 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define LMEM_PCCCR_ENCACHE_MASK 0x1u
 #define LMEM_PCCCR_ENCACHE_SHIFT 0u
 #define LMEM_PCCCR_ENCACHE_WIDTH 1u
@@ -5468,7 +5468,7 @@ typedef struct {
 #define LMEM_PCCRMR_R0_SHIFT 30u
 #define LMEM_PCCRMR_R0_WIDTH 2u
 #define LMEM_PCCRMR_R0(x) (((uint32_t)(((uint32_t)(x))<<LMEM_PCCRMR_R0_SHIFT))&LMEM_PCCRMR_R0_MASK)
-# 5335 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 5335 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 typedef struct {
   volatile const uint32_t VERID;
   volatile const uint32_t PARAM;
@@ -5534,7 +5534,7 @@ typedef struct {
 
 #define LPI2C_MASTER_IRQS { LPI2C0_Master_IRQn }
 #define LPI2C_SLAVE_IRQS { LPI2C0_Slave_IRQn }
-# 5411 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 5411 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define LPI2C_VERID_FEATURE_MASK 0xFFFFu
 #define LPI2C_VERID_FEATURE_SHIFT 0u
 #define LPI2C_VERID_FEATURE_WIDTH 16u
@@ -6054,7 +6054,7 @@ typedef struct {
 #define LPI2C_SRDR_SOF_SHIFT 15u
 #define LPI2C_SRDR_SOF_WIDTH 1u
 #define LPI2C_SRDR_SOF(x) (((uint32_t)(((uint32_t)(x))<<LPI2C_SRDR_SOF_SHIFT))&LPI2C_SRDR_SOF_MASK)
-# 5952 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 5952 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define LPIT_TMR_COUNT 4u
 
 
@@ -6094,7 +6094,7 @@ typedef struct {
 #define LPIT_IRQS_CH_COUNT (4u)
 
 #define LPIT_IRQS { LPIT0_Ch0_IRQn, LPIT0_Ch1_IRQn, LPIT0_Ch2_IRQn, LPIT0_Ch3_IRQn }
-# 6002 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 6002 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define LPIT_VERID_FEATURE_MASK 0xFFFFu
 #define LPIT_VERID_FEATURE_SHIFT 0u
 #define LPIT_VERID_FEATURE_WIDTH 16u
@@ -6244,7 +6244,7 @@ typedef struct {
 #define LPIT_TMR_TCTRL_TRG_SEL_SHIFT 24u
 #define LPIT_TMR_TCTRL_TRG_SEL_WIDTH 4u
 #define LPIT_TMR_TCTRL_TRG_SEL(x) (((uint32_t)(((uint32_t)(x))<<LPIT_TMR_TCTRL_TRG_SEL_SHIFT))&LPIT_TMR_TCTRL_TRG_SEL_MASK)
-# 6175 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 6175 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 typedef struct {
   volatile const uint32_t VERID;
   volatile const uint32_t PARAM;
@@ -6297,7 +6297,7 @@ typedef struct {
 #define LPSPI_IRQS_CH_COUNT (1u)
 
 #define LPSPI_IRQS { LPSPI0_IRQn, LPSPI1_IRQn, LPSPI2_IRQn }
-# 6238 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 6238 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define LPSPI_VERID_FEATURE_MASK 0xFFFFu
 #define LPSPI_VERID_FEATURE_SHIFT 0u
 #define LPSPI_VERID_FEATURE_WIDTH 16u
@@ -6594,7 +6594,7 @@ typedef struct {
 #define LPSPI_RDR_DATA_SHIFT 0u
 #define LPSPI_RDR_DATA_WIDTH 32u
 #define LPSPI_RDR_DATA(x) (((uint32_t)(((uint32_t)(x))<<LPSPI_RDR_DATA_SHIFT))&LPSPI_RDR_DATA_MASK)
-# 6558 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 6558 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 typedef struct {
   volatile uint32_t CSR;
   volatile uint32_t PSR;
@@ -6621,7 +6621,7 @@ typedef struct {
 #define LPTMR_IRQS_CH_COUNT (1u)
 
 #define LPTMR_IRQS { LPTMR0_IRQn }
-# 6595 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 6595 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define LPTMR_CSR_TEN_MASK 0x1u
 #define LPTMR_CSR_TEN_SHIFT 0u
 #define LPTMR_CSR_TEN_WIDTH 1u
@@ -6677,7 +6677,7 @@ typedef struct {
 #define LPTMR_CNR_COUNTER_SHIFT 0u
 #define LPTMR_CNR_COUNTER_WIDTH 16u
 #define LPTMR_CNR_COUNTER(x) (((uint32_t)(((uint32_t)(x))<<LPTMR_CNR_COUNTER_SHIFT))&LPTMR_CNR_COUNTER_MASK)
-# 6674 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 6674 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 typedef struct {
   volatile const uint32_t VERID;
   volatile const uint32_t PARAM;
@@ -6720,7 +6720,7 @@ typedef struct {
 #define LPUART_RX_TX_IRQS_CH_COUNT (1u)
 
 #define LPUART_RX_TX_IRQS { LPUART0_RxTx_IRQn, LPUART1_RxTx_IRQn, LPUART2_RxTx_IRQn }
-# 6727 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 6727 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define LPUART_VERID_FEATURE_MASK 0xFFFFu
 #define LPUART_VERID_FEATURE_SHIFT 0u
 #define LPUART_VERID_FEATURE_WIDTH 16u
@@ -7172,7 +7172,7 @@ typedef struct {
 #define LPUART_WATER_RXCOUNT_SHIFT 24u
 #define LPUART_WATER_RXCOUNT_WIDTH 3u
 #define LPUART_WATER_RXCOUNT(x) (((uint32_t)(((uint32_t)(x))<<LPUART_WATER_RXCOUNT_SHIFT))&LPUART_WATER_RXCOUNT_MASK)
-# 7200 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 7200 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define MCM_LMDR_COUNT 2u
 
 
@@ -7220,7 +7220,7 @@ typedef struct {
 #define MCM_IRQS_CH_COUNT (1u)
 
 #define MCM_IRQS { MCM_IRQn }
-# 7258 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 7258 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define MCM_PLASC_ASC_MASK 0xFFu
 #define MCM_PLASC_ASC_SHIFT 0u
 #define MCM_PLASC_ASC_WIDTH 8u
@@ -7474,7 +7474,7 @@ typedef struct {
 #define MCM_LMFDLR_PEFDL_SHIFT 0u
 #define MCM_LMFDLR_PEFDL_WIDTH 32u
 #define MCM_LMFDLR_PEFDL(x) (((uint32_t)(((uint32_t)(x))<<MCM_LMFDLR_PEFDL_SHIFT))&MCM_LMFDLR_PEFDL_MASK)
-# 7533 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 7533 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define MPU_EAR_EDR_COUNT 4u
 #define MPU_RGD_COUNT 8u
 #define MPU_RGDAAC_COUNT 8u
@@ -7517,7 +7517,7 @@ typedef struct {
 #define MPU_BASE_ADDRS { MPU_BASE }
 
 #define MPU_BASE_PTRS { MPU }
-# 7586 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 7586 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define MPU_CESR_VLD_MASK 0x1u
 #define MPU_CESR_VLD_SHIFT 0u
 #define MPU_CESR_VLD_WIDTH 1u
@@ -7745,7 +7745,7 @@ typedef struct {
 #define MPU_RGDAAC_M7RE_SHIFT 31u
 #define MPU_RGDAAC_M7RE_WIDTH 1u
 #define MPU_RGDAAC_M7RE(x) (((uint32_t)(((uint32_t)(x))<<MPU_RGDAAC_M7RE_SHIFT))&MPU_RGDAAC_M7RE_MASK)
-# 7835 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 7835 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define MSCM_OCMDR_COUNT 4u
 
 
@@ -7783,7 +7783,7 @@ typedef struct {
 #define MSCM_BASE_ADDRS { MSCM_BASE }
 
 #define MSCM_BASE_PTRS { MSCM }
-# 7883 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 7883 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define MSCM_CPxTYPE_RYPZ_MASK 0xFFu
 #define MSCM_CPxTYPE_RYPZ_SHIFT 0u
 #define MSCM_CPxTYPE_RYPZ_WIDTH 8u
@@ -8008,7 +8008,7 @@ typedef struct {
 #define MSCM_OCMDR_V_SHIFT 31u
 #define MSCM_OCMDR_V_WIDTH 1u
 #define MSCM_OCMDR_V(x) (((uint32_t)(((uint32_t)(x))<<MSCM_OCMDR_V_SHIFT))&MSCM_OCMDR_V_MASK)
-# 8129 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 8129 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define PCC_PCCn_COUNT 116u
 
 
@@ -8063,7 +8063,7 @@ typedef struct {
 #define PCC_LPUART1_INDEX 107
 #define PCC_LPUART2_INDEX 108
 #define PCC_CMP0_INDEX 115
-# 8194 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 8194 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define PCC_PCCn_PCD_MASK 0x7u
 #define PCC_PCCn_PCD_SHIFT 0u
 #define PCC_PCCn_PCD_WIDTH 3u
@@ -8084,7 +8084,7 @@ typedef struct {
 #define PCC_PCCn_PR_SHIFT 31u
 #define PCC_PCCn_PR_WIDTH 1u
 #define PCC_PCCn_PR(x) (((uint32_t)(((uint32_t)(x))<<PCC_PCCn_PR_SHIFT))&PCC_PCCn_PR_MASK)
-# 8236 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 8236 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define PDB_CH_COUNT 2u
 #define PDB_DLY_COUNT 8u
 #define PDB_POnDLY_COUNT 1u
@@ -8134,7 +8134,7 @@ typedef struct {
 #define PDB_IRQS_CH_COUNT (1u)
 
 #define PDB_IRQS { PDB0_IRQn, PDB1_IRQn }
-# 8296 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 8296 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define PDB_SC_LDOK_MASK 0x1u
 #define PDB_SC_LDOK_SHIFT 0u
 #define PDB_SC_LDOK_WIDTH 1u
@@ -8249,7 +8249,7 @@ typedef struct {
 #define PDB_POnDLY_ACCESS16BIT_DLY1_DLY1_SHIFT 0u
 #define PDB_POnDLY_ACCESS16BIT_DLY1_DLY1_WIDTH 16u
 #define PDB_POnDLY_ACCESS16BIT_DLY1_DLY1(x) (((uint16_t)(((uint16_t)(x))<<PDB_POnDLY_ACCESS16BIT_DLY1_DLY1_SHIFT))&PDB_POnDLY_ACCESS16BIT_DLY1_DLY1_MASK)
-# 8434 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 8434 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 typedef struct {
   volatile uint8_t LVDSC1;
   volatile uint8_t LVDSC2;
@@ -8277,7 +8277,7 @@ typedef struct {
 #define PMC_IRQS_CH_COUNT (1u)
 
 #define PMC_IRQS { LVD_LVW_IRQn }
-# 8472 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 8472 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define PMC_LVDSC1_LVDRE_MASK 0x10u
 #define PMC_LVDSC1_LVDRE_SHIFT 4u
 #define PMC_LVDSC1_LVDRE_WIDTH 1u
@@ -8333,7 +8333,7 @@ typedef struct {
 #define PMC_LPOTRIM_LPOTRIM_SHIFT 0u
 #define PMC_LPOTRIM_LPOTRIM_WIDTH 5u
 #define PMC_LPOTRIM_LPOTRIM(x) (((uint8_t)(((uint8_t)(x))<<PMC_LPOTRIM_LPOTRIM_SHIFT))&PMC_LPOTRIM_LPOTRIM_MASK)
-# 8549 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 8549 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define PORT_PCR_COUNT 32u
 
 
@@ -8386,7 +8386,7 @@ typedef struct {
 #define PORT_IRQS_CH_COUNT (1u)
 
 #define PORT_IRQS { PORTA_IRQn, PORTB_IRQn, PORTC_IRQn, PORTD_IRQn, PORTE_IRQn }
-# 8612 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 8612 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define PORT_PCR_PS_MASK 0x1u
 #define PORT_PCR_PS_SHIFT 0u
 #define PORT_PCR_PS_WIDTH 1u
@@ -8475,7 +8475,7 @@ typedef struct {
 #define PORT_DFWR_FILT_SHIFT 0u
 #define PORT_DFWR_FILT_WIDTH 5u
 #define PORT_DFWR_FILT(x) (((uint32_t)(((uint32_t)(x))<<PORT_DFWR_FILT_SHIFT))&PORT_DFWR_FILT_MASK)
-# 8724 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 8724 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 typedef struct {
   volatile const uint32_t VERID;
   volatile const uint32_t PARAM;
@@ -8505,7 +8505,7 @@ typedef struct {
 #define RCM_IRQS_CH_COUNT (1u)
 
 #define RCM_IRQS { RCM_IRQn }
-# 8764 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 8764 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define RCM_VERID_FEATURE_MASK 0xFFFFu
 #define RCM_VERID_FEATURE_SHIFT 0u
 #define RCM_VERID_FEATURE_WIDTH 16u
@@ -8723,7 +8723,7 @@ typedef struct {
 #define RCM_SRIE_SACKERR_SHIFT 13u
 #define RCM_SRIE_SACKERR_WIDTH 1u
 #define RCM_SRIE_SACKERR(x) (((uint32_t)(((uint32_t)(x))<<RCM_SRIE_SACKERR_SHIFT))&RCM_SRIE_SACKERR_MASK)
-# 9005 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 9005 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 typedef struct {
   volatile uint32_t TSR;
   volatile uint32_t TPR;
@@ -8757,7 +8757,7 @@ typedef struct {
 
 #define RTC_IRQS { RTC_IRQn }
 #define RTC_SECONDS_IRQS { RTC_Seconds_IRQn }
-# 9049 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 9049 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define RTC_TSR_TSR_MASK 0xFFFFFFFFu
 #define RTC_TSR_TSR_SHIFT 0u
 #define RTC_TSR_TSR_WIDTH 32u
@@ -8869,7 +8869,7 @@ typedef struct {
 #define RTC_IER_TSIC_SHIFT 16u
 #define RTC_IER_TSIC_WIDTH 3u
 #define RTC_IER_TSIC(x) (((uint32_t)(((uint32_t)(x))<<RTC_IER_TSIC_SHIFT))&RTC_IER_TSIC_MASK)
-# 9182 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 9182 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define S32_NVIC_ISER_COUNT 8u
 #define S32_NVIC_ICER_COUNT 8u
 #define S32_NVIC_ISPR_COUNT 8u
@@ -8913,7 +8913,7 @@ typedef struct {
 #define S32_NVIC_IRQS_CH_COUNT (1u)
 
 #define S32_NVIC_IRQS { SWI_IRQn }
-# 9236 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 9236 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define S32_NVIC_ISER_SETENA_MASK 0xFFFFFFFFu
 #define S32_NVIC_ISER_SETENA_SHIFT 0u
 #define S32_NVIC_ISER_SETENA_WIDTH 32u
@@ -9904,7 +9904,7 @@ typedef struct {
 #define S32_NVIC_STIR_INTID_SHIFT 0u
 #define S32_NVIC_STIR_INTID_WIDTH 9u
 #define S32_NVIC_STIR_INTID(x) (((uint32_t)(((uint32_t)(x))<<S32_NVIC_STIR_INTID_SHIFT))&S32_NVIC_STIR_INTID_MASK)
-# 10250 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 10250 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 typedef struct {
        uint8_t RESERVED_0[8];
   volatile uint32_t ACTLR;
@@ -9946,7 +9946,7 @@ typedef struct {
 #define S32_SCB_BASE_ADDRS { S32_SCB_BASE }
 
 #define S32_SCB_BASE_PTRS { S32_SCB }
-# 10302 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 10302 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define S32_SCB_ACTLR_DISMCYCINT_MASK 0x1u
 #define S32_SCB_ACTLR_DISMCYCINT_SHIFT 0u
 #define S32_SCB_ACTLR_DISMCYCINT_WIDTH 1u
@@ -10375,7 +10375,7 @@ typedef struct {
 #define S32_SCB_FPDSCR_AHP_SHIFT 26u
 #define S32_SCB_FPDSCR_AHP_WIDTH 1u
 #define S32_SCB_FPDSCR_AHP(x) (((uint32_t)(((uint32_t)(x))<<S32_SCB_FPDSCR_AHP_SHIFT))&S32_SCB_FPDSCR_AHP_MASK)
-# 10754 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 10754 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 typedef struct {
   volatile uint32_t CSR;
   volatile uint32_t RVR;
@@ -10402,7 +10402,7 @@ typedef struct {
 #define S32_SysTick_IRQS_CH_COUNT (1u)
 
 #define S32_SysTick_IRQS { SysTick_IRQn }
-# 10791 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 10791 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define S32_SysTick_CSR_ENABLE_MASK 0x1u
 #define S32_SysTick_CSR_ENABLE_SHIFT 0u
 #define S32_SysTick_CSR_ENABLE_WIDTH 1u
@@ -10442,7 +10442,7 @@ typedef struct {
 #define S32_SysTick_CALIB_NOREF_SHIFT 31u
 #define S32_SysTick_CALIB_NOREF_WIDTH 1u
 #define S32_SysTick_CALIB_NOREF(x) (((uint32_t)(((uint32_t)(x))<<S32_SysTick_CALIB_NOREF_SHIFT))&S32_SysTick_CALIB_NOREF_MASK)
-# 10854 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 10854 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 typedef struct {
   volatile const uint32_t VERID;
   volatile const uint32_t PARAM;
@@ -10489,7 +10489,7 @@ typedef struct {
 #define SCG_IRQS_CH_COUNT (1u)
 
 #define SCG_IRQS { SCG_IRQn }
-# 10911 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 10911 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define SCG_VERID_VERSION_MASK 0xFFFFFFFFu
 #define SCG_VERID_VERSION_SHIFT 0u
 #define SCG_VERID_VERSION_WIDTH 32u
@@ -10752,7 +10752,7 @@ typedef struct {
 #define SCG_SPLLCFG_MULT_SHIFT 16u
 #define SCG_SPLLCFG_MULT_WIDTH 5u
 #define SCG_SPLLCFG_MULT(x) (((uint32_t)(((uint32_t)(x))<<SCG_SPLLCFG_MULT_SHIFT))&SCG_SPLLCFG_MULT_MASK)
-# 11197 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 11197 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 typedef struct {
        uint8_t RESERVED_0[4];
   volatile uint32_t CHIPCTL;
@@ -10791,7 +10791,7 @@ typedef struct {
 #define SIM_BASE_ADDRS { SIM_BASE }
 
 #define SIM_BASE_PTRS { SIM }
-# 11246 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 11246 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define SIM_CHIPCTL_ADC_INTERLEAVE_EN_MASK 0xFu
 #define SIM_CHIPCTL_ADC_INTERLEAVE_EN_SHIFT 0u
 #define SIM_CHIPCTL_ADC_INTERLEAVE_EN_WIDTH 4u
@@ -11062,7 +11062,7 @@ typedef struct {
 #define SIM_MISCTRL1_SW_TRG_SHIFT 0u
 #define SIM_MISCTRL1_SW_TRG_WIDTH 1u
 #define SIM_MISCTRL1_SW_TRG(x) (((uint32_t)(((uint32_t)(x))<<SIM_MISCTRL1_SW_TRG_SHIFT))&SIM_MISCTRL1_SW_TRG_MASK)
-# 11540 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 11540 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 typedef struct {
   volatile const uint32_t VERID;
   volatile const uint32_t PARAM;
@@ -11085,7 +11085,7 @@ typedef struct {
 #define SMC_BASE_ADDRS { SMC_BASE }
 
 #define SMC_BASE_PTRS { SMC }
-# 11573 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 11573 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define SMC_VERID_FEATURE_MASK 0xFFFFu
 #define SMC_VERID_FEATURE_SHIFT 0u
 #define SMC_VERID_FEATURE_WIDTH 16u
@@ -11147,7 +11147,7 @@ typedef struct {
 #define SMC_PMSTAT_PMSTAT_SHIFT 0u
 #define SMC_PMSTAT_PMSTAT_WIDTH 8u
 #define SMC_PMSTAT_PMSTAT(x) (((uint32_t)(((uint32_t)(x))<<SMC_PMSTAT_PMSTAT_SHIFT))&SMC_PMSTAT_PMSTAT_MASK)
-# 11656 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 11656 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define TRGMUX_TRGMUXn_COUNT 26u
 
 
@@ -11190,7 +11190,7 @@ typedef struct {
 #define TRGMUX_LPSPI0_INDEX 23
 #define TRGMUX_LPSPI1_INDEX 24
 #define TRGMUX_LPTMR0_INDEX 25
-# 11709 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 11709 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define TRGMUX_TRGMUXn_SEL0_MASK 0x3Fu
 #define TRGMUX_TRGMUXn_SEL0_SHIFT 0u
 #define TRGMUX_TRGMUXn_SEL0_WIDTH 6u
@@ -11211,7 +11211,7 @@ typedef struct {
 #define TRGMUX_TRGMUXn_LK_SHIFT 31u
 #define TRGMUX_TRGMUXn_LK_WIDTH 1u
 #define TRGMUX_TRGMUXn_LK(x) (((uint32_t)(((uint32_t)(x))<<TRGMUX_TRGMUXn_LK_SHIFT))&TRGMUX_TRGMUXn_LK_MASK)
-# 11753 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 11753 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 typedef struct {
   volatile uint32_t CS;
   volatile uint32_t CNT;
@@ -11238,7 +11238,7 @@ typedef struct {
 #define WDOG_IRQS_CH_COUNT (1u)
 
 #define WDOG_IRQS { WDOG_EWM_IRQn }
-# 11790 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 11790 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define WDOG_CS_STOP_MASK 0x1u
 #define WDOG_CS_STOP_SHIFT 0u
 #define WDOG_CS_STOP_WIDTH 1u
@@ -11322,10 +11322,10 @@ typedef struct {
 #define WDOG_WIN_WINHIGH_SHIFT 8u
 #define WDOG_WIN_WINHIGH_WIDTH 8u
 #define WDOG_WIN_WINHIGH(x) (((uint32_t)(((uint32_t)(x))<<WDOG_WIN_WINHIGH_SHIFT))&WDOG_WIN_WINHIGH_MASK)
-# 77 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/device_registers.h" 2
+# 77 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/device_registers.h" 2
 
-# 1 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144_features.h" 1
-# 58 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144_features.h"
+# 1 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144_features.h" 1
+# 58 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144_features.h"
 #define S32K144_FEATURES_H 
 
 
@@ -11920,7 +11920,7 @@ typedef enum {
 #define FEATURE_DMAMUX_CHN_REG_INDEX(x) (x)
 
 #define FEATURE_DMAMUX_CLOCK_NAMES {DMAMUX0_CLK}
-# 660 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144_features.h"
+# 660 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144_features.h"
 typedef enum {
     EDMA_REQ_DISABLED = 0U,
     EDMA_REQ_LPUART0_RX = 2U,
@@ -12109,7 +12109,7 @@ typedef enum {
 
 
 #define PCC_CLOCK_NAME_MAPPINGS { PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_CMP0_INDEX, PCC_CRC_INDEX, PCC_DMAMUX_INDEX, PCC_EWM_INDEX, PCC_PORTA_INDEX, PCC_PORTB_INDEX, PCC_PORTC_INDEX, PCC_PORTD_INDEX, PCC_PORTE_INDEX, PCC_RTC_INDEX, PCC_INVALID_INDEX, PCC_FlexCAN0_INDEX, PCC_FlexCAN1_INDEX, PCC_FlexCAN2_INDEX, PCC_PDB0_INDEX, PCC_PDB1_INDEX, PCC_INVALID_INDEX, PCC_FTFC_INDEX, PCC_INVALID_INDEX, PCC_FTM0_INDEX, PCC_FTM1_INDEX, PCC_FTM2_INDEX, PCC_FTM3_INDEX, PCC_INVALID_INDEX, PCC_ADC0_INDEX, PCC_ADC1_INDEX, PCC_FlexIO_INDEX, PCC_LPI2C0_INDEX, PCC_LPIT_INDEX, PCC_LPSPI0_INDEX, PCC_LPSPI1_INDEX, PCC_LPSPI2_INDEX, PCC_LPTMR0_INDEX, PCC_LPUART0_INDEX, PCC_LPUART1_INDEX, PCC_LPUART2_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, }
-# 933 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144_features.h"
+# 933 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144_features.h"
 #define NO_PERIPHERAL_FEATURE (0U)
 #define HAS_CLOCK_GATING_IN_SIM (1U << 0U)
 #define HAS_MULTIPLIER (1U << 1U)
@@ -12125,7 +12125,7 @@ typedef enum {
 
 
 #define PERIPHERAL_FEATURES { (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (HAS_CLOCK_GATING_IN_SIM | HAS_INT_CLOCK_FROM_SYS_CLOCK), (HAS_CLOCK_GATING_IN_SIM | HAS_INT_CLOCK_FROM_SYS_CLOCK), (HAS_CLOCK_GATING_IN_SIM | HAS_INT_CLOCK_FROM_SYS_CLOCK), (HAS_CLOCK_GATING_IN_SIM | HAS_INT_CLOCK_FROM_SYS_CLOCK), (HAS_CLOCK_GATING_IN_SIM | HAS_INT_CLOCK_FROM_SYS_CLOCK), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (HAS_INT_CLOCK_FROM_BUS_CLOCK), (HAS_INT_CLOCK_FROM_BUS_CLOCK), (HAS_INT_CLOCK_FROM_BUS_CLOCK), (HAS_INT_CLOCK_FROM_BUS_CLOCK), (HAS_INT_CLOCK_FROM_BUS_CLOCK), (HAS_INT_CLOCK_FROM_BUS_CLOCK), (HAS_INT_CLOCK_FROM_BUS_CLOCK), (HAS_INT_CLOCK_FROM_BUS_CLOCK), (HAS_INT_CLOCK_FROM_BUS_CLOCK), (HAS_INT_CLOCK_FROM_BUS_CLOCK), (NO_PERIPHERAL_FEATURE), (HAS_INT_CLOCK_FROM_SYS_CLOCK), (HAS_INT_CLOCK_FROM_SYS_CLOCK), (HAS_INT_CLOCK_FROM_SYS_CLOCK), (HAS_INT_CLOCK_FROM_SYS_CLOCK), (HAS_INT_CLOCK_FROM_SYS_CLOCK), (NO_PERIPHERAL_FEATURE), (HAS_INT_CLOCK_FROM_SLOW_CLOCK), (NO_PERIPHERAL_FEATURE), (HAS_PROTOCOL_CLOCK_FROM_ASYNC1 | HAS_INT_CLOCK_FROM_SYS_CLOCK), (HAS_PROTOCOL_CLOCK_FROM_ASYNC1 | HAS_INT_CLOCK_FROM_SYS_CLOCK), (HAS_PROTOCOL_CLOCK_FROM_ASYNC1 | HAS_INT_CLOCK_FROM_SYS_CLOCK), (HAS_PROTOCOL_CLOCK_FROM_ASYNC1 | HAS_INT_CLOCK_FROM_SYS_CLOCK), (NO_PERIPHERAL_FEATURE), (HAS_PROTOCOL_CLOCK_FROM_ASYNC2 | HAS_INT_CLOCK_FROM_BUS_CLOCK), (HAS_PROTOCOL_CLOCK_FROM_ASYNC2 | HAS_INT_CLOCK_FROM_BUS_CLOCK), (HAS_PROTOCOL_CLOCK_FROM_ASYNC2 | HAS_INT_CLOCK_FROM_BUS_CLOCK), (HAS_PROTOCOL_CLOCK_FROM_ASYNC2 | HAS_INT_CLOCK_FROM_BUS_CLOCK), (HAS_PROTOCOL_CLOCK_FROM_ASYNC2 | HAS_INT_CLOCK_FROM_BUS_CLOCK), (HAS_PROTOCOL_CLOCK_FROM_ASYNC2 | HAS_INT_CLOCK_FROM_BUS_CLOCK), (HAS_PROTOCOL_CLOCK_FROM_ASYNC2 | HAS_INT_CLOCK_FROM_BUS_CLOCK), (HAS_PROTOCOL_CLOCK_FROM_ASYNC2 | HAS_INT_CLOCK_FROM_BUS_CLOCK), (HAS_MULTIPLIER | HAS_DIVIDER | HAS_PROTOCOL_CLOCK_FROM_ASYNC2 | HAS_INT_CLOCK_FROM_BUS_CLOCK), (HAS_PROTOCOL_CLOCK_FROM_ASYNC2 | HAS_INT_CLOCK_FROM_BUS_CLOCK), (HAS_PROTOCOL_CLOCK_FROM_ASYNC2 | HAS_INT_CLOCK_FROM_BUS_CLOCK), (HAS_PROTOCOL_CLOCK_FROM_ASYNC2 | HAS_INT_CLOCK_FROM_BUS_CLOCK), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), }
-# 1032 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144_features.h"
+# 1032 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144_features.h"
 #define SIRC_STABILIZATION_TIMEOUT 100U
 
 
@@ -12139,7 +12139,7 @@ typedef enum {
 
 
 #define SPLL_STABILIZATION_TIMEOUT 1000U;
-# 1056 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144_features.h"
+# 1056 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144_features.h"
 #define MAX_FREQ_VLPR 0U
 #define MAX_FREQ_RUN 1U
 #define MAX_FREQ_HSRUN 2U
@@ -12152,7 +12152,7 @@ typedef enum {
 #define MAX_FREQ_CLK_NO 3U
 
 #define CLOCK_MAX_FREQUENCIES { { 4000000, 4000000, 1000000}, { 80000000,40000000,26670000}, {112000000,56000000,28000000}, }
-# 1085 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144_features.h"
+# 1085 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144_features.h"
 #define TMP_SIRC_CLK 0U
 #define TMP_FIRC_CLK 1U
 #define TMP_SOSC_CLK 2U
@@ -12166,7 +12166,7 @@ typedef enum {
 #define TMP_SYS_DIV_NO 3U
 
 #define TMP_SYSTEM_CLOCK_CONFIGS { { SCG_SYSTEM_CLOCK_DIV_BY_1, SCG_SYSTEM_CLOCK_DIV_BY_1, SCG_SYSTEM_CLOCK_DIV_BY_1}, { SCG_SYSTEM_CLOCK_DIV_BY_1, SCG_SYSTEM_CLOCK_DIV_BY_2, SCG_SYSTEM_CLOCK_DIV_BY_4}, { SCG_SYSTEM_CLOCK_DIV_BY_1, SCG_SYSTEM_CLOCK_DIV_BY_2, SCG_SYSTEM_CLOCK_DIV_BY_2}, { SCG_SYSTEM_CLOCK_DIV_BY_3, SCG_SYSTEM_CLOCK_DIV_BY_2, SCG_SYSTEM_CLOCK_DIV_BY_2}, }
-# 1114 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144_features.h"
+# 1114 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144_features.h"
 #define CORE_CLOCK CORE_CLK
 #define BUS_CLOCK BUS_CLK
 #define SLOW_CLOCK SLOW_CLK
@@ -12308,7 +12308,7 @@ typedef enum {
 
 
 #define FEATURE_LPSPI_STATE_STRUCTURES_NULL {NULL, NULL, NULL}
-# 1263 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144_features.h"
+# 1263 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144_features.h"
 typedef enum
 {
     TRGMUX_TRIG_SOURCE_DISABLED = 0U,
@@ -12433,14 +12433,14 @@ typedef enum
 
 
 #define FEATURE_TRGMUX_TARGET_MODULE { TRGMUX_TARGET_MODULE_DMA_CH0, TRGMUX_TARGET_MODULE_DMA_CH1, TRGMUX_TARGET_MODULE_DMA_CH2, TRGMUX_TARGET_MODULE_DMA_CH3, TRGMUX_TARGET_MODULE_TRGMUX_OUT0, TRGMUX_TARGET_MODULE_TRGMUX_OUT1, TRGMUX_TARGET_MODULE_TRGMUX_OUT2, TRGMUX_TARGET_MODULE_TRGMUX_OUT3, TRGMUX_TARGET_MODULE_TRGMUX_OUT4, TRGMUX_TARGET_MODULE_TRGMUX_OUT5, TRGMUX_TARGET_MODULE_TRGMUX_OUT6, TRGMUX_TARGET_MODULE_TRGMUX_OUT7, TRGMUX_TARGET_MODULE_ADC0_ADHWT_TLA0, TRGMUX_TARGET_MODULE_ADC0_ADHWT_TLA1, TRGMUX_TARGET_MODULE_ADC0_ADHWT_TLA2, TRGMUX_TARGET_MODULE_ADC0_ADHWT_TLA3, TRGMUX_TARGET_MODULE_ADC1_ADHWT_TLA0, TRGMUX_TARGET_MODULE_ADC1_ADHWT_TLA1, TRGMUX_TARGET_MODULE_ADC1_ADHWT_TLA2, TRGMUX_TARGET_MODULE_ADC1_ADHWT_TLA3, TRGMUX_TARGET_MODULE_CMP0_SAMPLE, TRGMUX_TARGET_MODULE_FTM0_HWTRIG0, TRGMUX_TARGET_MODULE_FTM0_FAULT0, TRGMUX_TARGET_MODULE_FTM0_FAULT1, TRGMUX_TARGET_MODULE_FTM0_FAULT2, TRGMUX_TARGET_MODULE_FTM1_HWTRIG0, TRGMUX_TARGET_MODULE_FTM1_FAULT0, TRGMUX_TARGET_MODULE_FTM1_FAULT1, TRGMUX_TARGET_MODULE_FTM1_FAULT2, TRGMUX_TARGET_MODULE_FTM2_HWTRIG0, TRGMUX_TARGET_MODULE_FTM2_FAULT0, TRGMUX_TARGET_MODULE_FTM2_FAULT1, TRGMUX_TARGET_MODULE_FTM2_FAULT2, TRGMUX_TARGET_MODULE_FTM3_HWTRIG0, TRGMUX_TARGET_MODULE_FTM3_FAULT0, TRGMUX_TARGET_MODULE_FTM3_FAULT1, TRGMUX_TARGET_MODULE_FTM3_FAULT2, TRGMUX_TARGET_MODULE_PDB0_TRG_IN, TRGMUX_TARGET_MODULE_PDB1_TRG_IN, TRGMUX_TARGET_MODULE_FLEXIO_TRG_TIM0, TRGMUX_TARGET_MODULE_FLEXIO_TRG_TIM1, TRGMUX_TARGET_MODULE_FLEXIO_TRG_TIM2, TRGMUX_TARGET_MODULE_FLEXIO_TRG_TIM3, TRGMUX_TARGET_MODULE_LPIT_TRG_CH0, TRGMUX_TARGET_MODULE_LPIT_TRG_CH1, TRGMUX_TARGET_MODULE_LPIT_TRG_CH2, TRGMUX_TARGET_MODULE_LPIT_TRG_CH3, TRGMUX_TARGET_MODULE_LPUART0_TRG, TRGMUX_TARGET_MODULE_LPUART1_TRG, TRGMUX_TARGET_MODULE_LPI2C0_TRG, TRGMUX_TARGET_MODULE_LPSPI0_TRG, TRGMUX_TARGET_MODULE_LPSPI1_TRG, TRGMUX_TARGET_MODULE_LPTMR0_ALT0 }
-# 79 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/device_registers.h" 2
-# 178 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/device_registers.h"
-# 1 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
-# 20 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h"
+# 79 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/device_registers.h" 2
+# 178 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/device_registers.h"
+# 1 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
+# 20 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h"
 #define DEVASSERT_H 
 
-# 1 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stdbool.h" 1 3 4
-# 29 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stdbool.h" 3 4
+# 1 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stdbool.h" 1 3 4
+# 29 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stdbool.h" 3 4
 #define _STDBOOL_H 
 
 
@@ -12448,18 +12448,18 @@ typedef enum
 #define bool _Bool
 #define true 1
 #define false 0
-# 48 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stdbool.h" 3 4
+# 48 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stdbool.h" 3 4
 #define __bool_true_false_are_defined 1
-# 23 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 2
-# 70 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h"
+# 23 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 2
+# 70 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h"
 static inline void DevAssert(volatile _Bool x)
 {
     if(x) { } else { __asm("BKPT #0\n\t"); for(;;) {} }
 }
 #define DEV_ASSERT(x) DevAssert(x)
-# 179 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/device_registers.h" 2
-# 22 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/interrupt_manager.h" 2
-# 79 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/interrupt_manager.h"
+# 179 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/device_registers.h" 2
+# 22 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/interrupt_manager.h" 2
+# 79 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/interrupt_manager.h"
 typedef void (* isr_t)(void);
 
 
@@ -12467,13 +12467,13 @@ typedef void (* isr_t)(void);
 
 
 void DefaultISR(void);
-# 112 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/interrupt_manager.h"
+# 112 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/interrupt_manager.h"
 void INT_SYS_InstallHandler(IRQn_Type irqNumber,
                             const isr_t newHandler,
                             isr_t* const oldHandler);
-# 123 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/interrupt_manager.h"
+# 123 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/interrupt_manager.h"
 void INT_SYS_EnableIRQ(IRQn_Type irqNumber);
-# 132 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/interrupt_manager.h"
+# 132 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/interrupt_manager.h"
 void INT_SYS_DisableIRQ(IRQn_Type irqNumber);
 
 
@@ -12491,20 +12491,20 @@ void INT_SYS_EnableIRQGlobal(void);
 
 
 void INT_SYS_DisableIRQGlobal(void);
-# 157 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/interrupt_manager.h"
+# 157 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/interrupt_manager.h"
 void INT_SYS_SetPriority(IRQn_Type irqNumber, uint8_t priority);
-# 166 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/interrupt_manager.h"
+# 166 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/interrupt_manager.h"
 uint8_t INT_SYS_GetPriority(IRQn_Type irqNumber);
-# 177 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/interrupt_manager.h"
+# 177 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/interrupt_manager.h"
 void INT_SYS_ClearPending(IRQn_Type irqNumber);
-# 186 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/interrupt_manager.h"
+# 186 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/interrupt_manager.h"
 void INT_SYS_SetPending(IRQn_Type irqNumber);
-# 197 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/interrupt_manager.h"
+# 197 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/interrupt_manager.h"
 uint32_t INT_SYS_GetPending(IRQn_Type irqNumber);
-# 210 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/interrupt_manager.h"
+# 210 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/interrupt_manager.h"
 uint32_t INT_SYS_GetActive(IRQn_Type irqNumber);
-# 59 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/interrupt/interrupt_manager.c" 2
-# 67 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/interrupt/interrupt_manager.c"
+# 59 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/interrupt/interrupt_manager.c" 2
+# 67 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/interrupt/interrupt_manager.c"
 static int32_t g_interruptDisableCount = 0;
 
 
@@ -12513,7 +12513,7 @@ static int32_t g_interruptDisableCount = 0;
 
 
 extern uint32_t __VECTOR_RAM[((uint32_t)((FTM3_Ovf_Reload_IRQn))) + 16U + 1U];
-# 98 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/interrupt/interrupt_manager.c"
+# 98 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/interrupt/interrupt_manager.c"
 void INT_SYS_InstallHandler(IRQn_Type irqNumber,
                             const isr_t newHandler,
                             isr_t* const oldHandler)
@@ -12536,12 +12536,12 @@ void INT_SYS_InstallHandler(IRQn_Type irqNumber,
     {
         *oldHandler = (isr_t)__VECTOR_RAM[((int32_t)irqNumber) + 16];
     }
-# 143 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/interrupt/interrupt_manager.c"
+# 143 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/interrupt/interrupt_manager.c"
    __VECTOR_RAM[((int32_t)irqNumber) + 16] = (uint32_t)newHandler;
 
 
 }
-# 158 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/interrupt/interrupt_manager.c"
+# 158 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/interrupt/interrupt_manager.c"
 void INT_SYS_EnableIRQ(IRQn_Type irqNumber)
 {
 
@@ -12551,9 +12551,9 @@ void INT_SYS_EnableIRQ(IRQn_Type irqNumber)
 
 
     ((S32_NVIC_Type *)(0xE000E100u))->ISER[(uint32_t)(irqNumber) >> 5U] = (uint32_t)(1UL << ((uint32_t)(irqNumber) & (uint32_t)0x1FU));
-# 175 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/interrupt/interrupt_manager.c"
+# 175 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/interrupt/interrupt_manager.c"
 }
-# 186 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/interrupt/interrupt_manager.c"
+# 186 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/interrupt/interrupt_manager.c"
 void INT_SYS_DisableIRQ(IRQn_Type irqNumber)
 {
 
@@ -12563,9 +12563,9 @@ void INT_SYS_DisableIRQ(IRQn_Type irqNumber)
 
 
     ((S32_NVIC_Type *)(0xE000E100u))->ICER[((uint32_t)(irqNumber) >> 5U)] = (uint32_t)(1UL << ((uint32_t)(irqNumber) & (uint32_t)0x1FU));
-# 204 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/interrupt/interrupt_manager.c"
+# 204 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/interrupt/interrupt_manager.c"
 }
-# 214 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/interrupt/interrupt_manager.c"
+# 214 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/interrupt/interrupt_manager.c"
 void INT_SYS_EnableIRQGlobal(void)
 {
 
@@ -12580,7 +12580,7 @@ void INT_SYS_EnableIRQGlobal(void)
         }
     }
 }
-# 237 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/interrupt/interrupt_manager.c"
+# 237 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/interrupt/interrupt_manager.c"
 void INT_SYS_DisableIRQGlobal(void)
 {
 
@@ -12589,7 +12589,7 @@ void INT_SYS_DisableIRQGlobal(void)
 
     g_interruptDisableCount++;
 }
-# 255 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/interrupt/interrupt_manager.c"
+# 255 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/interrupt/interrupt_manager.c"
 void INT_SYS_SetPriority(IRQn_Type irqNumber, uint8_t priority)
 {
 
@@ -12619,7 +12619,7 @@ void INT_SYS_SetPriority(IRQn_Type irqNumber, uint8_t priority)
         ((S32_NVIC_Type *)(0xE000E100u))->IP[(uint32_t)(irqNumber)] = (uint8_t)(((((uint32_t)priority) << shift)) & 0xFFUL);
     }
 }
-# 294 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/interrupt/interrupt_manager.c"
+# 294 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/interrupt/interrupt_manager.c"
 uint8_t INT_SYS_GetPriority(IRQn_Type irqNumber)
 {
 
@@ -12652,17 +12652,17 @@ uint8_t INT_SYS_GetPriority(IRQn_Type irqNumber)
 
     return priority;
 }
-# 337 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/interrupt/interrupt_manager.c"
+# 337 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/interrupt/interrupt_manager.c"
 void INT_SYS_ClearPending(IRQn_Type irqNumber)
 {
 
 
     DevAssert(0 <= (int32_t)irqNumber);
     DevAssert((uint32_t)irqNumber <= (uint32_t)(FTM3_Ovf_Reload_IRQn));
-# 364 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/interrupt/interrupt_manager.c"
+# 364 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/interrupt/interrupt_manager.c"
     ((S32_NVIC_Type *)(0xE000E100u))->ICPR[(uint32_t)(irqNumber) >> 5U] = (uint32_t)(1UL << ((uint32_t)(irqNumber) & (uint32_t)0x1FU));
 }
-# 375 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/interrupt/interrupt_manager.c"
+# 375 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/interrupt/interrupt_manager.c"
 void INT_SYS_SetPending(IRQn_Type irqNumber)
 {
 
@@ -12673,17 +12673,17 @@ void INT_SYS_SetPending(IRQn_Type irqNumber)
 
     ((S32_NVIC_Type *)(0xE000E100u))->ISPR[(uint32_t)(irqNumber) >> 5U] = (uint32_t)(1UL << ((uint32_t)(irqNumber) & (uint32_t)0x1FU));
 }
-# 395 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/interrupt/interrupt_manager.c"
+# 395 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/interrupt/interrupt_manager.c"
 uint32_t INT_SYS_GetPending(IRQn_Type irqNumber)
 {
 
 
     DevAssert(0 <= (int32_t)irqNumber);
     DevAssert((uint32_t)irqNumber <= (uint32_t)(FTM3_Ovf_Reload_IRQn));
-# 414 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/interrupt/interrupt_manager.c"
+# 414 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/interrupt/interrupt_manager.c"
     return ((uint32_t)(((((S32_NVIC_Type *)(0xE000E100u))->ISPR[(((uint32_t)irqNumber) >> 5UL)] & (1UL << (((uint32_t)irqNumber) & 0x1FUL))) != 0UL) ? 1UL : 0UL));
 }
-# 427 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/interrupt/interrupt_manager.c"
+# 427 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/interrupt/interrupt_manager.c"
 uint32_t INT_SYS_GetActive(IRQn_Type irqNumber)
 {
 

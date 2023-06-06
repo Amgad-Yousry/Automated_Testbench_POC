@@ -1,5 +1,5 @@
-# 1 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
-# 1 "C:\\Users\\amgad\\Downloads\\nx\\lpi2c_master_s32k144kl\\Debug_RAM//"
+# 1 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 1 "D:\\MASTERS\\scaleo\\Internship\\lpi2c_master_SFM_V1\\Debug_RAM//"
 # 1 "<built-in>"
 #define __STDC__ 1
 #define __STDC_VERSION__ 199901L
@@ -363,19 +363,19 @@
 #define __USES_INITFINI__ 1
 #define CPU_S32K144HFT0VLLT 1
 #define DEV_ERROR_DETECT 1
-# 1 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
-# 89 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
-# 1 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h" 1
-# 43 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
+# 1 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 89 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 1 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h" 1
+# 43 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
 #define LPI2C_DRIVER_H 
 
-# 1 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 1 3 4
-# 39 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 3 4
+# 1 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 1 3 4
+# 39 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 3 4
 #define _STDDEF_H 
 #define _STDDEF_H_ 
 
 #define _ANSI_STDDEF_H 
-# 136 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 3 4
+# 136 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 3 4
 #define _PTRDIFF_T 
 #define _T_PTRDIFF_ 
 #define _T_PTRDIFF 
@@ -388,9 +388,9 @@
 
 
 typedef int ptrdiff_t;
-# 158 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 3 4
+# 158 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 3 4
 #undef __need_ptrdiff_t
-# 184 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 3 4
+# 184 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 3 4
 #define __size_t__ 
 #define __SIZE_T__ 
 #define _SIZE_T 
@@ -420,9 +420,9 @@ typedef int ptrdiff_t;
 
 
 typedef unsigned int size_t;
-# 234 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 3 4
+# 234 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 3 4
 #undef __need_size_t
-# 263 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 3 4
+# 263 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 3 4
 #define __wchar_t__ 
 #define __WCHAR_T__ 
 #define _WCHAR_T 
@@ -438,13 +438,13 @@ typedef unsigned int size_t;
 #define __INT_WCHAR_T_H 
 #define _GCC_WCHAR_T 
 #define _WCHAR_T_DECLARED 
-# 290 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 3 4
+# 290 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 3 4
 #undef _BSD_WCHAR_T_
-# 324 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 3 4
+# 324 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 3 4
 typedef unsigned int wchar_t;
-# 343 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 3 4
+# 343 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 3 4
 #undef __need_wchar_t
-# 397 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 3 4
+# 397 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 3 4
 #undef NULL
 
 
@@ -462,9 +462,9 @@ typedef unsigned int wchar_t;
 
 
 #define offsetof(TYPE,MEMBER) __builtin_offsetof (TYPE, MEMBER)
-# 46 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h" 2
-# 1 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stdbool.h" 1 3 4
-# 29 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stdbool.h" 3 4
+# 46 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h" 2
+# 1 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stdbool.h" 1 3 4
+# 29 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stdbool.h" 3 4
 #define _STDBOOL_H 
 
 
@@ -472,37 +472,37 @@ typedef unsigned int wchar_t;
 #define bool _Bool
 #define true 1
 #define false 0
-# 48 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stdbool.h" 3 4
+# 48 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stdbool.h" 3 4
 #define __bool_true_false_are_defined 1
-# 47 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h" 2
-# 1 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/device_registers.h" 1
-# 28 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/device_registers.h"
+# 47 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h" 2
+# 1 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/device_registers.h" 1
+# 28 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/device_registers.h"
 #define DEVICE_REGISTERS_H 
-# 48 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/device_registers.h"
+# 48 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/device_registers.h"
 #define S32K14x_SERIES 
 
 
-# 1 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common/s32_core_cm4.h" 1
-# 47 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common/s32_core_cm4.h"
+# 1 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common/s32_core_cm4.h" 1
+# 47 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common/s32_core_cm4.h"
 #define CORE_CM4_H 
-# 58 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common/s32_core_cm4.h"
+# 58 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common/s32_core_cm4.h"
 #define BKPT_ASM __asm("BKPT #0\n\t")
-# 67 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common/s32_core_cm4.h"
+# 67 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common/s32_core_cm4.h"
 #define ENABLE_FPU 
-# 89 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common/s32_core_cm4.h"
+# 89 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common/s32_core_cm4.h"
 #define ENABLE_INTERRUPTS() __asm volatile ("cpsie i" : : : "memory");
-# 98 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common/s32_core_cm4.h"
+# 98 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common/s32_core_cm4.h"
 #define DISABLE_INTERRUPTS() __asm volatile ("cpsid i" : : : "memory");
-# 108 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common/s32_core_cm4.h"
+# 108 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common/s32_core_cm4.h"
 #define STANDBY() __asm volatile ("wfi")
-# 117 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common/s32_core_cm4.h"
+# 117 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common/s32_core_cm4.h"
 #define REV_BYTES_32(a,b) __asm volatile ("rev %0, %1" : "=r" (b) : "r" (a))
-# 126 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common/s32_core_cm4.h"
+# 126 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common/s32_core_cm4.h"
 #define REV_BYTES_16(a,b) __asm volatile ("rev16 %0, %1" : "=r" (b) : "r" (a))
-# 135 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common/s32_core_cm4.h"
+# 135 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common/s32_core_cm4.h"
 #define START_FUNCTION_DECLARATION_RAMSECTION 
 #define END_FUNCTION_DECLARATION_RAMSECTION __attribute__((section (".code_ram")));
-# 165 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common/s32_core_cm4.h"
+# 165 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common/s32_core_cm4.h"
 #define START_FUNCTION_DEFINITION_RAMSECTION 
 #define END_FUNCTION_DEFINITION_RAMSECTION 
 
@@ -525,15 +525,15 @@ typedef unsigned int wchar_t;
 
 
 #define ALIGNED(x) __attribute__((aligned(x)))
-# 198 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common/s32_core_cm4.h"
+# 198 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common/s32_core_cm4.h"
 #define CORE_LITTLE_ENDIAN 
-# 52 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/device_registers.h" 2
-# 73 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/device_registers.h"
+# 52 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/device_registers.h" 2
+# 73 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/device_registers.h"
 #define S32K144_SERIES 
 
 
-# 1 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h" 1
-# 182 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 1 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h" 1
+# 182 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define S32K144_H_ 
 #define MCU_S32K144 
 
@@ -543,13 +543,13 @@ typedef unsigned int wchar_t;
 
 #define MCU_ACTIVE 
 
-# 1 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stdint.h" 1 3 4
-# 9 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stdint.h" 3 4
-# 1 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 1 3 4
-# 10 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
+# 1 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stdint.h" 1 3 4
+# 9 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stdint.h" 3 4
+# 1 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 1 3 4
+# 10 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
 #define _STDINT_H 
 
-# 1 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\machine\\_default_types.h" 1 3 4
+# 1 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\machine\\_default_types.h" 1 3 4
 
 
 
@@ -557,10 +557,10 @@ typedef unsigned int wchar_t;
 
 #define _MACHINE__DEFAULT_TYPES_H 
 
-# 1 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\features.h" 1 3 4
-# 22 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\features.h" 3 4
+# 1 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\features.h" 1 3 4
+# 22 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\features.h" 3 4
 #define _SYS_FEATURES_H 
-# 31 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\features.h" 3 4
+# 31 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\features.h" 3 4
 #define __NEWLIB__ 2
 #define __NEWLIB_MINOR__ 2
 
@@ -575,7 +575,7 @@ typedef unsigned int wchar_t;
 
 
 #define __GNUC_PREREQ__(ma,mi) __GNUC_PREREQ(ma, mi)
-# 9 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\machine\\_default_types.h" 2 3 4
+# 9 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\machine\\_default_types.h" 2 3 4
 
 
 
@@ -583,7 +583,7 @@ typedef unsigned int wchar_t;
 
 
 #define __EXP(x) __ ##x ##__
-# 27 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\machine\\_default_types.h" 3 4
+# 27 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\machine\\_default_types.h" 3 4
 typedef signed char __int8_t;
 
 typedef unsigned char __uint8_t;
@@ -605,7 +605,7 @@ typedef short unsigned int __uint16_t;
 
 
 #define ___int16_t_defined 1
-# 63 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\machine\\_default_types.h" 3 4
+# 63 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\machine\\_default_types.h" 3 4
 typedef long int __int32_t;
 
 typedef long unsigned int __uint32_t;
@@ -613,7 +613,7 @@ typedef long unsigned int __uint32_t;
 
 
 #define ___int32_t_defined 1
-# 89 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\machine\\_default_types.h" 3 4
+# 89 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\machine\\_default_types.h" 3 4
 typedef long long int __int64_t;
 
 typedef long long unsigned int __uint64_t;
@@ -621,7 +621,7 @@ typedef long long unsigned int __uint64_t;
 
 
 #define ___int64_t_defined 1
-# 120 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\machine\\_default_types.h" 3 4
+# 120 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\machine\\_default_types.h" 3 4
 typedef signed char __int_least8_t;
 
 typedef unsigned char __uint_least8_t;
@@ -629,7 +629,7 @@ typedef unsigned char __uint_least8_t;
 
 
 #define ___int_least8_t_defined 1
-# 146 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\machine\\_default_types.h" 3 4
+# 146 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\machine\\_default_types.h" 3 4
 typedef short int __int_least16_t;
 
 typedef short unsigned int __uint_least16_t;
@@ -637,7 +637,7 @@ typedef short unsigned int __uint_least16_t;
 
 
 #define ___int_least16_t_defined 1
-# 168 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\machine\\_default_types.h" 3 4
+# 168 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\machine\\_default_types.h" 3 4
 typedef long int __int_least32_t;
 
 typedef long unsigned int __uint_least32_t;
@@ -645,7 +645,7 @@ typedef long unsigned int __uint_least32_t;
 
 
 #define ___int_least32_t_defined 1
-# 186 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\machine\\_default_types.h" 3 4
+# 186 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\machine\\_default_types.h" 3 4
 typedef long long int __int_least64_t;
 
 typedef long long unsigned int __uint_least64_t;
@@ -663,11 +663,11 @@ typedef long long unsigned int __uint_least64_t;
 typedef int __intptr_t;
 
 typedef unsigned int __uintptr_t;
-# 214 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\machine\\_default_types.h" 3 4
+# 214 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\machine\\_default_types.h" 3 4
 #undef __EXP
-# 13 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 2 3 4
-# 1 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h" 1 3 4
-# 10 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
+# 13 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 2 3 4
+# 1 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h" 1 3 4
+# 10 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
 #define _SYS__INTSUP_H 
 
 
@@ -675,7 +675,7 @@ typedef unsigned int __uintptr_t;
 
 
 #define __STDINT_EXP(x) __ ##x ##__
-# 26 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
+# 26 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
 #define __have_longlong64 1
 
 
@@ -684,7 +684,7 @@ typedef unsigned int __uintptr_t;
 
 
 #define __have_long32 1
-# 49 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
+# 49 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
        
        
        
@@ -703,7 +703,7 @@ typedef unsigned int __uintptr_t;
 #define short +1
 #define int +2
 #define long +4
-# 77 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
+# 77 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
 #define _INT32_EQ_LONG 
 
 
@@ -713,11 +713,11 @@ typedef unsigned int __uintptr_t;
 
 
 #define __INT8 "hh"
-# 96 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
+# 96 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
 #define __INT16 "h"
-# 107 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
+# 107 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
 #define __INT32 "l"
-# 116 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
+# 116 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
 #define __INT64 "ll"
 
 
@@ -726,7 +726,7 @@ typedef unsigned int __uintptr_t;
 
 
 #define __FAST8 
-# 132 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
+# 132 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
 #define __FAST16 
 
 
@@ -735,17 +735,17 @@ typedef unsigned int __uintptr_t;
 
 
 #define __FAST32 
-# 150 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
+# 150 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
 #define __FAST64 "ll"
 
 
 
 #define __LEAST8 "hh"
-# 165 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
+# 165 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
 #define __LEAST16 "h"
-# 176 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
+# 176 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
 #define __LEAST32 "l"
-# 185 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
+# 185 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
 #define __LEAST64 "ll"
 
 #undef signed
@@ -760,11 +760,11 @@ typedef unsigned int __uintptr_t;
        
        
        
-# 14 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 2 3 4
-# 1 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_stdint.h" 1 3 4
-# 10 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_stdint.h" 3 4
+# 14 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 2 3 4
+# 1 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_stdint.h" 1 3 4
+# 10 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_stdint.h" 3 4
 #define _SYS__STDINT_H 
-# 19 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_stdint.h" 3 4
+# 19 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_stdint.h" 3 4
 typedef __int8_t int8_t ;
 typedef __uint8_t uint8_t ;
 #define __int8_t_defined 1
@@ -790,7 +790,7 @@ typedef __uint64_t uint64_t ;
 
 typedef __intptr_t intptr_t;
 typedef __uintptr_t uintptr_t;
-# 15 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 2 3 4
+# 15 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 2 3 4
 
 
 
@@ -818,7 +818,7 @@ typedef __uint_least32_t uint_least32_t;
 typedef __int_least64_t int_least64_t;
 typedef __uint_least64_t uint_least64_t;
 #define __int_least64_t_defined 1
-# 51 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
+# 51 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
   typedef int int_fast8_t;
   typedef unsigned int uint_fast8_t;
 #define __int_fast8_t_defined 1
@@ -852,9 +852,9 @@ typedef __uint_least64_t uint_least64_t;
   typedef long long int int_fast64_t;
   typedef long long unsigned int uint_fast64_t;
 #define __int_fast64_t_defined 1
-# 130 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
+# 130 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
   typedef long long int intmax_t;
-# 139 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
+# 139 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
   typedef long long unsigned int uintmax_t;
 
 
@@ -866,7 +866,7 @@ typedef __uint_least64_t uint_least64_t;
 #define INTPTR_MIN (-__INTPTR_MAX__ - 1)
 #define INTPTR_MAX (__INTPTR_MAX__)
 #define UINTPTR_MAX (__UINTPTR_MAX__)
-# 171 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
+# 171 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
 #define INT8_MIN (-__INT8_MAX__ - 1)
 #define INT8_MAX (__INT8_MAX__)
 #define UINT8_MAX (__UINT8_MAX__)
@@ -880,7 +880,7 @@ typedef __uint_least64_t uint_least64_t;
 #define INT_LEAST8_MIN (-__INT_LEAST8_MAX__ - 1)
 #define INT_LEAST8_MAX (__INT_LEAST8_MAX__)
 #define UINT_LEAST8_MAX (__UINT_LEAST8_MAX__)
-# 193 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
+# 193 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
 #define INT16_MIN (-__INT16_MAX__ - 1)
 #define INT16_MAX (__INT16_MAX__)
 #define UINT16_MAX (__UINT16_MAX__)
@@ -894,39 +894,39 @@ typedef __uint_least64_t uint_least64_t;
 #define INT_LEAST16_MIN (-__INT_LEAST16_MAX__ - 1)
 #define INT_LEAST16_MAX (__INT_LEAST16_MAX__)
 #define UINT_LEAST16_MAX (__UINT_LEAST16_MAX__)
-# 215 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
+# 215 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
 #define INT32_MIN (-__INT32_MAX__ - 1)
 #define INT32_MAX (__INT32_MAX__)
 #define UINT32_MAX (__UINT32_MAX__)
-# 231 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
+# 231 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
 #define INT_LEAST32_MIN (-__INT_LEAST32_MAX__ - 1)
 #define INT_LEAST32_MAX (__INT_LEAST32_MAX__)
 #define UINT_LEAST32_MAX (__UINT_LEAST32_MAX__)
-# 249 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
+# 249 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
 #define INT64_MIN (-__INT64_MAX__ - 1)
 #define INT64_MAX (__INT64_MAX__)
 #define UINT64_MAX (__UINT64_MAX__)
-# 265 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
+# 265 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
 #define INT_LEAST64_MIN (-__INT_LEAST64_MAX__ - 1)
 #define INT_LEAST64_MAX (__INT_LEAST64_MAX__)
 #define UINT_LEAST64_MAX (__UINT_LEAST64_MAX__)
-# 281 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
+# 281 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
 #define INT_FAST8_MIN (-__INT_FAST8_MAX__ - 1)
 #define INT_FAST8_MAX (__INT_FAST8_MAX__)
 #define UINT_FAST8_MAX (__UINT_FAST8_MAX__)
-# 297 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
+# 297 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
 #define INT_FAST16_MIN (-__INT_FAST16_MAX__ - 1)
 #define INT_FAST16_MAX (__INT_FAST16_MAX__)
 #define UINT_FAST16_MAX (__UINT_FAST16_MAX__)
-# 313 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
+# 313 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
 #define INT_FAST32_MIN (-__INT_FAST32_MAX__ - 1)
 #define INT_FAST32_MAX (__INT_FAST32_MAX__)
 #define UINT_FAST32_MAX (__UINT_FAST32_MAX__)
-# 329 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
+# 329 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
 #define INT_FAST64_MIN (-__INT_FAST64_MAX__ - 1)
 #define INT_FAST64_MAX (__INT_FAST64_MAX__)
 #define UINT_FAST64_MAX (__UINT_FAST64_MAX__)
-# 345 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
+# 345 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
 #define INTMAX_MAX (__INTMAX_MAX__)
 #define INTMAX_MIN (-INTMAX_MAX - 1)
 
@@ -965,9 +965,9 @@ typedef __uint_least64_t uint_least64_t;
 
 
 #define WCHAR_MIN (__WCHAR_MIN__)
-# 393 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
+# 393 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
 #define WCHAR_MAX (__WCHAR_MAX__)
-# 403 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
+# 403 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
 #define WINT_MAX (__WINT_MAX__)
 
 
@@ -982,31 +982,31 @@ typedef __uint_least64_t uint_least64_t;
 
 #define INT8_C(x) __INT8_C(x)
 #define UINT8_C(x) __UINT8_C(x)
-# 427 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
+# 427 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
 #define INT16_C(x) __INT16_C(x)
 #define UINT16_C(x) __UINT16_C(x)
-# 439 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
+# 439 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
 #define INT32_C(x) __INT32_C(x)
 #define UINT32_C(x) __UINT32_C(x)
-# 452 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
+# 452 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
 #define INT64_C(x) __INT64_C(x)
 #define UINT64_C(x) __UINT64_C(x)
-# 468 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
+# 468 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h" 3 4
 #define INTMAX_C(x) __INTMAX_C(x)
 #define UINTMAX_C(x) __UINTMAX_C(x)
-# 10 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stdint.h" 2 3 4
+# 10 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stdint.h" 2 3 4
 
 
 
 #define _GCC_WRAP_STDINT_H 
-# 192 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h" 2
+# 192 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h" 2
 
 
 
 #define MCU_MEM_MAP_VERSION 0x0300u
 
 #define MCU_MEM_MAP_VERSION_MINOR 0x0001u
-# 213 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 213 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define __I volatile const
 
 #define __O volatile
@@ -1048,9 +1048,9 @@ typedef __uint_least64_t uint_least64_t;
 
 
 #define REG_RMW32(address,mask,value) (REG_WRITE32((address), ((REG_READ32(address)& ((uint32_t)~((uint32_t)(mask))))| ((uint32_t)(value)))))
-# 267 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 267 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define NUMBER_OF_INT_VECTORS 139u
-# 276 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 276 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 typedef enum
 {
 
@@ -1158,7 +1158,7 @@ typedef enum
   FTM3_Fault_IRQn = 121u,
   FTM3_Ovf_Reload_IRQn = 122u
 } IRQn_Type;
-# 411 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 411 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define ADC_SC1_COUNT 16u
 #define ADC_R_COUNT 16u
 #define ADC_CV_COUNT 2u
@@ -1218,7 +1218,7 @@ typedef struct {
 #define ADC_IRQS_CH_COUNT (1u)
 
 #define ADC_IRQS { ADC0_IRQn, ADC1_IRQn }
-# 481 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 481 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define ADC_SC1_ADCH_MASK 0x1Fu
 #define ADC_SC1_ADCH_SHIFT 0u
 #define ADC_SC1_ADCH_WIDTH 5u
@@ -1426,7 +1426,7 @@ typedef struct {
 #define ADC_CLP9_OFS_CLP9_OFS_SHIFT 0u
 #define ADC_CLP9_OFS_CLP9_OFS_WIDTH 12u
 #define ADC_CLP9_OFS_CLP9_OFS(x) (((uint32_t)(((uint32_t)(x))<<ADC_CLP9_OFS_CLP9_OFS_SHIFT))&ADC_CLP9_OFS_CLP9_OFS_MASK)
-# 710 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 710 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define AIPS_PACR_COUNT 4u
 #define AIPS_OPACR_COUNT 12u
 
@@ -1452,7 +1452,7 @@ typedef struct {
 #define AIPS_BASE_ADDRS { AIPS_BASE }
 
 #define AIPS_BASE_PTRS { AIPS }
-# 746 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 746 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define AIPS_MPRA_MPL2_MASK 0x100000u
 #define AIPS_MPRA_MPL2_SHIFT 20u
 #define AIPS_MPRA_MPL2_WIDTH 1u
@@ -1623,7 +1623,7 @@ typedef struct {
 #define AIPS_OPACR_SP0_SHIFT 30u
 #define AIPS_OPACR_SP0_WIDTH 1u
 #define AIPS_OPACR_SP0(x) (((uint32_t)(((uint32_t)(x))<<AIPS_OPACR_SP0_SHIFT))&AIPS_OPACR_SP0_MASK)
-# 938 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 938 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define CAN_RAMn_COUNT 128u
 #define CAN_RXIMR_COUNT 32u
 #define CAN_WMB_COUNT 4u
@@ -1723,7 +1723,7 @@ typedef struct {
 #define CAN_Bus_Off_IRQS { CAN0_ORed_IRQn, CAN1_ORed_IRQn, CAN2_ORed_IRQn }
 #define CAN_ORed_0_15_MB_IRQS { CAN0_ORed_0_15_MB_IRQn, CAN1_ORed_0_15_MB_IRQn, CAN2_ORed_0_15_MB_IRQn }
 #define CAN_ORed_16_31_MB_IRQS { CAN0_ORed_16_31_MB_IRQn, NotAvail_IRQn, NotAvail_IRQn }
-# 1048 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 1048 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define CAN_MCR_MAXMB_MASK 0x7Fu
 #define CAN_MCR_MAXMB_SHIFT 0u
 #define CAN_MCR_MAXMB_WIDTH 7u
@@ -2414,7 +2414,7 @@ typedef struct {
 #define CAN_FDCRC_FD_MBCRC_SHIFT 24u
 #define CAN_FDCRC_FD_MBCRC_WIDTH 7u
 #define CAN_FDCRC_FD_MBCRC(x) (((uint32_t)(((uint32_t)(x))<<CAN_FDCRC_FD_MBCRC_SHIFT))&CAN_FDCRC_FD_MBCRC_MASK)
-# 1762 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 1762 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 typedef struct {
   volatile uint32_t C0;
   volatile uint32_t C1;
@@ -2440,7 +2440,7 @@ typedef struct {
 #define CMP_IRQS_CH_COUNT (1u)
 
 #define CMP_IRQS { CMP0_IRQn }
-# 1798 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 1798 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define CMP_C0_HYSTCTR_MASK 0x3u
 #define CMP_C0_HYSTCTR_SHIFT 0u
 #define CMP_C0_HYSTCTR_WIDTH 2u
@@ -2631,7 +2631,7 @@ typedef struct {
 #define CMP_C2_RRE_SHIFT 31u
 #define CMP_C2_RRE_WIDTH 1u
 #define CMP_C2_RRE(x) (((uint32_t)(((uint32_t)(x))<<CMP_C2_RRE_SHIFT))&CMP_C2_RRE_MASK)
-# 2012 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 2012 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 typedef struct {
   union {
     volatile uint32_t DATA;
@@ -2663,7 +2663,7 @@ typedef struct {
 #define CRC_BASE_ADDRS { CRC_BASE }
 
 #define CRC_BASE_PTRS { CRC }
-# 2054 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 2054 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define CRC_DATAu_DATA_LL_MASK 0xFFu
 #define CRC_DATAu_DATA_LL_SHIFT 0u
 #define CRC_DATAu_DATA_LL_WIDTH 8u
@@ -2740,7 +2740,7 @@ typedef struct {
 #define CRC_CTRL_TOT_SHIFT 30u
 #define CRC_CTRL_TOT_WIDTH 2u
 #define CRC_CTRL_TOT(x) (((uint32_t)(((uint32_t)(x))<<CRC_CTRL_TOT_SHIFT))&CRC_CTRL_TOT_MASK)
-# 2152 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 2152 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define CSE_PRAM_RAMn_COUNT 32u
 
 
@@ -2769,7 +2769,7 @@ typedef struct {
 #define CSE_PRAM_BASE_ADDRS { CSE_PRAM_BASE }
 
 #define CSE_PRAM_BASE_PTRS { CSE_PRAM }
-# 2191 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 2191 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define CSE_PRAM_RAMn_DATA_32_BYTE_3_MASK 0xFFu
 #define CSE_PRAM_RAMn_DATA_32_BYTE_3_SHIFT 0u
 #define CSE_PRAM_RAMn_DATA_32_BYTE_3_WIDTH 8u
@@ -2806,7 +2806,7 @@ typedef struct {
 #define CSE_PRAM_RAMn_ACCESS8BIT_DATA_8HU_RAM_HU_SHIFT 0u
 #define CSE_PRAM_RAMn_ACCESS8BIT_DATA_8HU_RAM_HU_WIDTH 8u
 #define CSE_PRAM_RAMn_ACCESS8BIT_DATA_8HU_RAM_HU(x) (((uint8_t)(((uint8_t)(x))<<CSE_PRAM_RAMn_ACCESS8BIT_DATA_8HU_RAM_HU_SHIFT))&CSE_PRAM_RAMn_ACCESS8BIT_DATA_8HU_RAM_HU_MASK)
-# 2249 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 2249 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define DMA_DCHPRI_COUNT 16u
 #define DMA_TCD_COUNT 16u
 
@@ -2884,7 +2884,7 @@ typedef struct {
 
 #define DMA_CHN_IRQS { DMA0_IRQn, DMA1_IRQn, DMA2_IRQn, DMA3_IRQn, DMA4_IRQn, DMA5_IRQn, DMA6_IRQn, DMA7_IRQn, DMA8_IRQn, DMA9_IRQn, DMA10_IRQn, DMA11_IRQn, DMA12_IRQn, DMA13_IRQn, DMA14_IRQn, DMA15_IRQn }
 #define DMA_ERROR_IRQS { DMA_Error_IRQn }
-# 2337 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 2337 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define DMA_CR_EDBG_MASK 0x2u
 #define DMA_CR_EDBG_SHIFT 1u
 #define DMA_CR_EDBG_WIDTH 1u
@@ -3640,7 +3640,7 @@ typedef struct {
 #define DMA_TCD_BITER_ELINKYES_ELINK_SHIFT 15u
 #define DMA_TCD_BITER_ELINKYES_ELINK_WIDTH 1u
 #define DMA_TCD_BITER_ELINKYES_ELINK(x) (((uint16_t)(((uint16_t)(x))<<DMA_TCD_BITER_ELINKYES_ELINK_SHIFT))&DMA_TCD_BITER_ELINKYES_ELINK_MASK)
-# 3114 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 3114 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define DMAMUX_CHCFG_COUNT 16u
 
 
@@ -3661,7 +3661,7 @@ typedef struct {
 #define DMAMUX_BASE_ADDRS { DMAMUX_BASE }
 
 #define DMAMUX_BASE_PTRS { DMAMUX }
-# 3145 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 3145 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define DMAMUX_CHCFG_SOURCE_MASK 0x3Fu
 #define DMAMUX_CHCFG_SOURCE_SHIFT 0u
 #define DMAMUX_CHCFG_SOURCE_WIDTH 6u
@@ -3674,7 +3674,7 @@ typedef struct {
 #define DMAMUX_CHCFG_ENBL_SHIFT 7u
 #define DMAMUX_CHCFG_ENBL_WIDTH 1u
 #define DMAMUX_CHCFG_ENBL(x) (((uint8_t)(((uint8_t)(x))<<DMAMUX_CHCFG_ENBL_SHIFT))&DMAMUX_CHCFG_ENBL_MASK)
-# 3179 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 3179 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define EIM_EICHDn_COUNT 2u
 
 
@@ -3702,7 +3702,7 @@ typedef struct {
 #define EIM_BASE_ADDRS { EIM_BASE }
 
 #define EIM_BASE_PTRS { EIM }
-# 3217 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 3217 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define EIM_EIMCR_GEIEN_MASK 0x1u
 #define EIM_EIMCR_GEIEN_SHIFT 0u
 #define EIM_EIMCR_GEIEN_WIDTH 1u
@@ -3726,7 +3726,7 @@ typedef struct {
 #define EIM_EICHDn_WORD1_B0_3DATA_MASK_SHIFT 0u
 #define EIM_EICHDn_WORD1_B0_3DATA_MASK_WIDTH 32u
 #define EIM_EICHDn_WORD1_B0_3DATA_MASK(x) (((uint32_t)(((uint32_t)(x))<<EIM_EICHDn_WORD1_B0_3DATA_MASK_SHIFT))&EIM_EICHDn_WORD1_B0_3DATA_MASK_MASK)
-# 3262 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 3262 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define ERM_EARn_COUNT 2u
 
 
@@ -3763,7 +3763,7 @@ typedef struct {
 
 #define ERM_SINGLE_IRQS { ERM_single_fault_IRQn }
 #define ERM_DOUBLE_IRQS { ERM_double_fault_IRQn }
-# 3309 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 3309 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define ERM_CR0_ENCIE1_MASK 0x4000000u
 #define ERM_CR0_ENCIE1_SHIFT 26u
 #define ERM_CR0_ENCIE1_WIDTH 1u
@@ -3802,7 +3802,7 @@ typedef struct {
 #define ERM_EARn_EAR_EAR_SHIFT 0u
 #define ERM_EARn_EAR_EAR_WIDTH 32u
 #define ERM_EARn_EAR_EAR(x) (((uint32_t)(((uint32_t)(x))<<ERM_EARn_EAR_EAR_SHIFT))&ERM_EARn_EAR_EAR_MASK)
-# 3371 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 3371 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 typedef struct {
   volatile uint8_t CTRL;
   volatile uint8_t SERV;
@@ -3831,7 +3831,7 @@ typedef struct {
 #define EWM_IRQS_CH_COUNT (1u)
 
 #define EWM_IRQS { WDOG_EWM_IRQn }
-# 3410 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 3410 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define EWM_CTRL_EWMEN_MASK 0x1u
 #define EWM_CTRL_EWMEN_SHIFT 0u
 #define EWM_CTRL_EWMEN_WIDTH 1u
@@ -3868,7 +3868,7 @@ typedef struct {
 #define EWM_CLKPRESCALER_CLK_DIV_SHIFT 0u
 #define EWM_CLKPRESCALER_CLK_DIV_WIDTH 8u
 #define EWM_CLKPRESCALER_CLK_DIV(x) (((uint8_t)(((uint8_t)(x))<<EWM_CLKPRESCALER_CLK_DIV_SHIFT))&EWM_CLKPRESCALER_CLK_DIV_MASK)
-# 3468 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 3468 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define FLEXIO_SHIFTCTL_COUNT 4u
 #define FLEXIO_SHIFTCFG_COUNT 4u
 #define FLEXIO_SHIFTBUF_COUNT 4u
@@ -3933,7 +3933,7 @@ typedef struct {
 #define FLEXIO_IRQS_CH_COUNT (1u)
 
 #define FLEXIO_IRQS { FLEXIO_IRQn }
-# 3543 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 3543 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define FLEXIO_VERID_FEATURE_MASK 0xFFFFu
 #define FLEXIO_VERID_FEATURE_SHIFT 0u
 #define FLEXIO_VERID_FEATURE_WIDTH 16u
@@ -4145,7 +4145,7 @@ typedef struct {
 #define FLEXIO_TIMCMP_CMP_SHIFT 0u
 #define FLEXIO_TIMCMP_CMP_WIDTH 16u
 #define FLEXIO_TIMCMP_CMP(x) (((uint32_t)(((uint32_t)(x))<<FLEXIO_TIMCMP_CMP_SHIFT))&FLEXIO_TIMCMP_CMP_MASK)
-# 3776 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 3776 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define FTFC_FCCOB_COUNT 12u
 #define FTFC_FPROT_COUNT 4u
 
@@ -4189,7 +4189,7 @@ typedef struct {
 
 #define FTFC_COMMAND_COMPLETE_IRQS { FTFC_IRQn }
 #define FTFC_READ_COLLISION_IRQS { Read_Collision_IRQn }
-# 3830 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 3830 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define FTFC_FSTAT_MGSTAT0_MASK 0x1u
 #define FTFC_FSTAT_MGSTAT0_SHIFT 0u
 #define FTFC_FSTAT_MGSTAT0_WIDTH 1u
@@ -4324,7 +4324,7 @@ typedef struct {
 #define FTFC_FERCNFG_FDFD_SHIFT 5u
 #define FTFC_FERCNFG_FDFD_WIDTH 1u
 #define FTFC_FERCNFG_FDFD(x) (((uint8_t)(((uint8_t)(x))<<FTFC_FERCNFG_FDFD_SHIFT))&FTFC_FERCNFG_FDFD_MASK)
-# 3986 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 3986 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define FTM_CONTROLS_COUNT 8u
 
 
@@ -4409,7 +4409,7 @@ typedef struct {
 #define FTM_Fault_IRQS { FTM0_Fault_IRQn, FTM1_Fault_IRQn, FTM2_Fault_IRQn, FTM3_Fault_IRQn }
 #define FTM_Overflow_IRQS { FTM0_Ovf_Reload_IRQn, FTM1_Ovf_Reload_IRQn, FTM2_Ovf_Reload_IRQn, FTM3_Ovf_Reload_IRQn }
 #define FTM_Reload_IRQS { FTM0_Ovf_Reload_IRQn, FTM1_Ovf_Reload_IRQn, FTM2_Ovf_Reload_IRQn, FTM3_Ovf_Reload_IRQn }
-# 4081 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 4081 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define FTM_SC_PS_MASK 0x7u
 #define FTM_SC_PS_SHIFT 0u
 #define FTM_SC_PS_WIDTH 3u
@@ -5323,7 +5323,7 @@ typedef struct {
 #define FTM_PAIR3DEADTIME_DTVALEX_SHIFT 16u
 #define FTM_PAIR3DEADTIME_DTVALEX_WIDTH 4u
 #define FTM_PAIR3DEADTIME_DTVALEX(x) (((uint32_t)(((uint32_t)(x))<<FTM_PAIR3DEADTIME_DTVALEX_SHIFT))&FTM_PAIR3DEADTIME_DTVALEX_MASK)
-# 5018 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 5018 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 typedef struct {
   volatile uint32_t PDOR;
   volatile uint32_t PSOR;
@@ -5363,7 +5363,7 @@ typedef struct {
 #define GPIO_BASE_ADDRS { PTA_BASE, PTB_BASE, PTC_BASE, PTD_BASE, PTE_BASE }
 
 #define GPIO_BASE_PTRS { PTA, PTB, PTC, PTD, PTE }
-# 5068 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 5068 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define GPIO_PDOR_PDO_MASK 0xFFFFFFFFu
 #define GPIO_PDOR_PDO_SHIFT 0u
 #define GPIO_PDOR_PDO_WIDTH 32u
@@ -5398,7 +5398,7 @@ typedef struct {
 #define GPIO_PIDR_PID_SHIFT 0u
 #define GPIO_PIDR_PID_WIDTH 32u
 #define GPIO_PIDR_PID(x) (((uint32_t)(((uint32_t)(x))<<GPIO_PIDR_PID_SHIFT))&GPIO_PIDR_PID_MASK)
-# 5126 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 5126 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 typedef struct {
   volatile uint32_t PCCCR;
   volatile uint32_t PCCLCR;
@@ -5421,7 +5421,7 @@ typedef struct {
 #define LMEM_BASE_ADDRS { LMEM_BASE }
 
 #define LMEM_BASE_PTRS { LMEM }
-# 5159 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 5159 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define LMEM_PCCCR_ENCACHE_MASK 0x1u
 #define LMEM_PCCCR_ENCACHE_SHIFT 0u
 #define LMEM_PCCCR_ENCACHE_WIDTH 1u
@@ -5574,7 +5574,7 @@ typedef struct {
 #define LMEM_PCCRMR_R0_SHIFT 30u
 #define LMEM_PCCRMR_R0_WIDTH 2u
 #define LMEM_PCCRMR_R0(x) (((uint32_t)(((uint32_t)(x))<<LMEM_PCCRMR_R0_SHIFT))&LMEM_PCCRMR_R0_MASK)
-# 5335 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 5335 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 typedef struct {
   volatile const uint32_t VERID;
   volatile const uint32_t PARAM;
@@ -5640,7 +5640,7 @@ typedef struct {
 
 #define LPI2C_MASTER_IRQS { LPI2C0_Master_IRQn }
 #define LPI2C_SLAVE_IRQS { LPI2C0_Slave_IRQn }
-# 5411 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 5411 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define LPI2C_VERID_FEATURE_MASK 0xFFFFu
 #define LPI2C_VERID_FEATURE_SHIFT 0u
 #define LPI2C_VERID_FEATURE_WIDTH 16u
@@ -6160,7 +6160,7 @@ typedef struct {
 #define LPI2C_SRDR_SOF_SHIFT 15u
 #define LPI2C_SRDR_SOF_WIDTH 1u
 #define LPI2C_SRDR_SOF(x) (((uint32_t)(((uint32_t)(x))<<LPI2C_SRDR_SOF_SHIFT))&LPI2C_SRDR_SOF_MASK)
-# 5952 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 5952 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define LPIT_TMR_COUNT 4u
 
 
@@ -6200,7 +6200,7 @@ typedef struct {
 #define LPIT_IRQS_CH_COUNT (4u)
 
 #define LPIT_IRQS { LPIT0_Ch0_IRQn, LPIT0_Ch1_IRQn, LPIT0_Ch2_IRQn, LPIT0_Ch3_IRQn }
-# 6002 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 6002 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define LPIT_VERID_FEATURE_MASK 0xFFFFu
 #define LPIT_VERID_FEATURE_SHIFT 0u
 #define LPIT_VERID_FEATURE_WIDTH 16u
@@ -6350,7 +6350,7 @@ typedef struct {
 #define LPIT_TMR_TCTRL_TRG_SEL_SHIFT 24u
 #define LPIT_TMR_TCTRL_TRG_SEL_WIDTH 4u
 #define LPIT_TMR_TCTRL_TRG_SEL(x) (((uint32_t)(((uint32_t)(x))<<LPIT_TMR_TCTRL_TRG_SEL_SHIFT))&LPIT_TMR_TCTRL_TRG_SEL_MASK)
-# 6175 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 6175 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 typedef struct {
   volatile const uint32_t VERID;
   volatile const uint32_t PARAM;
@@ -6403,7 +6403,7 @@ typedef struct {
 #define LPSPI_IRQS_CH_COUNT (1u)
 
 #define LPSPI_IRQS { LPSPI0_IRQn, LPSPI1_IRQn, LPSPI2_IRQn }
-# 6238 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 6238 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define LPSPI_VERID_FEATURE_MASK 0xFFFFu
 #define LPSPI_VERID_FEATURE_SHIFT 0u
 #define LPSPI_VERID_FEATURE_WIDTH 16u
@@ -6700,7 +6700,7 @@ typedef struct {
 #define LPSPI_RDR_DATA_SHIFT 0u
 #define LPSPI_RDR_DATA_WIDTH 32u
 #define LPSPI_RDR_DATA(x) (((uint32_t)(((uint32_t)(x))<<LPSPI_RDR_DATA_SHIFT))&LPSPI_RDR_DATA_MASK)
-# 6558 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 6558 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 typedef struct {
   volatile uint32_t CSR;
   volatile uint32_t PSR;
@@ -6727,7 +6727,7 @@ typedef struct {
 #define LPTMR_IRQS_CH_COUNT (1u)
 
 #define LPTMR_IRQS { LPTMR0_IRQn }
-# 6595 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 6595 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define LPTMR_CSR_TEN_MASK 0x1u
 #define LPTMR_CSR_TEN_SHIFT 0u
 #define LPTMR_CSR_TEN_WIDTH 1u
@@ -6783,7 +6783,7 @@ typedef struct {
 #define LPTMR_CNR_COUNTER_SHIFT 0u
 #define LPTMR_CNR_COUNTER_WIDTH 16u
 #define LPTMR_CNR_COUNTER(x) (((uint32_t)(((uint32_t)(x))<<LPTMR_CNR_COUNTER_SHIFT))&LPTMR_CNR_COUNTER_MASK)
-# 6674 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 6674 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 typedef struct {
   volatile const uint32_t VERID;
   volatile const uint32_t PARAM;
@@ -6826,7 +6826,7 @@ typedef struct {
 #define LPUART_RX_TX_IRQS_CH_COUNT (1u)
 
 #define LPUART_RX_TX_IRQS { LPUART0_RxTx_IRQn, LPUART1_RxTx_IRQn, LPUART2_RxTx_IRQn }
-# 6727 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 6727 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define LPUART_VERID_FEATURE_MASK 0xFFFFu
 #define LPUART_VERID_FEATURE_SHIFT 0u
 #define LPUART_VERID_FEATURE_WIDTH 16u
@@ -7278,7 +7278,7 @@ typedef struct {
 #define LPUART_WATER_RXCOUNT_SHIFT 24u
 #define LPUART_WATER_RXCOUNT_WIDTH 3u
 #define LPUART_WATER_RXCOUNT(x) (((uint32_t)(((uint32_t)(x))<<LPUART_WATER_RXCOUNT_SHIFT))&LPUART_WATER_RXCOUNT_MASK)
-# 7200 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 7200 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define MCM_LMDR_COUNT 2u
 
 
@@ -7326,7 +7326,7 @@ typedef struct {
 #define MCM_IRQS_CH_COUNT (1u)
 
 #define MCM_IRQS { MCM_IRQn }
-# 7258 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 7258 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define MCM_PLASC_ASC_MASK 0xFFu
 #define MCM_PLASC_ASC_SHIFT 0u
 #define MCM_PLASC_ASC_WIDTH 8u
@@ -7580,7 +7580,7 @@ typedef struct {
 #define MCM_LMFDLR_PEFDL_SHIFT 0u
 #define MCM_LMFDLR_PEFDL_WIDTH 32u
 #define MCM_LMFDLR_PEFDL(x) (((uint32_t)(((uint32_t)(x))<<MCM_LMFDLR_PEFDL_SHIFT))&MCM_LMFDLR_PEFDL_MASK)
-# 7533 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 7533 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define MPU_EAR_EDR_COUNT 4u
 #define MPU_RGD_COUNT 8u
 #define MPU_RGDAAC_COUNT 8u
@@ -7623,7 +7623,7 @@ typedef struct {
 #define MPU_BASE_ADDRS { MPU_BASE }
 
 #define MPU_BASE_PTRS { MPU }
-# 7586 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 7586 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define MPU_CESR_VLD_MASK 0x1u
 #define MPU_CESR_VLD_SHIFT 0u
 #define MPU_CESR_VLD_WIDTH 1u
@@ -7851,7 +7851,7 @@ typedef struct {
 #define MPU_RGDAAC_M7RE_SHIFT 31u
 #define MPU_RGDAAC_M7RE_WIDTH 1u
 #define MPU_RGDAAC_M7RE(x) (((uint32_t)(((uint32_t)(x))<<MPU_RGDAAC_M7RE_SHIFT))&MPU_RGDAAC_M7RE_MASK)
-# 7835 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 7835 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define MSCM_OCMDR_COUNT 4u
 
 
@@ -7889,7 +7889,7 @@ typedef struct {
 #define MSCM_BASE_ADDRS { MSCM_BASE }
 
 #define MSCM_BASE_PTRS { MSCM }
-# 7883 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 7883 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define MSCM_CPxTYPE_RYPZ_MASK 0xFFu
 #define MSCM_CPxTYPE_RYPZ_SHIFT 0u
 #define MSCM_CPxTYPE_RYPZ_WIDTH 8u
@@ -8114,7 +8114,7 @@ typedef struct {
 #define MSCM_OCMDR_V_SHIFT 31u
 #define MSCM_OCMDR_V_WIDTH 1u
 #define MSCM_OCMDR_V(x) (((uint32_t)(((uint32_t)(x))<<MSCM_OCMDR_V_SHIFT))&MSCM_OCMDR_V_MASK)
-# 8129 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 8129 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define PCC_PCCn_COUNT 116u
 
 
@@ -8169,7 +8169,7 @@ typedef struct {
 #define PCC_LPUART1_INDEX 107
 #define PCC_LPUART2_INDEX 108
 #define PCC_CMP0_INDEX 115
-# 8194 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 8194 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define PCC_PCCn_PCD_MASK 0x7u
 #define PCC_PCCn_PCD_SHIFT 0u
 #define PCC_PCCn_PCD_WIDTH 3u
@@ -8190,7 +8190,7 @@ typedef struct {
 #define PCC_PCCn_PR_SHIFT 31u
 #define PCC_PCCn_PR_WIDTH 1u
 #define PCC_PCCn_PR(x) (((uint32_t)(((uint32_t)(x))<<PCC_PCCn_PR_SHIFT))&PCC_PCCn_PR_MASK)
-# 8236 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 8236 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define PDB_CH_COUNT 2u
 #define PDB_DLY_COUNT 8u
 #define PDB_POnDLY_COUNT 1u
@@ -8240,7 +8240,7 @@ typedef struct {
 #define PDB_IRQS_CH_COUNT (1u)
 
 #define PDB_IRQS { PDB0_IRQn, PDB1_IRQn }
-# 8296 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 8296 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define PDB_SC_LDOK_MASK 0x1u
 #define PDB_SC_LDOK_SHIFT 0u
 #define PDB_SC_LDOK_WIDTH 1u
@@ -8355,7 +8355,7 @@ typedef struct {
 #define PDB_POnDLY_ACCESS16BIT_DLY1_DLY1_SHIFT 0u
 #define PDB_POnDLY_ACCESS16BIT_DLY1_DLY1_WIDTH 16u
 #define PDB_POnDLY_ACCESS16BIT_DLY1_DLY1(x) (((uint16_t)(((uint16_t)(x))<<PDB_POnDLY_ACCESS16BIT_DLY1_DLY1_SHIFT))&PDB_POnDLY_ACCESS16BIT_DLY1_DLY1_MASK)
-# 8434 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 8434 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 typedef struct {
   volatile uint8_t LVDSC1;
   volatile uint8_t LVDSC2;
@@ -8383,7 +8383,7 @@ typedef struct {
 #define PMC_IRQS_CH_COUNT (1u)
 
 #define PMC_IRQS { LVD_LVW_IRQn }
-# 8472 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 8472 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define PMC_LVDSC1_LVDRE_MASK 0x10u
 #define PMC_LVDSC1_LVDRE_SHIFT 4u
 #define PMC_LVDSC1_LVDRE_WIDTH 1u
@@ -8439,7 +8439,7 @@ typedef struct {
 #define PMC_LPOTRIM_LPOTRIM_SHIFT 0u
 #define PMC_LPOTRIM_LPOTRIM_WIDTH 5u
 #define PMC_LPOTRIM_LPOTRIM(x) (((uint8_t)(((uint8_t)(x))<<PMC_LPOTRIM_LPOTRIM_SHIFT))&PMC_LPOTRIM_LPOTRIM_MASK)
-# 8549 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 8549 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define PORT_PCR_COUNT 32u
 
 
@@ -8492,7 +8492,7 @@ typedef struct {
 #define PORT_IRQS_CH_COUNT (1u)
 
 #define PORT_IRQS { PORTA_IRQn, PORTB_IRQn, PORTC_IRQn, PORTD_IRQn, PORTE_IRQn }
-# 8612 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 8612 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define PORT_PCR_PS_MASK 0x1u
 #define PORT_PCR_PS_SHIFT 0u
 #define PORT_PCR_PS_WIDTH 1u
@@ -8581,7 +8581,7 @@ typedef struct {
 #define PORT_DFWR_FILT_SHIFT 0u
 #define PORT_DFWR_FILT_WIDTH 5u
 #define PORT_DFWR_FILT(x) (((uint32_t)(((uint32_t)(x))<<PORT_DFWR_FILT_SHIFT))&PORT_DFWR_FILT_MASK)
-# 8724 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 8724 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 typedef struct {
   volatile const uint32_t VERID;
   volatile const uint32_t PARAM;
@@ -8611,7 +8611,7 @@ typedef struct {
 #define RCM_IRQS_CH_COUNT (1u)
 
 #define RCM_IRQS { RCM_IRQn }
-# 8764 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 8764 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define RCM_VERID_FEATURE_MASK 0xFFFFu
 #define RCM_VERID_FEATURE_SHIFT 0u
 #define RCM_VERID_FEATURE_WIDTH 16u
@@ -8829,7 +8829,7 @@ typedef struct {
 #define RCM_SRIE_SACKERR_SHIFT 13u
 #define RCM_SRIE_SACKERR_WIDTH 1u
 #define RCM_SRIE_SACKERR(x) (((uint32_t)(((uint32_t)(x))<<RCM_SRIE_SACKERR_SHIFT))&RCM_SRIE_SACKERR_MASK)
-# 9005 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 9005 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 typedef struct {
   volatile uint32_t TSR;
   volatile uint32_t TPR;
@@ -8863,7 +8863,7 @@ typedef struct {
 
 #define RTC_IRQS { RTC_IRQn }
 #define RTC_SECONDS_IRQS { RTC_Seconds_IRQn }
-# 9049 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 9049 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define RTC_TSR_TSR_MASK 0xFFFFFFFFu
 #define RTC_TSR_TSR_SHIFT 0u
 #define RTC_TSR_TSR_WIDTH 32u
@@ -8975,7 +8975,7 @@ typedef struct {
 #define RTC_IER_TSIC_SHIFT 16u
 #define RTC_IER_TSIC_WIDTH 3u
 #define RTC_IER_TSIC(x) (((uint32_t)(((uint32_t)(x))<<RTC_IER_TSIC_SHIFT))&RTC_IER_TSIC_MASK)
-# 9182 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 9182 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define S32_NVIC_ISER_COUNT 8u
 #define S32_NVIC_ICER_COUNT 8u
 #define S32_NVIC_ISPR_COUNT 8u
@@ -9019,7 +9019,7 @@ typedef struct {
 #define S32_NVIC_IRQS_CH_COUNT (1u)
 
 #define S32_NVIC_IRQS { SWI_IRQn }
-# 9236 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 9236 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define S32_NVIC_ISER_SETENA_MASK 0xFFFFFFFFu
 #define S32_NVIC_ISER_SETENA_SHIFT 0u
 #define S32_NVIC_ISER_SETENA_WIDTH 32u
@@ -10010,7 +10010,7 @@ typedef struct {
 #define S32_NVIC_STIR_INTID_SHIFT 0u
 #define S32_NVIC_STIR_INTID_WIDTH 9u
 #define S32_NVIC_STIR_INTID(x) (((uint32_t)(((uint32_t)(x))<<S32_NVIC_STIR_INTID_SHIFT))&S32_NVIC_STIR_INTID_MASK)
-# 10250 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 10250 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 typedef struct {
        uint8_t RESERVED_0[8];
   volatile uint32_t ACTLR;
@@ -10052,7 +10052,7 @@ typedef struct {
 #define S32_SCB_BASE_ADDRS { S32_SCB_BASE }
 
 #define S32_SCB_BASE_PTRS { S32_SCB }
-# 10302 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 10302 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define S32_SCB_ACTLR_DISMCYCINT_MASK 0x1u
 #define S32_SCB_ACTLR_DISMCYCINT_SHIFT 0u
 #define S32_SCB_ACTLR_DISMCYCINT_WIDTH 1u
@@ -10481,7 +10481,7 @@ typedef struct {
 #define S32_SCB_FPDSCR_AHP_SHIFT 26u
 #define S32_SCB_FPDSCR_AHP_WIDTH 1u
 #define S32_SCB_FPDSCR_AHP(x) (((uint32_t)(((uint32_t)(x))<<S32_SCB_FPDSCR_AHP_SHIFT))&S32_SCB_FPDSCR_AHP_MASK)
-# 10754 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 10754 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 typedef struct {
   volatile uint32_t CSR;
   volatile uint32_t RVR;
@@ -10508,7 +10508,7 @@ typedef struct {
 #define S32_SysTick_IRQS_CH_COUNT (1u)
 
 #define S32_SysTick_IRQS { SysTick_IRQn }
-# 10791 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 10791 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define S32_SysTick_CSR_ENABLE_MASK 0x1u
 #define S32_SysTick_CSR_ENABLE_SHIFT 0u
 #define S32_SysTick_CSR_ENABLE_WIDTH 1u
@@ -10548,7 +10548,7 @@ typedef struct {
 #define S32_SysTick_CALIB_NOREF_SHIFT 31u
 #define S32_SysTick_CALIB_NOREF_WIDTH 1u
 #define S32_SysTick_CALIB_NOREF(x) (((uint32_t)(((uint32_t)(x))<<S32_SysTick_CALIB_NOREF_SHIFT))&S32_SysTick_CALIB_NOREF_MASK)
-# 10854 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 10854 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 typedef struct {
   volatile const uint32_t VERID;
   volatile const uint32_t PARAM;
@@ -10595,7 +10595,7 @@ typedef struct {
 #define SCG_IRQS_CH_COUNT (1u)
 
 #define SCG_IRQS { SCG_IRQn }
-# 10911 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 10911 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define SCG_VERID_VERSION_MASK 0xFFFFFFFFu
 #define SCG_VERID_VERSION_SHIFT 0u
 #define SCG_VERID_VERSION_WIDTH 32u
@@ -10858,7 +10858,7 @@ typedef struct {
 #define SCG_SPLLCFG_MULT_SHIFT 16u
 #define SCG_SPLLCFG_MULT_WIDTH 5u
 #define SCG_SPLLCFG_MULT(x) (((uint32_t)(((uint32_t)(x))<<SCG_SPLLCFG_MULT_SHIFT))&SCG_SPLLCFG_MULT_MASK)
-# 11197 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 11197 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 typedef struct {
        uint8_t RESERVED_0[4];
   volatile uint32_t CHIPCTL;
@@ -10897,7 +10897,7 @@ typedef struct {
 #define SIM_BASE_ADDRS { SIM_BASE }
 
 #define SIM_BASE_PTRS { SIM }
-# 11246 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 11246 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define SIM_CHIPCTL_ADC_INTERLEAVE_EN_MASK 0xFu
 #define SIM_CHIPCTL_ADC_INTERLEAVE_EN_SHIFT 0u
 #define SIM_CHIPCTL_ADC_INTERLEAVE_EN_WIDTH 4u
@@ -11168,7 +11168,7 @@ typedef struct {
 #define SIM_MISCTRL1_SW_TRG_SHIFT 0u
 #define SIM_MISCTRL1_SW_TRG_WIDTH 1u
 #define SIM_MISCTRL1_SW_TRG(x) (((uint32_t)(((uint32_t)(x))<<SIM_MISCTRL1_SW_TRG_SHIFT))&SIM_MISCTRL1_SW_TRG_MASK)
-# 11540 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 11540 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 typedef struct {
   volatile const uint32_t VERID;
   volatile const uint32_t PARAM;
@@ -11191,7 +11191,7 @@ typedef struct {
 #define SMC_BASE_ADDRS { SMC_BASE }
 
 #define SMC_BASE_PTRS { SMC }
-# 11573 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 11573 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define SMC_VERID_FEATURE_MASK 0xFFFFu
 #define SMC_VERID_FEATURE_SHIFT 0u
 #define SMC_VERID_FEATURE_WIDTH 16u
@@ -11253,7 +11253,7 @@ typedef struct {
 #define SMC_PMSTAT_PMSTAT_SHIFT 0u
 #define SMC_PMSTAT_PMSTAT_WIDTH 8u
 #define SMC_PMSTAT_PMSTAT(x) (((uint32_t)(((uint32_t)(x))<<SMC_PMSTAT_PMSTAT_SHIFT))&SMC_PMSTAT_PMSTAT_MASK)
-# 11656 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 11656 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define TRGMUX_TRGMUXn_COUNT 26u
 
 
@@ -11296,7 +11296,7 @@ typedef struct {
 #define TRGMUX_LPSPI0_INDEX 23
 #define TRGMUX_LPSPI1_INDEX 24
 #define TRGMUX_LPTMR0_INDEX 25
-# 11709 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 11709 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define TRGMUX_TRGMUXn_SEL0_MASK 0x3Fu
 #define TRGMUX_TRGMUXn_SEL0_SHIFT 0u
 #define TRGMUX_TRGMUXn_SEL0_WIDTH 6u
@@ -11317,7 +11317,7 @@ typedef struct {
 #define TRGMUX_TRGMUXn_LK_SHIFT 31u
 #define TRGMUX_TRGMUXn_LK_WIDTH 1u
 #define TRGMUX_TRGMUXn_LK(x) (((uint32_t)(((uint32_t)(x))<<TRGMUX_TRGMUXn_LK_SHIFT))&TRGMUX_TRGMUXn_LK_MASK)
-# 11753 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 11753 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 typedef struct {
   volatile uint32_t CS;
   volatile uint32_t CNT;
@@ -11344,7 +11344,7 @@ typedef struct {
 #define WDOG_IRQS_CH_COUNT (1u)
 
 #define WDOG_IRQS { WDOG_EWM_IRQn }
-# 11790 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+# 11790 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 #define WDOG_CS_STOP_MASK 0x1u
 #define WDOG_CS_STOP_SHIFT 0u
 #define WDOG_CS_STOP_WIDTH 1u
@@ -11428,10 +11428,10 @@ typedef struct {
 #define WDOG_WIN_WINHIGH_SHIFT 8u
 #define WDOG_WIN_WINHIGH_WIDTH 8u
 #define WDOG_WIN_WINHIGH(x) (((uint32_t)(((uint32_t)(x))<<WDOG_WIN_WINHIGH_SHIFT))&WDOG_WIN_WINHIGH_MASK)
-# 77 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/device_registers.h" 2
+# 77 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/device_registers.h" 2
 
-# 1 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144_features.h" 1
-# 58 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144_features.h"
+# 1 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144_features.h" 1
+# 58 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144_features.h"
 #define S32K144_FEATURES_H 
 
 
@@ -12026,7 +12026,7 @@ typedef enum {
 #define FEATURE_DMAMUX_CHN_REG_INDEX(x) (x)
 
 #define FEATURE_DMAMUX_CLOCK_NAMES {DMAMUX0_CLK}
-# 660 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144_features.h"
+# 660 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144_features.h"
 typedef enum {
     EDMA_REQ_DISABLED = 0U,
     EDMA_REQ_LPUART0_RX = 2U,
@@ -12215,7 +12215,7 @@ typedef enum {
 
 
 #define PCC_CLOCK_NAME_MAPPINGS { PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, PCC_CMP0_INDEX, PCC_CRC_INDEX, PCC_DMAMUX_INDEX, PCC_EWM_INDEX, PCC_PORTA_INDEX, PCC_PORTB_INDEX, PCC_PORTC_INDEX, PCC_PORTD_INDEX, PCC_PORTE_INDEX, PCC_RTC_INDEX, PCC_INVALID_INDEX, PCC_FlexCAN0_INDEX, PCC_FlexCAN1_INDEX, PCC_FlexCAN2_INDEX, PCC_PDB0_INDEX, PCC_PDB1_INDEX, PCC_INVALID_INDEX, PCC_FTFC_INDEX, PCC_INVALID_INDEX, PCC_FTM0_INDEX, PCC_FTM1_INDEX, PCC_FTM2_INDEX, PCC_FTM3_INDEX, PCC_INVALID_INDEX, PCC_ADC0_INDEX, PCC_ADC1_INDEX, PCC_FlexIO_INDEX, PCC_LPI2C0_INDEX, PCC_LPIT_INDEX, PCC_LPSPI0_INDEX, PCC_LPSPI1_INDEX, PCC_LPSPI2_INDEX, PCC_LPTMR0_INDEX, PCC_LPUART0_INDEX, PCC_LPUART1_INDEX, PCC_LPUART2_INDEX, PCC_INVALID_INDEX, PCC_INVALID_INDEX, }
-# 933 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144_features.h"
+# 933 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144_features.h"
 #define NO_PERIPHERAL_FEATURE (0U)
 #define HAS_CLOCK_GATING_IN_SIM (1U << 0U)
 #define HAS_MULTIPLIER (1U << 1U)
@@ -12231,7 +12231,7 @@ typedef enum {
 
 
 #define PERIPHERAL_FEATURES { (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (HAS_CLOCK_GATING_IN_SIM | HAS_INT_CLOCK_FROM_SYS_CLOCK), (HAS_CLOCK_GATING_IN_SIM | HAS_INT_CLOCK_FROM_SYS_CLOCK), (HAS_CLOCK_GATING_IN_SIM | HAS_INT_CLOCK_FROM_SYS_CLOCK), (HAS_CLOCK_GATING_IN_SIM | HAS_INT_CLOCK_FROM_SYS_CLOCK), (HAS_CLOCK_GATING_IN_SIM | HAS_INT_CLOCK_FROM_SYS_CLOCK), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), (HAS_INT_CLOCK_FROM_BUS_CLOCK), (HAS_INT_CLOCK_FROM_BUS_CLOCK), (HAS_INT_CLOCK_FROM_BUS_CLOCK), (HAS_INT_CLOCK_FROM_BUS_CLOCK), (HAS_INT_CLOCK_FROM_BUS_CLOCK), (HAS_INT_CLOCK_FROM_BUS_CLOCK), (HAS_INT_CLOCK_FROM_BUS_CLOCK), (HAS_INT_CLOCK_FROM_BUS_CLOCK), (HAS_INT_CLOCK_FROM_BUS_CLOCK), (HAS_INT_CLOCK_FROM_BUS_CLOCK), (NO_PERIPHERAL_FEATURE), (HAS_INT_CLOCK_FROM_SYS_CLOCK), (HAS_INT_CLOCK_FROM_SYS_CLOCK), (HAS_INT_CLOCK_FROM_SYS_CLOCK), (HAS_INT_CLOCK_FROM_SYS_CLOCK), (HAS_INT_CLOCK_FROM_SYS_CLOCK), (NO_PERIPHERAL_FEATURE), (HAS_INT_CLOCK_FROM_SLOW_CLOCK), (NO_PERIPHERAL_FEATURE), (HAS_PROTOCOL_CLOCK_FROM_ASYNC1 | HAS_INT_CLOCK_FROM_SYS_CLOCK), (HAS_PROTOCOL_CLOCK_FROM_ASYNC1 | HAS_INT_CLOCK_FROM_SYS_CLOCK), (HAS_PROTOCOL_CLOCK_FROM_ASYNC1 | HAS_INT_CLOCK_FROM_SYS_CLOCK), (HAS_PROTOCOL_CLOCK_FROM_ASYNC1 | HAS_INT_CLOCK_FROM_SYS_CLOCK), (NO_PERIPHERAL_FEATURE), (HAS_PROTOCOL_CLOCK_FROM_ASYNC2 | HAS_INT_CLOCK_FROM_BUS_CLOCK), (HAS_PROTOCOL_CLOCK_FROM_ASYNC2 | HAS_INT_CLOCK_FROM_BUS_CLOCK), (HAS_PROTOCOL_CLOCK_FROM_ASYNC2 | HAS_INT_CLOCK_FROM_BUS_CLOCK), (HAS_PROTOCOL_CLOCK_FROM_ASYNC2 | HAS_INT_CLOCK_FROM_BUS_CLOCK), (HAS_PROTOCOL_CLOCK_FROM_ASYNC2 | HAS_INT_CLOCK_FROM_BUS_CLOCK), (HAS_PROTOCOL_CLOCK_FROM_ASYNC2 | HAS_INT_CLOCK_FROM_BUS_CLOCK), (HAS_PROTOCOL_CLOCK_FROM_ASYNC2 | HAS_INT_CLOCK_FROM_BUS_CLOCK), (HAS_PROTOCOL_CLOCK_FROM_ASYNC2 | HAS_INT_CLOCK_FROM_BUS_CLOCK), (HAS_MULTIPLIER | HAS_DIVIDER | HAS_PROTOCOL_CLOCK_FROM_ASYNC2 | HAS_INT_CLOCK_FROM_BUS_CLOCK), (HAS_PROTOCOL_CLOCK_FROM_ASYNC2 | HAS_INT_CLOCK_FROM_BUS_CLOCK), (HAS_PROTOCOL_CLOCK_FROM_ASYNC2 | HAS_INT_CLOCK_FROM_BUS_CLOCK), (HAS_PROTOCOL_CLOCK_FROM_ASYNC2 | HAS_INT_CLOCK_FROM_BUS_CLOCK), (NO_PERIPHERAL_FEATURE), (NO_PERIPHERAL_FEATURE), }
-# 1032 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144_features.h"
+# 1032 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144_features.h"
 #define SIRC_STABILIZATION_TIMEOUT 100U
 
 
@@ -12245,7 +12245,7 @@ typedef enum {
 
 
 #define SPLL_STABILIZATION_TIMEOUT 1000U;
-# 1056 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144_features.h"
+# 1056 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144_features.h"
 #define MAX_FREQ_VLPR 0U
 #define MAX_FREQ_RUN 1U
 #define MAX_FREQ_HSRUN 2U
@@ -12258,7 +12258,7 @@ typedef enum {
 #define MAX_FREQ_CLK_NO 3U
 
 #define CLOCK_MAX_FREQUENCIES { { 4000000, 4000000, 1000000}, { 80000000,40000000,26670000}, {112000000,56000000,28000000}, }
-# 1085 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144_features.h"
+# 1085 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144_features.h"
 #define TMP_SIRC_CLK 0U
 #define TMP_FIRC_CLK 1U
 #define TMP_SOSC_CLK 2U
@@ -12272,7 +12272,7 @@ typedef enum {
 #define TMP_SYS_DIV_NO 3U
 
 #define TMP_SYSTEM_CLOCK_CONFIGS { { SCG_SYSTEM_CLOCK_DIV_BY_1, SCG_SYSTEM_CLOCK_DIV_BY_1, SCG_SYSTEM_CLOCK_DIV_BY_1}, { SCG_SYSTEM_CLOCK_DIV_BY_1, SCG_SYSTEM_CLOCK_DIV_BY_2, SCG_SYSTEM_CLOCK_DIV_BY_4}, { SCG_SYSTEM_CLOCK_DIV_BY_1, SCG_SYSTEM_CLOCK_DIV_BY_2, SCG_SYSTEM_CLOCK_DIV_BY_2}, { SCG_SYSTEM_CLOCK_DIV_BY_3, SCG_SYSTEM_CLOCK_DIV_BY_2, SCG_SYSTEM_CLOCK_DIV_BY_2}, }
-# 1114 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144_features.h"
+# 1114 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144_features.h"
 #define CORE_CLOCK CORE_CLK
 #define BUS_CLOCK BUS_CLK
 #define SLOW_CLOCK SLOW_CLK
@@ -12414,7 +12414,7 @@ typedef enum {
 
 
 #define FEATURE_LPSPI_STATE_STRUCTURES_NULL {NULL, NULL, NULL}
-# 1263 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144_features.h"
+# 1263 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144_features.h"
 typedef enum
 {
     TRGMUX_TRIG_SOURCE_DISABLED = 0U,
@@ -12539,23 +12539,23 @@ typedef enum
 
 
 #define FEATURE_TRGMUX_TARGET_MODULE { TRGMUX_TARGET_MODULE_DMA_CH0, TRGMUX_TARGET_MODULE_DMA_CH1, TRGMUX_TARGET_MODULE_DMA_CH2, TRGMUX_TARGET_MODULE_DMA_CH3, TRGMUX_TARGET_MODULE_TRGMUX_OUT0, TRGMUX_TARGET_MODULE_TRGMUX_OUT1, TRGMUX_TARGET_MODULE_TRGMUX_OUT2, TRGMUX_TARGET_MODULE_TRGMUX_OUT3, TRGMUX_TARGET_MODULE_TRGMUX_OUT4, TRGMUX_TARGET_MODULE_TRGMUX_OUT5, TRGMUX_TARGET_MODULE_TRGMUX_OUT6, TRGMUX_TARGET_MODULE_TRGMUX_OUT7, TRGMUX_TARGET_MODULE_ADC0_ADHWT_TLA0, TRGMUX_TARGET_MODULE_ADC0_ADHWT_TLA1, TRGMUX_TARGET_MODULE_ADC0_ADHWT_TLA2, TRGMUX_TARGET_MODULE_ADC0_ADHWT_TLA3, TRGMUX_TARGET_MODULE_ADC1_ADHWT_TLA0, TRGMUX_TARGET_MODULE_ADC1_ADHWT_TLA1, TRGMUX_TARGET_MODULE_ADC1_ADHWT_TLA2, TRGMUX_TARGET_MODULE_ADC1_ADHWT_TLA3, TRGMUX_TARGET_MODULE_CMP0_SAMPLE, TRGMUX_TARGET_MODULE_FTM0_HWTRIG0, TRGMUX_TARGET_MODULE_FTM0_FAULT0, TRGMUX_TARGET_MODULE_FTM0_FAULT1, TRGMUX_TARGET_MODULE_FTM0_FAULT2, TRGMUX_TARGET_MODULE_FTM1_HWTRIG0, TRGMUX_TARGET_MODULE_FTM1_FAULT0, TRGMUX_TARGET_MODULE_FTM1_FAULT1, TRGMUX_TARGET_MODULE_FTM1_FAULT2, TRGMUX_TARGET_MODULE_FTM2_HWTRIG0, TRGMUX_TARGET_MODULE_FTM2_FAULT0, TRGMUX_TARGET_MODULE_FTM2_FAULT1, TRGMUX_TARGET_MODULE_FTM2_FAULT2, TRGMUX_TARGET_MODULE_FTM3_HWTRIG0, TRGMUX_TARGET_MODULE_FTM3_FAULT0, TRGMUX_TARGET_MODULE_FTM3_FAULT1, TRGMUX_TARGET_MODULE_FTM3_FAULT2, TRGMUX_TARGET_MODULE_PDB0_TRG_IN, TRGMUX_TARGET_MODULE_PDB1_TRG_IN, TRGMUX_TARGET_MODULE_FLEXIO_TRG_TIM0, TRGMUX_TARGET_MODULE_FLEXIO_TRG_TIM1, TRGMUX_TARGET_MODULE_FLEXIO_TRG_TIM2, TRGMUX_TARGET_MODULE_FLEXIO_TRG_TIM3, TRGMUX_TARGET_MODULE_LPIT_TRG_CH0, TRGMUX_TARGET_MODULE_LPIT_TRG_CH1, TRGMUX_TARGET_MODULE_LPIT_TRG_CH2, TRGMUX_TARGET_MODULE_LPIT_TRG_CH3, TRGMUX_TARGET_MODULE_LPUART0_TRG, TRGMUX_TARGET_MODULE_LPUART1_TRG, TRGMUX_TARGET_MODULE_LPI2C0_TRG, TRGMUX_TARGET_MODULE_LPSPI0_TRG, TRGMUX_TARGET_MODULE_LPSPI1_TRG, TRGMUX_TARGET_MODULE_LPTMR0_ALT0 }
-# 79 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/device_registers.h" 2
-# 178 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/device_registers.h"
-# 1 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
-# 20 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h"
+# 79 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/device_registers.h" 2
+# 178 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/device_registers.h"
+# 1 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
+# 20 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h"
 #define DEVASSERT_H 
-# 70 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h"
+# 70 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h"
 static inline void DevAssert(volatile _Bool x)
 {
     if(x) { } else { __asm("BKPT #0\n\t"); for(;;) {} }
 }
 #define DEV_ASSERT(x) DevAssert(x)
-# 179 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/device_registers.h" 2
-# 48 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h" 2
-# 1 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/status.h" 1
-# 20 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/status.h"
+# 179 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/device_registers.h" 2
+# 48 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h" 2
+# 1 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/status.h" 1
+# 20 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/status.h"
 #define STATUS_H 
-# 44 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/status.h"
+# 44 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/status.h"
 typedef enum
 {
 
@@ -12677,16 +12677,16 @@ typedef enum
     STATUS_PHY_ACCESS_FAILED = 0x1001U,
     STATUS_PHY_INCOMPATIBLE_DEVICE = 0x1002U
 } status_t;
-# 49 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h" 2
-# 1 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h" 1
-# 36 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
+# 49 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h" 2
+# 1 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h" 1
+# 36 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
 #define EDMA_DRIVER_H 
 
 
 
-# 1 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 1 3 4
-# 41 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h" 2
-# 59 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
+# 1 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 1 3 4
+# 41 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h" 2
+# 59 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
 #define STCD_SIZE(number) (((number) * 32U) - 1U)
 #define STCD_ADDR(address) (((uint32_t)address + 31UL) & ~0x1FUL)
 
@@ -12739,7 +12739,7 @@ typedef enum {
 
     EDMA_CHN_DEFAULT_PRIORITY = 255U
 } edma_channel_priority_t;
-# 160 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
+# 160 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
 typedef enum {
     EDMA_MODULO_OFF = 0U,
     EDMA_MODULO_2B,
@@ -12779,7 +12779,7 @@ typedef enum {
 
 
 typedef enum {
-# 208 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
+# 208 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
     EDMA_TRANSFER_SIZE_1B = 0x0U,
     EDMA_TRANSFER_SIZE_2B = 0x1U,
     EDMA_TRANSFER_SIZE_4B = 0x2U,
@@ -12792,7 +12792,7 @@ typedef enum {
     EDMA_TRANSFER_SIZE_32B = 0x5U
 
 } edma_transfer_size_t;
-# 228 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
+# 228 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
 typedef struct {
     edma_arbitration_algorithm_t chnArbitration;
 
@@ -12805,7 +12805,7 @@ typedef struct {
     _Bool notHaltOnError;
 
 } edma_user_config_t;
-# 248 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
+# 248 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
 typedef enum {
     EDMA_CHN_NORMAL = 0U,
     EDMA_CHN_ERROR
@@ -12830,7 +12830,7 @@ typedef struct {
     void *parameter;
     volatile edma_chn_status_t status;
 } edma_chn_state_t;
-# 280 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
+# 280 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
 typedef struct {
 
 
@@ -12864,7 +12864,7 @@ typedef struct {
     uint32_t length;
     edma_transfer_type_t type;
 } edma_scatter_gather_list_t;
-# 323 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
+# 323 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
 typedef struct {
     edma_chn_state_t * volatile virtChnState[(uint32_t)((uint32_t)(16U) * (uint32_t)(1u))];
 } edma_state_t;
@@ -12945,33 +12945,33 @@ typedef struct {
     uint16_t CSR;
     uint16_t BITER;
 } edma_software_tcd_t;
-# 458 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
+# 458 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
 status_t EDMA_DRV_Init(edma_state_t * edmaState,
                        const edma_user_config_t *userConfig,
                        edma_chn_state_t * const chnStateArray[],
                        const edma_channel_config_t * const chnConfigArray[],
                        uint32_t chnCount);
-# 471 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
+# 471 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
 status_t EDMA_DRV_Deinit(void);
-# 496 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
+# 496 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
 status_t EDMA_DRV_ChannelInit(edma_chn_state_t *edmaChannelState,
                               const edma_channel_config_t *edmaChannelConfig);
-# 509 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
+# 509 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
 status_t EDMA_DRV_ReleaseChannel(uint8_t virtualChannel);
-# 524 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
+# 524 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
 void EDMA_DRV_PushConfigToReg(uint8_t virtualChannel,
                               const edma_transfer_config_t *tcd);
-# 536 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
+# 536 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
 void EDMA_DRV_PushConfigToSTCD(const edma_transfer_config_t *config,
                                edma_software_tcd_t *stcd);
-# 567 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
+# 567 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
 status_t EDMA_DRV_ConfigSingleBlockTransfer(uint8_t virtualChannel,
                                             edma_transfer_type_t type,
                                             uint32_t srcAddr,
                                             uint32_t destAddr,
                                             edma_transfer_size_t transferSize,
                                             uint32_t dataBufferSize);
-# 606 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
+# 606 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
 status_t EDMA_DRV_ConfigMultiBlockTransfer(uint8_t virtualChannel,
                                            edma_transfer_type_t type,
                                            uint32_t srcAddr,
@@ -12980,10 +12980,10 @@ status_t EDMA_DRV_ConfigMultiBlockTransfer(uint8_t virtualChannel,
                                            uint32_t blockSize,
                                            uint32_t blockCount,
                                            _Bool disableReqOnCompletion);
-# 629 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
+# 629 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
 status_t EDMA_DRV_ConfigLoopTransfer(uint8_t virtualChannel,
                                      const edma_transfer_config_t *transferConfig);
-# 662 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
+# 662 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
 status_t EDMA_DRV_ConfigScatterGatherTransfer(uint8_t virtualChannel,
                                               edma_software_tcd_t *stcd,
                                               edma_transfer_size_t transferSize,
@@ -12991,13 +12991,13 @@ status_t EDMA_DRV_ConfigScatterGatherTransfer(uint8_t virtualChannel,
                                               const edma_scatter_gather_list_t *srcList,
                                               const edma_scatter_gather_list_t *destList,
                                               uint8_t tcdCount);
-# 677 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
+# 677 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
 void EDMA_DRV_CancelTransfer(_Bool error);
-# 694 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
+# 694 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
 status_t EDMA_DRV_StartChannel(uint8_t virtualChannel);
-# 705 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
+# 705 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
 status_t EDMA_DRV_StopChannel(uint8_t virtualChannel);
-# 718 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
+# 718 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
 status_t EDMA_DRV_SetChannelRequest(uint8_t virtualChannel,
                                     uint8_t req);
 
@@ -13016,13 +13016,13 @@ void EDMA_DRV_ClearTCD(uint8_t virtualChannel);
 
 void EDMA_DRV_SetSrcAddr(uint8_t virtualChannel,
                          uint32_t address);
-# 746 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
+# 746 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
 void EDMA_DRV_SetSrcOffset(uint8_t virtualChannel,
                            int16_t offset);
-# 757 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
+# 757 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
 void EDMA_DRV_SetSrcReadChunkSize(uint8_t virtualChannel,
                                   edma_transfer_size_t size);
-# 770 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
+# 770 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
 void EDMA_DRV_SetSrcLastAddrAdjustment(uint8_t virtualChannel,
                                        int32_t adjust);
 
@@ -13034,46 +13034,46 @@ void EDMA_DRV_SetSrcLastAddrAdjustment(uint8_t virtualChannel,
 
 void EDMA_DRV_SetDestAddr(uint8_t virtualChannel,
                           uint32_t address);
-# 791 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
+# 791 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
 void EDMA_DRV_SetDestOffset(uint8_t virtualChannel,
                             int16_t offset);
-# 802 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
+# 802 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
 void EDMA_DRV_SetDestWriteChunkSize(uint8_t virtualChannel,
                                     edma_transfer_size_t size);
-# 815 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
+# 815 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
 void EDMA_DRV_SetDestLastAddrAdjustment(uint8_t virtualChannel,
                                         int32_t adjust);
-# 828 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
+# 828 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
 void EDMA_DRV_SetMinorLoopBlockSize(uint8_t virtualChannel,
                                     uint32_t nbytes);
-# 840 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
+# 840 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
 void EDMA_DRV_SetMajorLoopIterationCount(uint8_t virtualChannel,
                                          uint32_t majorLoopCount);
-# 851 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
+# 851 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
 uint32_t EDMA_DRV_GetRemainingMajorIterationsCount(uint8_t virtualChannel);
-# 865 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
+# 865 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
 void EDMA_DRV_SetScatterGatherLink(uint8_t virtualChannel,
                                    uint32_t nextTCDAddr);
-# 877 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
+# 877 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
 void EDMA_DRV_DisableRequestsOnTransferComplete(uint8_t virtualChannel,
                                                 _Bool disable);
-# 890 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
+# 890 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
 void EDMA_DRV_ConfigureInterrupt(uint8_t virtualChannel,
                                  edma_channel_interrupt_t intSrc,
                                  _Bool enable);
-# 901 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
+# 901 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
 void EDMA_DRV_TriggerSwRequest(uint8_t virtualChannel);
-# 927 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
+# 927 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
 status_t EDMA_DRV_InstallCallback(uint8_t virtualChannel,
                                   edma_callback_t callback,
                                   void *parameter);
-# 944 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
+# 944 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
 edma_chn_status_t EDMA_DRV_GetChannelStatus(uint8_t virtualChannel);
-# 50 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h" 2
-# 1 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/rtos/osif/osif.h" 1
-# 20 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/rtos/osif/osif.h"
+# 50 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h" 2
+# 1 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/rtos/osif/osif.h" 1
+# 20 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/rtos/osif/osif.h"
 #define OSIF_H 
-# 58 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/rtos/osif/osif.h"
+# 58 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/rtos/osif/osif.h"
 typedef uint8_t mutex_t;
 
 typedef volatile uint8_t semaphore_t;
@@ -13082,7 +13082,7 @@ typedef volatile uint8_t semaphore_t;
 
 
 #define OSIF_WAIT_FOREVER 0xFFFFFFFFu
-# 82 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/rtos/osif/osif.h"
+# 82 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/rtos/osif/osif.h"
 void OSIF_TimeDelay(const uint32_t delay);
 
 
@@ -13092,30 +13092,30 @@ void OSIF_TimeDelay(const uint32_t delay);
 
 
 uint32_t OSIF_GetMilliseconds(void);
-# 103 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/rtos/osif/osif.h"
+# 103 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/rtos/osif/osif.h"
 status_t OSIF_MutexLock(const mutex_t * const pMutex,
                         const uint32_t timeout);
-# 114 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/rtos/osif/osif.h"
+# 114 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/rtos/osif/osif.h"
 status_t OSIF_MutexUnlock(const mutex_t * const pMutex);
-# 125 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/rtos/osif/osif.h"
+# 125 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/rtos/osif/osif.h"
 status_t OSIF_MutexCreate(mutex_t * const pMutex);
-# 134 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/rtos/osif/osif.h"
+# 134 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/rtos/osif/osif.h"
 status_t OSIF_MutexDestroy(const mutex_t * const pMutex);
-# 146 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/rtos/osif/osif.h"
+# 146 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/rtos/osif/osif.h"
 status_t OSIF_SemaWait(semaphore_t * const pSem,
                        const uint32_t timeout);
-# 158 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/rtos/osif/osif.h"
+# 158 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/rtos/osif/osif.h"
 status_t OSIF_SemaPost(semaphore_t * const pSem);
-# 170 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/rtos/osif/osif.h"
+# 170 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/rtos/osif/osif.h"
 status_t OSIF_SemaCreate(semaphore_t * const pSem,
                          const uint8_t initValue);
-# 181 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/rtos/osif/osif.h"
+# 181 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/rtos/osif/osif.h"
 status_t OSIF_SemaDestroy(const semaphore_t * const pSem);
-# 51 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h" 2
-# 1 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/callbacks.h" 1
-# 19 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/callbacks.h"
+# 51 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h" 2
+# 1 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/callbacks.h" 1
+# 19 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/callbacks.h"
 #define CALLBACKS_H 
-# 42 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/callbacks.h"
+# 42 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/callbacks.h"
 typedef enum
 {
     I2C_SLAVE_EVENT_RX_FULL = 0x00U,
@@ -13124,7 +13124,7 @@ typedef enum
     I2C_SLAVE_EVENT_RX_REQ = 0x03U,
     I2C_SLAVE_EVENT_STOP = 0X04U,
 }i2c_slave_event_t;
-# 58 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/callbacks.h"
+# 58 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/callbacks.h"
 typedef enum
 {
     I2C_MASTER_EVENT_END_TRANSFER = 0x4U,
@@ -13147,7 +13147,7 @@ typedef enum
 
 
 typedef void (*spi_callback_t)(void *driverState, spi_event_t event, void *userData);
-# 88 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/callbacks.h"
+# 88 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/callbacks.h"
 typedef enum
 {
     UART_EVENT_RX_FULL = 0x00U,
@@ -13211,8 +13211,8 @@ typedef void (*can_callback_t)(uint32_t instance,
 
 
 typedef void (*security_callback_t)(uint32_t completedCmd, void *callbackParam);
-# 52 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h" 2
-# 68 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
+# 52 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h" 2
+# 68 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
 #define LPI2C_MASTER_CMD_QUEUE_SIZE 5U
 
 
@@ -13223,7 +13223,7 @@ typedef enum
 {
     LPI2C_STANDARD_MODE = 0x0U,
     LPI2C_FAST_MODE = 0x1U,
-# 87 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
+# 87 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
 } lpi2c_mode_t;
 
 
@@ -13234,7 +13234,7 @@ typedef enum
    LPI2C_USING_DMA = 0,
    LPI2C_USING_INTERRUPTS = 1,
 } lpi2c_transfer_type_t;
-# 114 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
+# 114 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
 typedef struct
 {
     uint16_t slaveAddress;
@@ -13314,7 +13314,7 @@ typedef struct
     uint8_t writeIdx;
     uint8_t readIdx;
 } lpi2c_master_cmd_queue_t;
-# 203 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
+# 203 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
 typedef struct
 {
 
@@ -13341,7 +13341,7 @@ typedef struct
     void *callbackParam;
 
 } lpi2c_master_state_t;
-# 238 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
+# 238 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
 typedef struct
 {
 
@@ -13362,92 +13362,92 @@ typedef struct
     void *callbackParam;
 
 } lpi2c_slave_state_t;
-# 288 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
+# 288 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
 status_t LPI2C_DRV_MasterInit(uint32_t instance,
                                     const lpi2c_master_user_config_t * userConfigPtr,
                                     lpi2c_master_state_t * master);
-# 303 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
+# 303 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
 status_t LPI2C_DRV_MasterDeinit(uint32_t instance);
-# 316 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
+# 316 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
 void LPI2C_DRV_MasterGetBaudRate(uint32_t instance, lpi2c_baud_rate_params_t *baudRate);
-# 337 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
+# 337 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
 void LPI2C_DRV_MasterSetBaudRate(uint32_t instance,
                                 const lpi2c_mode_t operatingMode,
                                 const lpi2c_baud_rate_params_t baudRate);
-# 352 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
+# 352 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
 void LPI2C_DRV_MasterSetSlaveAddr(uint32_t instance, const uint16_t address, const _Bool is10bitAddr);
-# 369 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
+# 369 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
 status_t LPI2C_DRV_MasterSendData(uint32_t instance,
                                             const uint8_t * txBuff,
                                             uint32_t txSize,
                                             _Bool sendStop);
-# 388 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
+# 388 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
 status_t LPI2C_DRV_MasterSendDataBlocking(uint32_t instance,
                                     const uint8_t * txBuff,
                                     uint32_t txSize,
                                     _Bool sendStop,
                                     uint32_t timeout);
-# 401 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
+# 401 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
 status_t LPI2C_DRV_MasterAbortTransferData(uint32_t instance);
-# 418 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
+# 418 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
 status_t LPI2C_DRV_MasterReceiveData(uint32_t instance,
                                                uint8_t * rxBuff,
                                                uint32_t rxSize,
                                                _Bool sendStop);
-# 437 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
+# 437 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
 status_t LPI2C_DRV_MasterReceiveDataBlocking(uint32_t instance,
                                        uint8_t * rxBuff,
                                        uint32_t rxSize,
                                        _Bool sendStop,
                                        uint32_t timeout);
-# 454 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
+# 454 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
 status_t LPI2C_DRV_MasterGetTransferStatus(uint32_t instance, uint32_t *bytesRemaining);
-# 465 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
+# 465 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
 void LPI2C_DRV_MasterIRQHandler(uint32_t instance);
-# 482 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
+# 482 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
 status_t LPI2C_DRV_SlaveInit(uint32_t instance,
                                const lpi2c_slave_user_config_t * userConfigPtr,
                                lpi2c_slave_state_t * slave);
-# 497 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
+# 497 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
 status_t LPI2C_DRV_SlaveDeinit(uint32_t instance);
-# 513 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
+# 513 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
 status_t LPI2C_DRV_SlaveSetTxBuffer(uint32_t instance,
                                             const uint8_t * txBuff,
                                             uint32_t txSize);
-# 531 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
+# 531 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
 status_t LPI2C_DRV_SlaveSetRxBuffer(uint32_t instance,
                                             uint8_t * rxBuff,
                                             uint32_t rxSize);
-# 550 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
+# 550 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
 status_t LPI2C_DRV_SlaveSendData(uint32_t instance,
                                    const uint8_t * txBuff,
                                    uint32_t txSize);
-# 569 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
+# 569 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
 status_t LPI2C_DRV_SlaveSendDataBlocking(uint32_t instance,
                                            const uint8_t * txBuff,
                                            uint32_t txSize,
                                            uint32_t timeout);
-# 589 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
+# 589 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
 status_t LPI2C_DRV_SlaveReceiveData(uint32_t instance,
                                        uint8_t * rxBuff,
                                        uint32_t rxSize);
-# 608 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
+# 608 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
 status_t LPI2C_DRV_SlaveReceiveDataBlocking(uint32_t instance,
                                                 uint8_t * rxBuff,
                                                 uint32_t rxSize,
                                                 uint32_t timeout);
-# 624 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
+# 624 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
 status_t LPI2C_DRV_SlaveGetTransferStatus(uint32_t instance,
                                             uint32_t *bytesRemaining);
-# 634 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
+# 634 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
 status_t LPI2C_DRV_SlaveAbortTransferData(uint32_t instance);
-# 646 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
+# 646 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h"
 void LPI2C_DRV_SlaveIRQHandler(uint32_t instance);
-# 90 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c" 2
-# 1 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/interrupt_manager.h" 1
-# 19 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/interrupt_manager.h"
+# 90 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c" 2
+# 1 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/interrupt_manager.h" 1
+# 19 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/interrupt_manager.h"
 #define INTERRUPT_MANAGER_H 
-# 79 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/interrupt_manager.h"
+# 79 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/interrupt_manager.h"
 typedef void (* isr_t)(void);
 
 
@@ -13455,13 +13455,13 @@ typedef void (* isr_t)(void);
 
 
 void DefaultISR(void);
-# 112 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/interrupt_manager.h"
+# 112 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/interrupt_manager.h"
 void INT_SYS_InstallHandler(IRQn_Type irqNumber,
                             const isr_t newHandler,
                             isr_t* const oldHandler);
-# 123 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/interrupt_manager.h"
+# 123 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/interrupt_manager.h"
 void INT_SYS_EnableIRQ(IRQn_Type irqNumber);
-# 132 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/interrupt_manager.h"
+# 132 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/interrupt_manager.h"
 void INT_SYS_DisableIRQ(IRQn_Type irqNumber);
 
 
@@ -13479,23 +13479,23 @@ void INT_SYS_EnableIRQGlobal(void);
 
 
 void INT_SYS_DisableIRQGlobal(void);
-# 157 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/interrupt_manager.h"
+# 157 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/interrupt_manager.h"
 void INT_SYS_SetPriority(IRQn_Type irqNumber, uint8_t priority);
-# 166 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/interrupt_manager.h"
+# 166 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/interrupt_manager.h"
 uint8_t INT_SYS_GetPriority(IRQn_Type irqNumber);
-# 177 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/interrupt_manager.h"
+# 177 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/interrupt_manager.h"
 void INT_SYS_ClearPending(IRQn_Type irqNumber);
-# 186 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/interrupt_manager.h"
+# 186 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/interrupt_manager.h"
 void INT_SYS_SetPending(IRQn_Type irqNumber);
-# 197 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/interrupt_manager.h"
+# 197 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/interrupt_manager.h"
 uint32_t INT_SYS_GetPending(IRQn_Type irqNumber);
-# 210 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/interrupt_manager.h"
+# 210 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/interrupt_manager.h"
 uint32_t INT_SYS_GetActive(IRQn_Type irqNumber);
-# 91 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c" 2
-# 1 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h" 1
-# 59 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 91 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c" 2
+# 1 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h" 1
+# 59 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 #define LPI2C_HW_ACCESS_H 
-# 75 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 75 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 #define LPI2C_MASTER_DATA_MATCH_INT 0x4000UL
 #define LPI2C_MASTER_PIN_LOW_TIMEOUT_INT 0x2000UL
 #define LPI2C_MASTER_FIFO_ERROR_INT 0x1000UL
@@ -13665,7 +13665,7 @@ typedef enum
     LPI2C_SLAVE_TRANSMIT_ACK = 0U,
     LPI2C_SLAVE_TRANSMIT_NACK = 1U,
 } lpi2c_slave_nack_transmit_t;
-# 267 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 267 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Get_Version(const LPI2C_Type *baseAddr, lpi2c_version_info_t *versionInfo)
 {
     uint32_t tmp = baseAddr->VERID;
@@ -13673,7 +13673,7 @@ static inline void LPI2C_Get_Version(const LPI2C_Type *baseAddr, lpi2c_version_i
     versionInfo->minorNumber = (uint8_t)((tmp & 0xFF0000u) >> 16u);
     versionInfo->featureNumber = (uint16_t)((tmp & 0xFFFFu) >> 0u);
 }
-# 284 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 284 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline uint16_t LPI2C_Get_MasterRxFIFOSize(const LPI2C_Type *baseAddr)
 {
     uint32_t tmp = baseAddr->PARAM;
@@ -13681,7 +13681,7 @@ static inline uint16_t LPI2C_Get_MasterRxFIFOSize(const LPI2C_Type *baseAddr)
     tmp = 1UL << tmp;
     return (uint16_t)tmp;
 }
-# 301 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 301 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline uint16_t LPI2C_Get_MasterTxFIFOSize(const LPI2C_Type *baseAddr)
 {
     uint32_t tmp = baseAddr->PARAM;
@@ -13689,7 +13689,7 @@ static inline uint16_t LPI2C_Get_MasterTxFIFOSize(const LPI2C_Type *baseAddr)
     tmp = 1UL << tmp;
     return (uint16_t)tmp;
 }
-# 317 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 317 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Reset_MasterRxFIFOCmd(LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->MCR;
@@ -13697,7 +13697,7 @@ static inline void LPI2C_Reset_MasterRxFIFOCmd(LPI2C_Type *baseAddr)
     regValue |= (((uint32_t)(((uint32_t)(1u))<<9u))&0x200u);
     baseAddr->MCR = (uint32_t)regValue;
 }
-# 333 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 333 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Reset_MasterTxFIFOCmd(LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->MCR;
@@ -13705,7 +13705,7 @@ static inline void LPI2C_Reset_MasterTxFIFOCmd(LPI2C_Type *baseAddr)
     regValue |= (((uint32_t)(((uint32_t)(1u))<<8u))&0x100u);
     baseAddr->MCR = (uint32_t)regValue;
 }
-# 350 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 350 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_MasterDebugMode(LPI2C_Type *baseAddr, _Bool enable)
 {
     uint32_t regValue = (uint32_t)baseAddr->MCR;
@@ -13713,7 +13713,7 @@ static inline void LPI2C_Set_MasterDebugMode(LPI2C_Type *baseAddr, _Bool enable)
     regValue |= (((uint32_t)(((uint32_t)(enable))<<3u))&0x8u);
     baseAddr->MCR = (uint32_t)regValue;
 }
-# 367 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 367 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_MasterSetMode(LPI2C_Type *baseAddr, _Bool enable)
 {
     uint32_t regValue = (uint32_t)baseAddr->MCR;
@@ -13721,7 +13721,7 @@ static inline void LPI2C_Set_MasterSetMode(LPI2C_Type *baseAddr, _Bool enable)
     regValue |= (((uint32_t)(((uint32_t)(enable))<<2u))&0x4u);
     baseAddr->MCR = (uint32_t)regValue;
 }
-# 386 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 386 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_MasterSoftwareReset(LPI2C_Type *baseAddr, _Bool enable)
 {
     uint32_t regValue = (uint32_t)baseAddr->MCR;
@@ -13729,7 +13729,7 @@ static inline void LPI2C_Set_MasterSoftwareReset(LPI2C_Type *baseAddr, _Bool ena
     regValue |= (((uint32_t)(((uint32_t)(enable))<<1u))&0x2u);
     baseAddr->MCR = (uint32_t)regValue;
 }
-# 405 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 405 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_MasterEnable(LPI2C_Type *baseAddr, _Bool enable)
 {
     uint32_t regValue = (uint32_t)baseAddr->MCR;
@@ -13737,147 +13737,147 @@ static inline void LPI2C_Set_MasterEnable(LPI2C_Type *baseAddr, _Bool enable)
     regValue |= (((uint32_t)(((uint32_t)(enable))<<0u))&0x1u);
     baseAddr->MCR = (uint32_t)regValue;
 }
-# 422 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 422 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline _Bool LPI2C_Get_MasterDebugMode(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->MCR;
     regValue = (regValue & 0x8u) >> 3u;
     return (_Bool)regValue;
 }
-# 438 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 438 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline _Bool LPI2C_Get_MasterDozeMode(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->MCR;
     regValue = (regValue & 0x4u) >> 2u;
     return (_Bool)regValue;
 }
-# 454 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 454 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline _Bool LPI2C_Get_MasterSoftwareReset(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->MCR;
     regValue = (regValue & 0x2u) >> 1u;
     return (_Bool)regValue;
 }
-# 470 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 470 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline _Bool LPI2C_Get_MasterEnable(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->MCR;
     regValue = (regValue & 0x1u) >> 0u;
     return (_Bool)regValue;
 }
-# 486 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 486 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline _Bool LPI2C_Get_MasterBusBusyEvent(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->MSR;
     regValue = (regValue & 0x2000000u) >> 25u;
     return (_Bool)regValue;
 }
-# 503 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 503 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline _Bool LPI2C_Get_MasterBusyStateEvent(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->MSR;
     regValue = (regValue & 0x1000000u) >> 24u;
     return (_Bool)regValue;
 }
-# 521 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 521 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline _Bool LPI2C_Get_MasterReceiveDataReadyEvent(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->MSR;
     regValue = (regValue & 0x2u) >> 1u;
     return (_Bool)regValue;
 }
-# 539 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 539 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline _Bool LPI2C_Get_MasterTransmitDataRequestEvent(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->MSR;
     regValue = (regValue & 0x1u) >> 0u;
     return (_Bool)regValue;
 }
-# 558 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 558 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline _Bool LPI2C_Get_MasterDataMatchEvent(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->MSR;
     regValue = (regValue & 0x4000u) >> 14u;
     return (_Bool)regValue;
 }
-# 575 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 575 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline _Bool LPI2C_Get_MasterPinLowTimeoutEvent(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->MSR;
     regValue = (regValue & 0x2000u) >> 13u;
     return (_Bool)regValue;
 }
-# 595 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 595 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline _Bool LPI2C_Get_MasterFIFOErrorEvent(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->MSR;
     regValue = (regValue & 0x1000u) >> 12u;
     return (_Bool)regValue;
 }
-# 614 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 614 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline _Bool LPI2C_Get_MasterArbitrationLostEvent(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->MSR;
     regValue = (regValue & 0x800u) >> 11u;
     return (_Bool)regValue;
 }
-# 634 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 634 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline _Bool LPI2C_Get_MasterNACKDetectEvent(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->MSR;
     regValue = (regValue & 0x400u) >> 10u;
     return (_Bool)regValue;
 }
-# 650 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 650 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline _Bool LPI2C_Get_MasterSTOPDetectEvent(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->MSR;
     regValue = (regValue & 0x200u) >> 9u;
     return (_Bool)regValue;
 }
-# 668 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 668 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline _Bool LPI2C_Get_MasterEndPacketEvent(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->MSR;
     regValue = (regValue & 0x100u) >> 8u;
     return (_Bool)regValue;
 }
-# 683 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 683 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Clear_MasterDataMatchEvent(LPI2C_Type *baseAddr)
 {
     baseAddr->MSR = ((uint32_t)1U << 14u);
 }
-# 698 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 698 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Clear_MasterPinLowTimeoutEvent(LPI2C_Type *baseAddr)
 {
     baseAddr->MSR = ((uint32_t)1U << 13u);
 }
-# 712 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 712 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Clear_MasterFIFOErrorEvent(LPI2C_Type *baseAddr)
 {
     baseAddr->MSR = ((uint32_t)1U << 12u);
 }
-# 726 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 726 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Clear_MasterArbitrationLostEvent(LPI2C_Type *baseAddr)
 {
     baseAddr->MSR = ((uint32_t)1U << 11u);
 }
-# 740 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 740 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Clear_MasterNACKDetectEvent(LPI2C_Type *baseAddr)
 {
     baseAddr->MSR = ((uint32_t)1U << 10u);
 }
-# 753 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 753 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Clear_MasterSTOPDetectEvent(LPI2C_Type *baseAddr)
 {
     baseAddr->MSR = ((uint32_t)1U << 9u);
 }
-# 766 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 766 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Clear_MasterEndPacketEvent(LPI2C_Type *baseAddr)
 {
     baseAddr->MSR = ((uint32_t)1U << 8u);
 }
-# 781 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 781 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_MasterRxDMA(LPI2C_Type *baseAddr, _Bool enable)
 {
     uint32_t regValue = (uint32_t)baseAddr->MDER;
@@ -13885,7 +13885,7 @@ static inline void LPI2C_Set_MasterRxDMA(LPI2C_Type *baseAddr, _Bool enable)
     regValue |= (((uint32_t)(((uint32_t)(enable))<<1u))&0x2u);
     baseAddr->MDER = (uint32_t)regValue;
 }
-# 799 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 799 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_MasterTxDMA(LPI2C_Type *baseAddr, _Bool enable)
 {
     uint32_t regValue = (uint32_t)baseAddr->MDER;
@@ -13893,21 +13893,21 @@ static inline void LPI2C_Set_MasterTxDMA(LPI2C_Type *baseAddr, _Bool enable)
     regValue |= (((uint32_t)(((uint32_t)(enable))<<0u))&0x1u);
     baseAddr->MDER = (uint32_t)regValue;
 }
-# 816 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 816 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline _Bool LPI2C_Get_MasterRxDMA(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->MDER;
     regValue = (regValue & 0x2u) >> 1u;
     return (_Bool)regValue;
 }
-# 832 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 832 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline _Bool LPI2C_Get_MasterTxDMA(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->MDER;
     regValue = (regValue & 0x1u) >> 0u;
     return (_Bool)regValue;
 }
-# 860 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 860 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_MasterInt(LPI2C_Type *baseAddr, uint32_t interrupts, _Bool enable)
 {
     uint32_t tmp = baseAddr->MIER;
@@ -13922,7 +13922,7 @@ static inline void LPI2C_Set_MasterInt(LPI2C_Type *baseAddr, uint32_t interrupts
     }
     baseAddr->MIER = tmp;
 }
-# 896 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 896 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline _Bool LPI2C_Get_MasterGetInt(const LPI2C_Type *baseAddr, uint32_t interrupts)
 {
     uint32_t tmp = baseAddr->MIER;
@@ -13935,7 +13935,7 @@ static inline _Bool LPI2C_Get_MasterGetInt(const LPI2C_Type *baseAddr, uint32_t 
 
     return hasInterrupts;
 }
-# 921 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 921 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_MasterRxDataMatch(LPI2C_Type *baseAddr, lpi2c_rx_data_match_t rxDataMatch)
 {
     uint32_t regValue = (uint32_t)baseAddr->MCFGR0;
@@ -13943,14 +13943,14 @@ static inline void LPI2C_Set_MasterRxDataMatch(LPI2C_Type *baseAddr, lpi2c_rx_da
     regValue |= (((uint32_t)(((uint32_t)(rxDataMatch))<<9u))&0x200u);
     baseAddr->MCFGR0 = (uint32_t)regValue;
 }
-# 939 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 939 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline lpi2c_rx_data_match_t LPI2C_Get_MasterRxDataMatch(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->MCFGR0;
     regValue = (regValue & 0x200u) >> 9u;
     return (lpi2c_rx_data_match_t)regValue;
 }
-# 961 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 961 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_MasterCircularFIFO(LPI2C_Type *baseAddr, _Bool enable)
 {
     uint32_t regValue = (uint32_t)baseAddr->MCFGR0;
@@ -13958,14 +13958,14 @@ static inline void LPI2C_Set_MasterCircularFIFO(LPI2C_Type *baseAddr, _Bool enab
     regValue |= (((uint32_t)(((uint32_t)(enable))<<8u))&0x100u);
     baseAddr->MCFGR0 = (uint32_t)regValue;
 }
-# 978 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 978 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline _Bool LPI2C_Get_MasterCircularFIFO(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->MCFGR0;
     regValue = (regValue & 0x100u) >> 8u;
     return (_Bool)regValue;
 }
-# 994 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 994 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_MasterHreqSelect(LPI2C_Type *baseAddr, lpi2c_hreq_source_t source)
 {
     uint32_t regValue = (uint32_t)baseAddr->MCFGR0;
@@ -13973,7 +13973,7 @@ static inline void LPI2C_Set_MasterHreqSelect(LPI2C_Type *baseAddr, lpi2c_hreq_s
     regValue |= (((uint32_t)(((uint32_t)(source))<<2u))&0x4u);
     baseAddr->MCFGR0 = (uint32_t)regValue;
 }
-# 1011 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 1011 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_MasterHreqPolarity(LPI2C_Type *baseAddr, lpi2c_hreq_polarity_t polarity)
 {
     uint32_t regValue = (uint32_t)baseAddr->MCFGR0;
@@ -13981,7 +13981,7 @@ static inline void LPI2C_Set_MasterHreqPolarity(LPI2C_Type *baseAddr, lpi2c_hreq
     regValue |= (((uint32_t)(((uint32_t)(polarity))<<1u))&0x2u);
     baseAddr->MCFGR0 = (uint32_t)regValue;
 }
-# 1030 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 1030 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_MasterHreqEnable(LPI2C_Type *baseAddr, _Bool enable)
 {
     uint32_t regValue = (uint32_t)baseAddr->MCFGR0;
@@ -13989,28 +13989,28 @@ static inline void LPI2C_Set_MasterHreqEnable(LPI2C_Type *baseAddr, _Bool enable
     regValue |= (((uint32_t)(((uint32_t)(enable))<<0u))&0x1u);
     baseAddr->MCFGR0 = (uint32_t)regValue;
 }
-# 1047 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 1047 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline lpi2c_hreq_source_t LPI2C_Get_MasterHreqSelect(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->MCFGR0;
     regValue = (regValue & 0x4u) >> 2u;
     return (lpi2c_hreq_source_t)regValue;
 }
-# 1063 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 1063 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline lpi2c_hreq_polarity_t LPI2C_Get_MasterHreqPolarity(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->MCFGR0;
     regValue = (regValue & 0x2u) >> 1u;
     return (lpi2c_hreq_polarity_t)regValue;
 }
-# 1079 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 1079 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline _Bool LPI2C_Get_MasterHreqEnable(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->MCFGR0;
     regValue = (regValue & 0x1u) >> 0u;
     return (_Bool)regValue;
 }
-# 1096 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 1096 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_MasterPinConfig(LPI2C_Type *baseAddr, lpi2c_pin_config_t configuration)
 {
     uint32_t tmp = baseAddr->MCFGR1;
@@ -14018,14 +14018,14 @@ static inline void LPI2C_Set_MasterPinConfig(LPI2C_Type *baseAddr, lpi2c_pin_con
     tmp |= (((uint32_t)(((uint32_t)(configuration))<<24u))&0x7000000u);
     baseAddr->MCFGR1 = tmp;
 }
-# 1113 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 1113 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline lpi2c_pin_config_t LPI2C_Get_MasterPinConfig(const LPI2C_Type *baseAddr)
 {
     uint32_t tmp = baseAddr->MCFGR1;
     tmp = (tmp & 0x7000000u) >> 24u;
     return (lpi2c_pin_config_t)tmp;
 }
-# 1131 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 1131 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_MasterMatchConfig(LPI2C_Type *baseAddr, lpi2c_match_config_t configuration)
 {
     uint32_t tmp = baseAddr->MCFGR1;
@@ -14033,14 +14033,14 @@ static inline void LPI2C_Set_MasterMatchConfig(LPI2C_Type *baseAddr, lpi2c_match
     tmp |= (((uint32_t)(((uint32_t)(configuration))<<16u))&0x70000u);
     baseAddr->MCFGR1 = tmp;
 }
-# 1148 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 1148 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline lpi2c_match_config_t LPI2C_Get_MasterMatchConfig(const LPI2C_Type *baseAddr)
 {
     uint32_t tmp = baseAddr->MCFGR1;
     tmp = (tmp & 0x70000u) >> 16u;
     return (lpi2c_match_config_t)tmp;
 }
-# 1165 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 1165 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_MasterTimeoutConfig(LPI2C_Type *baseAddr, lpi2c_timeout_config_t configuration)
 {
     uint32_t regValue = (uint32_t)baseAddr->MCFGR1;
@@ -14048,14 +14048,14 @@ static inline void LPI2C_Set_MasterTimeoutConfig(LPI2C_Type *baseAddr, lpi2c_tim
     regValue |= (((uint32_t)(((uint32_t)(configuration))<<10u))&0x400u);
     baseAddr->MCFGR1 = (uint32_t)regValue;
 }
-# 1182 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 1182 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline lpi2c_timeout_config_t LPI2C_Get_MasterTimeoutConfig(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->MCFGR1;
     regValue = (regValue & 0x400u) >> 10u;
     return (lpi2c_timeout_config_t)regValue;
 }
-# 1200 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 1200 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_MasterNACKConfig(LPI2C_Type *baseAddr, lpi2c_nack_config_t configuration)
 {
     uint32_t regValue = (uint32_t)baseAddr->MCFGR1;
@@ -14063,14 +14063,14 @@ static inline void LPI2C_Set_MasterNACKConfig(LPI2C_Type *baseAddr, lpi2c_nack_c
     regValue |= (((uint32_t)(((uint32_t)(configuration))<<9u))&0x200u);
     baseAddr->MCFGR1 = (uint32_t)regValue;
 }
-# 1217 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 1217 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline lpi2c_nack_config_t LPI2C_Get_MasterNACKConfig(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->MCFGR1;
     regValue = (regValue & 0x200u) >> 9u;
     return (lpi2c_nack_config_t)regValue;
 }
-# 1235 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 1235 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_MasterAutoStopConfig(LPI2C_Type *baseAddr, _Bool enable)
 {
     uint32_t regValue = (uint32_t)baseAddr->MCFGR1;
@@ -14078,14 +14078,14 @@ static inline void LPI2C_Set_MasterAutoStopConfig(LPI2C_Type *baseAddr, _Bool en
     regValue |= (((uint32_t)(((uint32_t)(enable))<<8u))&0x100u);
     baseAddr->MCFGR1 = (uint32_t)regValue;
 }
-# 1253 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 1253 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline _Bool LPI2C_Get_MasterAutoStopConfig(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->MCFGR1;
     regValue = (regValue & 0x100u) >> 8u;
     return (_Bool)regValue;
 }
-# 1270 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 1270 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_MasterPrescaler(LPI2C_Type *baseAddr, lpi2c_master_prescaler_t prescaler)
 {
     uint32_t tmp = baseAddr->MCFGR1;
@@ -14093,14 +14093,14 @@ static inline void LPI2C_Set_MasterPrescaler(LPI2C_Type *baseAddr, lpi2c_master_
     tmp |= (((uint32_t)(((uint32_t)(prescaler))<<0u))&0x7u);
     baseAddr->MCFGR1 = tmp;
 }
-# 1287 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 1287 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline lpi2c_master_prescaler_t LPI2C_Get_MasterPrescaler(const LPI2C_Type *baseAddr)
 {
     uint32_t tmp = baseAddr->MCFGR1;
     tmp = (tmp & 0x7u) >> 0u;
     return (lpi2c_master_prescaler_t)tmp;
 }
-# 1307 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 1307 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_MasterSDAGlitchFilter(LPI2C_Type *baseAddr, uint8_t cycles)
 {
     uint32_t tmp = baseAddr->MCFGR2;
@@ -14108,14 +14108,14 @@ static inline void LPI2C_Set_MasterSDAGlitchFilter(LPI2C_Type *baseAddr, uint8_t
     tmp |= (((uint32_t)(((uint32_t)(cycles))<<24u))&0xF000000u);
     baseAddr->MCFGR2 = tmp;
 }
-# 1324 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 1324 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline uint8_t LPI2C_Get_MasterSDAGlitchFilter(const LPI2C_Type *baseAddr)
 {
     uint32_t tmp = baseAddr->MCFGR2;
     tmp = (tmp & 0xF000000u) >> 24u;
     return (uint8_t)tmp;
 }
-# 1344 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 1344 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_MasterSCLGlitchFilter(LPI2C_Type *baseAddr, uint8_t cycles)
 {
     uint32_t tmp = baseAddr->MCFGR2;
@@ -14123,14 +14123,14 @@ static inline void LPI2C_Set_MasterSCLGlitchFilter(LPI2C_Type *baseAddr, uint8_t
     tmp |= (((uint32_t)(((uint32_t)(cycles))<<16u))&0xF0000u);
     baseAddr->MCFGR2 = tmp;
 }
-# 1361 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 1361 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline uint8_t LPI2C_Get_MasterSCLGlitchFilter(const LPI2C_Type *baseAddr)
 {
     uint32_t tmp = baseAddr->MCFGR2;
     tmp = (tmp & 0xF0000u) >> 16u;
     return (uint8_t)tmp;
 }
-# 1380 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 1380 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_MasterBusIdleTimeout(LPI2C_Type *baseAddr, uint16_t cycles)
 {
     uint32_t tmp = baseAddr->MCFGR2;
@@ -14138,24 +14138,24 @@ static inline void LPI2C_Set_MasterBusIdleTimeout(LPI2C_Type *baseAddr, uint16_t
     tmp |= (((uint32_t)(((uint32_t)(cycles))<<0u))&0xFFFu);
     baseAddr->MCFGR2 = tmp;
 }
-# 1397 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 1397 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline uint16_t LPI2C_Get_MasterBusIdleTimeout(const LPI2C_Type *baseAddr)
 {
     uint32_t tmp = baseAddr->MCFGR2;
     tmp = (tmp & 0xFFFu) >> 0u;
     return (uint16_t)tmp;
 }
-# 1415 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 1415 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_MasterPinLowTimeout(LPI2C_Type *baseAddr, uint32_t cycles)
 {
     baseAddr->MCFGR3 = cycles;
 }
-# 1429 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 1429 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline uint32_t LPI2C_Get_MasterPinLowTimeout(const LPI2C_Type *baseAddr)
 {
     return (uint32_t)(baseAddr->MCFGR3);
 }
-# 1445 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 1445 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_MasterMatch0(LPI2C_Type *baseAddr, uint8_t value)
 {
     uint32_t tmp = baseAddr->MDMR;
@@ -14163,14 +14163,14 @@ static inline void LPI2C_Set_MasterMatch0(LPI2C_Type *baseAddr, uint8_t value)
     tmp |= (((uint32_t)(((uint32_t)(value))<<0u))&0xFFu);
     baseAddr->MDMR = tmp;
 }
-# 1462 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 1462 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline uint8_t LPI2C_Get_MasterMatch0(const LPI2C_Type *baseAddr)
 {
     uint32_t tmp = baseAddr->MDMR;
     tmp = (tmp & 0xFFu) >> 0u;
     return (uint8_t)tmp;
 }
-# 1480 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 1480 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_MasterMatch1(LPI2C_Type *baseAddr, uint8_t value)
 {
     uint32_t tmp = baseAddr->MDMR;
@@ -14178,14 +14178,14 @@ static inline void LPI2C_Set_MasterMatch1(LPI2C_Type *baseAddr, uint8_t value)
     tmp |= (((uint32_t)(((uint32_t)(value))<<16u))&0xFF0000u);
     baseAddr->MDMR = tmp;
 }
-# 1497 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 1497 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline uint8_t LPI2C_Get_MasterMatch1(const LPI2C_Type *baseAddr)
 {
     uint32_t tmp = baseAddr->MDMR;
     tmp = (tmp & 0xFF0000u) >> 16u;
     return (uint8_t)tmp;
 }
-# 1514 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 1514 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_MasterDataValidDelay(LPI2C_Type *baseAddr, uint8_t value)
 {
     uint32_t tmp = baseAddr->MCCR0;
@@ -14193,14 +14193,14 @@ static inline void LPI2C_Set_MasterDataValidDelay(LPI2C_Type *baseAddr, uint8_t 
     tmp |= (((uint32_t)(((uint32_t)(value))<<24u))&0x3F000000u);
     baseAddr->MCCR0 = tmp;
 }
-# 1531 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 1531 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline uint8_t LPI2C_Get_MasterDataValidDelay(const LPI2C_Type *baseAddr)
 {
     uint32_t tmp = baseAddr->MCCR0;
     tmp = (tmp & 0x3F000000u) >> 24u;
     return (uint8_t)tmp;
 }
-# 1551 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 1551 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_MasterSetupHoldDelay(LPI2C_Type *baseAddr, uint8_t value)
 {
     uint32_t tmp = baseAddr->MCCR0;
@@ -14208,14 +14208,14 @@ static inline void LPI2C_Set_MasterSetupHoldDelay(LPI2C_Type *baseAddr, uint8_t 
     tmp |= (((uint32_t)(((uint32_t)(value))<<16u))&0x3F0000u);
     baseAddr->MCCR0 = tmp;
 }
-# 1569 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 1569 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline uint8_t LPI2C_Get_MasterSetupHoldDelay(const LPI2C_Type *baseAddr)
 {
     uint32_t tmp = baseAddr->MCCR0;
     tmp = (tmp & 0x3F0000u) >> 16u;
     return (uint8_t)tmp;
 }
-# 1589 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 1589 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_MasterClockHighPeriod(LPI2C_Type *baseAddr, uint8_t value)
 {
     uint32_t tmp = baseAddr->MCCR0;
@@ -14223,14 +14223,14 @@ static inline void LPI2C_Set_MasterClockHighPeriod(LPI2C_Type *baseAddr, uint8_t
     tmp |= (((uint32_t)(((uint32_t)(value))<<8u))&0x3F00u);
     baseAddr->MCCR0 = tmp;
 }
-# 1606 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 1606 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline uint8_t LPI2C_Get_MasterClockHighPeriod(const LPI2C_Type *baseAddr)
 {
     uint32_t tmp = baseAddr->MCCR0;
     tmp = (tmp & 0x3F00u) >> 8u;
     return (uint8_t)tmp;
 }
-# 1624 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 1624 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_MasterClockLowPeriod(LPI2C_Type *baseAddr, uint8_t value)
 {
     uint32_t tmp = baseAddr->MCCR0;
@@ -14238,14 +14238,14 @@ static inline void LPI2C_Set_MasterClockLowPeriod(LPI2C_Type *baseAddr, uint8_t 
     tmp |= (((uint32_t)(((uint32_t)(value))<<0u))&0x3Fu);
     baseAddr->MCCR0 = tmp;
 }
-# 1641 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 1641 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline uint8_t LPI2C_Get_MasterClockLowPeriod(const LPI2C_Type *baseAddr)
 {
     uint32_t tmp = baseAddr->MCCR0;
     tmp = (tmp & 0x3Fu) >> 0u;
     return (uint8_t)tmp;
 }
-# 1660 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 1660 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_MasterDataValidDelayHS(LPI2C_Type *baseAddr, uint8_t value)
 {
     uint32_t tmp = baseAddr->MCCR1;
@@ -14253,14 +14253,14 @@ static inline void LPI2C_Set_MasterDataValidDelayHS(LPI2C_Type *baseAddr, uint8_
     tmp |= (((uint32_t)(((uint32_t)(value))<<24u))&0x3F000000u);
     baseAddr->MCCR1 = tmp;
 }
-# 1678 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 1678 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline uint8_t LPI2C_Get_MasterDataValidDelayHS(const LPI2C_Type *baseAddr)
 {
     uint32_t tmp = baseAddr->MCCR1;
     tmp = (tmp & 0x3F000000u) >> 24u;
     return (uint8_t)tmp;
 }
-# 1699 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 1699 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_MasterSetupHoldDelayHS(LPI2C_Type *baseAddr, uint8_t value)
 {
     uint32_t tmp = baseAddr->MCCR1;
@@ -14268,14 +14268,14 @@ static inline void LPI2C_Set_MasterSetupHoldDelayHS(LPI2C_Type *baseAddr, uint8_
     tmp |= (((uint32_t)(((uint32_t)(value))<<16u))&0x3F0000u);
     baseAddr->MCCR1 = tmp;
 }
-# 1717 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 1717 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline uint8_t LPI2C_Get_MasterSetupHoldDelayHS(const LPI2C_Type *baseAddr)
 {
     uint32_t tmp = baseAddr->MCCR1;
     tmp = (tmp & 0x3F0000u) >> 16u;
     return (uint8_t)tmp;
 }
-# 1738 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 1738 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_MasterClockHighPeriodHS(LPI2C_Type *baseAddr, uint8_t value)
 {
     uint32_t tmp = baseAddr->MCCR1;
@@ -14283,14 +14283,14 @@ static inline void LPI2C_Set_MasterClockHighPeriodHS(LPI2C_Type *baseAddr, uint8
     tmp |= (((uint32_t)(((uint32_t)(value))<<8u))&0x3F00u);
     baseAddr->MCCR1 = tmp;
 }
-# 1756 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 1756 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline uint8_t LPI2C_Get_MasterClockHighPeriodHS(const LPI2C_Type *baseAddr)
 {
     uint32_t tmp = baseAddr->MCCR1;
     tmp = (tmp & 0x3F00u) >> 8u;
     return (uint8_t)tmp;
 }
-# 1775 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 1775 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_MasterClockLowPeriodHS(LPI2C_Type *baseAddr, uint8_t value)
 {
     uint32_t tmp = baseAddr->MCCR1;
@@ -14298,14 +14298,14 @@ static inline void LPI2C_Set_MasterClockLowPeriodHS(LPI2C_Type *baseAddr, uint8_
     tmp |= (((uint32_t)(((uint32_t)(value))<<0u))&0x3Fu);
     baseAddr->MCCR1 = tmp;
 }
-# 1793 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 1793 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline uint8_t LPI2C_Get_MasterClockLowPeriodHS(const LPI2C_Type *baseAddr)
 {
     uint32_t tmp = baseAddr->MCCR1;
     tmp = (tmp & 0x3Fu) >> 0u;
     return (uint8_t)tmp;
 }
-# 1811 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 1811 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_MasterRxFIFOWatermark(LPI2C_Type *baseAddr, uint16_t value)
 {
     uint32_t tmp = baseAddr->MFCR;
@@ -14313,14 +14313,14 @@ static inline void LPI2C_Set_MasterRxFIFOWatermark(LPI2C_Type *baseAddr, uint16_
     tmp |= (((uint32_t)(((uint32_t)(value))<<16u))&0x30000u);
     baseAddr->MFCR = tmp;
 }
-# 1828 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 1828 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline uint16_t LPI2C_Get_MasterRxFIFOWatermark(const LPI2C_Type *baseAddr)
 {
     uint32_t tmp = baseAddr->MFCR;
     tmp = (tmp & 0x30000u) >> 16u;
     return (uint16_t)tmp;
 }
-# 1846 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 1846 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_MasterTxFIFOWatermark(LPI2C_Type *baseAddr, uint16_t value)
 {
     uint32_t tmp = baseAddr->MFCR;
@@ -14328,47 +14328,47 @@ static inline void LPI2C_Set_MasterTxFIFOWatermark(LPI2C_Type *baseAddr, uint16_
     tmp |= (((uint32_t)(((uint32_t)(value))<<0u))&0x3u);
     baseAddr->MFCR = tmp;
 }
-# 1863 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 1863 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline uint16_t LPI2C_Get_MasterTxFIFOWatermark(const LPI2C_Type *baseAddr)
 {
     uint32_t tmp = baseAddr->MFCR;
     tmp = (tmp & 0x3u) >> 0u;
     return (uint16_t)tmp;
 }
-# 1879 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 1879 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline uint16_t LPI2C_Get_MasterRxFIFOCount(const LPI2C_Type *baseAddr)
 {
     uint32_t tmp = baseAddr->MFSR;
     tmp = (tmp & 0x70000u) >> 16u;
     return (uint16_t)tmp;
 }
-# 1895 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 1895 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline uint16_t LPI2C_Get_MasterTxFIFOCount(const LPI2C_Type *baseAddr)
 {
     uint32_t tmp = baseAddr->MFSR;
     tmp = (tmp & 0x7u) >> 0u;
     return (uint16_t)tmp;
 }
-# 1913 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 1913 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Cmd_MasterTransmit(LPI2C_Type *baseAddr, lpi2c_master_command_t cmd, uint8_t data)
 {
     baseAddr->MTDR = ((uint32_t)cmd << 8U) + (uint32_t)data;
 }
-# 1928 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 1928 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline uint8_t LPI2C_Get_MasterRxData(const LPI2C_Type *baseAddr)
 {
     uint32_t tmp = baseAddr->MRDR;
     tmp = (tmp & 0xFFu) >> 0u;
     return (uint8_t)tmp;
 }
-# 1944 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 1944 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline _Bool LPI2C_Get_MasterRxEmpty(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->MRDR;
     regValue = (regValue & 0x4000u) >> 14u;
     return (_Bool)regValue;
 }
-# 1960 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 1960 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_SlaveFilterDoze(LPI2C_Type *baseAddr, _Bool enable)
 {
     uint32_t regValue = (uint32_t)baseAddr->SCR;
@@ -14376,14 +14376,14 @@ static inline void LPI2C_Set_SlaveFilterDoze(LPI2C_Type *baseAddr, _Bool enable)
     regValue |= (((uint32_t)(((uint32_t)(enable))<<5u))&0x20u);
     baseAddr->SCR = (uint32_t)regValue;
 }
-# 1978 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 1978 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline _Bool LPI2C_Get_SlaveFilterDoze(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->SCR;
     regValue = (regValue & 0x20u) >> 5u;
     return (_Bool)regValue;
 }
-# 1995 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 1995 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_SlaveFilterEnable(LPI2C_Type *baseAddr, _Bool enable)
 {
     uint32_t regValue = (uint32_t)baseAddr->SCR;
@@ -14391,14 +14391,14 @@ static inline void LPI2C_Set_SlaveFilterEnable(LPI2C_Type *baseAddr, _Bool enabl
     regValue |= (((uint32_t)(((uint32_t)(enable))<<4u))&0x10u);
     baseAddr->SCR = (uint32_t)regValue;
 }
-# 2012 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 2012 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline _Bool LPI2C_Get_SlaveFilterEnable(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->SCR;
     regValue = (regValue & 0x10u) >> 4u;
     return (_Bool)regValue;
 }
-# 2029 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 2029 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_SlaveSoftwareReset(LPI2C_Type *baseAddr, _Bool enable)
 {
     uint32_t regValue = (uint32_t)baseAddr->SCR;
@@ -14406,14 +14406,14 @@ static inline void LPI2C_Set_SlaveSoftwareReset(LPI2C_Type *baseAddr, _Bool enab
     regValue |= (((uint32_t)(((uint32_t)(enable))<<1u))&0x2u);
     baseAddr->SCR = (uint32_t)regValue;
 }
-# 2046 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 2046 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline _Bool LPI2C_Get_SlaveSoftwareReset(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->SCR;
     regValue = (regValue & 0x2u) >> 1u;
     return (_Bool)regValue;
 }
-# 2062 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 2062 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_SlaveEnable(LPI2C_Type *baseAddr, _Bool enable)
 {
     uint32_t regValue = (uint32_t)baseAddr->SCR;
@@ -14421,132 +14421,132 @@ static inline void LPI2C_Set_SlaveEnable(LPI2C_Type *baseAddr, _Bool enable)
     regValue |= (((uint32_t)(((uint32_t)(enable))<<0u))&0x1u);
     baseAddr->SCR = (uint32_t)regValue;
 }
-# 2079 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 2079 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline _Bool LPI2C_Get_SlaveEnable(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->SCR;
     regValue = (regValue & 0x1u) >> 0u;
     return (_Bool)regValue;
 }
-# 2095 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 2095 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline _Bool LPI2C_Get_SlaveBusBusyEvent(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->SSR;
     regValue = (regValue & 0x2000000u) >> 25u;
     return (_Bool)regValue;
 }
-# 2112 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 2112 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline _Bool LPI2C_Get_SlaveSlaveBusyEvent(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->SSR;
     regValue = (regValue & 0x1000000u) >> 24u;
     return (_Bool)regValue;
 }
-# 2129 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 2129 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline _Bool LPI2C_Get_SlaveSMBusAlertResponseEvent(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->SSR;
     regValue = (regValue & 0x8000u) >> 15u;
     return (_Bool)regValue;
 }
-# 2146 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 2146 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline _Bool LPI2C_Get_SlaveGeneralCallEvent(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->SSR;
     regValue = (regValue & 0x4000u) >> 14u;
     return (_Bool)regValue;
 }
-# 2164 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 2164 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline _Bool LPI2C_Get_SlaveAddressMatch1Event(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->SSR;
     regValue = (regValue & 0x2000u) >> 13u;
     return (_Bool)regValue;
 }
-# 2182 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 2182 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline _Bool LPI2C_Get_SlaveAddressMatch0Event(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->SSR;
     regValue = (regValue & 0x1000u) >> 12u;
     return (_Bool)regValue;
 }
-# 2199 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 2199 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline _Bool LPI2C_Get_SlaveFIFOErrorEvent(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->SSR;
     regValue = (regValue & 0x800u) >> 11u;
     return (_Bool)regValue;
 }
-# 2217 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 2217 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline _Bool LPI2C_Get_SlaveBitErrorEvent(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->SSR;
     regValue = (regValue & 0x400u) >> 10u;
     return (_Bool)regValue;
 }
-# 2234 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 2234 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline _Bool LPI2C_Get_SlaveSTOPDetectEvent(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->SSR;
     regValue = (regValue & 0x200u) >> 9u;
     return (_Bool)regValue;
 }
-# 2252 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 2252 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline _Bool LPI2C_Get_SlaveRepeatedStartEvent(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->SSR;
     regValue = (regValue & 0x100u) >> 8u;
     return (_Bool)regValue;
 }
-# 2270 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 2270 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline _Bool LPI2C_Get_SlaveTransmitACKEvent(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->SSR;
     regValue = (regValue & 0x8u) >> 3u;
     return (_Bool)regValue;
 }
-# 2290 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 2290 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline _Bool LPI2C_Get_SlaveAddressValidEvent(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->SSR;
     regValue = (regValue & 0x4u) >> 2u;
     return (_Bool)regValue;
 }
-# 2310 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 2310 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline _Bool LPI2C_Get_SlaveReceiveDataEvent(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->SSR;
     regValue = (regValue & 0x2u) >> 1u;
     return (_Bool)regValue;
 }
-# 2330 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 2330 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline _Bool LPI2C_Get_SlaveTransmitDataEvent(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->SSR;
     regValue = (regValue & 0x1u) >> 0u;
     return (_Bool)regValue;
 }
-# 2345 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 2345 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Clear_SlaveFIFOErrorEvent(LPI2C_Type *baseAddr)
 {
     baseAddr->SSR = ((uint32_t)1U << 11u);
 }
-# 2358 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 2358 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Clear_SlaveBitErrorEvent(LPI2C_Type *baseAddr)
 {
     baseAddr->SSR = ((uint32_t)1U << 10u);
 }
-# 2371 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 2371 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Clear_SlaveSTOPDetectEvent(LPI2C_Type *baseAddr)
 {
     baseAddr->SSR = ((uint32_t)1U << 9u);
 }
-# 2384 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 2384 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Clear_SlaveRepeatedStartEvent(LPI2C_Type *baseAddr)
 {
     baseAddr->SSR = ((uint32_t)1U << 8u);
 }
-# 2413 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 2413 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_SlaveInt(LPI2C_Type *baseAddr, uint32_t interrupts, _Bool enable)
 {
     uint32_t tmp = baseAddr->SIER;
@@ -14561,7 +14561,7 @@ static inline void LPI2C_Set_SlaveInt(LPI2C_Type *baseAddr, uint32_t interrupts,
     }
     baseAddr->SIER = tmp;
 }
-# 2452 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 2452 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline _Bool LPI2C_Get_SlaveInt(const LPI2C_Type *baseAddr, uint32_t interrupts)
 {
     uint32_t tmp = baseAddr->SIER;
@@ -14574,7 +14574,7 @@ static inline _Bool LPI2C_Get_SlaveInt(const LPI2C_Type *baseAddr, uint32_t inte
 
     return hasInterrupts;
 }
-# 2477 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 2477 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_SlaveAddrDMA(LPI2C_Type *baseAddr, _Bool enable)
 {
     uint32_t regValue = (uint32_t)baseAddr->SDER;
@@ -14582,7 +14582,7 @@ static inline void LPI2C_Set_SlaveAddrDMA(LPI2C_Type *baseAddr, _Bool enable)
     regValue |= (((uint32_t)(((uint32_t)(enable))<<2u))&0x4u);
     baseAddr->SDER = (uint32_t)regValue;
 }
-# 2495 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 2495 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_SlaveRxDMA(LPI2C_Type *baseAddr, _Bool enable)
 {
     uint32_t regValue = (uint32_t)baseAddr->SDER;
@@ -14590,7 +14590,7 @@ static inline void LPI2C_Set_SlaveRxDMA(LPI2C_Type *baseAddr, _Bool enable)
     regValue |= (((uint32_t)(((uint32_t)(enable))<<1u))&0x2u);
     baseAddr->SDER = (uint32_t)regValue;
 }
-# 2513 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 2513 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_SlaveTxDMA(LPI2C_Type *baseAddr, _Bool enable)
 {
     uint32_t regValue = (uint32_t)baseAddr->SDER;
@@ -14598,28 +14598,28 @@ static inline void LPI2C_Set_SlaveTxDMA(LPI2C_Type *baseAddr, _Bool enable)
     regValue |= (((uint32_t)(((uint32_t)(enable))<<0u))&0x1u);
     baseAddr->SDER = (uint32_t)regValue;
 }
-# 2530 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 2530 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline _Bool LPI2C_Get_SlaveAddrDMA(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->SDER;
     regValue = (regValue & 0x4u) >> 2u;
     return (_Bool)regValue;
 }
-# 2546 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 2546 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline _Bool LPI2C_Get_SlaveRxDMA(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->SDER;
     regValue = (regValue & 0x2u) >> 1u;
     return (_Bool)regValue;
 }
-# 2562 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 2562 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline _Bool LPI2C_Get_SlaveTxDMA(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->SDER;
     regValue = (regValue & 0x1u) >> 0u;
     return (_Bool)regValue;
 }
-# 2579 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 2579 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_SlaveAddrConfig(LPI2C_Type *baseAddr, lpi2c_slave_addr_config_t configuration)
 {
     uint32_t tmp = baseAddr->SCFGR1;
@@ -14627,14 +14627,14 @@ static inline void LPI2C_Set_SlaveAddrConfig(LPI2C_Type *baseAddr, lpi2c_slave_a
     tmp |= (((uint32_t)(((uint32_t)(configuration))<<16u))&0x70000u);
     baseAddr->SCFGR1 = tmp;
 }
-# 2596 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 2596 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline lpi2c_slave_addr_config_t LPI2C_Get_SlaveAddrConfig(const LPI2C_Type *baseAddr)
 {
     uint32_t tmp = baseAddr->SCFGR1;
     tmp = (tmp & 0x70000u) >> 16u;
     return (lpi2c_slave_addr_config_t)tmp;
 }
-# 2615 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 2615 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_SlaveHighSpeedModeDetect(LPI2C_Type *baseAddr, _Bool enable)
 {
     uint32_t regValue = (uint32_t)baseAddr->SCFGR1;
@@ -14642,14 +14642,14 @@ static inline void LPI2C_Set_SlaveHighSpeedModeDetect(LPI2C_Type *baseAddr, _Boo
     regValue |= (((uint32_t)(((uint32_t)(enable))<<13u))&0x2000u);
     baseAddr->SCFGR1 = (uint32_t)regValue;
 }
-# 2632 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 2632 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline _Bool LPI2C_Get_SlaveHighSpeedModeDetect(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->SCFGR1;
     regValue = (regValue & 0x2000u) >> 13u;
     return (_Bool)regValue;
 }
-# 2650 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 2650 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_SlaveIgnoreNACK(LPI2C_Type *baseAddr, lpi2c_slave_nack_config_t nack_config)
 {
     uint32_t regValue = (uint32_t)baseAddr->SCFGR1;
@@ -14657,14 +14657,14 @@ static inline void LPI2C_Set_SlaveIgnoreNACK(LPI2C_Type *baseAddr, lpi2c_slave_n
     regValue |= (((uint32_t)(((uint32_t)(nack_config))<<12u))&0x1000u);
     baseAddr->SCFGR1 = (uint32_t)regValue;
 }
-# 2667 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 2667 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline lpi2c_slave_nack_config_t LPI2C_Get_SlaveIgnoreNACK(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->SCFGR1;
     regValue = (regValue & 0x1000u) >> 12u;
     return (lpi2c_slave_nack_config_t)regValue;
 }
-# 2687 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 2687 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_SlaveRxDataConfig(LPI2C_Type *baseAddr, lpi2c_slave_rxdata_config_t configuration)
 {
     uint32_t regValue = (uint32_t)baseAddr->SCFGR1;
@@ -14672,14 +14672,14 @@ static inline void LPI2C_Set_SlaveRxDataConfig(LPI2C_Type *baseAddr, lpi2c_slave
     regValue |= (((uint32_t)(((uint32_t)(configuration))<<11u))&0x800u);
     baseAddr->SCFGR1 = (uint32_t)regValue;
 }
-# 2704 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 2704 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline lpi2c_slave_rxdata_config_t LPI2C_Get_SlaveRxDataConfig(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->SCFGR1;
     regValue = (regValue & 0x800u) >> 11u;
     return (lpi2c_slave_rxdata_config_t)regValue;
 }
-# 2727 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 2727 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_SlaveTxFlagConfig(LPI2C_Type *baseAddr, lpi2c_slave_txflag_config_t configuration)
 {
     uint32_t regValue = (uint32_t)baseAddr->SCFGR1;
@@ -14687,14 +14687,14 @@ static inline void LPI2C_Set_SlaveTxFlagConfig(LPI2C_Type *baseAddr, lpi2c_slave
     regValue |= (((uint32_t)(((uint32_t)(configuration))<<10u))&0x400u);
     baseAddr->SCFGR1 = (uint32_t)regValue;
 }
-# 2744 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 2744 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline lpi2c_slave_txflag_config_t LPI2C_Get_SlaveTxFlagConfig(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->SCFGR1;
     regValue = (regValue & 0x400u) >> 10u;
     return (lpi2c_slave_txflag_config_t)regValue;
 }
-# 2760 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 2760 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_SlaveSMBusAlert(LPI2C_Type *baseAddr, _Bool enable)
 {
     uint32_t regValue = (uint32_t)baseAddr->SCFGR1;
@@ -14702,14 +14702,14 @@ static inline void LPI2C_Set_SlaveSMBusAlert(LPI2C_Type *baseAddr, _Bool enable)
     regValue |= (((uint32_t)(((uint32_t)(enable))<<9u))&0x200u);
     baseAddr->SCFGR1 = (uint32_t)regValue;
 }
-# 2777 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 2777 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline _Bool LPI2C_Get_SlaveSMBusAlert(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->SCFGR1;
     regValue = (regValue & 0x200u) >> 9u;
     return (_Bool)regValue;
 }
-# 2793 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 2793 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_SlaveGeneralCall(LPI2C_Type *baseAddr, _Bool enable)
 {
     uint32_t regValue = (uint32_t)baseAddr->SCFGR1;
@@ -14717,14 +14717,14 @@ static inline void LPI2C_Set_SlaveGeneralCall(LPI2C_Type *baseAddr, _Bool enable
     regValue |= (((uint32_t)(((uint32_t)(enable))<<8u))&0x100u);
     baseAddr->SCFGR1 = (uint32_t)regValue;
 }
-# 2810 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 2810 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline _Bool LPI2C_Get_SlaveGeneralCall(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->SCFGR1;
     regValue = (regValue & 0x100u) >> 8u;
     return (_Bool)regValue;
 }
-# 2829 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 2829 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_SlaveACKStall(LPI2C_Type *baseAddr, _Bool enable)
 {
     uint32_t regValue = (uint32_t)baseAddr->SCFGR1;
@@ -14732,14 +14732,14 @@ static inline void LPI2C_Set_SlaveACKStall(LPI2C_Type *baseAddr, _Bool enable)
     regValue |= (((uint32_t)(((uint32_t)(enable))<<3u))&0x8u);
     baseAddr->SCFGR1 = (uint32_t)regValue;
 }
-# 2847 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 2847 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline _Bool LPI2C_Get_SlaveACKStall(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->SCFGR1;
     regValue = (regValue & 0x8u) >> 3u;
     return (_Bool)regValue;
 }
-# 2865 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 2865 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_SlaveTXDStall(LPI2C_Type *baseAddr, _Bool enable)
 {
     uint32_t regValue = (uint32_t)baseAddr->SCFGR1;
@@ -14747,14 +14747,14 @@ static inline void LPI2C_Set_SlaveTXDStall(LPI2C_Type *baseAddr, _Bool enable)
     regValue |= (((uint32_t)(((uint32_t)(enable))<<2u))&0x4u);
     baseAddr->SCFGR1 = (uint32_t)regValue;
 }
-# 2883 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 2883 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline _Bool LPI2C_Get_SlaveTXDStall(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->SCFGR1;
     regValue = (regValue & 0x4u) >> 2u;
     return (_Bool)regValue;
 }
-# 2901 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 2901 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_SlaveRXStall(LPI2C_Type *baseAddr, _Bool enable)
 {
     uint32_t regValue = (uint32_t)baseAddr->SCFGR1;
@@ -14762,14 +14762,14 @@ static inline void LPI2C_Set_SlaveRXStall(LPI2C_Type *baseAddr, _Bool enable)
     regValue |= (((uint32_t)(((uint32_t)(enable))<<1u))&0x2u);
     baseAddr->SCFGR1 = (uint32_t)regValue;
 }
-# 2919 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 2919 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline _Bool LPI2C_Get_SlaveRXStall(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->SCFGR1;
     regValue = (regValue & 0x2u) >> 1u;
     return (_Bool)regValue;
 }
-# 2937 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 2937 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_SlaveAddrStall(LPI2C_Type *baseAddr, _Bool enable)
 {
     uint32_t regValue = (uint32_t)baseAddr->SCFGR1;
@@ -14777,14 +14777,14 @@ static inline void LPI2C_Set_SlaveAddrStall(LPI2C_Type *baseAddr, _Bool enable)
     regValue |= (((uint32_t)(((uint32_t)(enable))<<0u))&0x1u);
     baseAddr->SCFGR1 = (uint32_t)regValue;
 }
-# 2955 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 2955 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline _Bool LPI2C_Get_SlaveAddrStall(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->SCFGR1;
     regValue = (regValue & 0x1u) >> 0u;
     return (_Bool)regValue;
 }
-# 2976 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 2976 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_SlaveSDAGlitchFilter(LPI2C_Type *baseAddr, uint8_t cycles)
 {
     uint32_t tmp = baseAddr->SCFGR2;
@@ -14792,14 +14792,14 @@ static inline void LPI2C_Set_SlaveSDAGlitchFilter(LPI2C_Type *baseAddr, uint8_t 
     tmp |= (((uint32_t)(((uint32_t)(cycles))<<24u))&0xF000000u);
     baseAddr->SCFGR2 = tmp;
 }
-# 2993 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 2993 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline uint8_t LPI2C_Get_SlaveSDAGlitchFilter(const LPI2C_Type *baseAddr)
 {
     uint32_t tmp = baseAddr->SCFGR2;
     tmp = (tmp & 0xF000000u) >> 24u;
     return (uint8_t)tmp;
 }
-# 3014 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 3014 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_SlaveSCLGlitchFilter(LPI2C_Type *baseAddr, uint8_t cycles)
 {
     uint32_t tmp = baseAddr->SCFGR2;
@@ -14807,14 +14807,14 @@ static inline void LPI2C_Set_SlaveSCLGlitchFilter(LPI2C_Type *baseAddr, uint8_t 
     tmp |= (((uint32_t)(((uint32_t)(cycles))<<16u))&0xF0000u);
     baseAddr->SCFGR2 = tmp;
 }
-# 3031 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 3031 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline uint8_t LPI2C_Get_SlaveSCLGlitchFilter(const LPI2C_Type *baseAddr)
 {
     uint32_t tmp = baseAddr->SCFGR2;
     tmp = (tmp & 0xF0000u) >> 16u;
     return (uint8_t)tmp;
 }
-# 3051 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 3051 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_SlaveDataValidDelay(LPI2C_Type *baseAddr, uint8_t cycles)
 {
     uint32_t tmp = baseAddr->SCFGR2;
@@ -14822,14 +14822,14 @@ static inline void LPI2C_Set_SlaveDataValidDelay(LPI2C_Type *baseAddr, uint8_t c
     tmp |= (((uint32_t)(((uint32_t)(cycles))<<8u))&0x3F00u);
     baseAddr->SCFGR2 = tmp;
 }
-# 3068 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 3068 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline uint8_t LPI2C_Get_SlaveDataValidDelay(const LPI2C_Type *baseAddr)
 {
     uint32_t tmp = baseAddr->SCFGR2;
     tmp = (tmp & 0x3F00u) >> 8u;
     return (uint8_t)tmp;
 }
-# 3087 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 3087 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_SlaveClockHoldTime(LPI2C_Type *baseAddr, uint8_t cycles)
 {
     uint32_t tmp = baseAddr->SCFGR2;
@@ -14837,14 +14837,14 @@ static inline void LPI2C_Set_SlaveClockHoldTime(LPI2C_Type *baseAddr, uint8_t cy
     tmp |= (((uint32_t)(((uint32_t)(cycles))<<0u))&0xFu);
     baseAddr->SCFGR2 = tmp;
 }
-# 3104 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 3104 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline uint8_t LPI2C_Get_SlaveClockHoldTime(const LPI2C_Type *baseAddr)
 {
     uint32_t tmp = baseAddr->SCFGR2;
     tmp = (tmp & 0xFu) >> 0u;
     return (uint8_t)tmp;
 }
-# 3125 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 3125 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_SlaveAddr1(LPI2C_Type *baseAddr, uint16_t addr)
 {
     uint32_t tmp = baseAddr->SAMR;
@@ -14852,14 +14852,14 @@ static inline void LPI2C_Set_SlaveAddr1(LPI2C_Type *baseAddr, uint16_t addr)
     tmp |= (((uint32_t)(((uint32_t)(addr))<<17u))&0x7FE0000u);
     baseAddr->SAMR = tmp;
 }
-# 3142 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 3142 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline uint16_t LPI2C_Get_SlaveAddr1(const LPI2C_Type *baseAddr)
 {
     uint32_t tmp = baseAddr->SAMR;
     tmp = (tmp & 0x7FE0000u) >> 17u;
     return (uint16_t)tmp;
 }
-# 3163 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 3163 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_SlaveAddr0(LPI2C_Type *baseAddr, uint16_t addr)
 {
     uint32_t tmp = baseAddr->SAMR;
@@ -14867,28 +14867,28 @@ static inline void LPI2C_Set_SlaveAddr0(LPI2C_Type *baseAddr, uint16_t addr)
     tmp |= (((uint32_t)(((uint32_t)(addr))<<1u))&0x7FEu);
     baseAddr->SAMR = tmp;
 }
-# 3180 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 3180 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline uint16_t LPI2C_Get_SlaveAddr0(const LPI2C_Type *baseAddr)
 {
     uint32_t tmp = baseAddr->SAMR;
     tmp = (tmp & 0x7FEu) >> 1u;
     return (uint16_t)tmp;
 }
-# 3197 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 3197 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline lpi2c_slave_addr_valid_t LPI2C_Get_SlaveAddrValid(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->SASR;
     regValue = (regValue & 0x4000u) >> 14u;
     return (lpi2c_slave_addr_valid_t)regValue;
 }
-# 3217 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 3217 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline uint16_t LPI2C_Get_SlaveReceivedAddr(const LPI2C_Type *baseAddr)
 {
     uint32_t tmp = baseAddr->SASR;
     tmp = (tmp & 0x7FFu) >> 0u;
     return (uint16_t)tmp;
 }
-# 3236 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 3236 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Set_SlaveTransmitNACK(LPI2C_Type *baseAddr, lpi2c_slave_nack_transmit_t nack)
 {
     uint32_t regValue = (uint32_t)baseAddr->STAR;
@@ -14896,50 +14896,50 @@ static inline void LPI2C_Set_SlaveTransmitNACK(LPI2C_Type *baseAddr, lpi2c_slave
     regValue |= (((uint32_t)(((uint32_t)(nack))<<0u))&0x1u);
     baseAddr->STAR = (uint32_t)regValue;
 }
-# 3253 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 3253 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline lpi2c_slave_nack_transmit_t LPI2C_Get_SlaveTransmitNACK(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->STAR;
     regValue = (regValue & 0x1u) >> 0u;
     return (lpi2c_slave_nack_transmit_t)regValue;
 }
-# 3270 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 3270 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline void LPI2C_Transmit_SlaveData(LPI2C_Type *baseAddr, uint8_t data)
 {
     baseAddr->STDR = (uint32_t)data;
 }
-# 3285 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 3285 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline _Bool LPI2C_Get_SlaveStartOfFrame(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->SRDR;
     regValue = (regValue & 0x8000u) >> 15u;
     return (_Bool)regValue;
 }
-# 3301 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 3301 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline _Bool LPI2C_Get_SlaveRXEmpty(const LPI2C_Type *baseAddr)
 {
     uint32_t regValue = (uint32_t)baseAddr->SRDR;
     regValue = (regValue & 0x4000u) >> 14u;
     return (_Bool)regValue;
 }
-# 3318 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 3318 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 static inline uint8_t LPI2C_Get_SlaveData(const LPI2C_Type *baseAddr)
 {
     uint32_t tmp = baseAddr->SRDR;
     tmp = (tmp & 0xFFu) >> 0u;
     return (uint8_t)tmp;
 }
-# 3334 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
+# 3334 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_hw_access.h"
 void LPI2C_Init(LPI2C_Type *baseAddr);
-# 92 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c" 2
-# 1 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/clock_manager.h" 1
-# 20 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/clock_manager.h"
+# 92 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c" 2
+# 1 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/clock_manager.h" 1
+# 20 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/clock_manager.h"
 #define CLOCK_MANAGER_H 
-# 30 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/clock_manager.h"
-# 1 "c:\\nxp\\s32ds_arm_v2.0\\s32ds\\s32sdk_s32k14x_ear_0.8.6\\platform\\drivers\\src\\clock\\s32k1xx\\clock_s32k1xx.h" 1
-# 20 "c:\\nxp\\s32ds_arm_v2.0\\s32ds\\s32sdk_s32k14x_ear_0.8.6\\platform\\drivers\\src\\clock\\s32k1xx\\clock_s32k1xx.h"
+# 30 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/clock_manager.h"
+# 1 "d:\\program files (x86)\\s32ds\\s32sdk_s32k14x_ear_0.8.6\\platform\\drivers\\src\\clock\\s32k1xx\\clock_s32k1xx.h" 1
+# 20 "d:\\program files (x86)\\s32ds\\s32sdk_s32k14x_ear_0.8.6\\platform\\drivers\\src\\clock\\s32k1xx\\clock_s32k1xx.h"
 #define CLOCK_S32K1xx_H 
-# 56 "c:\\nxp\\s32ds_arm_v2.0\\s32ds\\s32sdk_s32k14x_ear_0.8.6\\platform\\drivers\\src\\clock\\s32k1xx\\clock_s32k1xx.h"
+# 56 "d:\\program files (x86)\\s32ds\\s32sdk_s32k14x_ear_0.8.6\\platform\\drivers\\src\\clock\\s32k1xx\\clock_s32k1xx.h"
 extern const uint8_t peripheralFeaturesList[CLOCK_NAME_COUNT];
 
 
@@ -15167,7 +15167,7 @@ typedef struct
     scg_system_clock_div_t divCore;
     scg_system_clock_src_t src;
 } scg_system_clock_config_t;
-# 294 "c:\\nxp\\s32ds_arm_v2.0\\s32ds\\s32sdk_s32k14x_ear_0.8.6\\platform\\drivers\\src\\clock\\s32k1xx\\clock_s32k1xx.h"
+# 294 "d:\\program files (x86)\\s32ds\\s32sdk_s32k14x_ear_0.8.6\\platform\\drivers\\src\\clock\\s32k1xx\\clock_s32k1xx.h"
 typedef enum
 {
     SCG_CLOCKOUT_SRC_SCG_SLOW = 0U,
@@ -15641,21 +15641,21 @@ typedef struct
     pwr_modes_t modes;
 
 } clock_source_config_t;
-# 785 "c:\\nxp\\s32ds_arm_v2.0\\s32ds\\s32sdk_s32k14x_ear_0.8.6\\platform\\drivers\\src\\clock\\s32k1xx\\clock_s32k1xx.h"
+# 785 "d:\\program files (x86)\\s32ds\\s32sdk_s32k14x_ear_0.8.6\\platform\\drivers\\src\\clock\\s32k1xx\\clock_s32k1xx.h"
 status_t CLOCK_DRV_Init(clock_manager_user_config_t const * config);
-# 796 "c:\\nxp\\s32ds_arm_v2.0\\s32ds\\s32sdk_s32k14x_ear_0.8.6\\platform\\drivers\\src\\clock\\s32k1xx\\clock_s32k1xx.h"
+# 796 "d:\\program files (x86)\\s32ds\\s32sdk_s32k14x_ear_0.8.6\\platform\\drivers\\src\\clock\\s32k1xx\\clock_s32k1xx.h"
 status_t CLOCK_DRV_GetFreq(clock_names_t clockName, uint32_t * frequency);
-# 807 "c:\\nxp\\s32ds_arm_v2.0\\s32ds\\s32sdk_s32k14x_ear_0.8.6\\platform\\drivers\\src\\clock\\s32k1xx\\clock_s32k1xx.h"
+# 807 "d:\\program files (x86)\\s32ds\\s32sdk_s32k14x_ear_0.8.6\\platform\\drivers\\src\\clock\\s32k1xx\\clock_s32k1xx.h"
 void CLOCK_DRV_SetModuleClock(clock_names_t clockName, const module_clk_config_t * moduleClkConfig);
-# 818 "c:\\nxp\\s32ds_arm_v2.0\\s32ds\\s32sdk_s32k14x_ear_0.8.6\\platform\\drivers\\src\\clock\\s32k1xx\\clock_s32k1xx.h"
+# 818 "d:\\program files (x86)\\s32ds\\s32sdk_s32k14x_ear_0.8.6\\platform\\drivers\\src\\clock\\s32k1xx\\clock_s32k1xx.h"
 status_t CLOCK_DRV_SetSystemClock(const pwr_modes_t * mode,
                                   const sys_clk_config_t * sysClkConfig);
-# 828 "c:\\nxp\\s32ds_arm_v2.0\\s32ds\\s32sdk_s32k14x_ear_0.8.6\\platform\\drivers\\src\\clock\\s32k1xx\\clock_s32k1xx.h"
+# 828 "d:\\program files (x86)\\s32ds\\s32sdk_s32k14x_ear_0.8.6\\platform\\drivers\\src\\clock\\s32k1xx\\clock_s32k1xx.h"
 void CLOCK_DRV_GetSystemClockSource(sys_clk_config_t *sysClkConfig);
-# 841 "c:\\nxp\\s32ds_arm_v2.0\\s32ds\\s32sdk_s32k14x_ear_0.8.6\\platform\\drivers\\src\\clock\\s32k1xx\\clock_s32k1xx.h"
+# 841 "d:\\program files (x86)\\s32ds\\s32sdk_s32k14x_ear_0.8.6\\platform\\drivers\\src\\clock\\s32k1xx\\clock_s32k1xx.h"
 status_t CLOCK_DRV_SetClockSource(clock_names_t clockName, const clock_source_config_t * clkSrcConfig);
-# 31 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/clock_manager.h" 2
-# 79 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/clock_manager.h"
+# 31 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/clock_manager.h" 2
+# 79 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/clock_manager.h"
 typedef enum
 {
     CLOCK_MANAGER_NOTIFY_RECOVER = 0x00U,
@@ -15725,15 +15725,15 @@ typedef struct
     uint8_t callbackNum;
     uint8_t errorCallbackIndex;
 } clock_manager_state_t;
-# 171 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/clock_manager.h"
+# 171 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/clock_manager.h"
 status_t CLOCK_SYS_Init(clock_manager_user_config_t const **clockConfigsPtr,
                         uint8_t configsNumber,
                         clock_manager_callback_user_config_t **callbacksPtr,
                         uint8_t callbacksNumber);
-# 195 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/clock_manager.h"
+# 195 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/clock_manager.h"
 status_t CLOCK_SYS_UpdateConfiguration(uint8_t targetConfigIndex,
                                        clock_manager_policy_t policy);
-# 213 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/clock_manager.h"
+# 213 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/clock_manager.h"
 status_t CLOCK_SYS_SetConfiguration(clock_manager_user_config_t const * config);
 
 
@@ -15742,13 +15742,13 @@ status_t CLOCK_SYS_SetConfiguration(clock_manager_user_config_t const * config);
 
 
 uint8_t CLOCK_SYS_GetCurrentConfiguration(void);
-# 232 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/clock_manager.h"
+# 232 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/clock_manager.h"
 clock_manager_callback_user_config_t* CLOCK_SYS_GetErrorCallback(void);
-# 254 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/clock_manager.h"
+# 254 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/clock_manager.h"
 status_t CLOCK_SYS_GetFreq(clock_names_t clockName,
                            uint32_t *frequency);
-# 93 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c" 2
-# 101 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 93 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c" 2
+# 101 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
 #define CLKHI_MIN_VALUE 1U
 #define CLKLO_MIN_VALUE 3U
 #define CLKHI_MAX_VALUE (((1U << LPI2C_MCCR0_CLKHI_WIDTH) - 1U) >> 1U)
@@ -15800,14 +15800,14 @@ typedef struct
     lpi2c_transfer_direction_t transferDirection;
 
 } lpi2c_dma_transfer_params_t;
-# 165 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 165 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
 static inline _Bool LPI2C_DRV_MasterCmdQueueEmpty(const lpi2c_master_state_t * master)
 {
     DevAssert(master != ((void *)0));
 
     return (master->cmdQueue.writeIdx == master->cmdQueue.readIdx);
 }
-# 179 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 179 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
 static inline void LPI2C_DRV_MasterResetQueue(lpi2c_master_state_t * master)
 {
     DevAssert(master != ((void *)0));
@@ -15815,7 +15815,7 @@ static inline void LPI2C_DRV_MasterResetQueue(lpi2c_master_state_t * master)
     master->cmdQueue.readIdx = 0U;
     master->cmdQueue.writeIdx = 0U;
 }
-# 194 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 194 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
 static inline void LPI2C_DRV_MasterQueueCmd(LPI2C_Type *baseAddr,
                                             lpi2c_master_state_t * master,
                                             lpi2c_master_command_t cmd,
@@ -15842,7 +15842,7 @@ static inline void LPI2C_DRV_MasterQueueCmd(LPI2C_Type *baseAddr,
         master->cmdQueue.writeIdx++;
     }
 }
-# 228 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 228 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
 static inline void LPI2C_DRV_MasterSendQueuedCmd(LPI2C_Type *baseAddr, lpi2c_master_state_t * master)
 {
     DevAssert(master != ((void *)0));
@@ -15867,7 +15867,7 @@ static inline void LPI2C_DRV_MasterSendQueuedCmd(LPI2C_Type *baseAddr, lpi2c_mas
         LPI2C_DRV_MasterResetQueue(master);
     }
 }
-# 261 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 261 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
 static void LPI2C_DRV_MasterSendAddress(LPI2C_Type *baseAddr,
                                         lpi2c_master_state_t * master,
                                         _Bool receive)
@@ -15877,7 +15877,7 @@ static void LPI2C_DRV_MasterSendAddress(LPI2C_Type *baseAddr,
 
     DevAssert(master != ((void *)0));
     DevAssert(baseAddr != ((void *)0));
-# 286 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 286 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
     {
 
         startCommand = LPI2C_MASTER_COMMAND_START;
@@ -15908,7 +15908,7 @@ static void LPI2C_DRV_MasterSendAddress(LPI2C_Type *baseAddr,
         LPI2C_DRV_MasterQueueCmd(baseAddr, master, startCommand, addrByte);
     }
 }
-# 324 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 324 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
 static void LPI2C_DRV_MasterQueueData(LPI2C_Type *baseAddr,
                                       lpi2c_master_state_t * master)
 {
@@ -15931,7 +15931,7 @@ static void LPI2C_DRV_MasterQueueData(LPI2C_Type *baseAddr,
         }
     }
 }
-# 354 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 354 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
 static void LPI2C_DRV_MasterEndTransfer(LPI2C_Type *baseAddr,
                                         lpi2c_master_state_t * master,
                                         _Bool sendStop,
@@ -15983,7 +15983,7 @@ static void LPI2C_DRV_MasterEndTransfer(LPI2C_Type *baseAddr,
     master->rxSize = 0;
     master->i2cIdle = 1;
 }
-# 413 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 413 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
 static void LPI2C_DRV_SlaveEndTransfer(LPI2C_Type *baseAddr,
                                     lpi2c_slave_state_t *slave)
 {
@@ -16023,7 +16023,7 @@ static void LPI2C_DRV_SlaveEndTransfer(LPI2C_Type *baseAddr,
     slave->txBuff = ((void *)0);
     slave->rxSize = 0U;
 }
-# 460 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 460 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
 static void LPI2C_DRV_MasterSetOperatingMode(uint32_t instance, lpi2c_mode_t operatingMode)
 {
     LPI2C_Type *baseAddr;
@@ -16032,7 +16032,7 @@ static void LPI2C_DRV_MasterSetOperatingMode(uint32_t instance, lpi2c_mode_t ope
     baseAddr = g_lpi2cBase[instance];
     master = g_lpi2cMasterStatePtr[instance];
     DevAssert(master != ((void *)0));
-# 477 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 477 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
     {
         LPI2C_Set_MasterPinConfig(baseAddr, LPI2C_CFG_2PIN_OPEN_DRAIN);
         LPI2C_Set_MasterNACKConfig(baseAddr, LPI2C_NACK_RECEIVE);
@@ -16040,7 +16040,7 @@ static void LPI2C_DRV_MasterSetOperatingMode(uint32_t instance, lpi2c_mode_t ope
 
     master->operatingMode = operatingMode;
 }
-# 492 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 492 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
 static void LPI2C_DRV_SlaveSetOperatingMode(uint32_t instance, lpi2c_mode_t operatingMode)
 {
     LPI2C_Type *baseAddr;
@@ -16049,7 +16049,7 @@ static void LPI2C_DRV_SlaveSetOperatingMode(uint32_t instance, lpi2c_mode_t oper
     baseAddr = g_lpi2cBase[instance];
     slave = g_lpi2cSlaveStatePtr[instance];
     DevAssert(slave != ((void *)0));
-# 514 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 514 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
     {
         LPI2C_Set_SlaveIgnoreNACK(baseAddr, LPI2C_SLAVE_NACK_END_TRANSFER);
         LPI2C_Set_SlaveTransmitNACK(baseAddr, LPI2C_SLAVE_TRANSMIT_ACK);
@@ -16059,7 +16059,7 @@ static void LPI2C_DRV_SlaveSetOperatingMode(uint32_t instance, lpi2c_mode_t oper
         LPI2C_Set_SlaveRXStall(baseAddr, 1);
         LPI2C_Set_SlaveAddrStall(baseAddr, 1);
     }
-# 532 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 532 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
     {
 
         LPI2C_Set_SlaveHighSpeedModeDetect(baseAddr, 0);
@@ -16067,7 +16067,7 @@ static void LPI2C_DRV_SlaveSetOperatingMode(uint32_t instance, lpi2c_mode_t oper
 
     slave->operatingMode = operatingMode;
 }
-# 547 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 547 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
 static void LPI2C_DRV_ConfigureDmaTransfer(uint32_t instance, const lpi2c_dma_transfer_params_t *dmaTransParams)
 {
 
@@ -16086,7 +16086,7 @@ static void LPI2C_DRV_ConfigureDmaTransfer(uint32_t instance, const lpi2c_dma_tr
                                                 (uint32_t)dmaTransParams->transferSize, 0);
     }
 }
-# 573 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 573 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
 static void LPI2C_DRV_MasterStartDmaTransfer(uint32_t instance)
 {
     LPI2C_Type *baseAddr = g_lpi2cBase[instance];
@@ -16150,7 +16150,7 @@ static void LPI2C_DRV_MasterStartDmaTransfer(uint32_t instance)
         (void)LPI2C_Set_MasterRxDMA(baseAddr, 1);
     }
 }
-# 644 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 644 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
 static void LPI2C_DRV_SlaveStartDmaTransfer(uint32_t instance)
 {
     LPI2C_Type *baseAddr = g_lpi2cBase[instance];
@@ -16193,7 +16193,7 @@ static void LPI2C_DRV_SlaveStartDmaTransfer(uint32_t instance)
         (void)LPI2C_Set_SlaveRxDMA(baseAddr, 1);
     }
 }
-# 696 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 696 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
 static void LPI2C_DRV_MasterCompleteDMATransfer(void* parameter, edma_chn_status_t status)
 {
     LPI2C_Type *baseAddr;
@@ -16216,7 +16216,7 @@ static void LPI2C_DRV_MasterCompleteDMATransfer(void* parameter, edma_chn_status
 
     master->status = STATUS_SUCCESS;
 }
-# 726 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 726 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
 static status_t LPI2C_DRV_MasterWaitTransferEnd(uint32_t instance, uint32_t timeout)
 {
     status_t osifError = STATUS_SUCCESS;
@@ -16239,7 +16239,7 @@ static status_t LPI2C_DRV_MasterWaitTransferEnd(uint32_t instance, uint32_t time
     master->blocking = 0;
     return master->status;
 }
-# 756 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 756 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
 static status_t LPI2C_DRV_SlaveWaitTransferEnd(uint32_t instance, uint32_t timeout)
 {
     status_t osifError = STATUS_SUCCESS;
@@ -16262,7 +16262,7 @@ static status_t LPI2C_DRV_SlaveWaitTransferEnd(uint32_t instance, uint32_t timeo
     slave->blocking = 0;
     return slave->status;
 }
-# 786 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 786 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
 static void LPI2C_DRV_MasterHandleTransmitDataRequest(LPI2C_Type *baseAddr, lpi2c_master_state_t *master)
 {
 
@@ -16304,7 +16304,7 @@ static void LPI2C_DRV_MasterHandleTransmitDataRequest(LPI2C_Type *baseAddr, lpi2
         LPI2C_Set_MasterInt(baseAddr, 0x1UL, 0);
     }
 }
-# 835 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 835 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
 static void LPI2C_DRV_MasterHandleReceiveDataReadyEvent(LPI2C_Type *baseAddr, lpi2c_master_state_t *master)
 {
 
@@ -16345,7 +16345,7 @@ static void LPI2C_DRV_MasterHandleReceiveDataReadyEvent(LPI2C_Type *baseAddr, lp
 
     }
 }
-# 883 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 883 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
 static void LPI2C_DRV_SlaveHandleAddressValidEvent(uint32_t instance, const LPI2C_Type *baseAddr, lpi2c_slave_state_t *slave)
 {
     uint16_t receivedAddr;
@@ -16390,7 +16390,7 @@ static void LPI2C_DRV_SlaveHandleAddressValidEvent(uint32_t instance, const LPI2
 
     slave->status = STATUS_BUSY;
 }
-# 935 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 935 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
 static void LPI2C_DRV_SlaveHandleTransmitDataEvent(LPI2C_Type *baseAddr, lpi2c_slave_state_t *slave)
 {
     if (slave->txUnderrunWarning == 1)
@@ -16426,7 +16426,7 @@ static void LPI2C_DRV_SlaveHandleTransmitDataEvent(LPI2C_Type *baseAddr, lpi2c_s
         slave->txSize--;
     }
 }
-# 978 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 978 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
 static void LPI2C_DRV_SlaveHandleReceiveDataEvent(const LPI2C_Type *baseAddr, lpi2c_slave_state_t *slave)
 {
     if (slave->rxSize == 0U)
@@ -16451,7 +16451,7 @@ static void LPI2C_DRV_SlaveHandleReceiveDataEvent(const LPI2C_Type *baseAddr, lp
         slave->rxSize--;
     }
 }
-# 1016 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 1016 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
 status_t LPI2C_DRV_MasterInit(uint32_t instance,
                                     const lpi2c_master_user_config_t * userConfigPtr,
                                     lpi2c_master_state_t * master)
@@ -16525,7 +16525,7 @@ status_t LPI2C_DRV_MasterInit(uint32_t instance,
 
     return STATUS_SUCCESS;
 }
-# 1098 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 1098 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
 status_t LPI2C_DRV_MasterDeinit(uint32_t instance)
 {
     LPI2C_Type *baseAddr;
@@ -16550,7 +16550,7 @@ status_t LPI2C_DRV_MasterDeinit(uint32_t instance)
 
     return STATUS_SUCCESS;
 }
-# 1131 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 1131 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
 void LPI2C_DRV_MasterGetBaudRate(uint32_t instance, lpi2c_baud_rate_params_t *baudRate)
 {
     const LPI2C_Type *baseAddr;
@@ -16580,11 +16580,11 @@ void LPI2C_DRV_MasterGetBaudRate(uint32_t instance, lpi2c_baud_rate_params_t *ba
     clkLo = LPI2C_Get_MasterClockLowPeriod(baseAddr);
 
     baudRate->baudRate = inputClock / (((uint32_t)1U << prescaler) * (clkLo + clkHi + (uint32_t)2U));
-# 1171 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 1171 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
     (void)retVal;
     (void)master;
 }
-# 1183 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 1183 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
 void LPI2C_DRV_MasterSetBaudRate(uint32_t instance,
                                 const lpi2c_mode_t operatingMode,
                                 const lpi2c_baud_rate_params_t baudRate)
@@ -16682,7 +16682,7 @@ void LPI2C_DRV_MasterSetBaudRate(uint32_t instance,
     LPI2C_Set_MasterSetupHoldDelay(baseAddr, (uint8_t)setHold);
     LPI2C_Set_MasterClockHighPeriod(baseAddr, (uint8_t)clkHi);
     LPI2C_Set_MasterClockLowPeriod(baseAddr, (uint8_t)clkLo);
-# 1324 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 1324 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
     LPI2C_DRV_MasterSetOperatingMode(instance, operatingMode);
 
 
@@ -16691,7 +16691,7 @@ void LPI2C_DRV_MasterSetBaudRate(uint32_t instance,
     (void)master;
     (void)retVal;
 }
-# 1341 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 1341 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
 void LPI2C_DRV_MasterSetSlaveAddr(uint32_t instance, const uint16_t address, const _Bool is10bitAddr)
 {
     lpi2c_master_state_t * master;
@@ -16704,7 +16704,7 @@ void LPI2C_DRV_MasterSetSlaveAddr(uint32_t instance, const uint16_t address, con
     master->slaveAddress = address;
     master->is10bitAddr = is10bitAddr;
 }
-# 1362 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 1362 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
 status_t LPI2C_DRV_MasterSendData(uint32_t instance,
                                             const uint8_t * txBuff,
                                             uint32_t txSize,
@@ -16750,7 +16750,7 @@ status_t LPI2C_DRV_MasterSendData(uint32_t instance,
 
 
         LPI2C_Set_MasterTxFIFOWatermark(baseAddr, 0U);
-# 1420 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 1420 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
         {
             LPI2C_Set_MasterInt(baseAddr, 0x1000UL |
                                              0x800UL |
@@ -16762,7 +16762,7 @@ status_t LPI2C_DRV_MasterSendData(uint32_t instance,
 
     return STATUS_SUCCESS;
 }
-# 1440 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 1440 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
 status_t LPI2C_DRV_MasterSendDataBlocking(uint32_t instance,
                                     const uint8_t * txBuff,
                                     uint32_t txSize,
@@ -16791,7 +16791,7 @@ status_t LPI2C_DRV_MasterSendDataBlocking(uint32_t instance,
 
     return LPI2C_DRV_MasterWaitTransferEnd(instance, timeout);
 }
-# 1477 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 1477 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
 status_t LPI2C_DRV_MasterAbortTransferData(uint32_t instance)
 {
     LPI2C_Type *baseAddr;
@@ -16818,7 +16818,7 @@ status_t LPI2C_DRV_MasterAbortTransferData(uint32_t instance)
 
     return STATUS_SUCCESS;
 }
-# 1512 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 1512 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
 status_t LPI2C_DRV_MasterReceiveData(uint32_t instance,
                                        uint8_t * rxBuff,
                                        uint32_t rxSize,
@@ -16840,7 +16840,7 @@ status_t LPI2C_DRV_MasterReceiveData(uint32_t instance,
 
 
     DevAssert(master->i2cIdle == 1);
-# 1543 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 1543 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
     master->rxSize = rxSize;
     master->i2cIdle = 0;
     master->sendStop = sendStop;
@@ -16894,7 +16894,7 @@ status_t LPI2C_DRV_MasterReceiveData(uint32_t instance,
 
     return STATUS_SUCCESS;
 }
-# 1605 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 1605 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
 status_t LPI2C_DRV_MasterReceiveDataBlocking(uint32_t instance,
                                            uint8_t * rxBuff,
                                            uint32_t rxSize,
@@ -16923,7 +16923,7 @@ status_t LPI2C_DRV_MasterReceiveDataBlocking(uint32_t instance,
 
     return LPI2C_DRV_MasterWaitTransferEnd(instance, timeout);
 }
-# 1646 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 1646 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
 status_t LPI2C_DRV_MasterGetTransferStatus(uint32_t instance,
                                                 uint32_t *bytesRemaining)
 {
@@ -16958,7 +16958,7 @@ status_t LPI2C_DRV_MasterGetTransferStatus(uint32_t instance,
 
     return master->status;
 }
-# 1688 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 1688 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
 void LPI2C_DRV_MasterIRQHandler(uint32_t instance)
 {
     LPI2C_Type *baseAddr;
@@ -17066,7 +17066,7 @@ void LPI2C_DRV_MasterIRQHandler(uint32_t instance)
 
     }
 }
-# 1804 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 1804 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
 status_t LPI2C_DRV_SlaveInit(uint32_t instance,
                                    const lpi2c_slave_user_config_t * userConfigPtr,
                                    lpi2c_slave_state_t * slave)
@@ -17154,7 +17154,7 @@ status_t LPI2C_DRV_SlaveInit(uint32_t instance,
                                    0x4UL |
                                    0x2UL,
                           1);
-# 1904 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 1904 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
         }
 
 
@@ -17165,7 +17165,7 @@ status_t LPI2C_DRV_SlaveInit(uint32_t instance,
 
     return STATUS_SUCCESS;
 }
-# 1923 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 1923 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
 status_t LPI2C_DRV_SlaveDeinit(uint32_t instance)
 {
     LPI2C_Type *baseAddr;
@@ -17196,7 +17196,7 @@ status_t LPI2C_DRV_SlaveDeinit(uint32_t instance)
 
     return STATUS_SUCCESS;
 }
-# 1962 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 1962 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
 status_t LPI2C_DRV_SlaveSetTxBuffer(uint32_t instance,
                                                  const uint8_t * txBuff,
                                                  uint32_t txSize)
@@ -17215,7 +17215,7 @@ status_t LPI2C_DRV_SlaveSetTxBuffer(uint32_t instance,
 
     return STATUS_SUCCESS;
 }
-# 1989 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 1989 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
 status_t LPI2C_DRV_SlaveSetRxBuffer(uint32_t instance,
                                                  uint8_t * rxBuff,
                                                  uint32_t rxSize)
@@ -17234,7 +17234,7 @@ status_t LPI2C_DRV_SlaveSetRxBuffer(uint32_t instance,
 
     return STATUS_SUCCESS;
 }
-# 2016 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 2016 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
 status_t LPI2C_DRV_SlaveSendData(uint32_t instance,
                                    const uint8_t * txBuff,
                                    uint32_t txSize)
@@ -17289,7 +17289,7 @@ status_t LPI2C_DRV_SlaveSendData(uint32_t instance,
                                      0x100UL |
                                      0x4UL,
                            1);
-# 2083 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 2083 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
         LPI2C_Set_SlaveEnable(baseAddr, 1);
 
         slave->isTransferInProgress = 1;
@@ -17297,7 +17297,7 @@ status_t LPI2C_DRV_SlaveSendData(uint32_t instance,
 
     return STATUS_SUCCESS;
 }
-# 2099 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 2099 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
 status_t LPI2C_DRV_SlaveSendDataBlocking(uint32_t instance,
                                            const uint8_t * txBuff,
                                            uint32_t txSize,
@@ -17324,7 +17324,7 @@ status_t LPI2C_DRV_SlaveSendDataBlocking(uint32_t instance,
 
     return LPI2C_DRV_SlaveWaitTransferEnd(instance, timeout);
 }
-# 2134 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 2134 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
 status_t LPI2C_DRV_SlaveReceiveData(uint32_t instance,
                                        uint8_t * rxBuff,
                                        uint32_t rxSize)
@@ -17386,7 +17386,7 @@ status_t LPI2C_DRV_SlaveReceiveData(uint32_t instance,
 
     return STATUS_SUCCESS;
 }
-# 2204 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 2204 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
 status_t LPI2C_DRV_SlaveReceiveDataBlocking(uint32_t instance,
                                                uint8_t *rxBuff,
                                                uint32_t rxSize,
@@ -17413,7 +17413,7 @@ status_t LPI2C_DRV_SlaveReceiveDataBlocking(uint32_t instance,
 
     return LPI2C_DRV_SlaveWaitTransferEnd(instance, timeout);
 }
-# 2243 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 2243 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
 status_t LPI2C_DRV_SlaveGetTransferStatus(uint32_t instance,
                                                uint32_t *bytesRemaining)
 {
@@ -17444,7 +17444,7 @@ status_t LPI2C_DRV_SlaveGetTransferStatus(uint32_t instance,
 
     return slave->status;
 }
-# 2282 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 2282 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
 status_t LPI2C_DRV_SlaveAbortTransferData(uint32_t instance)
 {
     lpi2c_slave_state_t * slave;
@@ -17466,7 +17466,7 @@ status_t LPI2C_DRV_SlaveAbortTransferData(uint32_t instance)
 
     return STATUS_SUCCESS;
 }
-# 2311 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
+# 2311 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_driver.c"
 void LPI2C_DRV_SlaveIRQHandler(uint32_t instance)
 {
     LPI2C_Type *baseAddr;
