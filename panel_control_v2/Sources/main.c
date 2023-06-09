@@ -57,8 +57,8 @@ uint8_t buffer[TRANSFER_SIZE];
 uint8_t send[2] = {0x10, 0X00};
 uint16_t counts_SMF;
 uint16_t flow_SMF;
-const uint64_t SFLOW = 100;
-const uint64_t OFFSET = 32768;
+const uint16_t SFLOW = 100;
+const uint16_t OFFSET = 32768;
 uint16_t i;
 /* User includes (#include below this line is not maintained by Processor Expert) */
 /* Global variables for each button's state and counter */
@@ -86,35 +86,35 @@ typedef enum { // TIMER STATE MACHINE
 /********************buttons state machine declarations************************/
 volatile button_state_t onoff_state = BUTTON_STATE_IDLE;
 volatile uint32_t onoff_counter = 0;
- uint32_t onoff_release_delay=2000;
+ uint32_t onoff_release_delay=20000;
 
 volatile button_state_t bell_state = BUTTON_STATE_IDLE;
 volatile uint32_t bell_counter = 0;
-uint32_t bell_release_delay = 3000; /* Default press duration */
+uint32_t bell_release_delay = 30000; /* Default press duration */
 
 volatile button_state_t plus_state = BUTTON_STATE_IDLE;
 volatile timecount_state_t plustime_state = TIME_STATE_IDLE;
 volatile uint32_t plus_counter = 0;
- uint32_t plus_release_delay=1000;
+ uint32_t plus_release_delay=10000;
 
 volatile button_state_t minus_state = BUTTON_STATE_IDLE;
 volatile timecount_state_t minustime_state = TIME_STATE_IDLE;
 volatile uint32_t minus_counter = 0;
-uint32_t minus_release_delay=1000;
+uint32_t minus_release_delay=10000;
 /************************auto increment or decrement**********************/
-volatile uint32_t autotime_press_counter=9000;
+volatile uint32_t autotime_press_counter=90000;
 volatile uint32_t autotime_counter = 0;
 
 //*************** settings increment decrement ISR***************************//
  count_state_t  count_pm_init= COUNTER_STATE_IDLE; // initialization of counter for settings increment and decrement
-volatile uint32_t setting_counter = 1;
-const uint32_t MAX_SETTING_COUNTER = 20U;
-const uint32_t MIN_SETTING_COUNTER = 1U;
+volatile uint8_t setting_counter = 1;
+const uint8_t MAX_SETTING_COUNTER = 20U;
+const uint8_t MIN_SETTING_COUNTER = 1U;
 
 /*****************************handshake parameters**************************/
-#define CHECK_COMMAND "GET_STATUS" // The command to send to the device for checking UART connection
-#define EXPECTED_RESPONSE "OK_STATUS" // The expected response from the device
-#define PACKET_SIZE 256
+#define CHECK_COMMAND "GET_STATUS\n\r" // The command to send to the device for checking UART connection
+#define EXPECTED_RESPONSE "OK_STATUS\n" // The expected response from the device
+#define PACKET_SIZE 67
 #define TIME_INDEX 2 // Index of the time field in the packet
 #define SESSION_TIMER_INDEX 4 // ...
 #define CONSIGNE_INDEX 5 // ...
@@ -125,7 +125,7 @@ const uint32_t MIN_SETTING_COUNTER = 1U;
 #define PRESSION_ATMOSPHERIQUE_INDEX 10 // ...
 #define TIMEOUT_VALUE 1000 // Define a suitable timeout value in milliseconds
  // Define a char array large enough to hold the string
-uint32_t statuss =0;
+uint8_t statuss =0;
 volatile int bolusPerMinute = 0;
 volatile int tauxOxygen = 0;
 volatile int temperature = 0;
@@ -139,17 +139,14 @@ volatile uart_state_t uart_state = UART_STATE_IDLE;
 /**********************************handshake parameters end******************/
 
 
-
 void sendCheckCommand(volatile uart_state_t* uartstate) {
-	status = LPUART_DRV_SendData(INST_LPUART1, checkCommand, strlen((const char*)checkCommand));
-    if(status == STATUS_SUCCESS) {
-        // Send successful, now wait for response
-        *uartstate = UART_STATE_RECEIVE;
-    } else {
+status=LPUART_DRV_SendData(INST_LPUART1,checkCommand, strlen((const char*)checkCommand));
+if(status == STATUS_SUCCESS) {
 
-        // Handle send error here
-        // ...
-    }
+
+*uartstate = UART_STATE_IDLE;
+}
+        // Send successful, now wait for response
 }
 void receiveResponse(volatile uart_state_t* uartstate)
 {
@@ -160,17 +157,6 @@ void receiveResponse(volatile uart_state_t* uartstate)
         packet[sizeof(packet)-1] = '\0';
         *uartstate = UART_STATE_PROCESS;
     }
-    if(status == STATUS_BUSY) {
-
-    	*uartstate = UART_STATE_IDLE;
-    }
-    if(status == STATUS_ERROR) {
-
-        	*uartstate = UART_STATE_IDLE;
-        }
-
-        // Handle receive error here
-        // ...
 
 }
 
@@ -195,33 +181,17 @@ void processResponse(volatile uart_state_t* uartstate) {
     }
     *uartstate = UART_STATE_IDLE;
 }
-void p5handshake(volatile uart_state_t* uartstate) {
-	static uint32_t receiveDelayCounter = 0;
-	    const uint32_t receiveDelay = 1000;
-	    static uint32_t processDelayCounter = 0;
-	    	    const uint32_t processDelay = 1000;
+void p5handshake(volatile uart_state_t* uartstate){
 	switch (*uartstate) {
     case UART_STATE_IDLE:
         	break;
     case UART_STATE_SEND:
         sendCheckCommand(uartstate);
-        receiveDelayCounter = receiveDelay;
-        processDelayCounter = processDelay;
         break;
     case UART_STATE_RECEIVE:
-    	if (receiveDelayCounter > 0) {
-    	            // Decrement the counter and skip receiving if it's not zero yet
-    	            receiveDelayCounter--;
-    	        }
-    	else {
         receiveResponse(uartstate);
-    	        }
         break;
     case UART_STATE_PROCESS:
-    	if (processDelayCounter > 0) {
-    	    	            // Decrement the counter and skip receiving if it's not zero yet
-    	    	            processDelayCounter--;
-    	    	        }
         processResponse(uartstate);
         break;
 
@@ -334,6 +304,8 @@ void LPIT0_Ch0_IRQHandler(void)
     autotimecounter(&plustime_state, &plus_state, &minustime_state);
     updatecounter(&count_pm_init);
     p5handshake(&uart_state);
+    receiveResponse(&uart_state);
+    processResponse(&uart_state);
 }
 
 int main(void)
@@ -367,7 +339,7 @@ int main(void)
     lpit_user_channel_config_t chConfig;
     chConfig.timerMode = LPIT_PERIODIC_COUNTER;
     chConfig.periodUnits = LPIT_PERIOD_UNITS_MICROSECONDS;
-    chConfig.period =1000; // update every 100 microseconds
+    chConfig.period =100; // update every 100 microseconds
     chConfig.triggerSource = LPIT_TRIGGER_SOURCE_EXTERNAL;
     chConfig.triggerSelect = 0U;
     chConfig.enableReloadOnTrigger = false;
