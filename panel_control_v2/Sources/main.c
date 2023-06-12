@@ -114,7 +114,7 @@ const uint8_t MIN_SETTING_COUNTER = 1U;
 /*****************************handshake parameters**************************/
 #define CHECK_COMMAND "GET_STATUS\n\r" // The command to send to the device for checking UART connection
 #define EXPECTED_RESPONSE "OK_STATUS\n" // The expected response from the device
-#define PACKET_SIZE 67
+#define PACKET_SIZE 84
 #define TIME_INDEX 2 // Index of the time field in the packet
 #define SESSION_TIMER_INDEX 4 // ...
 #define CONSIGNE_INDEX 5 // ...
@@ -140,53 +140,76 @@ volatile uart_state_t uart_state = UART_STATE_IDLE;
 
 
 void sendCheckCommand(volatile uart_state_t* uartstate) {
-status=LPUART_DRV_SendData(INST_LPUART1,checkCommand, strlen((const char*)checkCommand));
-if(status == STATUS_SUCCESS) {
+LPUART_DRV_SendData(INST_LPUART1,checkCommand, strlen((const char*)checkCommand));
 
-
-*uartstate = UART_STATE_IDLE;
-}
-        // Send successful, now wait for response
 }
 void receiveResponse(volatile uart_state_t* uartstate)
 {
     status = LPUART_DRV_ReceiveData(INST_LPUART1, packet, sizeof(packet)-1);
 
     if(status == STATUS_SUCCESS) {
-        // Null-terminate the received string
-        packet[sizeof(packet)-1] = '\0';
+
         *uartstate = UART_STATE_PROCESS;
     }
 
 }
 
 void processResponse(volatile uart_state_t* uartstate) {
-    // Parse the packet
-    char* token = strtok((char*)packet, ",");
+    // Initialize fieldIndex and byteIndex
     int fieldIndex = 0;
-    while(token != NULL) {
-        if(fieldIndex == BOLUS_PER_MINUTE_INDEX) {
-            bolusPerMinute = atoi(token);
-        } else if(fieldIndex == TAUX_OXYGENE_INDEX) {
-            tauxOxygen = atoi(token);
-        } else if(fieldIndex == TEMPERATURE_INDEX) {
-            temperature = atoi(token);
-        } else if(fieldIndex == VITESSE_COMPRESSEUR_INDEX) {
-            vitesseCompresseur = atoi(token);
-        }
+    int byteIndex = 0;
 
-        // Go to the next field
-        token = strtok(NULL, ",");
-        fieldIndex++;
+    // Buffer to hold each field
+    uint8_t fieldBuffer[PACKET_SIZE];
+    int fieldBufferIndex = 0;
+
+    // Iterate through the packet
+    for(byteIndex = 0; byteIndex < PACKET_SIZE; byteIndex++) {
+        if(packet[byteIndex] == ',' || packet[byteIndex] == '\0') {
+            // Null-terminate the field buffer
+            fieldBuffer[fieldBufferIndex] = '\0';
+
+            // Process the field
+            if(fieldIndex == BOLUS_PER_MINUTE_INDEX) {
+                bolusPerMinute = atoi((char*)fieldBuffer);
+            } else if(fieldIndex == TAUX_OXYGENE_INDEX) {
+                tauxOxygen = atoi((char*)fieldBuffer);
+            } else if(fieldIndex == TEMPERATURE_INDEX) {
+                temperature = atoi((char*)fieldBuffer);
+            } else if(fieldIndex == VITESSE_COMPRESSEUR_INDEX) {
+                vitesseCompresseur = atoi((char*)fieldBuffer);
+            }
+
+            // Reset the field buffer index
+            fieldBufferIndex = 0;
+
+            // Move to the next field
+            fieldIndex++;
+
+            // If the packet byte was '\0', stop processing
+            if(packet[byteIndex] == '\0') {
+                break;
+            }
+        } else {
+            // Add the byte to the field buffer
+            fieldBuffer[fieldBufferIndex] = packet[byteIndex];
+            fieldBufferIndex++;
+        }
     }
+
+    // Clear the packet after processing it
+    memset(packet, 0, PACKET_SIZE);
     *uartstate = UART_STATE_IDLE;
 }
+
 void p5handshake(volatile uart_state_t* uartstate){
 	switch (*uartstate) {
     case UART_STATE_IDLE:
+    	*uartstate= UART_STATE_RECEIVE;
         	break;
     case UART_STATE_SEND:
         sendCheckCommand(uartstate);
+        *uartstate= UART_STATE_RECEIVE;
         break;
     case UART_STATE_RECEIVE:
         receiveResponse(uartstate);
@@ -304,8 +327,7 @@ void LPIT0_Ch0_IRQHandler(void)
     autotimecounter(&plustime_state, &plus_state, &minustime_state);
     updatecounter(&count_pm_init);
     p5handshake(&uart_state);
-    receiveResponse(&uart_state);
-    processResponse(&uart_state);
+
 }
 
 int main(void)
@@ -339,7 +361,7 @@ int main(void)
     lpit_user_channel_config_t chConfig;
     chConfig.timerMode = LPIT_PERIODIC_COUNTER;
     chConfig.periodUnits = LPIT_PERIOD_UNITS_MICROSECONDS;
-    chConfig.period =100; // update every 100 microseconds
+    chConfig.period =1000; // update every 100 microseconds
     chConfig.triggerSource = LPIT_TRIGGER_SOURCE_EXTERNAL;
     chConfig.triggerSelect = 0U;
     chConfig.enableReloadOnTrigger = false;
