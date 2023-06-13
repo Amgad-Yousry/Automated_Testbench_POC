@@ -67,6 +67,7 @@ typedef enum { // UART STATE MACHINE
 	 UART_STATE_SEND,
 	 UART_STATE_RECEIVE,
 	 UART_STATE_PROCESS,
+	 UART_STATE_SPEED,
 } uart_state_t;
 typedef enum { // SETTING COUNTER MACHINE
     COUNTER_STATE_IDLE,
@@ -86,23 +87,23 @@ typedef enum { // TIMER STATE MACHINE
 /********************buttons state machine declarations************************/
 volatile button_state_t onoff_state = BUTTON_STATE_IDLE;
 volatile uint32_t onoff_counter = 0;
- uint32_t onoff_release_delay=20000;
+ uint32_t onoff_release_delay=2000;
 
 volatile button_state_t bell_state = BUTTON_STATE_IDLE;
 volatile uint32_t bell_counter = 0;
-uint32_t bell_release_delay = 30000; /* Default press duration */
+uint32_t bell_release_delay = 3000; /* Default press duration */
 
 volatile button_state_t plus_state = BUTTON_STATE_IDLE;
 volatile timecount_state_t plustime_state = TIME_STATE_IDLE;
 volatile uint32_t plus_counter = 0;
- uint32_t plus_release_delay=10000;
+ uint32_t plus_release_delay=1000;
 
 volatile button_state_t minus_state = BUTTON_STATE_IDLE;
 volatile timecount_state_t minustime_state = TIME_STATE_IDLE;
 volatile uint32_t minus_counter = 0;
-uint32_t minus_release_delay=10000;
+uint32_t minus_release_delay=1000;
 /************************auto increment or decrement**********************/
-volatile uint32_t autotime_press_counter=90000;
+volatile uint32_t autotime_press_counter=9000;
 volatile uint32_t autotime_counter = 0;
 
 //*************** settings increment decrement ISR***************************//
@@ -113,7 +114,7 @@ const uint8_t MIN_SETTING_COUNTER = 1U;
 
 /*****************************handshake parameters**************************/
 #define CHECK_COMMAND "GET_STATUS\n\r" // The command to send to the device for checking UART connection
-#define EXPECTED_RESPONSE "OK_STATUS\n" // The expected response from the device
+#define SPEED_MINUS "CC -20\n\r" // The expected response from the device
 #define PACKET_SIZE 84
 #define TIME_INDEX 2 // Index of the time field in the packet
 #define SESSION_TIMER_INDEX 4 // ...
@@ -133,6 +134,7 @@ volatile int vitesseCompresseur = 0;
 
 uint8_t packet[PACKET_SIZE];
 const uint8_t checkCommand[] = CHECK_COMMAND;
+const uint8_t speedCommand[] = SPEED_MINUS;
 status_t status;
 
 volatile uart_state_t uart_state = UART_STATE_IDLE;
@@ -141,6 +143,11 @@ volatile uart_state_t uart_state = UART_STATE_IDLE;
 
 void sendCheckCommand(volatile uart_state_t* uartstate) {
 LPUART_DRV_SendData(INST_LPUART1,checkCommand, strlen((const char*)checkCommand));
+
+}
+void sendspeedCommand(volatile uart_state_t* uartstate) {
+LPUART_DRV_SendData(INST_LPUART1,speedCommand, strlen((const char*)speedCommand));
+*uartstate= UART_STATE_RECEIVE;
 
 }
 void receiveResponse(volatile uart_state_t* uartstate)
@@ -217,7 +224,10 @@ void p5handshake(volatile uart_state_t* uartstate){
     case UART_STATE_PROCESS:
         processResponse(uartstate);
         break;
+    case UART_STATE_SPEED:
+    	sendspeedCommand(uartstate);
 
+            break;
     default:
     break;
     }
