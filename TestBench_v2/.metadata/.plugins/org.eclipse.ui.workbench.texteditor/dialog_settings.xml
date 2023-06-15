@@ -2,26 +2,36 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="ADC_IRQHandler" key="selection"/>
+		<item value="fCurrentPol" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
-			<item value="ADC_IRQHandler"/>
-			<item value="DIRECT"/>
-			<item value="Direction"/>
-			<item value="PINS_DRV_SetPinsDirection"/>
-			<item value="ADC_CHN"/>
+			<item value="fCurrentPol"/>
+			<item value="gbSFMDone"/>
+			<item value="RX_buffer"/>
+			<item value="lpi2c1MasterState"/>
+			<item value="SD_BUFFER_SIZE"/>
+			<item value="RX_BUFFER_SIZE"/>
+			<item value="RMS_COCO_PIN"/>
+			<item value="GAS_PERIOD_BY_NS"/>
 		</list>
 		<list key="replacehistory">
+			<item value="GAS_RX_buffer"/>
+			<item value="GAS_SD_BUFFER_SIZE"/>
+			<item value="GAS_RX_BUFFER_SIZE"/>
+			<item value="gbGASflag"/>
+			<item value="u16CountsHDI"/>
+			<item value="u8I2CBufferHDI"/>
+			<item value="gu16PressureHDI"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="336" key="DIALOG_WIDTH"/>
 		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
 		<item value="454" key="DIALOG_HEIGHT"/>
-		<item value="1348" key="DIALOG_X_ORIGIN"/>
-		<item value="281" key="DIALOG_Y_ORIGIN"/>
+		<item value="9" key="DIALOG_X_ORIGIN"/>
+		<item value="256" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>

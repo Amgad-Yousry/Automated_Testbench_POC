@@ -7,7 +7,7 @@
 **     Version     : Component SDK_S32K14x_07, Driver 01.00, CPU db: 3.00.000
 **     Repository  : SDK_S32K14x_07
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2023-06-06, 10:32, # CodeGen: 18
+**     Date/Time   : 2023-06-06, 11:42, # CodeGen: 18
 **     Contents    :
 **         EDMA_DRV_Init                              - status_t EDMA_DRV_Init(edma_state_t *edmaState, const edma_user_config_t...
 **         EDMA_DRV_Deinit                            - status_t EDMA_DRV_Deinit(void);

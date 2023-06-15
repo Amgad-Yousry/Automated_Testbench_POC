@@ -7,7 +7,7 @@
 **     Version     : Component SDK_S32K14x_07, Driver 01.00, CPU db: 3.00.000
 **     Repository  : SDK_S32K14x_07
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2023-06-02, 18:18, # CodeGen: 3
+**     Date/Time   : 2023-06-05, 16:36, # CodeGen: 11
 **
 **     Copyright 1997 - 2015 Freescale Semiconductor, Inc.
 **     Copyright 2016-2017 NXP
@@ -57,7 +57,7 @@ lpit_user_channel_config_t lpit1_ChnConfig0 =
 {
     .timerMode = LPIT_PERIODIC_COUNTER,
     .periodUnits = LPIT_PERIOD_UNITS_MICROSECONDS,
-    .period = 500000U,
+    .period = 200000U,
     .triggerSource = LPIT_TRIGGER_SOURCE_EXTERNAL,
     .triggerSelect = 0U,
     .enableReloadOnTrigger = false,

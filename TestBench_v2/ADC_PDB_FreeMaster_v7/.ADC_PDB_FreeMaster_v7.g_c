@@ -123,7 +123,7 @@
     </GenFiles>
     <SignalListFile />
     <DestinationCompiler>GNUC</DestinationCompiler>
-    <ProjectModificationStamp>16</ProjectModificationStamp>
+    <ProjectModificationStamp>19</ProjectModificationStamp>
   </Options>
   <CpuID_1>
     <Generated>true</Generated>
@@ -555,7 +555,7 @@
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule />
     <HeaderAge>1455592003</HeaderAge>
-    <CodeAge>1455592003</CodeAge>
+    <CodeAge>1455785109</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>15</GenNumMethods>
     <LPIT_DRV_Init>true</LPIT_DRV_Init>
@@ -591,7 +591,7 @@
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule />
     <HeaderAge>1455592722</HeaderAge>
-    <CodeAge>1455592722</CodeAge>
+    <CodeAge>1455772195</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>23</GenNumMethods>
     <LPI2C_DRV_MasterInit>true</LPI2C_DRV_MasterInit>

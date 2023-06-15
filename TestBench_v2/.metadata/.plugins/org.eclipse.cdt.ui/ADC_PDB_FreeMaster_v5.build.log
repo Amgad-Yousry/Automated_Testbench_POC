@@ -1,4 +1,4 @@
-17:27:37 **** Incremental Build of configuration Debug_FLASH for project ADC_PDB_FreeMaster_v5 ****
+10:22:43 **** Incremental Build of configuration Debug_FLASH for project ADC_PDB_FreeMaster_v5 ****
 make -j8 all 
 Executing target #51 ADC_PDB_FreeMaster_v5.siz
 Invoking: Standard S32DS Print Size
@@ -8,5 +8,5 @@ arm-none-eabi-size --format=berkeley  ADC_PDB_FreeMaster_v5.elf
 Finished building: ADC_PDB_FreeMaster_v5.siz
  
 
-17:27:38 Build Finished (took 529ms)
+10:22:44 Build Finished (took 531ms)
 

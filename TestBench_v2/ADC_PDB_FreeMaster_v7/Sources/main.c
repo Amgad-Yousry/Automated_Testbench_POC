@@ -25,8 +25,7 @@
 #include "Init.h"
 
 volatile int exit_code = 0;
-/* User includes (#include below this line is not maintained by Processor Expert) */
-#include "helper_functions.h"
+
 
 
 
@@ -237,6 +236,9 @@ int main(void)
 
 	 S = (Out_max_d - Out_min_d)/(Pmax-Pmin);
 
+
+	// int delay = 500000U;
+	// while (delay--);
 
 	 PDB_DRV_SoftTriggerCmd(PDB_INSTANCE);
 

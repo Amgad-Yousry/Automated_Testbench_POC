@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_sf1nIf4mEe24TI6EJDrhTQ" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_sf1nIv4mEe24TI6EJDrhTQ" bindingContexts="_sf1nKP4mEe24TI6EJDrhTQ">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;main.c&quot; tooltip=&quot;adc_hwtrigger_s32k144_2/Sources/main.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/adc_hwtrigger_s32k144_2/Sources/main.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.processorexpert.ui.projectpanel.editor1&quot; name=&quot;ProcessorExpert.pe&quot; tooltip=&quot;adc_hwtrigger_s32k144_2/ProcessorExpert.pe&quot;>&#xD;&#xA;&lt;persistable path=&quot;/adc_hwtrigger_s32k144_2/ProcessorExpert.pe&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;main.c&quot; tooltip=&quot;ADC_PDB_FreeMaster_v3/Sources/main.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ADC_PDB_FreeMaster_v3/Sources/main.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;main.c&quot; tooltip=&quot;TestBenchv2/Sources/main.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/TestBenchv2/Sources/main.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;main.c&quot; tooltip=&quot;adc_hwtrigger_s32k144_2/Sources/main.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/adc_hwtrigger_s32k144_2/Sources/main.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.processorexpert.ui.projectpanel.editor1&quot; name=&quot;ProcessorExpert.pe&quot; tooltip=&quot;adc_hwtrigger_s32k144_2/ProcessorExpert.pe&quot;>&#xD;&#xA;&lt;persistable path=&quot;/adc_hwtrigger_s32k144_2/ProcessorExpert.pe&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;main.c&quot; tooltip=&quot;ADC_PDB_FreeMaster_v3/Sources/main.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ADC_PDB_FreeMaster_v3/Sources/main.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_sf1nIv4mEe24TI6EJDrhTQ" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_su594_4mEe24TI6EJDrhTQ" x="3573" y="-24" width="1024" height="768">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_sf1nIv4mEe24TI6EJDrhTQ" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_su594_4mEe24TI6EJDrhTQ" x="0" y="0" width="1024" height="768">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="isRestored" value="true"/>
@@ -89,7 +89,7 @@
             <children xsi:type="basic:PartSashContainer" xmi:id="_s0iE1v4mEe24TI6EJDrhTQ" containerData="7500" selectedElement="_s0iE1_4mEe24TI6EJDrhTQ">
               <children xsi:type="basic:PartSashContainer" xmi:id="_s0iE1_4mEe24TI6EJDrhTQ" containerData="7500" selectedElement="_s0iE2P4mEe24TI6EJDrhTQ" horizontal="true">
                 <children xsi:type="basic:PartSashContainer" xmi:id="_s0iE2P4mEe24TI6EJDrhTQ" containerData="7500" selectedElement="_s0iE3_4mEe24TI6EJDrhTQ">
-                  <children xsi:type="basic:PartSashContainer" xmi:id="_s0iE2f4mEe24TI6EJDrhTQ" containerData="3597" selectedElement="_s0iE2v4mEe24TI6EJDrhTQ" horizontal="true">
+                  <children xsi:type="basic:PartSashContainer" xmi:id="_s0iE2f4mEe24TI6EJDrhTQ" containerData="7228" selectedElement="_s0iE2v4mEe24TI6EJDrhTQ" horizontal="true">
                     <children xsi:type="basic:PartStack" xmi:id="_s0iE2v4mEe24TI6EJDrhTQ" elementId="com.processorexpert.ui.inspector.views.InspectorViewMStack" containerData="6000" selectedElement="_s0iE2_4mEe24TI6EJDrhTQ">
                       <children xsi:type="advanced:Placeholder" xmi:id="_s0iE2_4mEe24TI6EJDrhTQ" elementId="com.processorexpert.ui.inspector.views.InspectorView" ref="_s0iEw_4mEe24TI6EJDrhTQ"/>
                       <children xsi:type="advanced:Placeholder" xmi:id="_s0iE3P4mEe24TI6EJDrhTQ" elementId="com.processorexpert.ui.selector.views.BeanSelectorView" ref="_s0iExf4mEe24TI6EJDrhTQ"/>
@@ -98,7 +98,7 @@
                       <children xsi:type="advanced:Placeholder" xmi:id="_s0iE3v4mEe24TI6EJDrhTQ" elementId="com.processorexpert.ui.deviceinit.views.RegistryInit" toBeRendered="false" ref="_s0iExv4mEe24TI6EJDrhTQ"/>
                     </children>
                   </children>
-                  <children xsi:type="advanced:Placeholder" xmi:id="_s0iE3_4mEe24TI6EJDrhTQ" elementId="org.eclipse.ui.editorss" containerData="6403" ref="_s0V3gP4mEe24TI6EJDrhTQ"/>
+                  <children xsi:type="advanced:Placeholder" xmi:id="_s0iE3_4mEe24TI6EJDrhTQ" elementId="org.eclipse.ui.editorss" containerData="2772" ref="_s0V3gP4mEe24TI6EJDrhTQ"/>
                 </children>
                 <children xsi:type="basic:PartStack" xmi:id="_s0iE4P4mEe24TI6EJDrhTQ" elementId="topRight" containerData="2500" selectedElement="_s0iE5f4mEe24TI6EJDrhTQ">
                   <children xsi:type="advanced:Placeholder" xmi:id="_s0iE4f4mEe24TI6EJDrhTQ" elementId="org.eclipse.ui.views.ContentOutline" ref="_s0b-bP4mEe24TI6EJDrhTQ"/>
@@ -145,12 +145,18 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_s0V3gP4mEe24TI6EJDrhTQ" elementId="org.eclipse.ui.editorss" selectedElement="_s0V3gf4mEe24TI6EJDrhTQ">
-      <children xsi:type="basic:PartStack" xmi:id="_s0V3gf4mEe24TI6EJDrhTQ" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_YxS8oP-qEe2Xo_UoIoshyg">
+      <children xsi:type="basic:PartStack" xmi:id="_s0V3gf4mEe24TI6EJDrhTQ" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_bX0cIAROEe6qeZ3iFKXsQw">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
         <tags>active</tags>
         <children xsi:type="basic:Part" xmi:id="_YxS8oP-qEe2Xo_UoIoshyg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="main.c" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/obj16/c_file_obj.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;main.c&quot; partName=&quot;main.c&quot; title=&quot;main.c&quot; tooltip=&quot;adc_hwtrigger_s32k144_2/Sources/main.c&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/adc_hwtrigger_s32k144_2/Sources/main.c&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;2842&quot; selectionTopPixel=&quot;520&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;main.c&quot; partName=&quot;main.c&quot; title=&quot;main.c&quot; tooltip=&quot;adc_hwtrigger_s32k144_2/Sources/main.c&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/adc_hwtrigger_s32k144_2/Sources/main.c&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;2842&quot; selectionTopPixel=&quot;200&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.cdt.ui.editor.CEditor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_bX0cIAROEe6qeZ3iFKXsQw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="main.c" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/obj16/c_file_obj.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;main.c&quot; partName=&quot;main.c&quot; title=&quot;main.c&quot; tooltip=&quot;TestBenchv2/Sources/main.c&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/TestBenchv2/Sources/main.c&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;7679&quot; selectionTopPixel=&quot;5054&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.cdt.ui.editor.CEditor</tags>
           <tags>removeOnHide</tags>
@@ -249,7 +255,7 @@
       <tags>View</tags>
       <tags>categoryTag:Processor Expert</tags>
     </sharedElements>
-    <sharedElements xsi:type="basic:Part" xmi:id="_s0iEwv4mEe24TI6EJDrhTQ" elementId="com.processorexpert.ui.projectview.ProjectView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Components - adc_hwtrigger_s32k144_2" iconURI="platform:/plugin/com.freescale.processorexpert.ui.projectview/icons/filenav_nav.gif" tooltip="" closeable="true">
+    <sharedElements xsi:type="basic:Part" xmi:id="_s0iEwv4mEe24TI6EJDrhTQ" elementId="com.processorexpert.ui.projectview.ProjectView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Components - TestBenchv2" iconURI="platform:/plugin/com.freescale.processorexpert.ui.projectview/icons/filenav_nav.gif" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="com.processorexpert.ui.projectview.ProjectView"/>
       <persistedState key="originalCompatibilityViewBundle" value="com.freescale.processorexpert.ui.projectview"/>
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot;/>"/>
@@ -261,10 +267,10 @@
       </menus>
       <toolbar xmi:id="_CYX6Ef6-Ee2Lb9535_uodg" elementId="com.processorexpert.ui.projectview.ProjectView"/>
     </sharedElements>
-    <sharedElements xsi:type="basic:Part" xmi:id="_s0iEw_4mEe24TI6EJDrhTQ" elementId="com.processorexpert.ui.inspector.views.InspectorView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Component Inspector - adConv1" iconURI="platform:/plugin/com.freescale.processorexpert.ui.inspector/icons/pe.gif" tooltip="" closeable="true">
+    <sharedElements xsi:type="basic:Part" xmi:id="_s0iEw_4mEe24TI6EJDrhTQ" elementId="com.processorexpert.ui.inspector.views.InspectorView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Component Inspector - pin_mux" iconURI="platform:/plugin/com.freescale.processorexpert.ui.inspector/icons/pe.gif" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="com.processorexpert.ui.inspector.views.InspectorView"/>
       <persistedState key="originalCompatibilityViewBundle" value="com.freescale.processorexpert.ui.inspector"/>
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view page=&quot;Properties&quot; visibility=&quot;0&quot;/>"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view page=&quot;Routing&quot; visibility=&quot;0&quot;/>"/>
       <tags>View</tags>
       <tags>categoryTag:Processor Expert</tags>
       <menus xmi:id="_CXaQwP6-Ee2Lb9535_uodg" elementId="com.processorexpert.ui.inspector.views.InspectorView">
@@ -340,7 +346,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_svelov4mEe24TI6EJDrhTQ" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_ZVPP0P-tEe2MNpXuXCb3aw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_sgUI9v4mEe24TI6EJDrhTQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_WPtS0AROEe6qeZ3iFKXsQw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_sgUI9v4mEe24TI6EJDrhTQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_svelo_4mEe24TI6EJDrhTQ" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -364,7 +370,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_svelp_4mEe24TI6EJDrhTQ" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_ZVQd8_-tEe2MNpXuXCb3aw" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_sgUIcf4mEe24TI6EJDrhTQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_WPtS2wROEe6qeZ3iFKXsQw" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_sgUIcf4mEe24TI6EJDrhTQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_svelqP4mEe24TI6EJDrhTQ" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -2257,7 +2263,7 @@
   <addons xmi:id="_sf1nNP4mEe24TI6EJDrhTQ" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_sf1nNf4mEe24TI6EJDrhTQ" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_sf7twP4mEe24TI6EJDrhTQ" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_ZLZ-Yf-tEe2MNpXuXCb3aw" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_sgOBoP4mEe24TI6EJDrhTQ" elementId="org.eclipse.team.ui.category.team" name="Team" description="Actions that apply when working with a Team"/>
   <categories xmi:id="_sgOBof4mEe24TI6EJDrhTQ" elementId="org.eclipse.ui.category.views" name="Views" description="Commands for opening views"/>

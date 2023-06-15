@@ -1,0 +1,37 @@
+/*
+ * Computations.h
+ *
+ *  Created on: Jun 5, 2023
+ *      Author: kamil
+ */
+
+#ifndef SOURCES_COMPUTATIONS_H_
+#define SOURCES_COMPUTATIONS_H_
+
+#include "Cpu.h"
+
+
+ /* Parameters to compute the actual pressure based on the number of counts of the HDI sensor */
+ /*Pressure range */
+ const uint64_t Pmax = 2000; //mbar
+ const uint64_t Pmin = 0;
+
+ /* Digital range */
+ const uint64_t Out_max_d = 29490;
+ const uint64_t Out_min_d = 3277;
+
+
+
+
+
+
+/* Compute the Sensitivity of the HDI sensor */
+uint64_t SensitivyHDI (void);
+
+/* Compute the pressure from the HDI sensor */
+uint64_t PressureHDI (uint8_t*  u8I2CBufferHDI, uint64_t sensitivity);
+
+/* Compute the flow from the SFM sensor */
+float FlowSFM (uint8_t*  u8I2CBufferSFM);
+
+#endif /* SOURCES_COMPUTATIONS_H_ */

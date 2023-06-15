@@ -3,7 +3,7 @@
   <Header>
     <Name>ADC_PDB_FreeMaster_v7</Name>
     <SavedBy>B58799</SavedBy>
-    <ModificationStamp>16</ModificationStamp>
+    <ModificationStamp>19</ModificationStamp>
     <Date>2016-08-09</Date>
     <IDE>Eclipse IDE</IDE>
     <PEversion>1.12.2.RT7_b1743-0713</PEversion>
@@ -29,7 +29,7 @@
     <UseExistingModules>true</UseExistingModules>
     <RenamePeripheries>false</RenamePeripheries>
     <Autodependency>true</Autodependency>
-    <ProjectCompNumb>29</ProjectCompNumb>
+    <ProjectCompNumb>30</ProjectCompNumb>
     <DelUnusedPreviouslyGenFiles>true</DelUnusedPreviouslyGenFiles>
     <GeneratedCodeFrozen>false</GeneratedCodeFrozen>
     <AssignInitComponentNameToPrph>true</AssignInitComponentNameToPrph>
@@ -36079,7 +36079,7 @@
         <ReadOnly>false</ReadOnly>
         <ListItemCount>1</ListItemCount>
         <UserReadOnly>false</UserReadOnly>
-        <Expanded>false</Expanded>
+        <Expanded>true</Expanded>
         <ItemsTypeState>Beans\lpit\Items\S32K144_SDK01\lpit_Configuration.item</ItemsTypeState>
       </ItemState>
       <ItemState>
@@ -36125,7 +36125,7 @@
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>500000</Value>
+        <Value>200000</Value>
         <Base>DEC</Base>
       </ItemState>
       <ItemState>
@@ -36480,7 +36480,7 @@
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>400000</Value>
+        <Value>300000</Value>
         <Base>DEC</Base>
       </ItemState>
       <ItemState>
