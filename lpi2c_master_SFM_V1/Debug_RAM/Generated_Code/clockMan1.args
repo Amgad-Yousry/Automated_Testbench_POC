@@ -1,16 +1,16 @@
 -std=c99
 -DCPU_S32K144HFT0VLLT
 -DDEV_ERROR_DETECT
--I"C:/Users/amgad/Downloads/nx/lpi2c_master_s32k144kl/Sources"
--I"C:/Users/amgad/Downloads/nx/lpi2c_master_s32k144kl/Generated_Code"
--I"C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include"
--I"C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/startup"
--I"C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144"
--I"C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common"
--I"C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices"
--I"C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc"
--I"C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/clock/S32K1xx"
--I"C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/rtos/osif/"
+-I"D:/MASTERS/scaleo/Internship/lpi2c_master_SFM_V1/Sources"
+-I"D:/MASTERS/scaleo/Internship/lpi2c_master_SFM_V1/Generated_Code"
+-I"D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include"
+-I"D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/startup"
+-I"D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144"
+-I"D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common"
+-I"D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices"
+-I"D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc"
+-I"D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/clock/S32K1xx"
+-I"D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/rtos/osif/"
 -O1
 -funsigned-bitfields 
 -fshort-enums
@@ -32,4 +32,4 @@
 -mfpu=fpv4-sp-d16
 -specs=nano.specs
 -specs=nosys.specs
---sysroot="C:/NXP/S32DS_ARM_v2.0/Cross_Tools/gcc-arm-none-eabi-4_9/arm-none-eabi/newlib"
+--sysroot="D:/Program Files (x86)/Cross_Tools/gcc-arm-none-eabi-4_9/arm-none-eabi/newlib"

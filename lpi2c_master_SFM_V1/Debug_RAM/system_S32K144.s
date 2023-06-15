@@ -25,7 +25,7 @@
 	.type	SystemInit, %function
 SystemInit:
 .LFB1:
-	.file 1 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/startup/system_S32K144.c"
+	.file 1 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/startup/system_S32K144.c"
 	.loc 1 66 0
 	.cfi_startproc
 	@ args = 0, pretend = 0, frame = 0
@@ -228,9 +228,9 @@ SystemCoreClock:
 	.word	48000000
 	.text
 .Letext0:
-	.file 2 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\machine\\_default_types.h"
-	.file 3 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_stdint.h"
-	.file 4 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+	.file 2 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\machine\\_default_types.h"
+	.file 3 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_stdint.h"
+	.file 4 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
 	.section	.debug_info,"",%progbits
 .Ldebug_info0:
 	.4byte	0x512
@@ -2367,13 +2367,13 @@ SystemCoreClock:
 	.byte	0x5
 	.uleb128 0x3
 	.4byte	.LASF360
-	.file 5 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/device_registers.h"
+	.file 5 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/device_registers.h"
 	.byte	0x3
 	.uleb128 0x2e
 	.uleb128 0x5
 	.byte	0x7
 	.4byte	.Ldebug_macro1
-	.file 6 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common/s32_core_cm4.h"
+	.file 6 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common/s32_core_cm4.h"
 	.byte	0x3
 	.uleb128 0x33
 	.uleb128 0x6
@@ -2388,11 +2388,11 @@ SystemCoreClock:
 	.uleb128 0x4
 	.byte	0x7
 	.4byte	.Ldebug_macro3
-	.file 7 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stdint.h"
+	.file 7 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stdint.h"
 	.byte	0x3
 	.uleb128 0xbf
 	.uleb128 0x7
-	.file 8 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h"
+	.file 8 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h"
 	.byte	0x3
 	.uleb128 0x9
 	.uleb128 0x8
@@ -2405,7 +2405,7 @@ SystemCoreClock:
 	.byte	0x5
 	.uleb128 0x6
 	.4byte	.LASF385
-	.file 9 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\features.h"
+	.file 9 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\features.h"
 	.byte	0x3
 	.uleb128 0x8
 	.uleb128 0x9
@@ -2415,7 +2415,7 @@ SystemCoreClock:
 	.byte	0x7
 	.4byte	.Ldebug_macro5
 	.byte	0x4
-	.file 10 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h"
+	.file 10 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h"
 	.byte	0x3
 	.uleb128 0xd
 	.uleb128 0xa
@@ -2438,21 +2438,21 @@ SystemCoreClock:
 	.byte	0x7
 	.4byte	.Ldebug_macro9
 	.byte	0x4
-	.file 11 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144_features.h"
+	.file 11 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144_features.h"
 	.byte	0x3
 	.uleb128 0x4e
 	.uleb128 0xb
 	.byte	0x7
 	.4byte	.Ldebug_macro10
 	.byte	0x4
-	.file 12 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h"
+	.file 12 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h"
 	.byte	0x3
 	.uleb128 0xb2
 	.uleb128 0xc
 	.byte	0x5
 	.uleb128 0x14
 	.4byte	.LASF9532
-	.file 13 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stdbool.h"
+	.file 13 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stdbool.h"
 	.byte	0x3
 	.uleb128 0x16
 	.uleb128 0xd
@@ -2464,7 +2464,7 @@ SystemCoreClock:
 	.4byte	.LASF9538
 	.byte	0x4
 	.byte	0x4
-	.file 14 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/startup/system_S32K144.h"
+	.file 14 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/startup/system_S32K144.h"
 	.byte	0x3
 	.uleb128 0x2f
 	.uleb128 0xe
@@ -42009,6 +42009,8 @@ SystemCoreClock:
 	.ascii	"S32_NVIC_IP_PRI104_MASK 0xFFu\000"
 .LASF5789:
 	.ascii	"MCM_LMDR_V_SHIFT 31u\000"
+.LASF5670:
+	.ascii	"MCM_CPCR_FMC_PF_IDLE_WIDTH 1u\000"
 .LASF4178:
 	.ascii	"LMEM_PCCRMR_R1_WIDTH 2u\000"
 .LASF1566:
@@ -42656,10 +42658,9 @@ SystemCoreClock:
 	.ascii	"__INT_FAST64_MAX__ 9223372036854775807LL\000"
 .LASF5219:
 	.ascii	"LPUART_GLOBAL_RST_MASK 0x2u\000"
-.LASF9616:
-	.ascii	"C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8."
-	.ascii	"6/platform/devices/S32K144/startup/system_S32K144.c"
-	.ascii	"\000"
+.LASF4685:
+	.ascii	"LPI2C_SRDR_SOF(x) (((uint32_t)(((uint32_t)(x))<<LPI"
+	.ascii	"2C_SRDR_SOF_SHIFT))&LPI2C_SRDR_SOF_MASK)\000"
 .LASF8366:
 	.ascii	"S32_SCB_FPCCR_HFRDY(x) (((uint32_t)(((uint32_t)(x))"
 	.ascii	"<<S32_SCB_FPCCR_HFRDY_SHIFT))&S32_SCB_FPCCR_HFRDY_M"
@@ -43817,6 +43818,10 @@ SystemCoreClock:
 	.ascii	"S32_NVIC_IP_PRI36_MASK 0xFFu\000"
 .LASF187:
 	.ascii	"__DEC128_EPSILON__ 1E-33DL\000"
+.LASF9616:
+	.ascii	"D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8"
+	.ascii	".6/platform/devices/S32K144/startup/system_S32K144."
+	.ascii	"c\000"
 .LASF259:
 	.ascii	"__LLACCUM_FBIT__ 31\000"
 .LASF7820:
@@ -47232,9 +47237,6 @@ SystemCoreClock:
 	.ascii	"LMEM_PCCRMR_R15_WIDTH 2u\000"
 .LASF8579:
 	.ascii	"SCG_SOSCCFG_HGO_MASK 0x8u\000"
-.LASF4685:
-	.ascii	"LPI2C_SRDR_SOF(x) (((uint32_t)(((uint32_t)(x))<<LPI"
-	.ascii	"2C_SRDR_SOF_SHIFT))&LPI2C_SRDR_SOF_MASK)\000"
 .LASF4124:
 	.ascii	"LMEM_PCCRMR_R14_MASK 0xCu\000"
 .LASF5959:
@@ -48658,8 +48660,8 @@ SystemCoreClock:
 	.ascii	"SIM_CHIPCTL_ADC_SUPPLY_MASK 0x70000u\000"
 .LASF7216:
 	.ascii	"S32_NVIC_IP_PRI46_WIDTH 8u\000"
-.LASF5670:
-	.ascii	"MCM_CPCR_FMC_PF_IDLE_WIDTH 1u\000"
+.LASF5736:
+	.ascii	"MCM_ISCR_FIXCE_MASK 0x10000000u\000"
 .LASF8553:
 	.ascii	"SCG_SOSCCSR_LK_WIDTH 1u\000"
 .LASF519:
@@ -49144,8 +49146,8 @@ SystemCoreClock:
 	.ascii	"ER_TOIE_SHIFT))&RTC_IER_TOIE_MASK)\000"
 .LASF2959:
 	.ascii	"FTFC_COMMAND_COMPLETE_IRQS { FTFC_IRQn }\000"
-.LASF5736:
-	.ascii	"MCM_ISCR_FIXCE_MASK 0x10000000u\000"
+.LASF2389:
+	.ascii	"DMA_EARS_EDREQ_2_MASK 0x4u\000"
 .LASF4755:
 	.ascii	"LPIT_MIER_TIE2_MASK 0x4u\000"
 .LASF1066:
@@ -50729,8 +50731,6 @@ SystemCoreClock:
 	.ascii	"32_NVIC_IP_PRI146_SHIFT))&S32_NVIC_IP_PRI146_MASK)\000"
 .LASF3375:
 	.ascii	"FTM_OUTMASK_CH5OM_SHIFT 5u\000"
-.LASF2389:
-	.ascii	"DMA_EARS_EDREQ_2_MASK 0x4u\000"
 .LASF1076:
 	.ascii	"CAN_ECR_TXERRCNT_FAST_WIDTH 8u\000"
 .LASF7210:

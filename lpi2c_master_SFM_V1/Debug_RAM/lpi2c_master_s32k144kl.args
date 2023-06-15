@@ -21,7 +21,7 @@
 "./Generated_Code/Cpu.o"
 --entry=Reset_Handler
 -T
-"C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/linker/gcc/S32K144_64_ram.ld"
+"D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/linker/gcc/S32K144_64_ram.ld"
 -Wl,-Map,"lpi2c_master_s32k144kl.map"
 -Xlinker
 --gc-sections
@@ -31,7 +31,7 @@
 -mfpu=fpv4-sp-d16
 -specs=nano.specs
 -specs=nosys.specs
---sysroot="C:/NXP/S32DS_ARM_v2.0/Cross_Tools/gcc-arm-none-eabi-4_9/arm-none-eabi/newlib" 
+--sysroot="D:/Program Files (x86)/Cross_Tools/gcc-arm-none-eabi-4_9/arm-none-eabi/newlib" 
 -lc
 -lgcc
 -lm

@@ -25,7 +25,7 @@
 	.type	SysTick_Handler, %function
 SysTick_Handler:
 .LFB3:
-	.file 1 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/rtos/osif/osif_baremetal.c"
+	.file 1 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/rtos/osif/osif_baremetal.c"
 	.loc 1 98 0
 	.cfi_startproc
 	@ args = 0, pretend = 0, frame = 0
@@ -81,10 +81,10 @@ OSIF_TimeDelay:
 .LVL3:
 .LBB57:
 .LBB58:
-	.file 2 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h"
+	.file 2 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h"
 	.loc 2 72 0
 	cbz	r0, .L5
-@ 72 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
+@ 72 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
 	BKPT #0
 	
 @ 0 "" 2
@@ -101,7 +101,7 @@ OSIF_TimeDelay:
 .LBB60:
 	.loc 2 72 0
 	cbnz	r3, .L7
-@ 72 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
+@ 72 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
 	BKPT #0
 	
 @ 0 "" 2
@@ -305,7 +305,7 @@ OSIF_SemaWait:
 .LBB87:
 	.loc 2 72 0
 	cbnz	r0, .L24
-@ 72 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
+@ 72 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
 	BKPT #0
 	
 @ 0 "" 2
@@ -342,7 +342,7 @@ OSIF_SemaWait:
 .LBB91:
 	.loc 2 72 0
 	cbz	r0, .L26
-@ 72 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
+@ 72 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
 	BKPT #0
 	
 @ 0 "" 2
@@ -359,7 +359,7 @@ OSIF_SemaWait:
 .LBB93:
 	.loc 2 72 0
 	cbnz	r3, .L28
-@ 72 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
+@ 72 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
 	BKPT #0
 	
 @ 0 "" 2
@@ -486,7 +486,7 @@ OSIF_SemaPost:
 .LBB108:
 	.loc 2 72 0
 	cbnz	r0, .L43
-@ 72 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
+@ 72 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
 	BKPT #0
 	
 @ 0 "" 2
@@ -560,7 +560,7 @@ OSIF_SemaCreate:
 .LBB114:
 	.loc 2 72 0
 	cbnz	r0, .L49
-@ 72 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
+@ 72 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
 	BKPT #0
 	
 @ 0 "" 2
@@ -619,7 +619,7 @@ OSIF_SemaDestroy:
 .LBB120:
 	.loc 2 72 0
 	cbnz	r0, .L53
-@ 72 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
+@ 72 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
 	BKPT #0
 	
 @ 0 "" 2
@@ -645,14 +645,14 @@ s_osif_tick_cnt:
 	.space	4
 	.text
 .Letext0:
-	.file 3 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\machine\\_default_types.h"
-	.file 4 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_stdint.h"
-	.file 5 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/rtos/osif/osif.h"
-	.file 6 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/status.h"
-	.file 7 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
-	.file 8 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144_features.h"
-	.file 9 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/interrupt_manager.h"
-	.file 10 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/clock_manager.h"
+	.file 3 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\machine\\_default_types.h"
+	.file 4 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_stdint.h"
+	.file 5 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/rtos/osif/osif.h"
+	.file 6 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/status.h"
+	.file 7 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+	.file 8 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144_features.h"
+	.file 9 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/interrupt_manager.h"
+	.file 10 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/clock_manager.h"
 	.section	.debug_info,"",%progbits
 .Ldebug_info0:
 	.4byte	0xb43
@@ -4242,11 +4242,11 @@ s_osif_tick_cnt:
 	.byte	0x5
 	.uleb128 0x14
 	.4byte	.LASF361
-	.file 11 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stdint.h"
+	.file 11 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stdint.h"
 	.byte	0x3
 	.uleb128 0x16
 	.uleb128 0xb
-	.file 12 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h"
+	.file 12 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h"
 	.byte	0x3
 	.uleb128 0x9
 	.uleb128 0xc
@@ -4259,7 +4259,7 @@ s_osif_tick_cnt:
 	.byte	0x5
 	.uleb128 0x6
 	.4byte	.LASF363
-	.file 13 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\features.h"
+	.file 13 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\features.h"
 	.byte	0x3
 	.uleb128 0x8
 	.uleb128 0xd
@@ -4269,7 +4269,7 @@ s_osif_tick_cnt:
 	.byte	0x7
 	.4byte	.Ldebug_macro2
 	.byte	0x4
-	.file 14 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h"
+	.file 14 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h"
 	.byte	0x3
 	.uleb128 0xd
 	.uleb128 0xe
@@ -4300,20 +4300,20 @@ s_osif_tick_cnt:
 	.4byte	.LASF483
 	.byte	0x4
 	.byte	0x4
-	.file 15 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h"
+	.file 15 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h"
 	.byte	0x3
 	.uleb128 0x33
 	.uleb128 0xf
 	.byte	0x7
 	.4byte	.Ldebug_macro6
 	.byte	0x4
-	.file 16 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/device_registers.h"
+	.file 16 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/device_registers.h"
 	.byte	0x3
 	.uleb128 0x35
 	.uleb128 0x10
 	.byte	0x7
 	.4byte	.Ldebug_macro7
-	.file 17 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common/s32_core_cm4.h"
+	.file 17 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common/s32_core_cm4.h"
 	.byte	0x3
 	.uleb128 0x33
 	.uleb128 0x11
@@ -4341,7 +4341,7 @@ s_osif_tick_cnt:
 	.byte	0x5
 	.uleb128 0x14
 	.4byte	.LASF9586
-	.file 18 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stdbool.h"
+	.file 18 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stdbool.h"
 	.byte	0x3
 	.uleb128 0x16
 	.uleb128 0x12
@@ -4373,7 +4373,7 @@ s_osif_tick_cnt:
 	.byte	0x5
 	.uleb128 0x14
 	.4byte	.LASF9595
-	.file 19 "c:\\nxp\\s32ds_arm_v2.0\\s32ds\\s32sdk_s32k14x_ear_0.8.6\\platform\\drivers\\src\\clock\\s32k1xx\\clock_s32k1xx.h"
+	.file 19 "d:\\program files (x86)\\s32ds\\s32sdk_s32k14x_ear_0.8.6\\platform\\drivers\\src\\clock\\s32k1xx\\clock_s32k1xx.h"
 	.byte	0x3
 	.uleb128 0x1e
 	.uleb128 0x13
@@ -34089,6 +34089,9 @@ s_osif_tick_cnt:
 	.ascii	"FEATURE_FLS_DF_SIZE_1000 (0x00000000u)\000"
 .LASF2225:
 	.ascii	"DMA_CERR_CAEI_WIDTH 1u\000"
+.LASF9823:
+	.ascii	"D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8"
+	.ascii	".6/rtos/osif/osif_baremetal.c\000"
 .LASF4332:
 	.ascii	"LPI2C_MSR_BBF_MASK 0x2000000u\000"
 .LASF5907:
@@ -36494,8 +36497,6 @@ s_osif_tick_cnt:
 	.ascii	"DMA_TCD_CITER_ELINKNO_CITER_SHIFT 0u\000"
 .LASF3238:
 	.ascii	"FTM_CnSC_ICRST_WIDTH 1u\000"
-.LASF7652:
-	.ascii	"S32_NVIC_IP_PRI142_MASK 0xFFu\000"
 .LASF3510:
 	.ascii	"FTM_COMBINE_COMP2_WIDTH 1u\000"
 .LASF7126:
@@ -36576,8 +36577,10 @@ s_osif_tick_cnt:
 .LASF7423:
 	.ascii	"S32_NVIC_IP_PRI84(x) (((uint8_t)(((uint8_t)(x))<<S3"
 	.ascii	"2_NVIC_IP_PRI84_SHIFT))&S32_NVIC_IP_PRI84_MASK)\000"
-.LASF4071:
-	.ascii	"GPIO_PTOR_PTTO_WIDTH 32u\000"
+.LASF1307:
+	.ascii	"CAN_CTRL2_ERRMSK_FAST(x) (((uint32_t)(((uint32_t)(x"
+	.ascii	"))<<CAN_CTRL2_ERRMSK_FAST_SHIFT))&CAN_CTRL2_ERRMSK_"
+	.ascii	"FAST_MASK)\000"
 .LASF6461:
 	.ascii	"PDB_SC_CONT_WIDTH 1u\000"
 .LASF7533:
@@ -37274,8 +37277,6 @@ s_osif_tick_cnt:
 	.ascii	"ER_TSIC_SHIFT))&RTC_IER_TSIC_MASK)\000"
 .LASF6132:
 	.ascii	"MPU_RGDAAC_M3UM_WIDTH 3u\000"
-.LASF8799:
-	.ascii	"SIM_CHIPCTL_SRAML_RETEN_SHIFT 21u\000"
 .LASF463:
 	.ascii	"SIG_ATOMIC_MIN (-__STDINT_EXP(INT_MAX) - 1)\000"
 .LASF6137:
@@ -38797,10 +38798,8 @@ s_osif_tick_cnt:
 	.ascii	"PI_TCR_LSBF_SHIFT))&LPSPI_TCR_LSBF_MASK)\000"
 .LASF3170:
 	.ascii	"FTM_SC_CPWMS_WIDTH 1u\000"
-.LASF1307:
-	.ascii	"CAN_CTRL2_ERRMSK_FAST(x) (((uint32_t)(((uint32_t)(x"
-	.ascii	"))<<CAN_CTRL2_ERRMSK_FAST_SHIFT))&CAN_CTRL2_ERRMSK_"
-	.ascii	"FAST_MASK)\000"
+.LASF8799:
+	.ascii	"SIM_CHIPCTL_SRAML_RETEN_SHIFT 21u\000"
 .LASF7628:
 	.ascii	"S32_NVIC_IP_PRI136_MASK 0xFFu\000"
 .LASF1407:
@@ -51145,6 +51144,8 @@ s_osif_tick_cnt:
 	.ascii	"VR_CURRENT_MASK)\000"
 .LASF5005:
 	.ascii	"LPSPI_IER_REIE_MASK 0x1000u\000"
+.LASF4071:
+	.ascii	"GPIO_PTOR_PTTO_WIDTH 32u\000"
 .LASF3739:
 	.ascii	"FTM_QDCTRL_QUADEN(x) (((uint32_t)(((uint32_t)(x))<<"
 	.ascii	"FTM_QDCTRL_QUADEN_SHIFT))&FTM_QDCTRL_QUADEN_MASK)\000"
@@ -51154,9 +51155,8 @@ s_osif_tick_cnt:
 	.ascii	"LPUART2_CLK\000"
 .LASF1726:
 	.ascii	"CMP_C1_CHN2_WIDTH 1u\000"
-.LASF9823:
-	.ascii	"C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8."
-	.ascii	"6/rtos/osif/osif_baremetal.c\000"
+.LASF7652:
+	.ascii	"S32_NVIC_IP_PRI142_MASK 0xFFu\000"
 .LASF5620:
 	.ascii	"LPUART_MODIR_TNP(x) (((uint32_t)(((uint32_t)(x))<<L"
 	.ascii	"PUART_MODIR_TNP_SHIFT))&LPUART_MODIR_TNP_MASK)\000"

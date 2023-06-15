@@ -24,7 +24,7 @@
 	.type	CLOCK_SYS_GetCurrentRunMode, %function
 CLOCK_SYS_GetCurrentRunMode:
 .LFB110:
-	.file 1 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/clock/S32K1xx/clock_S32K1xx.c"
+	.file 1 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/clock/S32K1xx/clock_S32K1xx.c"
 	.loc 1 1607 0
 	.cfi_startproc
 	@ args = 0, pretend = 0, frame = 0
@@ -33,7 +33,7 @@ CLOCK_SYS_GetCurrentRunMode:
 .LVL0:
 .LBB336:
 .LBB337:
-	.file 2 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/clock/S32K1xx/smc_hw_access.h"
+	.file 2 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/clock/S32K1xx/smc_hw_access.h"
 	.loc 2 55 0
 	ldr	r3, .L7
 	ldr	r3, [r3, #20]
@@ -86,7 +86,7 @@ CLOCK_SYS_GetSysOscFreq:
 .LVL4:
 .LBB338:
 .LBB339:
-	.file 3 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/clock/S32K1xx/scg_hw_access.h"
+	.file 3 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/clock/S32K1xx/scg_hw_access.h"
 	.loc 3 803 0
 	ldr	r3, .L12
 	ldr	r3, [r3, #256]
@@ -332,9 +332,9 @@ CLOCK_SYS_ConfigureSOSC:
 .LBE358:
 .LBB360:
 .LBB361:
-	.file 4 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h"
+	.file 4 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h"
 	.loc 4 72 0
-@ 72 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
+@ 72 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
 	BKPT #0
 	
 @ 0 "" 2
@@ -1049,7 +1049,7 @@ CLOCK_SYS_ConfigureSPLL:
 .LBB407:
 	.loc 4 72 0
 	cbnz	r0, .L93
-@ 72 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
+@ 72 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
 	BKPT #0
 	
 @ 0 "" 2
@@ -1074,7 +1074,7 @@ CLOCK_SYS_ConfigureSPLL:
 	ldr	r2, .L117+4
 	cmp	r3, r2
 	bls	.L95
-@ 72 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
+@ 72 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
 	BKPT #0
 	
 @ 0 "" 2
@@ -1203,7 +1203,7 @@ CLOCK_SYS_ConfigureSPLL:
 .LBB422:
 .LBB423:
 	.loc 4 72 0
-@ 72 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
+@ 72 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
 	BKPT #0
 	
 @ 0 "" 2
@@ -1293,7 +1293,7 @@ CLOCK_SYS_SetSystemClockConfig:
 .LBB425:
 	.loc 4 72 0
 	cbnz	r0, .L120
-@ 72 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
+@ 72 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
 	BKPT #0
 	
 @ 0 "" 2
@@ -1369,7 +1369,7 @@ CLOCK_SYS_SetSystemClockConfig:
 	.loc 4 72 0
 	cmp	r3, #2
 	beq	.L145
-@ 72 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
+@ 72 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
 	BKPT #0
 	
 @ 0 "" 2
@@ -1400,7 +1400,7 @@ CLOCK_SYS_SetSystemClockConfig:
 	.loc 4 72 0 is_stmt 1 discriminator 6
 	cbnz	r3, .L147
 	.loc 4 72 0 is_stmt 0
-@ 72 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
+@ 72 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
 	BKPT #0
 	
 @ 0 "" 2
@@ -1413,7 +1413,7 @@ CLOCK_SYS_SetSystemClockConfig:
 .LBE428:
 .LBB430:
 .LBB431:
-@ 72 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
+@ 72 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
 	BKPT #0
 	
 @ 0 "" 2
@@ -1642,7 +1642,7 @@ CLOCK_SYS_SetSystemClockConfig:
 .LBB450:
 .LBB451:
 	.loc 4 72 0
-@ 72 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
+@ 72 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
 	BKPT #0
 	
 @ 0 "" 2
@@ -1700,7 +1700,7 @@ CLOCK_SYS_TransitionSystemClock:
 .LBB453:
 	.loc 4 72 0
 	cbnz	r0, .L161
-@ 72 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
+@ 72 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
 	BKPT #0
 	
 @ 0 "" 2
@@ -1724,7 +1724,7 @@ CLOCK_SYS_TransitionSystemClock:
 	.loc 4 72 0
 	cmp	r3, #255
 	bne	.L163
-@ 72 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
+@ 72 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
 	BKPT #0
 	
 @ 0 "" 2
@@ -1742,7 +1742,7 @@ CLOCK_SYS_TransitionSystemClock:
 	.loc 4 72 0
 	cmp	r0, #4
 	bne	.L165
-@ 72 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
+@ 72 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
 	BKPT #0
 	
 @ 0 "" 2
@@ -1823,7 +1823,7 @@ CLOCK_SYS_GetSystemClockFreq:
 	.loc 4 72 0
 	cmp	r0, #2
 	bls	.L175
-@ 72 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
+@ 72 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
 	BKPT #0
 	
 @ 0 "" 2
@@ -2148,7 +2148,7 @@ CLOCK_SYS_GetSysAsyncFreq:
 .LBB482:
 .LBB483:
 	.loc 4 72 0
-@ 72 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
+@ 72 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
 	BKPT #0
 	
 @ 0 "" 2
@@ -2240,7 +2240,7 @@ CLOCK_SYS_GetSysAsyncFreq:
 .LBB492:
 .LBB493:
 	.loc 4 72 0
-@ 72 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
+@ 72 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
 	BKPT #0
 	
 @ 0 "" 2
@@ -2253,7 +2253,7 @@ CLOCK_SYS_GetSysAsyncFreq:
 .LBE492:
 .LBB494:
 .LBB495:
-@ 72 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
+@ 72 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
 	BKPT #0
 	
 @ 0 "" 2
@@ -2305,7 +2305,7 @@ CLOCK_SYS_GetSimRtcClkFreq:
 .LVL311:
 .LBB496:
 .LBB497:
-	.file 5 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/clock/S32K1xx/sim_hw_access.h"
+	.file 5 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/clock/S32K1xx/sim_hw_access.h"
 	.loc 5 55 0
 	ldr	r3, .L240
 	ldr	r3, [r3, #16]
@@ -2398,7 +2398,7 @@ CLOCK_SYS_GetPeripheralClock:
 .LVL321:
 .LBB500:
 .LBB501:
-	.file 6 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/clock/S32K1xx/pcc_hw_access.h"
+	.file 6 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/clock/S32K1xx/pcc_hw_access.h"
 	.loc 6 162 0
 	ldr	r3, .L254
 	ldrh	r3, [r3, r0, lsl #1]
@@ -2587,7 +2587,7 @@ CLOCK_SYS_GetLpoFreq:
 .LBB514:
 .LBB515:
 	.loc 4 72 0
-@ 72 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
+@ 72 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
 	BKPT #0
 	
 @ 0 "" 2
@@ -3192,7 +3192,7 @@ CLOCK_SYS_SetConfiguration:
 .LBB595:
 	.loc 4 72 0
 	cbnz	r3, .L301
-@ 72 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
+@ 72 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
 	BKPT #0
 	
 @ 0 "" 2
@@ -3316,7 +3316,7 @@ CLOCK_SYS_SetConfiguration:
 .LBB602:
 .LBB603:
 	.loc 4 72 0
-@ 72 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
+@ 72 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
 	BKPT #0
 	
 @ 0 "" 2
@@ -3556,7 +3556,7 @@ CLOCK_SYS_SetConfiguration:
 .LBB614:
 	.loc 4 72 0
 	cbnz	r3, .L324
-@ 72 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
+@ 72 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
 	BKPT #0
 	
 @ 0 "" 2
@@ -3684,7 +3684,7 @@ CLOCK_SYS_SetConfiguration:
 	.loc 4 72 0
 	cmn	r4, #68
 	bne	.L329
-@ 72 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
+@ 72 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
 	BKPT #0
 	
 @ 0 "" 2
@@ -3983,7 +3983,7 @@ CLOCK_SYS_SetConfiguration:
 	.loc 4 72 0
 	cmn	r4, #116
 	bne	.L342
-@ 72 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
+@ 72 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
 	BKPT #0
 	
 @ 0 "" 2
@@ -3999,7 +3999,7 @@ CLOCK_SYS_SetConfiguration:
 .LVL527:
 .LBB656:
 .LBB657:
-	.file 7 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/clock/S32K1xx/pmc_hw_access.h"
+	.file 7 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/clock/S32K1xx/pmc_hw_access.h"
 	.loc 7 56 0
 	ldr	r1, .L370+12
 	ldrb	r3, [r1, #2]	@ zero_extendqisi2
@@ -4041,7 +4041,7 @@ CLOCK_SYS_SetConfiguration:
 	.loc 4 72 0
 	cmp	r2, #16
 	bls	.L345
-@ 72 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
+@ 72 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
 	BKPT #0
 	
 @ 0 "" 2
@@ -5035,7 +5035,7 @@ CLOCK_SYS_GetFreq:
 .LBB742:
 .LBB743:
 	.loc 4 72 0
-@ 72 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
+@ 72 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
 	BKPT #0
 	
 @ 0 "" 2
@@ -5305,7 +5305,7 @@ CLOCK_DRV_SetModuleClock:
 .LBB746:
 .LBB747:
 	.loc 4 72 0
-@ 72 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
+@ 72 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
 	BKPT #0
 	
 @ 0 "" 2
@@ -5481,7 +5481,7 @@ CLOCK_DRV_SetModuleClock:
 .LBB762:
 .LBB763:
 	.loc 4 72 0
-@ 72 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
+@ 72 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
 	BKPT #0
 	
 @ 0 "" 2
@@ -5565,7 +5565,7 @@ CLOCK_DRV_SetSystemClock:
 .LBB764:
 .LBB765:
 	.loc 4 72 0
-@ 72 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
+@ 72 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
 	BKPT #0
 	
 @ 0 "" 2
@@ -5658,7 +5658,7 @@ CLOCK_DRV_SetSystemClock:
 .LBB766:
 .LBB767:
 	.loc 4 72 0
-@ 72 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
+@ 72 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
 	BKPT #0
 	
 @ 0 "" 2
@@ -5689,7 +5689,7 @@ CLOCK_DRV_SetSystemClock:
 	.loc 4 72 0 is_stmt 1 discriminator 6
 	cbnz	r3, .L511
 	.loc 4 72 0 is_stmt 0
-@ 72 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
+@ 72 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
 	BKPT #0
 	
 @ 0 "" 2
@@ -5719,7 +5719,7 @@ CLOCK_DRV_SetSystemClock:
 	.loc 4 72 0 is_stmt 1 discriminator 6
 	cbnz	r3, .L514
 	.loc 4 72 0 is_stmt 0
-@ 72 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
+@ 72 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
 	BKPT #0
 	
 @ 0 "" 2
@@ -5749,7 +5749,7 @@ CLOCK_DRV_SetSystemClock:
 	.loc 4 72 0 is_stmt 1 discriminator 6
 	cbnz	r3, .L517
 	.loc 4 72 0 is_stmt 0
-@ 72 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
+@ 72 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
 	BKPT #0
 	
 @ 0 "" 2
@@ -5779,7 +5779,7 @@ CLOCK_DRV_SetSystemClock:
 	.loc 4 72 0 is_stmt 1 discriminator 6
 	cbnz	r3, .L520
 	.loc 4 72 0 is_stmt 0
-@ 72 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
+@ 72 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
 	BKPT #0
 	
 @ 0 "" 2
@@ -5833,7 +5833,7 @@ CLOCK_DRV_SetSystemClock:
 .LBB776:
 .LBB777:
 	.loc 4 72 0
-@ 72 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
+@ 72 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
 	BKPT #0
 	
 @ 0 "" 2
@@ -5851,7 +5851,7 @@ CLOCK_DRV_SetSystemClock:
 .LBB779:
 	.loc 4 72 0
 	cbnz	r0, .L530
-@ 72 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
+@ 72 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
 	BKPT #0
 	
 @ 0 "" 2
@@ -5868,7 +5868,7 @@ CLOCK_DRV_SetSystemClock:
 .LBB781:
 	.loc 4 72 0
 	cbnz	r1, .L532
-@ 72 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
+@ 72 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
 	BKPT #0
 	
 @ 0 "" 2
@@ -5885,7 +5885,7 @@ CLOCK_DRV_SetSystemClock:
 .LBB783:
 	.loc 4 72 0
 	cbnz	r2, .L534
-@ 72 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
+@ 72 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
 	BKPT #0
 	
 @ 0 "" 2
@@ -6002,7 +6002,7 @@ CLOCK_DRV_GetSystemClockSource:
 .LBB786:
 .LBB787:
 	.loc 4 72 0
-@ 72 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
+@ 72 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
 	BKPT #0
 	
 @ 0 "" 2
@@ -6062,7 +6062,7 @@ CLOCK_DRV_GetSystemClockSource:
 	.loc 4 72 0
 	cmp	r3, #7
 	bls	.L563
-@ 72 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
+@ 72 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
 	BKPT #0
 	
 @ 0 "" 2
@@ -6457,7 +6457,7 @@ CLOCK_DRV_SetClockSource:
 .LBB808:
 .LBB809:
 	.loc 4 72 0
-@ 72 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
+@ 72 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
 	BKPT #0
 	
 @ 0 "" 2
@@ -6506,7 +6506,7 @@ CLOCK_DRV_SetClockSource:
 .LBB810:
 .LBB811:
 	.loc 4 72 0
-@ 72 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
+@ 72 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
 	BKPT #0
 	
 @ 0 "" 2
@@ -6815,7 +6815,7 @@ CLOCK_DRV_SetClockSource:
 .LBB820:
 .LBB821:
 	.loc 4 72 0
-@ 72 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
+@ 72 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/devassert.h" 1
 	BKPT #0
 	
 @ 0 "" 2
@@ -7306,12 +7306,12 @@ peripheralFeaturesList:
 	.byte	0
 	.text
 .Letext0:
-	.file 8 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\machine\\_default_types.h"
-	.file 9 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_stdint.h"
-	.file 10 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
-	.file 11 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144_features.h"
-	.file 12 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/status.h"
-	.file 13 "c:\\nxp\\s32ds_arm_v2.0\\s32ds\\s32sdk_s32k14x_ear_0.8.6\\platform\\drivers\\src\\clock\\s32k1xx\\clock_s32k1xx.h"
+	.file 8 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\machine\\_default_types.h"
+	.file 9 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_stdint.h"
+	.file 10 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144.h"
+	.file 11 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/include/S32K144_features.h"
+	.file 12 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/status.h"
+	.file 13 "d:\\program files (x86)\\s32ds\\s32sdk_s32k14x_ear_0.8.6\\platform\\drivers\\src\\clock\\s32k1xx\\clock_s32k1xx.h"
 	.section	.debug_info,"",%progbits
 .Ldebug_info0:
 	.4byte	0x5673
@@ -28387,13 +28387,13 @@ peripheralFeaturesList:
 	.byte	0x5
 	.uleb128 0x3
 	.4byte	.LASF360
-	.file 14 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/device_registers.h"
+	.file 14 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/device_registers.h"
 	.byte	0x3
 	.uleb128 0x34
 	.uleb128 0xe
 	.byte	0x7
 	.4byte	.Ldebug_macro1
-	.file 15 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common/s32_core_cm4.h"
+	.file 15 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common/s32_core_cm4.h"
 	.byte	0x3
 	.uleb128 0x33
 	.uleb128 0xf
@@ -28408,11 +28408,11 @@ peripheralFeaturesList:
 	.uleb128 0xa
 	.byte	0x7
 	.4byte	.Ldebug_macro3
-	.file 16 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stdint.h"
+	.file 16 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stdint.h"
 	.byte	0x3
 	.uleb128 0xbf
 	.uleb128 0x10
-	.file 17 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h"
+	.file 17 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\stdint.h"
 	.byte	0x3
 	.uleb128 0x9
 	.uleb128 0x11
@@ -28425,7 +28425,7 @@ peripheralFeaturesList:
 	.byte	0x5
 	.uleb128 0x6
 	.4byte	.LASF385
-	.file 18 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\features.h"
+	.file 18 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\features.h"
 	.byte	0x3
 	.uleb128 0x8
 	.uleb128 0x12
@@ -28435,7 +28435,7 @@ peripheralFeaturesList:
 	.byte	0x7
 	.4byte	.Ldebug_macro5
 	.byte	0x4
-	.file 19 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h"
+	.file 19 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\arm-none-eabi\\include\\sys\\_intsup.h"
 	.byte	0x3
 	.uleb128 0xd
 	.uleb128 0x13
@@ -28470,7 +28470,7 @@ peripheralFeaturesList:
 	.byte	0x5
 	.uleb128 0x14
 	.4byte	.LASF9532
-	.file 20 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stdbool.h"
+	.file 20 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stdbool.h"
 	.byte	0x3
 	.uleb128 0x16
 	.uleb128 0x14
@@ -28488,7 +28488,7 @@ peripheralFeaturesList:
 	.byte	0x5
 	.uleb128 0x14
 	.4byte	.LASF9539
-	.file 21 "c:\\nxp\\s32ds_arm_v2.0\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h"
+	.file 21 "d:\\program files (x86)\\cross_tools\\gcc-arm-none-eabi-4_9\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h"
 	.byte	0x3
 	.uleb128 0x18
 	.uleb128 0x15
@@ -28540,7 +28540,7 @@ peripheralFeaturesList:
 	.uleb128 0x15
 	.byte	0x4
 	.byte	0x4
-	.file 22 "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/clock_manager.h"
+	.file 22 "D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/clock_manager.h"
 	.byte	0x3
 	.uleb128 0x3a
 	.uleb128 0x16
@@ -60006,10 +60006,6 @@ peripheralFeaturesList:
 	.ascii	"I_CCR_DBT_SHIFT))&LPSPI_CCR_DBT_MASK)\000"
 .LASF3057:
 	.ascii	"FTFC_FCSESTAT_BOK_MASK 0x10u\000"
-.LASF10374:
-	.ascii	"C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8."
-	.ascii	"6/platform/drivers/src/clock/S32K1xx/clock_S32K1xx."
-	.ascii	"c\000"
 .LASF8475:
 	.ascii	"SCG_CSR_DIVBUS_MASK 0xF0u\000"
 .LASF10110:
@@ -65206,6 +65202,10 @@ peripheralFeaturesList:
 	.ascii	"S32_NVIC_IP_PRI64_SHIFT 0u\000"
 .LASF10225:
 	.ascii	"SCG_SetFircControl\000"
+.LASF10374:
+	.ascii	"D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8"
+	.ascii	".6/platform/drivers/src/clock/S32K1xx/clock_S32K1xx"
+	.ascii	".c\000"
 .LASF2029:
 	.ascii	"DMA_EEI_EEI0_MASK 0x1u\000"
 .LASF4211:

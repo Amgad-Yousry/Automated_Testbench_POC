@@ -7,7 +7,7 @@
 **     Version     : Component 1.2.0, Driver 1.4, CPU db: 3.00.000
 **     Repository  : SDK_S32K14x_09
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2023-06-02, 17:48, # CodeGen: 24
+**     Date/Time   : 2023-06-06, 10:31, # CodeGen: 27
 **     Abstract    :
 **
 **     Settings    :
@@ -407,9 +407,9 @@
 **                Custom name                              : LPI2C0
 **                LPI2C0                                   : 
 **                  Host Request                           : <Automatic>
-**                  Serial Clock Line                      : <Automatic>
+**                  Serial Clock Line                      : PTA3
 **                  Secondary Clock line                   : <Automatic>
-**                  Serial Data Line                       : <Automatic>
+**                  Serial Data Line                       : PTA2
 **                  Secondary Data Line                    : <Automatic>
 **              Peripheral Type LPIT                       : 
 **                Custom name                              : LPIT0

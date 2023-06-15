@@ -61,7 +61,7 @@ lpi2c_master_s32k144kl.siz \
 all: warning-messages explicit-dependencies lpi2c_master_s32k144kl.elf secondary-outputs
 
 # Tool invocations
-lpi2c_master_s32k144kl.elf: $(OBJS) C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/linker/gcc/S32K144_64_ram.ld $(USER_OBJS)
+lpi2c_master_s32k144kl.elf: $(OBJS) D:/Program\ Files\ (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/linker/gcc/S32K144_64_ram.ld $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Executing target #22 $@'
 	@echo 'Invoking: Standard S32DS C Linker'
