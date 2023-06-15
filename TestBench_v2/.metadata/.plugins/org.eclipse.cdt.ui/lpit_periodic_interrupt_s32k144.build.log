@@ -1,12 +1,24 @@
-17:17:21 **** Incremental Build of configuration Debug_FLASH for project lpit_periodic_interrupt_s32k144 ****
+10:22:56 **** Incremental Build of configuration Debug_FLASH for project lpit_periodic_interrupt_s32k144 ****
 make -j8 all 
+Building file: ../Sources/main.c
+Executing target #25 ../Sources/main.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/main.args" -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: lpit_periodic_interrupt_s32k144.elf
+Executing target #26 lpit_periodic_interrupt_s32k144.elf
+Invoking: Standard S32DS C Linker
+arm-none-eabi-gcc -o "lpit_periodic_interrupt_s32k144.elf" "@lpit_periodic_interrupt_s32k144.args"   
+Finished building target: lpit_periodic_interrupt_s32k144.elf
+ 
 Executing target #27 lpit_periodic_interrupt_s32k144.siz
 Invoking: Standard S32DS Print Size
 arm-none-eabi-size --format=berkeley  lpit_periodic_interrupt_s32k144.elf 
    text	   data	    bss	    dec	    hex	filename
-  13524	   2308	   3176	  19008	   4a40	lpit_periodic_interrupt_s32k144.elf
+  13568	   2308	   3176	  19052	   4a6c	lpit_periodic_interrupt_s32k144.elf
 Finished building: lpit_periodic_interrupt_s32k144.siz
  
 
-17:17:21 Build Finished (took 438ms)
+10:22:57 Build Finished (took 1s.324ms)
 

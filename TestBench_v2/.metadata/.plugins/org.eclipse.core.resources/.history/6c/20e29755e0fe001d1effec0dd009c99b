@@ -1,4 +1,0 @@
-FILTER_SDKs_SHOW_LATEST_VERSIONS=false
-com.freescale.s32ds.cross.sdk.support.attachedSDKs=FreeMaster_S32xx_2.0.0_PATH|Debug_RAM|Debug_FLASH
-com.freescale.s32ds.cross.sdk.support.projectLocalSDKs=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<sdks/>\r\n
-eclipse.preferences.version=1

@@ -1,0 +1,162 @@
+14:08:27 **** Build of configuration Debug_RAM for project timing_pal_s32k144 ****
+make -j8 all 
+Building file: ../Generated_Code/Cpu.c
+Building file: ../Generated_Code/clockMan1.c
+Building file: ../Generated_Code/pin_mux.c
+Executing target #1 ../Generated_Code/Cpu.c
+Building file: ../Generated_Code/timing_pal1.c
+Executing target #3 ../Generated_Code/pin_mux.c
+Executing target #2 ../Generated_Code/clockMan1.c
+Invoking: Standard S32DS C Compiler
+Executing target #4 ../Generated_Code/timing_pal1.c
+arm-none-eabi-gcc "@Generated_Code/Cpu.args" -MMD -MP -MF"Generated_Code/Cpu.d" -MT"Generated_Code/Cpu.o" -c -o "Generated_Code/Cpu.o" "../Generated_Code/Cpu.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Generated_Code/pin_mux.args" -MMD -MP -MF"Generated_Code/pin_mux.d" -MT"Generated_Code/pin_mux.o" -c -o "Generated_Code/pin_mux.o" "../Generated_Code/pin_mux.c"
+Invoking: Standard S32DS C Compiler
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Generated_Code/clockMan1.args" -MMD -MP -MF"Generated_Code/clockMan1.d" -MT"Generated_Code/clockMan1.o" -c -o "Generated_Code/clockMan1.o" "../Generated_Code/clockMan1.c"
+arm-none-eabi-gcc "@Generated_Code/timing_pal1.args" -MMD -MP -MF"Generated_Code/timing_pal1.d" -MT"Generated_Code/timing_pal1.o" -c -o "Generated_Code/timing_pal1.o" "../Generated_Code/timing_pal1.c"
+Building file: ../Generated_Code/timing_pal2.c
+Building file: ../Generated_Code/timing_pal3.c
+Building file: C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/startup/gcc/startup_S32K144.S
+Executing target #5 ../Generated_Code/timing_pal2.c
+Executing target #6 ../Generated_Code/timing_pal3.c
+Executing target #7 C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/startup/gcc/startup_S32K144.S
+Building file: C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/startup/system_S32K144.c
+Invoking: Standard S32DS C Compiler
+Invoking: Standard S32DS C Compiler
+Invoking: Standard S32DS Assembler
+arm-none-eabi-gcc "@Generated_Code/timing_pal3.args" -MMD -MP -MF"Generated_Code/timing_pal3.d" -MT"Generated_Code/timing_pal3.o" -c -o "Generated_Code/timing_pal3.o" "../Generated_Code/timing_pal3.c"
+Executing target #8 C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/startup/system_S32K144.c
+arm-none-eabi-gcc "@Generated_Code/timing_pal2.args" -MMD -MP -MF"Generated_Code/timing_pal2.d" -MT"Generated_Code/timing_pal2.o" -c -o "Generated_Code/timing_pal2.o" "../Generated_Code/timing_pal2.c"
+arm-none-eabi-gcc "@Project_Settings/Startup_Code/Startup_S32K144.args" -c -o "Project_Settings/Startup_Code/startup_S32K144.o" "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/startup/gcc/startup_S32K144.S"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@SDK/platform/devices/S32K144/startup/system_S32K144.args" -MMD -MP -MF"SDK/platform/devices/S32K144/startup/system_S32K144.d" -MT"SDK/platform/devices/S32K144/startup/system_S32K144.o" -c -o "SDK/platform/devices/S32K144/startup/system_S32K144.o" "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/startup/system_S32K144.c"
+Finished building: ../Generated_Code/Cpu.c
+Finished building: ../Generated_Code/pin_mux.c
+ 
+Finished building: ../Generated_Code/clockMan1.c
+ 
+Finished building: ../Generated_Code/timing_pal1.c
+ 
+Finished building: C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/startup/gcc/startup_S32K144.S
+ 
+Building file: C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/startup.c
+Building file: C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/clock/S32K1xx/clock_S32K1xx.c
+ 
+Executing target #9 C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/startup.c
+Building file: C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/clock/clock_manager.c
+Executing target #10 C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/clock/S32K1xx/clock_S32K1xx.c
+Invoking: Standard S32DS C Compiler
+Executing target #11 C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/clock/clock_manager.c
+Finished building: ../Generated_Code/timing_pal3.c
+arm-none-eabi-gcc "@SDK/platform/devices/startup.args" -MMD -MP -MF"SDK/platform/devices/startup.d" -MT"SDK/platform/devices/startup.o" -c -o "SDK/platform/devices/startup.o" "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/startup.c"
+Invoking: Standard S32DS C Compiler
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@SDK/platform/drivers/src/clock/S32K1xx/clock_S32K1xx.args" -MMD -MP -MF"SDK/platform/drivers/src/clock/S32K1xx/clock_S32K1xx.d" -MT"SDK/platform/drivers/src/clock/S32K1xx/clock_S32K1xx.o" -c -o "SDK/platform/drivers/src/clock/S32K1xx/clock_S32K1xx.o" "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/clock/S32K1xx/clock_S32K1xx.c"
+ 
+arm-none-eabi-gcc "@SDK/platform/drivers/src/clock/clock_manager.args" -MMD -MP -MF"SDK/platform/drivers/src/clock/clock_manager.d" -MT"SDK/platform/drivers/src/clock/clock_manager.o" -c -o "SDK/platform/drivers/src/clock/clock_manager.o" "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/clock/clock_manager.c"
+Finished building: ../Generated_Code/timing_pal2.c
+Finished building: C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/startup/system_S32K144.c
+Building file: C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/ftm/ftm_common.c
+ 
+ 
+Executing target #12 C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/ftm/ftm_common.c
+Building file: C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/ftm/ftm_hw_access.c
+Building file: C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/ftm/ftm_mc_driver.c
+Invoking: Standard S32DS C Compiler
+Executing target #13 C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/ftm/ftm_hw_access.c
+arm-none-eabi-gcc "@SDK/platform/drivers/src/ftm/ftm_common.args" -MMD -MP -MF"SDK/platform/drivers/src/ftm/ftm_common.d" -MT"SDK/platform/drivers/src/ftm/ftm_common.o" -c -o "SDK/platform/drivers/src/ftm/ftm_common.o" "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/ftm/ftm_common.c"
+Executing target #14 C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/ftm/ftm_mc_driver.c
+Invoking: Standard S32DS C Compiler
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@SDK/platform/drivers/src/ftm/ftm_hw_access.args" -MMD -MP -MF"SDK/platform/drivers/src/ftm/ftm_hw_access.d" -MT"SDK/platform/drivers/src/ftm/ftm_hw_access.o" -c -o "SDK/platform/drivers/src/ftm/ftm_hw_access.o" "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/ftm/ftm_hw_access.c"
+Building file: C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/ftm/ftm_oc_driver.c
+arm-none-eabi-gcc "@SDK/platform/drivers/src/ftm/ftm_mc_driver.args" -MMD -MP -MF"SDK/platform/drivers/src/ftm/ftm_mc_driver.d" -MT"SDK/platform/drivers/src/ftm/ftm_mc_driver.o" -c -o "SDK/platform/drivers/src/ftm/ftm_mc_driver.o" "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/ftm/ftm_mc_driver.c"
+Executing target #15 C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/ftm/ftm_oc_driver.c
+Finished building: C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/startup.c
+Building file: C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/interrupt/interrupt_manager.c
+Invoking: Standard S32DS C Compiler
+ 
+Finished building: C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/clock/clock_manager.c
+arm-none-eabi-gcc "@SDK/platform/drivers/src/ftm/ftm_oc_driver.args" -MMD -MP -MF"SDK/platform/drivers/src/ftm/ftm_oc_driver.d" -MT"SDK/platform/drivers/src/ftm/ftm_oc_driver.o" -c -o "SDK/platform/drivers/src/ftm/ftm_oc_driver.o" "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/ftm/ftm_oc_driver.c"
+Executing target #16 C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/interrupt/interrupt_manager.c
+ 
+Invoking: Standard S32DS C Compiler
+Building file: C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpit/lpit_driver.c
+arm-none-eabi-gcc "@SDK/platform/drivers/src/interrupt/interrupt_manager.args" -MMD -MP -MF"SDK/platform/drivers/src/interrupt/interrupt_manager.d" -MT"SDK/platform/drivers/src/interrupt/interrupt_manager.o" -c -o "SDK/platform/drivers/src/interrupt/interrupt_manager.o" "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/interrupt/interrupt_manager.c"
+Building file: C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lptmr/lptmr_driver.c
+Executing target #17 C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpit/lpit_driver.c
+Executing target #18 C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lptmr/lptmr_driver.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@SDK/platform/drivers/src/lpit/lpit_driver.args" -MMD -MP -MF"SDK/platform/drivers/src/lpit/lpit_driver.d" -MT"SDK/platform/drivers/src/lpit/lpit_driver.o" -c -o "SDK/platform/drivers/src/lpit/lpit_driver.o" "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpit/lpit_driver.c"
+Invoking: Standard S32DS C Compiler
+Finished building: C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/ftm/ftm_hw_access.c
+Finished building: C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/clock/S32K1xx/clock_S32K1xx.c
+Finished building: C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/ftm/ftm_mc_driver.c
+ 
+ 
+ 
+arm-none-eabi-gcc "@SDK/platform/drivers/src/lptmr/lptmr_driver.args" -MMD -MP -MF"SDK/platform/drivers/src/lptmr/lptmr_driver.d" -MT"SDK/platform/drivers/src/lptmr/lptmr_driver.o" -c -o "SDK/platform/drivers/src/lptmr/lptmr_driver.o" "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lptmr/lptmr_driver.c"
+Finished building: C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/ftm/ftm_common.c
+Building file: C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lptmr/lptmr_hw_access.c
+Building file: C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/pins/pins_driver.c
+ 
+Executing target #19 C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lptmr/lptmr_hw_access.c
+Building file: C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/pins/pins_port_hw_access.c
+Executing target #20 C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/pins/pins_driver.c
+Finished building: C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/ftm/ftm_oc_driver.c
+Invoking: Standard S32DS C Compiler
+Executing target #21 C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/pins/pins_port_hw_access.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@SDK/platform/drivers/src/lptmr/lptmr_hw_access.args" -MMD -MP -MF"SDK/platform/drivers/src/lptmr/lptmr_hw_access.d" -MT"SDK/platform/drivers/src/lptmr/lptmr_hw_access.o" -c -o "SDK/platform/drivers/src/lptmr/lptmr_hw_access.o" "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lptmr/lptmr_hw_access.c"
+Finished building: C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/interrupt/interrupt_manager.c
+arm-none-eabi-gcc "@SDK/platform/drivers/src/pins/pins_driver.args" -MMD -MP -MF"SDK/platform/drivers/src/pins/pins_driver.d" -MT"SDK/platform/drivers/src/pins/pins_driver.o" -c -o "SDK/platform/drivers/src/pins/pins_driver.o" "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/pins/pins_driver.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@SDK/platform/drivers/src/pins/pins_port_hw_access.args" -MMD -MP -MF"SDK/platform/drivers/src/pins/pins_port_hw_access.d" -MT"SDK/platform/drivers/src/pins/pins_port_hw_access.o" -c -o "SDK/platform/drivers/src/pins/pins_port_hw_access.o" "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/pins/pins_port_hw_access.c"
+ 
+ 
+Building file: C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/pal/timing/src/timing_irq.c
+Building file: C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/pal/timing/src/timing_pal.c
+Executing target #22 C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/pal/timing/src/timing_irq.c
+Building file: ../Sources/main.c
+Executing target #23 C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/pal/timing/src/timing_pal.c
+Finished building: C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpit/lpit_driver.c
+Invoking: Standard S32DS C Compiler
+Executing target #24 ../Sources/main.c
+arm-none-eabi-gcc "@SDK/platform/pal/timing/src/timing_irq.args" -MMD -MP -MF"SDK/platform/pal/timing/src/timing_irq.d" -MT"SDK/platform/pal/timing/src/timing_irq.o" -c -o "SDK/platform/pal/timing/src/timing_irq.o" "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/pal/timing/src/timing_irq.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@SDK/platform/pal/timing/src/timing_pal.args" -MMD -MP -MF"SDK/platform/pal/timing/src/timing_pal.d" -MT"SDK/platform/pal/timing/src/timing_pal.o" -c -o "SDK/platform/pal/timing/src/timing_pal.o" "C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/pal/timing/src/timing_pal.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/main.args" -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+ 
+Finished building: C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lptmr/lptmr_driver.c
+Finished building: C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lptmr/lptmr_hw_access.c
+ 
+ 
+Finished building: C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/pins/pins_port_hw_access.c
+Finished building: C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/pins/pins_driver.c
+ 
+ 
+Finished building: ../Sources/main.c
+Finished building: C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/pal/timing/src/timing_irq.c
+ 
+ 
+Finished building: C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/pal/timing/src/timing_pal.c
+ 
+Building target: timing_pal_s32k144.elf
+Executing target #25 timing_pal_s32k144.elf
+Invoking: Standard S32DS C Linker
+arm-none-eabi-gcc -o "timing_pal_s32k144.elf" "@timing_pal_s32k144.args"   
+Finished building target: timing_pal_s32k144.elf
+ 
+Executing target #26 timing_pal_s32k144.siz
+Invoking: Standard S32DS Print Size
+arm-none-eabi-size --format=berkeley  timing_pal_s32k144.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16360	   2552	   3048	  21960	   55c8	timing_pal_s32k144.elf
+Finished building: timing_pal_s32k144.siz
+ 
+
+14:08:31 Build Finished (took 3s.923ms)
+

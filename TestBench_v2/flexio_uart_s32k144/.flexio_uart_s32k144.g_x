@@ -1,0 +1,87 @@
+<CodeGenerationInfo>
+  <ToolchainSettings>
+    <option>
+      <name>PE_G_4PEx_ToolChain_C_Compiler_Includes</name>
+      <values lines_count="10">
+        <Line>"${S32_SDK_PATH}/platform/drivers/src/clock/S32K1xx"</Line>
+        <Line>"${S32_SDK_PATH}/rtos/osif/"</Line>
+        <Line>"${S32_SDK_PATH}/platform/drivers/src/flexio"</Line>
+        <Line>"${S32_SDK_PATH}/platform/drivers/src/flexio"</Line>
+        <Line>"${S32_SDK_PATH}/platform/devices"</Line>
+        <Line>"${S32_SDK_PATH}/platform/devices/common"</Line>
+        <Line>"${S32_SDK_PATH}/platform/devices/S32K144/include"</Line>
+        <Line>"${S32_SDK_PATH}/platform/devices/S32K144/startup"</Line>
+        <Line>"${S32_SDK_PATH}/platform/hal/inc"</Line>
+        <Line>"${S32_SDK_PATH}/platform/drivers/inc"</Line>
+      </values>
+    </option>
+    <option>
+      <name>PE_G_4PEx_ilg_gnuarmeclipse_managedbuild_cross_option_c_compiler_defs</name>
+      <values lines_count="1">
+        <Line>"CPU_S32K144_100"</Line>
+      </values>
+    </option>
+  </ToolchainSettings>
+  <GeneratedFilesList>
+    <GeneratedByPE>
+      <File Name="SDK/platform/drivers/src/interrupt/interrupt_manager.c" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/clock/S32K1xx/clock_S32K1xx.c" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/platform/drivers/inc/pins_driver.h" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/platform/drivers/inc/interrupt_manager.h" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="Generated_Code/pin_mux.c" FileDate="2023-06-09, 11:58:50" FileAge="1686304730254" FileType="45637" CompNumb="13" />
+      <File Name="Generated_Code/flexio_uart_TX.h" FileDate="2023-06-09, 11:58:50" FileAge="1686304730245" FileType="45637" CompNumb="23" />
+      <File Name="SDK/platform/drivers/src/clock/S32K1xx/sim_hw_access.h" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="Generated_Code/flexio_uart_TX.c" FileDate="2023-06-09, 11:58:50" FileAge="1686304730243" FileType="45637" CompNumb="23" />
+      <File Name="SDK/platform/drivers/src/clock/S32K1xx/pmc_hw_access.h" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="Sources/main.c" FileDate="2017-08-10, 20:17:52" FileAge="1502389072000" FileType="128" />
+      <File Name="SDK/platform/drivers/src/flexio/flexio_common.h" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/clock/clock_manager.c" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="Generated_Code/clockMan1.h" FileDate="2023-06-09, 11:58:50" FileAge="1686304730260" FileType="45637" CompNumb="4" />
+      <File Name="SDK/platform/drivers/src/edma/edma_hw_access.h" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="Generated_Code/flexio_uart_RX.h" FileDate="2023-06-09, 11:58:50" FileAge="1686304730241" FileType="45637" CompNumb="28" />
+      <File Name="SDK/platform/drivers/src/flexio/flexio_common.c" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="Generated_Code/clockMan1.c" FileDate="2023-06-09, 11:58:50" FileAge="1686304730258" FileType="45637" CompNumb="4" />
+      <File Name="SDK/platform/drivers/src/edma/edma_hw_access.c" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="Generated_Code/flexio_uart_RX.c" FileDate="2023-06-09, 11:58:50" FileAge="1686304730238" FileType="45637" CompNumb="28" />
+      <File Name="SDK/platform/devices/S32K144/startup/system_S32K144.h" FileDate="2017-08-10, 20:18:10" FileAge="1502389090000" FileType="262144" />
+      <File Name="Documentation/flexio_uart_s32k144_Settings.xml" FileDate="2023-06-09, 11:58:50" FileAge="1686304730270" FileType="3072" />
+      <File Name="SDK/platform/drivers/inc/flexio_uart_driver.h" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/platform/devices/S32K144/startup/system_S32K144.c" FileDate="2017-08-10, 20:18:10" FileAge="1502389090000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/flexio/flexio_uart_driver.c" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/platform/devices/status.h" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/platform/drivers/inc/clock_manager.h" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/platform/drivers/inc/edma_driver.h" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/clock/S32K1xx/scg_hw_access.h" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/edma/edma_driver.c" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/platform/drivers/inc/flexio.h" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/edma/edma_irq.h" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/pins/pins_gpio_hw_access.h" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="Generated_Code/Cpu.h" FileDate="2023-06-09, 11:58:50" FileAge="1686304730236" FileType="45637" CompNumb="21" />
+      <File Name="SDK/platform/devices/S32K144/include/S32K144_features.h" FileDate="2017-08-10, 20:18:10" FileAge="1502389090000" FileType="262144" />
+      <File Name="SDK/platform/devices/device_registers.h" FileDate="2017-08-10, 20:18:10" FileAge="1502389090000" FileType="262144" />
+      <File Name="SDK/platform/devices/devassert.h" FileDate="2017-08-10, 20:18:10" FileAge="1502389090000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/edma/edma_irq.c" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="Generated_Code/Cpu.c" FileDate="2023-06-09, 11:58:50" FileAge="1686304730234" FileType="45637" CompNumb="21" />
+      <File Name="SDK/platform/devices/S32K144/include/S32K144.h" FileDate="2017-08-10, 20:18:10" FileAge="1502389090000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/pins/pins_port_hw_access.h" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/pins/pins_port_hw_access.c" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="Generated_Code/dmaController1.h" FileDate="2023-06-09, 11:58:50" FileAge="1686304730248" FileType="45637" CompNumb="32" />
+      <File Name="Generated_Code/dmaController1.c" FileDate="2023-06-09, 11:58:50" FileAge="1686304730246" FileType="45637" CompNumb="32" />
+      <File Name="Generated_Code/osif1.h" FileDate="2023-06-09, 11:58:50" FileAge="1686304730252" FileType="45637" CompNumb="27" />
+      <File Name="SDK/rtos/osif/osif_baremetal.c" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/platform/devices/common/s32_core_cm4.h" FileDate="2017-08-10, 20:18:10" FileAge="1502389090000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/pins/pins_driver.c" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="Generated_Code/osif1.c" FileDate="2023-06-09, 11:58:50" FileAge="1686304730250" FileType="45637" CompNumb="27" />
+      <File Name="SDK/platform/drivers/src/clock/S32K1xx/pcc_hw_access.h" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/rtos/osif/osif.h" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="Documentation/flexio_uart_s32k144.txt" FileDate="2023-06-09, 11:58:50" FileAge="1686304730281" FileType="3072" />
+      <File Name="SDK/platform/devices/startup.h" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/flexio/flexio_hw_access.h" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/platform/devices/startup.c" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/clock/S32K1xx/smc_hw_access.h" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/clock/S32K1xx/clock_S32K1xx.h" FileDate="2017-08-10, 20:18:12" FileAge="1502389092000" FileType="262144" />
+      <File Name="Generated_Code/pin_mux.h" FileDate="2023-06-09, 11:58:50" FileAge="1686304730256" FileType="45637" CompNumb="13" />
+    </GeneratedByPE>
+  </GeneratedFilesList>
+  <CodeGenReference>1</CodeGenReference>
+</CodeGenerationInfo>

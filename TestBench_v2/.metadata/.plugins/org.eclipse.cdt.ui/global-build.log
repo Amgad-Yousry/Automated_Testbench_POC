@@ -1,98 +1,53 @@
-18:40:55 **** Incremental Build of configuration Debug_RAM for project ADC_PDB_FreeMaster_v7 ****
+11:50:55 **** Incremental Build of configuration Debug_FLASH for project TestBench_v2 ****
 make -j8 all 
-Building file: ../Generated_Code/lpi2c1.c
-Building file: ../Generated_Code/pin_mux.c
-Building file: ../Sources/Init.c
 Building file: ../Sources/main.c
-Executing target #18 ../Generated_Code/lpi2c1.c
-Executing target #23 ../Generated_Code/pin_mux.c
-Executing target #57 ../Sources/main.c
-Executing target #55 ../Sources/Init.c
-Invoking: Standard S32DS C Compiler
-Invoking: Standard S32DS C Compiler
-Invoking: Standard S32DS C Compiler
-arm-none-eabi-gcc "@Generated_Code/lpi2c1.args" -MMD -MP -MF"Generated_Code/lpi2c1.d" -MT"Generated_Code/lpi2c1.o" -c -o "Generated_Code/lpi2c1.o" "../Generated_Code/lpi2c1.c"
-Invoking: Standard S32DS C Compiler
-arm-none-eabi-gcc "@Generated_Code/pin_mux.args" -MMD -MP -MF"Generated_Code/pin_mux.d" -MT"Generated_Code/pin_mux.o" -c -o "Generated_Code/pin_mux.o" "../Generated_Code/pin_mux.c"
-arm-none-eabi-gcc "@Sources/main.args" -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
-arm-none-eabi-gcc "@Sources/Init.args" -MMD -MP -MF"Sources/Init.d" -MT"Sources/Init.o" -c -o "Sources/Init.o" "../Sources/Init.c"
-../Sources/main.c: In function 'main':
-../Sources/main.c:277:5: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
-     gfRMSCurrent = sqrt(RMSCurrentAux/gu16NrConvDone);
-     ^
-../Sources/main.c:277:20: warning: incompatible implicit declaration of built-in function 'sqrt'
-     gfRMSCurrent = sqrt(RMSCurrentAux/gu16NrConvDone);
-                    ^
-../Sources/main.c:156:11: warning: unused variable 'u16PreTriggerDelay' [-Wunused-variable]
-  uint16_t u16PreTriggerDelay = 0U;
-           ^
-Finished building: ../Generated_Code/lpi2c1.c
-Finished building: ../Generated_Code/pin_mux.c
- 
- 
-Finished building: ../Sources/Init.c
-Finished building: ../Sources/main.c
- 
- 
-Building target: ADC_PDB_FreeMaster_v7.elf
-Executing target #58 ADC_PDB_FreeMaster_v7.elf
-Invoking: Standard S32DS C Linker
-arm-none-eabi-gcc -o "ADC_PDB_FreeMaster_v7.elf" "@ADC_PDB_FreeMaster_v7.args"   
-Finished building target: ADC_PDB_FreeMaster_v7.elf
- 
-Executing target #59 ADC_PDB_FreeMaster_v7.siz
-Invoking: Standard S32DS Print Size
-arm-none-eabi-size --format=berkeley  ADC_PDB_FreeMaster_v7.elf 
-   text	   data	    bss	    dec	    hex	filename
-  18356	   2484	   2196	  23036	   59fc	ADC_PDB_FreeMaster_v7.elf
-Finished building: ADC_PDB_FreeMaster_v7.siz
- 
-18:41:02 **** Incremental Build of configuration Debug_FLASH for project ADC_PDB_FreeMaster_v7 ****
-make -j8 all 
-Building file: ../Generated_Code/lpi2c1.c
-Building file: ../Generated_Code/pin_mux.c
-Executing target #18 ../Generated_Code/lpi2c1.c
-Executing target #23 ../Generated_Code/pin_mux.c
-Building file: ../Sources/Init.c
-Building file: ../Sources/main.c
-Invoking: Standard S32DS C Compiler
-Invoking: Standard S32DS C Compiler
-Executing target #55 ../Sources/Init.c
-arm-none-eabi-gcc "@Generated_Code/lpi2c1.args" -MMD -MP -MF"Generated_Code/lpi2c1.d" -MT"Generated_Code/lpi2c1.o" -c -o "Generated_Code/lpi2c1.o" "../Generated_Code/lpi2c1.c"
-Executing target #57 ../Sources/main.c
-arm-none-eabi-gcc "@Generated_Code/pin_mux.args" -MMD -MP -MF"Generated_Code/pin_mux.d" -MT"Generated_Code/pin_mux.o" -c -o "Generated_Code/pin_mux.o" "../Generated_Code/pin_mux.c"
-Invoking: Standard S32DS C Compiler
-arm-none-eabi-gcc "@Sources/Init.args" -MMD -MP -MF"Sources/Init.d" -MT"Sources/Init.o" -c -o "Sources/Init.o" "../Sources/Init.c"
+Executing target #59 ../Sources/main.c
 Invoking: Standard S32DS C Compiler
 arm-none-eabi-gcc "@Sources/main.args" -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'timing_pal_GAS_callBack':
+../Sources/main.c:193:31: warning: passing argument 2 of 'LPUART_DRV_ReceiveData' from incompatible pointer type
+  LPUART_DRV_ReceiveData(INST_LPUART_GASBOARD, &GAS_RX_buffer, GAS_RX_BUFFER_SIZE);
+                               ^
+In file included from C:/Users/kamil/OneDrive/Documents/GitHub/Internship/TestBench_v2/TestBench_v2/Generated_Code/Cpu.h:63:0,
+                 from ../Sources/main.c:11:
+C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpuart_driver.h:330:10: note: expected 'uint8_t *' but argument is of type 'uint8_t (*)[12]'
+ status_t LPUART_DRV_ReceiveData(uint32_t instance,
+          ^
 ../Sources/main.c: In function 'main':
-../Sources/main.c:277:5: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
-     gfRMSCurrent = sqrt(RMSCurrentAux/gu16NrConvDone);
+../Sources/main.c:353:5: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+     gfRMSCurrent = (float) sqrt(RMSCurrentAux/gu16NrConvDone);
      ^
-../Sources/main.c:277:20: warning: incompatible implicit declaration of built-in function 'sqrt'
-     gfRMSCurrent = sqrt(RMSCurrentAux/gu16NrConvDone);
-                    ^
-../Sources/main.c:156:11: warning: unused variable 'u16PreTriggerDelay' [-Wunused-variable]
-  uint16_t u16PreTriggerDelay = 0U;
-           ^
-Finished building: ../Generated_Code/lpi2c1.c
-Finished building: ../Generated_Code/pin_mux.c
- 
- 
-Finished building: ../Sources/Init.c
- 
+../Sources/main.c:353:28: warning: incompatible implicit declaration of built-in function 'sqrt'
+     gfRMSCurrent = (float) sqrt(RMSCurrentAux/gu16NrConvDone);
+                            ^
+../Sources/main.c:421:26: warning: passing argument 1 of 'FlowSFM' from incompatible pointer type
+     gfFlowSMF = FlowSFM (&SFM_RX_buffer);
+                          ^
+In file included from ../Sources/main.c:25:0:
+../Sources/Computations.h:24:7: note: expected 'uint8_t *' but argument is of type 'uint8_t (*)[2]'
+ float FlowSFM (uint8_t*  u8I2CBufferSFM);
+       ^
 Finished building: ../Sources/main.c
  
-Building target: ADC_PDB_FreeMaster_v7.elf
-Executing target #58 ADC_PDB_FreeMaster_v7.elf
+Building target: TestBench_v2.elf
+Executing target #60 TestBench_v2.elf
 Invoking: Standard S32DS C Linker
-arm-none-eabi-gcc -o "ADC_PDB_FreeMaster_v7.elf" "@ADC_PDB_FreeMaster_v7.args"   
-Finished building target: ADC_PDB_FreeMaster_v7.elf
+arm-none-eabi-gcc -o "TestBench_v2.elf" "@TestBench_v2.args"   
+Finished building target: TestBench_v2.elf
  
-Executing target #59 ADC_PDB_FreeMaster_v7.siz
+Executing target #61 TestBench_v2.siz
 Invoking: Standard S32DS Print Size
-arm-none-eabi-size --format=berkeley  ADC_PDB_FreeMaster_v7.elf 
+arm-none-eabi-size --format=berkeley  TestBench_v2.elf 
    text	   data	    bss	    dec	    hex	filename
-  18372	   2484	   3216	  24072	   5e08	ADC_PDB_FreeMaster_v7.elf
-Finished building: ADC_PDB_FreeMaster_v7.siz
+  23904	   2696	   3400	  30000	   7530	TestBench_v2.elf
+Finished building: TestBench_v2.siz
+ 
+11:51:22 **** Incremental Build of configuration Debug_FLASH for project TestBench_v2 ****
+make -j8 all 
+Executing target #61 TestBench_v2.siz
+Invoking: Standard S32DS Print Size
+arm-none-eabi-size --format=berkeley  TestBench_v2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23904	   2696	   3400	  30000	   7530	TestBench_v2.elf
+Finished building: TestBench_v2.siz
  

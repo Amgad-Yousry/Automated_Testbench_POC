@@ -1,0 +1,37 @@
+18:59:10 **** Incremental Build of configuration Debug_FLASH for project lpuart_echo_s32k144 ****
+make -j8 all 
+Building file: ../Sources/main.c
+Executing target #22 ../Sources/main.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/main.args" -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c:36:6: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ void LPUART1_IrqHandler2 (){
+      ^
+../Sources/main.c: In function 'main':
+../Sources/main.c:52:12: warning: unused variable 'bytesRemaining' [-Wunused-variable]
+   uint32_t bytesRemaining;
+            ^
+../Sources/main.c:51:11: warning: unused variable 'i' [-Wunused-variable]
+   uint8_t  i = 0;
+           ^
+../Sources/main.c:49:9: warning: unused variable 'strReceived' [-Wunused-variable]
+   bool strReceived = false;
+         ^
+Finished building: ../Sources/main.c
+ 
+Building target: lpuart_echo_s32k144.elf
+Executing target #23 lpuart_echo_s32k144.elf
+Invoking: Standard S32DS C Linker
+arm-none-eabi-gcc -o "lpuart_echo_s32k144.elf" "@lpuart_echo_s32k144.args"   
+Finished building target: lpuart_echo_s32k144.elf
+ 
+Executing target #24 lpuart_echo_s32k144.siz
+Invoking: Standard S32DS Print Size
+arm-none-eabi-size --format=berkeley  lpuart_echo_s32k144.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10364	   2324	   3232	  15920	   3e30	lpuart_echo_s32k144.elf
+Finished building: lpuart_echo_s32k144.siz
+ 
+
+18:59:12 Build Finished (took 1s.627ms)
+
