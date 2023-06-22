@@ -299,12 +299,26 @@
       <EmptySection_DummyValue />
     </Events>
   </Bean>
-  <Bean name="timing_pal_GAS" type="timing_pal">
+  <Bean name="timing_pal1" type="timing_pal">
     <Enabled v="Y" />
     <Properties>
-      <Component_name v="timing_pal_GAS" />
+      <Component_name v="timing_pal1" />
       <Device v="LPIT0" />
       <Component_version v="S32_SDK" />
+    </Properties>
+    <Methods>
+      <EmptySection_DummyValue />
+    </Methods>
+    <Events>
+      <EmptySection_DummyValue />
+    </Events>
+  </Bean>
+  <Bean name="lpspi" type="lpspi">
+    <Enabled v="Y" />
+    <Properties>
+      <Component_name v="lpspi" />
+      <Device v="LPSPI0" />
+      <Component_version v="S32K144_SDK01" />
     </Properties>
     <Methods>
       <EmptySection_DummyValue />

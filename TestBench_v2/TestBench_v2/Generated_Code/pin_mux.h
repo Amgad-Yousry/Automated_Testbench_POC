@@ -7,7 +7,7 @@
 **     Version     : Component 1.2.0, Driver 1.4, CPU db: 3.00.000
 **     Repository  : SDK_S32K14x_09
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2023-06-13, 14:23, # CodeGen: 18
+**     Date/Time   : 2023-06-19, 16:07, # CodeGen: 58
 **     Abstract    :
 **
 **     Settings    :
@@ -416,20 +416,20 @@
 **              Peripheral Type LPSPI                      : 
 **                Custom name                              : LPSPI0
 **                LPSPI0                                   : 
-**                  Peripheral Chip Select 0               : <Automatic>
-**                  Direction                              : <Automatic>
+**                  Peripheral Chip Select 0               : PTB5
+**                  Direction                              : Output
 **                  Peripheral Chip Select 1               : <Automatic>
 **                  Direction                              : <Automatic>
 **                  Peripheral Chip Select 2               : <Automatic>
 **                  Direction                              : <Automatic>
 **                  Peripheral Chip Select 3               : <Automatic>
 **                  Direction                              : <Automatic>
-**                  Serial Clock                           : <Automatic>
-**                  Direction                              : <Automatic>
-**                  Serial Data Input                      : <Automatic>
-**                  Direction                              : <Automatic>
-**                  Serial Data Output                     : <Automatic>
-**                  Direction                              : <Automatic>
+**                  Serial Clock                           : PTB2
+**                  Direction                              : Output
+**                  Serial Data Input                      : PTB3
+**                  Direction                              : Input
+**                  Serial Data Output                     : PTB4
+**                  Direction                              : Output
 **                Custom name                              : LPSPI1
 **                LPSPI1                                   : 
 **                  Peripheral Chip Select 0               : <Automatic>

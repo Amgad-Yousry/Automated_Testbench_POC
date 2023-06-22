@@ -1,12 +1,12 @@
-11:03:59 **** Incremental Build of configuration Debug_FLASH for project lpi2c_master_s32k144 ****
+15:02:54 **** Incremental Build of configuration Debug_RAM for project lpi2c_master_s32k144 ****
 make -j8 all 
 Executing target #23 lpi2c_master_s32k144.siz
 Invoking: Standard S32DS Print Size
 arm-none-eabi-size --format=berkeley  lpi2c_master_s32k144.elf 
    text	   data	    bss	    dec	    hex	filename
-  14300	   2468	   3168	  19936	   4de0	lpi2c_master_s32k144.elf
+  14284	   2468	   2148	  18900	   49d4	lpi2c_master_s32k144.elf
 Finished building: lpi2c_master_s32k144.siz
  
 
-11:04:00 Build Finished (took 770ms)
+15:02:54 Build Finished (took 550ms)
 

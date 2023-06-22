@@ -1,0 +1,12 @@
+09:32:49 **** Incremental Build of configuration Debug_FLASH for project lpspi_transfer_s32k144 ****
+make -j8 all 
+Executing target #31 lpspi_transfer_s32k144.siz
+Invoking: Standard S32DS Print Size
+arm-none-eabi-size --format=berkeley  lpspi_transfer_s32k144.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15372	   2528	   3216	  21116	   527c	lpspi_transfer_s32k144.elf
+Finished building: lpspi_transfer_s32k144.siz
+ 
+
+09:32:50 Build Finished (took 918ms)
+

@@ -2,29 +2,30 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="fCurrentPol" key="selection"/>
+		<item value="masterDataReceive" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="masterDataReceive"/>
+			<item value="gbMPRDone"/>
+			<item value="gfPressureMPR"/>
+			<item value="gfPressMPR"/>
+			<item value="gfPressMPR_PC"/>
+			<item value="pressure_hdtdm_spi"/>
+			<item value="counts_hdtm"/>
 			<item value="fCurrentPol"/>
-			<item value="gbSFMDone"/>
-			<item value="RX_buffer"/>
-			<item value="lpi2c1MasterState"/>
-			<item value="SD_BUFFER_SIZE"/>
-			<item value="RX_BUFFER_SIZE"/>
-			<item value="RMS_COCO_PIN"/>
-			<item value="GAS_PERIOD_BY_NS"/>
 		</list>
 		<list key="replacehistory">
+			<item value="fPressMPR_P100"/>
+			<item value="gfPressMPR"/>
+			<item value="countsPressMPR"/>
 			<item value="GAS_RX_buffer"/>
 			<item value="GAS_SD_BUFFER_SIZE"/>
 			<item value="GAS_RX_BUFFER_SIZE"/>
 			<item value="gbGASflag"/>
 			<item value="u16CountsHDI"/>
-			<item value="u8I2CBufferHDI"/>
-			<item value="gu16PressureHDI"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">

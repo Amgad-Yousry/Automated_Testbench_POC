@@ -7,7 +7,7 @@
 **     Version     : Component SDK_S32K14x_09, Driver 01.00, CPU db: 3.00.000
 **     Repository  : SDK_S32K14x_09
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2023-06-14, 12:08, # CodeGen: 30
+**     Date/Time   : 2023-06-19, 15:00, # CodeGen: 56
 **
 **     Copyright 1997 - 2015 Freescale Semiconductor, Inc.
 **     Copyright 2016-2017 NXP
@@ -37,7 +37,7 @@
 #include "timing_pal1.h"
 
 /*! @brief Channel configuration array */
-timer_chan_config_t timing_pal1_channelConfigs[2] =
+timer_chan_config_t timing_pal1_channelConfigs[4] =
 {
     /* Channel configuration 0 */
     {
@@ -52,13 +52,27 @@ timer_chan_config_t timing_pal1_channelConfigs[2] =
          .chanType       = TIMER_CHAN_TYPE_CONTINUOUS,
          .callback       = timing_pal_SFM_callBack,
          .callbackParam  = NULL
+    },
+    /* Channel configuration 2 */
+    {
+         .channel        = 2U,
+         .chanType       = TIMER_CHAN_TYPE_CONTINUOUS,
+         .callback       = timing_pal_CO2_callBack,
+         .callbackParam  = NULL
+    },
+    /* Channel configuration 3 */
+    {
+         .channel        = 3U,
+         .chanType       = TIMER_CHAN_TYPE_CONTINUOUS,
+         .callback       = timing_pal_MPR_callBack,
+         .callbackParam  = NULL
     }
 };
 /*! @brief Timer configuration */
 timer_config_t timing_pal1_InitConfig =
 {
     .chanConfigArray     = timing_pal1_channelConfigs,
-    .numChan             = 2U,
+    .numChan             = 4U,
     .extension           = NULL
 };
 

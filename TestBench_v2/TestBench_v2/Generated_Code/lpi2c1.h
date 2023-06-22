@@ -7,7 +7,7 @@
 **     Version     : Component SDK_S32K14x_09, Driver 01.00, CPU db: 3.00.000
 **     Repository  : SDK_S32K14x_09
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2023-06-15, 09:47, # CodeGen: 41
+**     Date/Time   : 2023-06-21, 17:00, # CodeGen: 67
 **     Contents    :
 **         LPI2C_DRV_MasterInit                - status_t LPI2C_DRV_MasterInit(uint32_t instance,const...
 **         LPI2C_DRV_MasterDeinit              - status_t LPI2C_DRV_MasterDeinit(uint32_t instance);
@@ -96,6 +96,7 @@
 
 /*! @brief Master configuration declaration */
 extern lpi2c_master_user_config_t lpi2c1_MasterConfig0;
+extern lpi2c_master_user_config_t lpi2c1_MasterConfig1;
 
 
 
