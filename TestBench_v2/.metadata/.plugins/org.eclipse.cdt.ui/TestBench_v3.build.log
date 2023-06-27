@@ -1,4 +1,4 @@
-11:19:28 **** Incremental Build of configuration Debug_FLASH for project TestBench_v3 ****
+17:08:57 **** Incremental Build of configuration Debug_RAM for project TestBench_v3 ****
 make -j8 all 
 Building file: ../Sources/Init.c
 Building file: ../Sources/main.c
@@ -38,9 +38,9 @@ Executing target #67 TestBench_v3.siz
 Invoking: Standard S32DS Print Size
 arm-none-eabi-size --format=berkeley  TestBench_v3.elf 
    text	   data	    bss	    dec	    hex	filename
-  25236	   2752	   3512	  31500	   7b0c	TestBench_v3.elf
+  25220	   2752	   2488	  30460	   76fc	TestBench_v3.elf
 Finished building: TestBench_v3.siz
  
 
-11:19:29 Build Finished (took 1s.425ms)
+17:09:00 Build Finished (took 2s.764ms)
 
