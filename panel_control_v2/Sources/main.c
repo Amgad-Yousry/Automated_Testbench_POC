@@ -110,6 +110,7 @@ const uint8_t MIN_SETTING_COUNTER = 1U;
 /*****************************handshake parameters**************************/
 #define CHECK_COMMAND "GET_STATUS\n\r" // The command to send to the device for checking UART connection
 
+
 #define PACKET_SIZE 69 // don't go less than 68
 #define UTILISATION_TOTAL_INDEX 1
 #define JOUR_MOIS_ANNEE_INDEX 2
