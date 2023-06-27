@@ -56,14 +56,14 @@
       <File Name="Generated_Code/dmaController1.h" FileDate="2023-06-08, 09:03:17" FileAge="1686207797826" FileType="45637" CompNumb="7" />
       <File Name="SDK/platform/drivers/src/lpit/lpit_hw_access.h" FileDate="2023-05-11, 15:57:35" FileAge="1683813455893" FileType="1048576" CompNumb="5" />
       <File Name="SDK/platform/drivers/src/clock/clock_manager.c" FileDate="2023-05-11, 15:27:12" FileAge="1683811632903" FileType="1048576" CompNumb="3" />
-      <File Name="SDK/platform/drivers/inc/lpit_driver.h" FileDate="2023-05-11, 15:57:35" FileAge="1683813455893" FileType="1048576" CompNumb="5" />
       <File Name="SDK/platform/drivers/src/edma/edma_hw_access.h" FileDate="2023-06-08, 09:03:17" FileAge="1686207797859" FileType="1048576" CompNumb="7" />
-      <File Name="SDK/platform/drivers/inc/pins_driver.h" FileDate="2023-05-11, 15:27:12" FileAge="1683811632895" FileType="1048576" CompNumb="2" />
+      <File Name="SDK/platform/drivers/inc/lpit_driver.h" FileDate="2023-05-11, 15:57:35" FileAge="1683813455893" FileType="1048576" CompNumb="5" />
       <File Name="Generated_Code/dmaController1.c" FileDate="2023-06-08, 09:03:17" FileAge="1686207797826" FileType="45637" CompNumb="7" />
+      <File Name="SDK/platform/drivers/inc/pins_driver.h" FileDate="2023-05-11, 15:27:12" FileAge="1683811632895" FileType="1048576" CompNumb="2" />
       <File Name="Generated_Code/lpuart1.h" FileDate="2023-06-08, 09:03:17" FileAge="1686207797826" FileType="45637" CompNumb="6" />
       <File Name="Generated_Code/lpit1.h" FileDate="2023-06-08, 09:03:17" FileAge="1686207797826" FileType="45637" CompNumb="5" />
-      <File Name="SDK/platform/drivers/src/pins/pins_driver.c" FileDate="2023-05-11, 15:27:12" FileAge="1683811632871" FileType="1048576" CompNumb="2" />
       <File Name="SDK/platform/drivers/src/edma/edma_hw_access.c" FileDate="2023-06-08, 09:03:17" FileAge="1686207797844" FileType="1048576" CompNumb="7" />
+      <File Name="SDK/platform/drivers/src/pins/pins_driver.c" FileDate="2023-05-11, 15:27:12" FileAge="1683811632871" FileType="1048576" CompNumb="2" />
       <File Name="Generated_Code/lpuart1.c" FileDate="2023-06-08, 09:03:17" FileAge="1686207797826" FileType="45637" CompNumb="6" />
       <File Name="Generated_Code/lpit1.c" FileDate="2023-06-08, 09:03:17" FileAge="1686207797826" FileType="45637" CompNumb="5" />
       <File Name="SDK/platform/drivers/inc/clock_manager.h" FileDate="2023-05-11, 15:27:12" FileAge="1683811632934" FileType="1048576" CompNumb="3" />
@@ -73,21 +73,21 @@
       <File Name="SDK/platform/drivers/src/lpi2c/lpi2c_hw_access.h" FileDate="2023-06-08, 09:03:17" FileAge="1686207797864" FileType="1048576" CompNumb="13" />
       <File Name="SDK/platform/devices/callbacks.h" FileDate="2023-05-11, 15:27:12" FileAge="1683811632950" FileType="1048576" CompNumb="1" />
       <File Name="Generated_Code/lpi2c1.h" FileDate="2023-06-08, 09:03:17" FileAge="1686207797826" FileType="45637" CompNumb="13" />
-      <File Name="SDK/platform/drivers/src/lpi2c/lpi2c_irq.c" FileDate="2023-06-08, 09:03:17" FileAge="1686207797866" FileType="1048576" CompNumb="13" />
       <File Name="SDK/platform/drivers/src/edma/edma_irq.c" FileDate="2023-06-08, 09:03:17" FileAge="1686207797861" FileType="1048576" CompNumb="7" />
+      <File Name="SDK/platform/drivers/src/lpi2c/lpi2c_irq.c" FileDate="2023-06-08, 09:03:17" FileAge="1686207797866" FileType="1048576" CompNumb="13" />
       <File Name="SDK/platform/drivers/src/lpi2c/lpi2c_hw_access.c" FileDate="2023-06-08, 09:03:17" FileAge="1686207797863" FileType="1048576" CompNumb="13" />
       <File Name="Generated_Code/lpi2c1.c" FileDate="2023-06-08, 09:03:17" FileAge="1686207797826" FileType="45637" CompNumb="13" />
       <File Name="SDK/platform/drivers/inc/lpi2c_driver.h" FileDate="2023-06-08, 09:03:17" FileAge="1686207797844" FileType="1048576" CompNumb="13" />
       <File Name="SDK/platform/drivers/src/lpuart/lpuart_driver.c" FileDate="2023-06-08, 09:03:17" FileAge="1686207797866" FileType="1048576" CompNumb="6" />
       <File Name="SDK/platform/devices/S32K144/include/S32K144.h" FileDate="2023-05-11, 15:27:12" FileAge="1683811632982" FileType="1048576" CompNumb="1" />
-      <File Name="Sources/main.c" FileDate="2023-06-26, 14:36:01" FileAge="1687782961097" FileType="128" />
-      <File Name="SDK/platform/drivers/inc/lpuart_driver.h" FileDate="2023-06-08, 09:03:17" FileAge="1686207797844" FileType="1048576" CompNumb="6" />
-      <File Name="SDK/platform/drivers/src/lpuart/lpuart_hw_access.h" FileDate="2023-06-08, 09:03:17" FileAge="1686207797867" FileType="1048576" CompNumb="6" />
+      <File Name="Sources/main.c" FileDate="2023-06-27, 11:14:31" FileAge="1687857271095" FileType="128" />
       <File Name="SDK/platform/drivers/inc/edma_driver.h" FileDate="2023-06-08, 09:03:17" FileAge="1686207797826" FileType="1048576" CompNumb="7" />
+      <File Name="SDK/platform/drivers/src/lpuart/lpuart_hw_access.h" FileDate="2023-06-08, 09:03:17" FileAge="1686207797867" FileType="1048576" CompNumb="6" />
+      <File Name="SDK/platform/drivers/inc/lpuart_driver.h" FileDate="2023-06-08, 09:03:17" FileAge="1686207797844" FileType="1048576" CompNumb="6" />
       <File Name="Documentation/panel_control_v2_Settings.xml" FileDate="2023-06-08, 09:03:17" FileAge="1686207797810" FileType="3072" />
       <File Name="SDK/platform/devices/devassert.h" FileDate="2023-05-11, 15:27:12" FileAge="1683811632934" FileType="1048576" CompNumb="1" />
       <File Name="SDK/platform/drivers/src/lpuart/lpuart_hw_access.c" FileDate="2023-06-08, 09:03:17" FileAge="1686207797866" FileType="1048576" CompNumb="6" />
     </GeneratedByPE>
   </GeneratedFilesList>
-  <CodeGenReference>43</CodeGenReference>
+  <CodeGenReference>40</CodeGenReference>
 </CodeGenerationInfo>

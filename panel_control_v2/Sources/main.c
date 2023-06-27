@@ -54,13 +54,6 @@ volatile int exit_code = 0;
 #define Rx			6U
 #define LPIT0_CHANNEL	    0UL
 #define LPIT_Channel_IRQn   LPIT0_Ch0_IRQn
-#define TRANSFER_SIZE 2U
-uint8_t buffer[TRANSFER_SIZE];
-uint8_t send[2] = {0x10, 0X00};
-uint16_t counts_SMF;
-uint16_t flow_SMF;
-const uint16_t SFLOW = 100;
-const uint16_t OFFSET = 32768;
 uint16_t i;
 /* User includes (#include below this line is not maintained by Processor Expert) */
 /* Global variables for each button's state and counter */
@@ -117,8 +110,7 @@ const uint8_t MIN_SETTING_COUNTER = 1U;
 /*****************************handshake parameters**************************/
 #define CHECK_COMMAND "GET_STATUS\n\r" // The command to send to the device for checking UART connection
 
-//#define SPEED_MINUS "CC -20\n\r"
-#define PACKET_SIZE 69
+#define PACKET_SIZE 69 // don't go less than 68
 #define UTILISATION_TOTAL_INDEX 1
 #define JOUR_MOIS_ANNEE_INDEX 2
 #define HEURE_MINUTE_SECONDE_INDEX 3
@@ -141,11 +133,9 @@ const uint8_t MIN_SETTING_COUNTER = 1U;
 #define ETAT_COLONNE_ZEOLITE_INDEX 20
 #define VERSION_SOFTWARE_INDEX 21
 
-uint8_t statuss =0;
-
 volatile int consigne;
 volatile int bolusPerMinute;
-volatile float tauxOxygen;
+volatile double tauxOxygen;
 volatile int temperature ;
 volatile int vitesseCompresseur;
 /*volatile int PRESSION_ATMOSPHERIQUE =0;
@@ -204,10 +194,10 @@ snprintf(speed_minus, sizeof(speed_minus), "CC -%d\n\r", speed_value);
 }
 void sendCheckCommand(volatile uart_state_t* uartstate) {
 LPUART_DRV_SendData(INST_LPUART1,checkCommand, strlen((const char*)checkCommand));
-
 }
 void sendspeedCommand() {
 	LPUART_DRV_SendData(INST_LPUART1, (unsigned char*)speed_minus, strlen((const char*)speed_minus));
+
 }
 void receiveResponse(volatile uart_state_t* uartstate)
 {
@@ -239,7 +229,7 @@ void processResponse(volatile uart_state_t* uartstate) {
 	        case BOLUS_PER_MINUTE_INDEX:
 	                bolusPerMinute = atoi((char*)fieldBuffer);
 	                break;
-	            case TAUX_OXYGENE_INDEX: // issue with the oxygen index
+	            case TAUX_OXYGENE_INDEX:
 	                tauxOxygen = atof((char*)fieldBuffer);
 	                break;
 	            case TEMPERATURE_INDEX:
@@ -283,13 +273,16 @@ void p5handshake(volatile uart_state_t* uartstate){
         break;
     case UART_STATE_SPEED:
     	sendspeedCommand(uartstate);
-    	/* if (setting_counter<=5U)
+    	if (setting_counter<=10U)
 		        {
-		         onoff_state = BUTTON_STATE_PRESSED;
+		         plus_state = BUTTON_STATE_PRESSED;
+		         minus_state= BUTTON_STATE_PRESSED;
 		        }
-    	  if(setting_counter>=0U) {
+    	  if(setting_counter>=11U) {
+    		  minus_state= BUTTON_STATE_PRESSED;
+    		  plus_state = BUTTON_STATE_PRESSED;
     	  }
-    	 */
+
     	*uartstate= UART_STATE_IDLE;
 
 
