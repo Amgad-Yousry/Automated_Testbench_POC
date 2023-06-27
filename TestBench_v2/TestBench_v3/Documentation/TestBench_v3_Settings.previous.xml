@@ -134,10 +134,10 @@
       <EmptySection_DummyValue />
     </Events>
   </Bean>
-  <Bean name="lpuart1" type="lpuart">
+  <Bean name="lpuart_gasboard" type="lpuart">
     <Enabled v="Y" />
     <Properties>
-      <Component_name v="lpuart1" />
+      <Component_name v="lpuart_gasboard" />
       <Device v="LPUART1" />
       <Component_version v="S32K144_SDK01" />
     </Properties>
@@ -207,6 +207,103 @@
     <Properties>
       <Component_name v="lpTmr1" />
       <Device v="LPTMR0" />
+      <Component_version v="S32K144_SDK01" />
+    </Properties>
+    <Methods>
+      <EmptySection_DummyValue />
+    </Methods>
+    <Events>
+      <EmptySection_DummyValue />
+    </Events>
+  </Bean>
+  <Bean name="adConv2" type="adc">
+    <Enabled v="Y" />
+    <Properties>
+      <Component_name v="adConv2" />
+      <Device v="ADC0" />
+      <Component_version v="S32K144_SDK01" />
+    </Properties>
+    <Methods>
+      <EmptySection_DummyValue />
+    </Methods>
+    <Events>
+      <EmptySection_DummyValue />
+    </Events>
+  </Bean>
+  <Bean name="lpuart2" type="lpuart">
+    <Enabled v="Y" />
+    <Properties>
+      <Component_name v="lpuart2" />
+      <Device v="LPUART0" />
+      <Component_version v="S32K144_SDK01" />
+    </Properties>
+    <Methods>
+      <EmptySection_DummyValue />
+    </Methods>
+    <Events>
+      <EmptySection_DummyValue />
+    </Events>
+  </Bean>
+  <Bean name="pdly1" type="pdb">
+    <Enabled v="Y" />
+    <Properties>
+      <Component_name v="pdly1" />
+      <Device v="PDB0" />
+      <Component_version v="S32K144_SDK01" />
+    </Properties>
+    <Methods>
+      <EmptySection_DummyValue />
+    </Methods>
+    <Events>
+      <EmptySection_DummyValue />
+    </Events>
+  </Bean>
+  <Bean name="pwrMan1" type="power_manager">
+    <Enabled v="Y" />
+    <Properties>
+      <Component_name v="pwrMan1" />
+      <Component_version v="S32K144_SDK01" />
+    </Properties>
+    <Methods>
+      <EmptySection_DummyValue />
+    </Methods>
+    <Events>
+      <EmptySection_DummyValue />
+    </Events>
+  </Bean>
+  <Bean name="lpi2c1" type="lpi2c">
+    <Enabled v="Y" />
+    <Properties>
+      <Component_name v="lpi2c1" />
+      <Device v="LPI2C0" />
+      <Component_version v="S32K144_SDK01" />
+    </Properties>
+    <Methods>
+      <EmptySection_DummyValue />
+    </Methods>
+    <Events>
+      <EmptySection_DummyValue />
+    </Events>
+  </Bean>
+  <Bean name="timing_pal1" type="timing_pal">
+    <Enabled v="Y" />
+    <Properties>
+      <Component_name v="timing_pal1" />
+      <Device v="LPIT0" />
+      <Component_version v="S32_SDK" />
+    </Properties>
+    <Methods>
+      <EmptySection_DummyValue />
+    </Methods>
+    <Events>
+      <EmptySection_DummyValue />
+    </Events>
+  </Bean>
+  <Bean name="LPSPI_MPR" type="lpspi">
+    <Enabled v="Y" />
+    <Properties>
+      <Component_name v="LPSPI_MPR" />
+      <Device v="LPSPI0" />
       <Component_version v="S32K144_SDK01" />
     </Properties>
     <Methods>

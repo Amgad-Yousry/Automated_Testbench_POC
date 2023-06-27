@@ -1,40 +1,18 @@
-17:08:57 **** Incremental Build of configuration Debug_RAM for project TestBench_v3 ****
+17:34:26 **** Incremental Build of configuration Debug_RAM for project TestBench_v3 ****
 make -j8 all 
 Building file: ../Sources/Init.c
-Building file: ../Sources/main.c
-Executing target #64 ../Sources/Init.c
-Executing target #65 ../Sources/main.c
+Executing target #53 ../Sources/Init.c
 Invoking: Standard S32DS C Compiler
 arm-none-eabi-gcc "@Sources/Init.args" -MMD -MP -MF"Sources/Init.d" -MT"Sources/Init.o" -c -o "Sources/Init.o" "../Sources/Init.c"
-Invoking: Standard S32DS C Compiler
-arm-none-eabi-gcc "@Sources/main.args" -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
-../Sources/main.c: In function 'ADC_IRQHandler':
-../Sources/main.c:153:3: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
-   gfRMSCurrent = (float) sqrt(RMSCurrentAux/gu16NrConvDone);
-   ^
-../Sources/main.c:153:26: warning: incompatible implicit declaration of built-in function 'sqrt'
-   gfRMSCurrent = (float) sqrt(RMSCurrentAux/gu16NrConvDone);
-                          ^
-../Sources/main.c: In function 'timing_pal_GAS_callBack':
-../Sources/main.c:178:31: warning: passing argument 2 of 'LPUART_DRV_ReceiveData' from incompatible pointer type
-  LPUART_DRV_ReceiveData(INST_LPUART_GASBOARD, &GAS_RX_buffer, GAS_RX_BUFFER_SIZE);
-                               ^
-In file included from C:/Users/kamil/OneDrive/Documents/GitHub/Internship/TestBench_v2/TestBench_v3/Generated_Code/Cpu.h:63:0,
-                 from ../Sources/main.c:11:
-C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpuart_driver.h:330:10: note: expected 'uint8_t *' but argument is of type 'uint8_t (*)[12]'
- status_t LPUART_DRV_ReceiveData(uint32_t instance,
-          ^
 Finished building: ../Sources/Init.c
-Finished building: ../Sources/main.c
- 
  
 Building target: TestBench_v3.elf
-Executing target #66 TestBench_v3.elf
+Executing target #55 TestBench_v3.elf
 Invoking: Standard S32DS C Linker
 arm-none-eabi-gcc -o "TestBench_v3.elf" "@TestBench_v3.args"   
 Finished building target: TestBench_v3.elf
  
-Executing target #67 TestBench_v3.siz
+Executing target #56 TestBench_v3.siz
 Invoking: Standard S32DS Print Size
 arm-none-eabi-size --format=berkeley  TestBench_v3.elf 
    text	   data	    bss	    dec	    hex	filename
@@ -42,5 +20,5 @@ arm-none-eabi-size --format=berkeley  TestBench_v3.elf
 Finished building: TestBench_v3.siz
  
 
-17:09:00 Build Finished (took 2s.764ms)
+17:34:28 Build Finished (took 1s.811ms)
 

@@ -7,7 +7,7 @@
 **     Version     : Component 01.197, Driver 01.00, CPU db: 3.00.000
 **     Datasheet   : S32K14XRM Rev. 2, 02/2017
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2023-06-22, 11:35, # CodeGen: 1
+**     Date/Time   : 2023-06-27, 17:33, # CodeGen: 13
 **     Abstract    :
 **
 **     Settings    :
@@ -62,9 +62,7 @@
 #include "edma_driver.h"
 #include "lpuart_driver.h"
 #include "adc_driver.h"
-#include "lptmr_driver.h"
 #include "pdb_driver.h"
-#include "power_manager.h"
 #include "lpi2c_driver.h"
 #include "timing_pal.h"
 #include "lpspi_master_driver.h"
@@ -78,11 +76,7 @@
 #include "lpuart_gasboard.h"
 #include "dmaController1.h"
 #include "adConv1.h"
-#include "lpTmr1.h"
-#include "adConv2.h"
-#include "lpuart2.h"
 #include "pdly1.h"
-#include "pwrMan1.h"
 #include "lpi2c1.h"
 #include "timing_pal1.h"
 #include "LPSPI_MPR.h"
