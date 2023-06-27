@@ -80,7 +80,7 @@
       <File Name="SDK/platform/drivers/inc/lpi2c_driver.h" FileDate="2023-06-08, 09:03:17" FileAge="1686207797844" FileType="1048576" CompNumb="13" />
       <File Name="SDK/platform/drivers/src/lpuart/lpuart_driver.c" FileDate="2023-06-08, 09:03:17" FileAge="1686207797866" FileType="1048576" CompNumb="6" />
       <File Name="SDK/platform/devices/S32K144/include/S32K144.h" FileDate="2023-05-11, 15:27:12" FileAge="1683811632982" FileType="1048576" CompNumb="1" />
-      <File Name="Sources/main.c" FileDate="2023-06-13, 14:58:48" FileAge="1686661128406" FileType="128" />
+      <File Name="Sources/main.c" FileDate="2023-06-26, 14:36:01" FileAge="1687782961097" FileType="128" />
       <File Name="SDK/platform/drivers/inc/lpuart_driver.h" FileDate="2023-06-08, 09:03:17" FileAge="1686207797844" FileType="1048576" CompNumb="6" />
       <File Name="SDK/platform/drivers/src/lpuart/lpuart_hw_access.h" FileDate="2023-06-08, 09:03:17" FileAge="1686207797867" FileType="1048576" CompNumb="6" />
       <File Name="SDK/platform/drivers/inc/edma_driver.h" FileDate="2023-06-08, 09:03:17" FileAge="1686207797826" FileType="1048576" CompNumb="7" />
@@ -89,5 +89,5 @@
       <File Name="SDK/platform/drivers/src/lpuart/lpuart_hw_access.c" FileDate="2023-06-08, 09:03:17" FileAge="1686207797866" FileType="1048576" CompNumb="6" />
     </GeneratedByPE>
   </GeneratedFilesList>
-  <CodeGenReference>39</CodeGenReference>
+  <CodeGenReference>43</CodeGenReference>
 </CodeGenerationInfo>
