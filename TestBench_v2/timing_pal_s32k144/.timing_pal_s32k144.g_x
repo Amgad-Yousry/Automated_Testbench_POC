@@ -30,9 +30,9 @@
       <File Name="Generated_Code/timing_pal_cfg.h" FileDate="2023-06-12, 16:03:47" FileAge="1686578627416" FileType="45637" CompNumb="1" />
       <File Name="SDK/platform/pal/timing/src/timing_irq.h" FileDate="2023-06-12, 15:43:41" FileAge="1686577421176" FileType="262144" />
       <File Name="Generated_Code/timing_pal1.c" FileDate="2023-06-12, 16:03:47" FileAge="1686578627466" FileType="45637" CompNumb="31" />
+      <File Name="SDK/platform/devices/S32K144/startup/system_S32K144.c" FileDate="2023-06-12, 15:43:40" FileAge="1686577420116" FileType="262144" />
       <File Name="SDK/platform/drivers/src/clock/S32K1xx/pmc_hw_access.h" FileDate="2023-06-12, 15:43:40" FileAge="1686577420756" FileType="262144" />
       <File Name="SDK/platform/pal/timing/inc/timing_pal_mapping.h" FileDate="2023-06-12, 15:43:41" FileAge="1686577421166" FileType="262144" />
-      <File Name="SDK/platform/devices/S32K144/startup/system_S32K144.c" FileDate="2023-06-12, 15:43:40" FileAge="1686577420116" FileType="262144" />
       <File Name="SDK/platform/pal/timing/src/timing_irq.c" FileDate="2023-06-12, 15:43:41" FileAge="1686577421166" FileType="262144" />
       <File Name="Generated_Code/Cpu.h" FileDate="2023-06-12, 16:03:47" FileAge="1686578627436" FileType="45637" CompNumb="1" />
       <File Name="SDK/platform/devices/S32K144/include/S32K144_features.h" FileDate="2023-06-12, 15:43:39" FileAge="1686577419905" FileType="262144" />
@@ -44,13 +44,13 @@
       <File Name="SDK/platform/drivers/src/ftm/ftm_common.c" FileDate="2023-06-12, 15:43:40" FileAge="1686577420896" FileType="262144" />
       <File Name="Documentation/timing_pal_s32k144_Settings.xml" FileDate="2023-06-12, 16:03:47" FileAge="1686578627526" FileType="3072" />
       <File Name="SDK/platform/drivers/src/pins/pins_gpio_hw_access.h" FileDate="2023-06-12, 15:43:41" FileAge="1686577421006" FileType="262144" />
-      <File Name="SDK/platform/drivers/src/clock/clock_manager.c" FileDate="2023-06-12, 15:43:40" FileAge="1686577420736" FileType="262144" />
       <File Name="SDK/platform/drivers/src/ftm/ftm_hw_access.h" FileDate="2023-06-12, 15:43:40" FileAge="1686577420896" FileType="262144" />
       <File Name="SDK/platform/drivers/src/lpit/lpit_hw_access.h" FileDate="2023-06-12, 15:43:40" FileAge="1686577420936" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/clock/clock_manager.c" FileDate="2023-06-12, 15:43:40" FileAge="1686577420736" FileType="262144" />
       <File Name="SDK/platform/devices/startup.h" FileDate="2023-06-12, 15:43:40" FileAge="1686577420636" FileType="262144" />
       <File Name="SDK/platform/devices/devassert.h" FileDate="2023-06-12, 15:43:39" FileAge="1686577419795" FileType="262144" />
-      <File Name="SDK/platform/drivers/src/ftm/ftm_oc_driver.c" FileDate="2023-06-12, 15:43:40" FileAge="1686577420906" FileType="262144" />
       <File Name="SDK/platform/drivers/src/ftm/ftm_hw_access.c" FileDate="2023-06-12, 15:43:40" FileAge="1686577420896" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/ftm/ftm_oc_driver.c" FileDate="2023-06-12, 15:43:40" FileAge="1686577420906" FileType="262144" />
       <File Name="SDK/platform/devices/device_registers.h" FileDate="2023-06-12, 15:43:39" FileAge="1686577419805" FileType="262144" />
       <File Name="SDK/platform/drivers/src/pins/pins_port_hw_access.h" FileDate="2023-06-12, 15:43:41" FileAge="1686577421016" FileType="262144" />
       <File Name="SDK/platform/devices/startup.c" FileDate="2023-06-12, 15:43:40" FileAge="1686577420626" FileType="262144" />
@@ -59,21 +59,21 @@
       <File Name="SDK/platform/drivers/src/pins/pins_port_hw_access.c" FileDate="2023-06-12, 15:43:41" FileAge="1686577421016" FileType="262144" />
       <File Name="SDK/platform/drivers/src/ftm/ftm_mc_driver.c" FileDate="2023-06-12, 15:43:40" FileAge="1686577420896" FileType="262144" />
       <File Name="Sources/main.c" FileDate="2023-06-12, 15:43:33" FileAge="1686577413384" FileType="128" />
-      <File Name="SDK/platform/drivers/src/lptmr/lptmr_driver.c" FileDate="2023-06-12, 15:43:40" FileAge="1686577420956" FileType="262144" />
       <File Name="SDK/platform/devices/status.h" FileDate="2023-06-12, 15:43:40" FileAge="1686577420636" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/lptmr/lptmr_driver.c" FileDate="2023-06-12, 15:43:40" FileAge="1686577420956" FileType="262144" />
       <File Name="SDK/platform/drivers/inc/lptmr_driver.h" FileDate="2023-06-12, 15:43:40" FileAge="1686577420706" FileType="262144" />
       <File Name="SDK/platform/drivers/inc/ftm_common.h" FileDate="2023-06-12, 15:43:40" FileAge="1686577420676" FileType="262144" />
       <File Name="SDK/platform/drivers/src/pins/pins_driver.c" FileDate="2023-06-12, 15:43:41" FileAge="1686577421006" FileType="262144" />
       <File Name="Generated_Code/clockMan1.h" FileDate="2023-06-12, 16:03:47" FileAge="1686578627506" FileType="45637" CompNumb="15" />
-      <File Name="SDK/platform/pal/timing/inc/timing_pal.h" FileDate="2023-06-12, 15:43:41" FileAge="1686577421166" FileType="262144" />
       <File Name="SDK/platform/devices/S32K144/include/S32K144.h" FileDate="2023-06-12, 15:43:39" FileAge="1686577419895" FileType="262144" />
+      <File Name="SDK/platform/pal/timing/inc/timing_pal.h" FileDate="2023-06-12, 15:43:41" FileAge="1686577421166" FileType="262144" />
       <File Name="Generated_Code/clockMan1.c" FileDate="2023-06-12, 16:03:47" FileAge="1686578627496" FileType="45637" CompNumb="15" />
       <File Name="Generated_Code/pin_mux.h" FileDate="2023-06-12, 16:03:47" FileAge="1686578627496" FileType="45637" CompNumb="13" />
-      <File Name="SDK/platform/drivers/inc/ftm_oc_driver.h" FileDate="2023-06-12, 15:43:40" FileAge="1686577420686" FileType="262144" />
-      <File Name="Generated_Code/pin_mux.c" FileDate="2023-06-12, 16:03:47" FileAge="1686578627486" FileType="45637" CompNumb="13" />
       <File Name="Generated_Code/timing_pal3.h" FileDate="2023-06-12, 16:03:47" FileAge="1686578627446" FileType="45637" CompNumb="33" />
-      <File Name="SDK/platform/drivers/src/clock/S32K1xx/pcc_hw_access.h" FileDate="2023-06-12, 15:43:40" FileAge="1686577420756" FileType="262144" />
+      <File Name="Generated_Code/pin_mux.c" FileDate="2023-06-12, 16:03:47" FileAge="1686578627486" FileType="45637" CompNumb="13" />
+      <File Name="SDK/platform/drivers/inc/ftm_oc_driver.h" FileDate="2023-06-12, 15:43:40" FileAge="1686577420686" FileType="262144" />
       <File Name="SDK/platform/pal/timing/src/timing_pal.c" FileDate="2023-06-12, 15:43:41" FileAge="1686577421176" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/clock/S32K1xx/pcc_hw_access.h" FileDate="2023-06-12, 15:43:40" FileAge="1686577420756" FileType="262144" />
       <File Name="SDK/platform/drivers/inc/clock_manager.h" FileDate="2023-06-12, 15:43:40" FileAge="1686577420646" FileType="262144" />
       <File Name="SDK/platform/drivers/src/lptmr/lptmr_hw_access.h" FileDate="2023-06-12, 15:43:40" FileAge="1686577420966" FileType="262144" />
       <File Name="Generated_Code/timing_pal3.c" FileDate="2023-06-12, 16:03:47" FileAge="1686578627446" FileType="45637" CompNumb="33" />
@@ -88,5 +88,5 @@
       <File Name="SDK/platform/drivers/src/interrupt/interrupt_manager.c" FileDate="2023-06-12, 15:43:40" FileAge="1686577420916" FileType="262144" />
     </GeneratedByPE>
   </GeneratedFilesList>
-  <CodeGenReference>1</CodeGenReference>
+  <CodeGenReference>2</CodeGenReference>
 </CodeGenerationInfo>

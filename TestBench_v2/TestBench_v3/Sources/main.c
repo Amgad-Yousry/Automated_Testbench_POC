@@ -28,6 +28,7 @@
 #include "Computations.h"
 
 volatile int exit_code = 0;
+
 /* User includes (#include below this line is not maintained by Processor Expert) */
 
 
@@ -59,6 +60,9 @@ uint16_t gu16RMSIdx = 0U;
 /* Number total of conversions used to compute one RMS value. Global to allow the change in FreeMaster */
 uint16_t gu16RMSBuffer = RMS_BUFFER_SIZE;
 
+/* Sum of the squared values of the current */
+float RMSCurrentAux = 0;
+
 /* Flag used to store if an ADC IRQ was executed */
 volatile bool gbADCConvDone = false;
 
@@ -67,19 +71,6 @@ volatile bool gbCocoFlag = false;
 
 /* Flag used to toggle the pin when the program finishes the RMS calculation */
 volatile bool gbRMSCoCo = false;
-
-
-
-/* -----------------------  HDI  -----------------------  */
-
-/* Pressure measured by the HDIB002AUY8P5 sensor through I2C communication in milibars.*/
-uint16_t gu16PressureHDI;
-
-/* Declaration of the LPI2C transfer buffer */
-uint8_t  u8I2CBufferHDI[I2C_BUFFER_SIZE];
-
-/* Flag used to store if an I2C ISR was executed*/
-volatile bool gbI2CDone = false;
 
 
 /* ---------------------  Gasboard  ---------------------  */
@@ -98,96 +89,40 @@ float gfO2temperature;
 /* Declare buffer used to store the received data */
 uint8_t	GAS_RX_buffer[GAS_RX_BUFFER_SIZE];
 
-/* Read O2 concentrations on the extended mode (extended mode = 0% to 100%, default mode = 20.5% to 95.6% ) */
-//uint8_t	 TX_buffer[TX_BUFFER_SIZE] = {0x11, 0x01, 0x01, 0xED};
-// Obs: This must be declared as global, otherwise it changes its value during the cycles
+/* Stores only the significant bytes of the read data */
+float fsigData[GAS_SD_BUFFER_SIZE];
 
 /* Flag used to store if an Gasboard ISR was executed*/
 volatile bool gbGASDone;
-
 volatile bool gbGASflag;
 
 
 /* -----------------------  SFM  -----------------------  */
 
-/* Declaration of the flags to check the callbacks are executed */
-volatile bool gbSFMDone;
-volatile bool gbSFMflag;
+/* Declare buffer used to store the received data */
+uint8_t	SFM_RX_buffer[SFM_RX_BUFFER_SIZE];
 
 /* Flow measured from the SFM sensor */
 float gfFlowSMF;
 
-
-/* -----------------------  CO2  -----------------------  */
 /* Declaration of the flags to check the callbacks are executed */
-volatile bool gbCO2Done;
-volatile bool gbCO2flag;
-
-/* CO2 and TVOC measured from the CO2 sensor */
-uint16_t gu16CO2;
-uint16_t gu16TVOC;
-
-bool test12c = false;
-
-
-/* -----------------------  MPR  -----------------------  */
-volatile bool gbMPR_OpMode;
-volatile bool gbMPRDone;
-uint8_t MPR_RX_buffer [MPR_DATA_BUFFER_SIZE];
-float gfPressureMPR;
-float gfTempMPR;
-
-uint8_t u8RequestOpMode[MPR_OP_BUFFER_SIZE] = {0xAA, 0x00, 0x00};
-/* Read the data from the sensor */
-//uint8_t TX_Buffer_MPR[MPR_DATA_BUFFER_SIZE] = {0xFA, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
-uint8_t TX_Buffer_MPR[MPR_DATA_BUFFER_SIZE] = {0xF0, 0x00, 0x00, 0x00};
+volatile bool gbSFMDone;
+volatile bool gbSFMflag;
 
 
 
-/* -----------------------  ADC  -----------------------  */
-	/* Polynomial parameters from data fit to convert the raw ADC value to the actual current in Amperes*/
-	const float fCurrentPol[2] = {0.00169404924302870, -0.0138943629841409};
-	//const float fVoltagePol[2] = {0.00880332914534114, -0.273383180824596};
+/* Allocate memory for the LPI2C driver state structure */
+lpi2c_master_state_t lpi2c1MasterState;
 
-	/* Sum of the squared values of the current */
-	float RMSCurrentAux = 0;
-
-	/* -----------------------  I2C  -----------------------  */
-
-	/* Variable used for the loop that initializes the I2C data buffer */
-	uint16_t i;
-
-	/* Sensitivity of the HDI sensor */
-	uint64_t HDISensitivity;
-
-	/* ---------------------  Gasboard  ---------------------  */
-
-	/* Stores only the significant bytes of the read data */
-	float fsigData[GAS_SD_BUFFER_SIZE];
-
-
-	/* -----------------------  SFM  -----------------------  */
-	/* Declare buffer used to store the received data */
-	uint8_t	SFM_RX_buffer[SFM_RX_BUFFER_SIZE];
-
-	/* -----------------------  CO2  -----------------------  */
-	/* Declare buffer used to store the received data */
-	uint8_t	CO2_RX_buffer[CO2_RX_BUFFER_SIZE];
-
-
-
-
-	/* Allocate memory for the LPI2C driver state structure */
-	lpi2c_master_state_t lpi2c1MasterState;
-
-
-    // SPI communication variables
-	       lpspi_state_t LPSPI_MPRState;
 
 
 /* @brief: ADC Interrupt Service Routine.
- * 		  Toggle a pin, read the conversion result, store it
- * 		  into a variable and set a specified flag.
+ 	 * 		Wait for ADC conversion complete interrupt,
+	 * 		then:
+	 * 			 compute the actual current value,
+	 * 			 calculate the RMS value after an predetermined number of measurements,
+	 * 			 toggle the pin referent to a new RMS conversion,
+	 * 			 trigger the PDB timer.
  */
 void ADC_IRQHandler(void)
 {
@@ -199,33 +134,33 @@ void ADC_IRQHandler(void)
 	ADC_DRV_GetChanResult(ADC_INSTANCE, 0U, (uint16_t *)&gu16CurrentRawValue);
 
 	/* Update the counter of the number of conversions done */
-				gu16NrConvDone++;
+	gu16NrConvDone++;
 
-				/* Process the readings to get the value in Amperes */
-				gfCurrentValue = ((float) gu16CurrentRawValue)*fCurrentPol[0] + fCurrentPol[1];
+	/* Process the readings to get the value in Amperes */
+	gfCurrentValue = CurrentADC(gu16CurrentRawValue);
 
-				/* Compute the sum of the squared values of current needed to the RMS computation */
-				RMSCurrentAux += gfCurrentValue*gfCurrentValue;
+	/* Compute the sum of the squared values of current needed to the RMS computation */
+	RMSCurrentAux += gfCurrentValue*gfCurrentValue;
 
-				/* After a predefined number of readings, compute the RMS */
-				if (gu16NrConvDone == gu16RMSBuffer)
-				{
-					/* Toggle the pin to indicate the RMS computation was done */
-					gbRMSCoCo = !gbRMSCoCo;
-					PINS_DRV_WritePin(RMS_COCO_IO, RMS_COCO_PIN, gbRMSCoCo);
+	/* After a predefined number of readings, compute the RMS */
+	if (gu16NrConvDone == gu16RMSBuffer)
+	{
+		/* Toggle the pin to indicate the RMS computation was done */
+		gbRMSCoCo = !gbRMSCoCo;
+		PINS_DRV_WritePin(RMS_COCO_IO, RMS_COCO_PIN, gbRMSCoCo);
 
-					/* Compute the current RMS value */
-					gfRMSCurrent = (float) sqrt(RMSCurrentAux/gu16NrConvDone);
+		/* Compute the current RMS value */
+		gfRMSCurrent = (float) sqrt(RMSCurrentAux/gu16NrConvDone);
 
-					/*Update the RMS index */
-					gu16RMSIdx ++;
+		/*Update the RMS index */
+		gu16RMSIdx ++;
 
-					/* Clear the squared sum u8I2CBufferHDI */
-					RMSCurrentAux = 0;
+		/* Clear the squared sum u8I2CBufferHDI */
+		RMSCurrentAux = 0;
 
-					/* Clear the counter of the RMS */
-					gu16NrConvDone = 0;
-				}
+		/* Clear the counter of the RMS */
+		gu16NrConvDone = 0;
+	}
 
 
 	/* Set ADC conversion complete flag */
@@ -233,50 +168,25 @@ void ADC_IRQHandler(void)
 
 }
 
-/*!
- * @brief: LPIT interrupt handler.
- * 	       When an interrupt occurs clear channel flag and toggle LED0
- */
-void LPIT_ISR_HDI(void)
-{
-	/* Clear LPIT channel flag */
-//	LPIT_DRV_ClearInterruptFlagTimerChannels(INST_LPIT1, (1 << LPIT_CHANNEL_HDI));
-
-
-	 /* Request data from the bus slave */
-     LPI2C_DRV_MasterReceiveDataBlocking(INST_LPI2C1, u8I2CBufferHDI, I2C_BUFFER_SIZE, true, I2C_TIMEOUT);
-
-	 /* Convert the counts to pressure in milibars*/
-	 gu16PressureHDI = PressureHDI (u8I2CBufferHDI, HDISensitivity);
-
-	/* Clear the buffer to prepare it for the next operation */
-	for (i = 0u; i < I2C_BUFFER_SIZE; i++)
-	{
-		u8I2CBufferHDI[i] = 0u;
-	}
-
-
-
-}
 
 
 void timing_pal_GAS_callBack(void * userData)
 {
 	(void)userData;
 
-	 /* Receive Data from Gasboard */
-				  LPUART_DRV_ReceiveData(INST_LPUART_GASBOARD, &GAS_RX_buffer, GAS_RX_BUFFER_SIZE);
+	/* Receive Data from Gasboard */
+	LPUART_DRV_ReceiveData(INST_LPUART_GASBOARD, &GAS_RX_buffer, GAS_RX_BUFFER_SIZE);
 
-				  /* Ignore bits without significant data and convert the others to float */
-					for (uint8_t i = 0; i<GAS_SD_BUFFER_SIZE; i++)
-					{
-						fsigData[i] = (float)GAS_RX_buffer[i+4];
-					}
+	/* Ignore bits without significant data and convert the others to float */
+	for (uint8_t i = 0; i<GAS_SD_BUFFER_SIZE; i++)
+	{
+		fsigData[i] = (float)GAS_RX_buffer[i+4];
+	}
 
-					/* Compute the characteristics of the flow */
-					gfO2concentration = (fsigData[0]*256 + fsigData[1])/10; //(Vol %)
-					gfO2flow          = (fsigData[2]*256 + fsigData[3])/10; //(L/min)
-					gfO2temperature   = (fsigData[4]*256 + fsigData[5])/10; //(C)
+	/* Compute the characteristics of the flow */
+	gfO2concentration = (fsigData[0]*256 + fsigData[1])/10; //(Vol %)
+	gfO2flow          = (fsigData[2]*256 + fsigData[3])/10; //(L/min)
+	gfO2temperature   = (fsigData[4]*256 + fsigData[5])/10; //(C)
 
 	/* Set Gasboard communication complete flag */
 	gbGASDone = true;
@@ -287,83 +197,32 @@ void timing_pal_SFM_callBack(void * userData)
 {
 	(void)userData;
 
-	/* Define the I2C address for the corresponding sensor */
-				 LPI2C_DRV_MasterSetSlaveAddr(INST_LPI2C1,SFM_ADDRESS, false);
-				/* Receive Data from SFM */
-				LPI2C_DRV_MasterReceiveData(INST_LPI2C1, SFM_RX_buffer,SFM_RX_BUFFER_SIZE, false);
+	/* Receive Data from SFM */
+	LPI2C_DRV_MasterReceiveData(INST_LPI2C1, SFM_RX_buffer,SFM_RX_BUFFER_SIZE, false);
 
-
-				 /* Compute the flow from the received data */
-				 gfFlowSMF = FlowSFM (SFM_RX_buffer);
-
+	 /* Compute the flow from the received data */
+	 gfFlowSMF = FlowSFM (SFM_RX_buffer);
 
 	/* Set SFM communication complete flag */
 	gbSFMDone = true;
 	gbSFMflag = !gbSFMflag;
 }
 
+
+
+/* Callbacks not used, but kept to facilitate the expansion of the code */
+
 void timing_pal_CO2_callBack(void * userData)
 {
 	(void)userData;
 
-	/* Define the I2C address for the corresponding sensor */
-			//    LPI2C_DRV_MasterSetSlaveAddr(INST_LPI2C1,CO2_ADDRESS, false);
-				/* Receive Data from SFM */
-			//	LPI2C_DRV_MasterReceiveData(INST_LPI2C1, CO2_RX_buffer,CO2_RX_BUFFER_SIZE, false);
-
-				gu16CO2  = ComputeCo2(CO2_RX_buffer);
-				gu16TVOC = ComputeTVOC(CO2_RX_buffer);
-
-	/* Set CO2 communication complete flag */
-	gbCO2Done = true;
-	gbCO2flag = !gbCO2flag;
 }
 
 
 void timing_pal_MPR_callBack(void * userData)
 {
 	(void)userData;
-
-
-	 if (gbMPR_OpMode == true)
-				  	{
-
-
-				  	//	LPSPI_DRV_MasterTransferBlocking(LPSPI_MPR, TX_Buffer_MPR, MPR_RX_buffer, MPR_DATA_BUFFER_SIZE, SPI_TIMEOUT);
-
-				  		LPSPI_DRV_MasterTransfer(LPSPI_MPR, TX_Buffer_MPR, MPR_RX_buffer, MPR_DATA_BUFFER_SIZE);
-
-				  		gfPressureMPR =  ComputePressureMPR(MPR_RX_buffer);
-
-				  		gbMPR_OpMode = false;
-
-				  	}
-				  	else
-				  	{
-				  		/* Request the sensor to leave Standby Mode and enter the Operation Mode */
-
-				  		uint8_t u8DataDiscard[MPR_OP_BUFFER_SIZE] = {0x00, 0x00, 0x00}; /* Trash sent by the sensor */
-
-				  		LPSPI_DRV_MasterTransfer(LPSPI_MPR, &u8RequestOpMode, &u8DataDiscard, MPR_OP_BUFFER_SIZE);
-
-				  		/* Set CO2 communication complete flag */
-				  				gbMPR_OpMode = true;
-
-				  	//	LPSPI_DRV_MasterTransferBlocking(LPSPI_MPR, &u8RequestOpMode, &u8DataDiscard, MPR_OP_BUFFER_SIZE, SPI_TIMEOUT);
-
-
-				  	}
-
-
-	gbMPRDone = true;
-
-
-
 }
-
-
-
-//void noCallback (i2c_master_event_t masterEvent,void *userData) {}
 
 
 /*!
@@ -375,8 +234,6 @@ void timing_pal_MPR_callBack(void * userData)
 int main(void)
 {
 	/* Write your local variable definition here */
-
-	 HDISensitivity = SensitivyHDI ();
 
 
 	/*** Processor Expert internal initialization. DON'T REMOVE THIS CODE!!! ***/
@@ -396,7 +253,6 @@ int main(void)
 	/* Initialize pins */
 	Init_pins();
 
-
 	/*Initialize ADC Instance*/
 	IRQn_Type adcIRQ = Init_ADC();
 
@@ -411,129 +267,21 @@ int main(void)
 	LPI2C_DRV_MasterInit(INST_LPI2C1, &lpi2c1_MasterConfig0, &lpi2c1MasterState);  // This cannot go inside of
 											// the Init.c function because the communication does not initialize there.
 
-	/* Define the I2C address for the corresponding sensor */
-		// LPI2C_DRV_MasterSetSlaveAddr(INST_LPI2C1,SFM_ADDRESS, false);
 
-	 int delay = 100;
-	// while (delay--);
+	/*Initialize PDB Instance*/
+	Init_PDB();
 
+	/* Initialize Timing PAL peripheral */
+	Init_PAL();
 
-	    	/* Initialize LPSPI0 */
-
-LPSPI_DRV_MasterInit(LPSPI_MPR,&LPSPI_MPRState,&LPSPI_MPR_MasterConfig);
-
-//	while (delay--);
-
-		// if (!LPI2C_DRV_MasterGetTransferStatus(INST_LPI2C1,SFM_TX_BUFFER_SIZE))
-		// {
-		//	 test12c = false;
-		// }
-
-		// test12c = true;
-	//	 while (delay--);
-
-		    /* Define the I2C address for the corresponding sensor */
-	//	    LPI2C_DRV_MasterSetSlaveAddr(INST_LPI2C1,CO2_ADDRESS, false);
-		   	 /* Request Data from the SFM flow sensor */
-
-	//	 	while (delay--);
-
-	//	  	 uint8_t u8_TX_CO2 [CO2_TX_BUFFER_SIZE] = {0xB5};
-	//	 	 LPI2C_DRV_MasterSendData(INST_LPI2C1, u8_TX_CO2,CO2_TX_BUFFER_SIZE, true);
-
-
-
-		 	/*Initialize PDB Instance*/
-		 	Init_PDB();
-
-		 	/* Initialize Timing PAL peripheral */
-		 	Init_PAL();
-
-		 	/*Initialize Gasboard LPUART and Timing PAL Instances*/
-		 	Init_GAS();
-
+	/*Initialize Gasboard LPUART and Timing PAL Instances*/
+	Init_GAS();
 
 	/* Initialize SFM related peripheral */
-    Init_SFM();
-
-
-
-
-
-
-    /* Initialize MPR related peripheral */
-    Init_MPR();
-
-
-	/* Initialize CO2 related peripheral */
-   // Init_CO2();
-
-
-	 uint8_t u8_TX_SFM [SFM_TX_BUFFER_SIZE] = {0x10, 0x00};
-
-	LPI2C_DRV_MasterSendData(INST_LPI2C1, u8_TX_SFM,SFM_TX_BUFFER_SIZE, true);
-
-	/* Power mode configuration for RUN mode */
-//	POWER_SYS_Init(&powerConfigsArr, 0, &powerStaticCallbacksConfigsArr,0);
-
-
-    /* Start counters*/
+	Init_SFM();
 
     /* Trigger PDB counter to perform the ADC conversions */
 	PDB_DRV_SoftTriggerCmd(PDB_INSTANCE);
-
-
-
-	/* Infinite loop
-	 * 	-	Wait for ADC conversion complete interrupt,
-	 * 		then:
-	 * 			 compute the actual current value,
-	 * 			 calculate the RMS value after an predetermined number of measurements,
-	 * 			 toggle the pin referent to a new RMS conversion,
-	 * 			 trigger the PDB timer.
-	 */
-
-
-	while (true)
-	{
-		/* -----------------------  ADC  -----------------------  */
-
-
-
-
-		/* -----------------------  I2C  -----------------------  */
-
-
-
-
-
-
-		  /* ---------------------  Gasboard-----------------------  */
-
-
-
-
-
-
-		 /* -----------------------  SFM  -----------------------  */
-
-
-
-
-
-		  /* -----------------------  MPR  -----------------------  */
-
-
-
-
-
-			//  gfTempMPR = ComputeTemperatureMPR(MPR_RX_buffer);
-
-
-
-
-	} // while (true)
-
 
 
 	/*** Don't write any code pass this line, or it will be deleted during code generation. ***/

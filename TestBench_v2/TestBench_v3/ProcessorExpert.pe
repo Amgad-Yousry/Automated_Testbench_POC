@@ -3,7 +3,7 @@
   <Header>
     <Name>TestBench_v3</Name>
     <SavedBy>B58799</SavedBy>
-    <ModificationStamp>11</ModificationStamp>
+    <ModificationStamp>16</ModificationStamp>
     <Date>2016-08-09</Date>
     <IDE>Eclipse IDE</IDE>
     <PEversion>1.12.2.RT7_b1743-0713</PEversion>
@@ -4069,7 +4069,7 @@
         <ItemSymbol>LPUART1_lpuart_tx</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
-        <Value>PTC7</Value>
+        <Value>PTC9</Value>
         <SharedPrphMode>false</SharedPrphMode>
       </ItemState>
       <ItemState>
@@ -14070,8 +14070,8 @@
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>true</Value>
         <Expanded>true</Expanded>
+        <Index>0</Index>
       </ItemState>
       <ItemState>
         <ItemSymbol>SIRC_CLKEnableDetail0</ItemSymbol>
@@ -14150,8 +14150,8 @@
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>true</Value>
         <Expanded>true</Expanded>
+        <Index>0</Index>
       </ItemState>
       <ItemState>
         <ItemSymbol>FIRC_CLKEnableDetail0</ItemSymbol>
@@ -14312,8 +14312,8 @@
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>true</Value>
         <Expanded>true</Expanded>
+        <Index>0</Index>
       </ItemState>
       <ItemState>
         <ItemSymbol>SOSC_CLKEnableDetail0</ItemSymbol>
@@ -14488,8 +14488,8 @@
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>true</Value>
         <Expanded>true</Expanded>
+        <Index>0</Index>
       </ItemState>
       <ItemState>
         <ItemSymbol>SPLL_CLKEnableDetail0</ItemSymbol>

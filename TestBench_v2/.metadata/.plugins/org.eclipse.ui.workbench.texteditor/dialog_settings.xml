@@ -2,20 +2,20 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="masterDataReceive" key="selection"/>
+		<item value="gu16CurrentRawValue" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="gu16CurrentRawValue"/>
+			<item value="UART"/>
 			<item value="masterDataReceive"/>
 			<item value="gbMPRDone"/>
 			<item value="gfPressureMPR"/>
 			<item value="gfPressMPR"/>
 			<item value="gfPressMPR_PC"/>
 			<item value="pressure_hdtdm_spi"/>
-			<item value="counts_hdtm"/>
-			<item value="fCurrentPol"/>
 		</list>
 		<list key="replacehistory">
 			<item value="fPressMPR_P100"/>

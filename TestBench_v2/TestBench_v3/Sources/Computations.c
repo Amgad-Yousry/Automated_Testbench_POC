@@ -18,7 +18,18 @@
  const uint64_t Out_min_d = 3277;
 
 
+ /* Compute the current value based on the ADC data */
+ float CurrentADC(uint16_t gu16CurrentRawValue)
+ {
+	 /* Polynomial parameters from data fit to convert the raw ADC value to the actual current in Amperes*/
+	const float fCurrentPol[2] = {0.00169404924302870, -0.0138943629841409};
+	//const float fVoltagePol[2] = {0.00880332914534114, -0.273383180824596};
 
+	float fCurrentValue;
+	fCurrentValue = ((float) gu16CurrentRawValue)*fCurrentPol[0] + fCurrentPol[1];
+
+ 	return fCurrentValue;
+ }
 
 
 uint64_t SensitivyHDI (void)

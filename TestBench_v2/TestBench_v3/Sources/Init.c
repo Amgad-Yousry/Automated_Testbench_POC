@@ -28,6 +28,9 @@
 
 uint64_t u64LPITResolution;
 
+/* Read O2 concentrations on the default mode (extended mode = 0% to 100%, default mode = 20.5% to 95.6% ) */
+uint8_t	 GAS_TX_buffer[GAS_TX_BUFFER_SIZE] = {0x11, 0x01, 0x01, 0xED};
+// Obs: This must be declared as global, otherwise it changes its value during the cycles
 
 
 /* Initialize pins */
@@ -85,29 +88,6 @@ void Init_PDB(void)
 
 }
 
-/* Initialize LPIT peripheral*/
-void Init_LPIT(void)
-{
-	/* Initialize LPIT instance 0
-		 *	-	Reset and enable peripheral
-		 */
-//	    LPIT_DRV_Init(INST_LPIT1, &lpit1_InitConfig);
-	    /* Initialize LPIT channel 0 and configure it as a periodic counter
-	     * which is used to generate an interrupt every second.
-	     */
-//	    LPIT_DRV_InitChannel(INST_LPIT1, LPIT_CHANNEL_HDI, &lpit1_ChnConfig_HDI);
-	//    LPIT_DRV_InitChannel(INST_LPIT1, LPIT_CHANNEL_GAS, &lpit1_ChnConfig_Gasboard);
-
-
-}
-
-
-
-/* Initialize LPI2C peripheral*/
-void Init_LPI2C(void)
-{
-
-}
 
 /* Initialize Timing PAL peripheral */
 void Init_PAL(void)
@@ -125,6 +105,8 @@ void Init_GAS(void)
 	 /*Initialize Gasboard UART Instance*/
 	LPUART_DRV_Init(INST_LPUART_GASBOARD, &lpuart_gasboard_State, &lpuart_gasboard_InitConfig0);
 
+	/* Read O2 concentrations on the DEFAULT mode (extended mode = 0% to 100%, default mode = 20.5% to 95.6% ) */
+	LPUART_DRV_SendData(INST_LPUART_GASBOARD,GAS_TX_buffer,GAS_TX_BUFFER_SIZE);
 
 	/* Start LPIT channel 0 counting with the period is 0.5 second,
 	   the period in tick = the period in nanosecond / LPIT tick resolution in nanosecond */
@@ -136,6 +118,10 @@ void Init_GAS(void)
 /* Initialize SFM related peripheral */
 void Init_SFM(void)
 {
+
+	/* Request Data from the SFM sensor */
+	uint8_t u8_TX_SFM [SFM_TX_BUFFER_SIZE] = {0x10, 0x00};
+	LPI2C_DRV_MasterSendData(INST_LPI2C1, u8_TX_SFM,SFM_TX_BUFFER_SIZE, true);
 
     /* Start LPIT channel 0 counting with the period is 0.5 second,
     	   the period in tick = the period in nanosecond / LPIT tick resolution in nanosecond */

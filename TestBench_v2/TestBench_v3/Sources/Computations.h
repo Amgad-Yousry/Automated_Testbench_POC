@@ -10,6 +10,8 @@
 
 #include "Cpu.h"
 
+/* Compute the current value based on the ADC data */
+float CurrentADC(uint16_t gu16CurrentRawValue);
 
 /* Compute the Sensitivity of the HDI sensor */
 uint64_t SensitivyHDI (void);

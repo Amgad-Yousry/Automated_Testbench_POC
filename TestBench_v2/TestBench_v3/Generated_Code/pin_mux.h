@@ -7,7 +7,7 @@
 **     Version     : Component 1.2.0, Driver 1.4, CPU db: 3.00.000
 **     Repository  : SDK_S32K14x_09
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2023-06-22, 11:35, # CodeGen: 1
+**     Date/Time   : 2023-06-23, 12:57, # CodeGen: 9
 **     Abstract    :
 **
 **     Settings    :
@@ -481,7 +481,7 @@
 **                  Clear to Send                          : <Automatic>
 **                  Request to Send                        : <Automatic>
 **                  Receive Data                           : PTC8
-**                  Transmit Data                          : PTC7
+**                  Transmit Data                          : PTC9
 **                  Direction                              : Output
 **                Custom name                              : LPUART2
 **                LPUART2                                  : 

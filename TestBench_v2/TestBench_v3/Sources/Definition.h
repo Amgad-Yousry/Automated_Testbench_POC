@@ -29,6 +29,7 @@
 #define I2C_TIMEOUT 1U
 
 /* Gasboard LPUART Communication */
+#define GAS_TX_BUFFER_SIZE  4U
 #define GAS_RX_BUFFER_SIZE 12U
 #define GAS_SD_BUFFER_SIZE 8U   /* Significant data */
 

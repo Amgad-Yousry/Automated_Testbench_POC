@@ -1,6 +1,6 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.launchbar.core.descriptorType.default\:TestBench_v3 Debug_FLASH JLink,org.eclipse.launchbar.core.descriptorType.default\:TestBench_v3 Debug_RAM JLink,org.eclipse.launchbar.core.descriptorType.default\:TestBench_v3 Debug_RAM PEmicro,org.eclipse.launchbar.core.descriptorType.default\:TestBench_v3 Debug_FLASH PEmicro
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:timing_pal_s32k144 Debug_FLASH JLink,org.eclipse.launchbar.core.descriptorType.default\:timing_pal_s32k144 Debug_FLASH PEmicro,org.eclipse.launchbar.core.descriptorType.default\:timing_pal_s32k144 Debug_RAM JLink,org.eclipse.launchbar.core.descriptorType.default\:timing_pal_s32k144 Debug_RAM PEmicro,org.eclipse.launchbar.core.descriptorType.default\:TestBench_v3 Debug_FLASH JLink,org.eclipse.launchbar.core.descriptorType.default\:TestBench_v3 Debug_RAM JLink,org.eclipse.launchbar.core.descriptorType.default\:TestBench_v3 Debug_RAM PEmicro,org.eclipse.launchbar.core.descriptorType.default\:TestBench_v3 Debug_FLASH PEmicro
 eclipse.preferences.version=1
 org.eclipse.launchbar.core.descriptorType.default\:ADC_PDB_FreeMaster_v4\ Debug_FLASH\ JLink/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:ADC_PDB_FreeMaster_v4\ Debug_FLASH\ JLink/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
@@ -17,5 +17,8 @@ org.eclipse.launchbar.core.descriptorType.default\:TestBench\ Debug_FLASH\ PEmic
 org.eclipse.launchbar.core.descriptorType.default\:TestBench_v2\ Debug_FLASH\ JLink/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:TestBench_v2\ Debug_FLASH\ JLink/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.launchbar.core.descriptorType.default\:TestBench_v2\ Debug_FLASH\ PEmicro/activeLaunchMode=flash
+org.eclipse.launchbar.core.descriptorType.default\:TestBench_v3\ Debug_FLASH\ JLink/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:TestBench_v3\ Debug_FLASH\ JLink/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:TestBench_v3\ Debug_FLASH\ PEmicro/activeLaunchMode=flash
 org.eclipse.launchbar.core.descriptorType.default\:lpi2c_master_s32k144\ Debug_FLASH\ PEmicro/activeLaunchMode=debug
 org.eclipse.launchbar.core.descriptorType.default\:lpspi_transfer_s32k144_debug_flash_pemicro/activeLaunchMode=flash
