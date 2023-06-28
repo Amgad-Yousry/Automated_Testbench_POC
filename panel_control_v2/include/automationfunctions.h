@@ -7,6 +7,110 @@
 
 #ifndef AUTOMATIONFUNCTIONS_H_
 #define AUTOMATIONFUNCTIONS_H_
+
+volatile int exit_code = 0;
+typedef enum { // UART STATE MACHINE
+	 UART_STATE_IDLE,
+	 UART_STATE_SEND,
+	 UART_STATE_RECEIVE,
+	 UART_STATE_PROCESS,
+	 UART_STATE_SPEED,
+} uart_state_t;
+typedef enum { // SETTING COUNTER MACHINE
+    COUNTER_STATE_IDLE,
+    COUNTER_STATE_INIT,
+} count_state_t;
+typedef enum { // BUTTON STATE MACHINE
+    BUTTON_STATE_IDLE,
+    BUTTON_STATE_PRESSED,
+    BUTTON_STATE_RELEASED,
+    BUTTON_STATE_WAIT,
+} button_state_t;
+typedef enum { // TIMER STATE MACHINE
+    TIME_STATE_IDLE,
+    TIME_STATE_PRESSED,
+} timecount_state_t;
+
+/********************buttons state machine declarations************************/
+volatile button_state_t onoff_state = BUTTON_STATE_IDLE;
+volatile uint32_t onoff_counter = 0;
+ uint32_t onoff_release_delay=200;
+
+volatile button_state_t bell_state = BUTTON_STATE_IDLE;
+volatile uint32_t bell_counter = 0;
+uint32_t bell_release_delay = 300; /* Default press duration */
+
+volatile button_state_t plus_state = BUTTON_STATE_IDLE;
+volatile timecount_state_t plustime_state = TIME_STATE_IDLE;
+volatile uint32_t plus_counter = 0;
+ uint32_t plus_release_delay=15;
+
+volatile button_state_t minus_state = BUTTON_STATE_IDLE;
+volatile timecount_state_t minustime_state = TIME_STATE_IDLE;
+volatile uint32_t minus_counter = 0;
+uint32_t minus_release_delay=15;
+/************************auto increment or decrement**********************/
+volatile uint32_t autotime_press_counter=900;
+volatile uint32_t autotime_counter = 0;
+
+//*************** settings increment decrement ISR***************************//
+ count_state_t  count_pm_init= COUNTER_STATE_IDLE; // initialization of counter for settings increment and decrement
+volatile uint8_t setting_counter = 1;
+const uint8_t MAX_SETTING_COUNTER = 20U;
+const uint8_t MIN_SETTING_COUNTER = 1U;
+volatile int consigne;
+volatile int bolusPerMinute;
+volatile double tauxOxygen;
+volatile int temperature ;
+volatile int vitesseCompresseur;
+/*volatile int PRESSION_ATMOSPHERIQUE =0;
+volatile int PRESSION_COLONNE_ZEOLITE_1 =0;
+volatile int PRESSION_COLONNE_ZEOLITE_2 =0;
+volatile int DETECTION_CHUTE =0;
+volatile int PRESENCE_CHARGEUR =0;
+volatile int ETAT_BATTERIE =0;
+volatile int TENSION_BATTERIE =0;
+volatile int CHARGE_BATTERIE =0;
+volatile int CODE_ALARME =0;
+volatile int ALARM_SUBCLASS =0;
+volatile int ETAT_COLONNE =0;
+volatile int VERSION_SOFTWARE =0;
+volatile int UTILISATION_TOTAL =0;
+volatile int JOUR_MOIS_ANNEE =0;
+volatile int HEURE_MINUTE_SECONDE =0;
+volatile int SESSION_TIMER =0;
+*/
+uint8_t packet[PACKET_SIZE];
+const uint8_t checkCommand[] = CHECK_COMMAND;
+status_t status;
+ int speed_value = 20;
+char speed_minus[20];
+volatile uart_state_t uart_state = UART_STATE_IDLE;
+/**********************************handshake parameters end******************/
+
+
+/**********************error safety feature***************/
+
+char P5S[] = STATUSOK; // this should be outside so it can be modified by the function
+int current = 0;
+int pressure = 0;
+
+
+void safety_power() {
+    if(current >= 5000) { //CHANGE WITH REQUIRED VALUES
+        strcpy(P5S, CURRENT_HIGH); // use strcpy to change the value of the string
+        onoff_state = BUTTON_STATE_PRESSED;
+    }
+    if(pressure <= 5000) {  //CHANGE WITH REQUIRED VALUES
+        strcpy(P5S, PRESSURE_ERROR); // use strcpy to change the value of the string
+        onoff_state = BUTTON_STATE_PRESSED;
+    }
+    else
+    	strcpy(P5S, STATUSOK);
+}
+/**********************error safety feature***************/
+
+
 void updatespeedvalue(){
 snprintf(speed_minus, sizeof(speed_minus), "CC -%d\n\r", speed_value);
 }
@@ -201,7 +305,4 @@ void updatecounter(count_state_t* count_state)
         	break;
     }
 }
-
-
-
 #endif /* AUTOMATIONFUNCTIONS_H_ */
