@@ -102,13 +102,13 @@ int main(void)
 	Init_AUTO();
 
 	/*Initialize Gasboard LPUART and Timing PAL Instances*/
-//	Init_GAS();
+	Init_GAS();
 
 	/* Initialize SFM related peripheral */
-//	Init_SFM();
+	Init_SFM();
 
     /* Trigger PDB counter to perform the ADC conversions */
-//	PDB_DRV_SoftTriggerCmd(PDB_INSTANCE);
+	PDB_DRV_SoftTriggerCmd(PDB_INSTANCE);
 
 
 	/*** Don't write any code pass this line, or it will be deleted during code generation. ***/

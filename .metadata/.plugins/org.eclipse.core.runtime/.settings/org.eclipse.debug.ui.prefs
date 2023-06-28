@@ -1,5 +1,5 @@
 eclipse.preferences.version=1
 org.eclipse.debug.ui.PREF_FILTER_LAUNCH_TYPES=true
-org.eclipse.debug.ui.PREF_FILTER_TYPE_LIST=org.eclipse.ant.AntLaunchConfigurationType,org.eclipse.ant.AntBuilderLaunchConfigurationType,org.eclipse.cdt.launch.attachLaunchType,org.eclipse.cdt.launch.postmortemLaunchType,org.eclipse.cdt.debug.core.localCoreBuildLaunchConfigType,org.eclipse.jdt.junit.launchconfig,org.eclipse.jdt.launching.localJavaApplication,org.eclipse.jdt.launching.remoteJavaApplication,org.eclipse.jdt.launching.javaApplet
+org.eclipse.debug.ui.PREF_FILTER_TYPE_LIST=org.eclipse.cdt.launch.attachLaunchType,org.eclipse.cdt.launch.postmortemLaunchType,org.eclipse.cdt.debug.core.localCoreBuildLaunchConfigType
 org.eclipse.debug.ui.PREF_LAUNCH_PERSPECTIVES=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<launchPerspectives/>\r\n
 preferredTargets=default\:default|org.eclipse.cdt.debug.ui.toggleCBreakpointTarget,org.eclipse.cdt.debug.ui.toggleCDynamicPrintfTarget\:org.eclipse.cdt.debug.ui.toggleCBreakpointTarget|

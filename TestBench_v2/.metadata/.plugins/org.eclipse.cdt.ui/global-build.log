@@ -1,43 +1,18 @@
-15:23:01 **** Incremental Build of configuration Debug_FLASH for project TestBench_v3 ****
+17:12:26 **** Build of configuration Debug_FLASH for project TestBench_v3 ****
 make -j8 all 
-Building file: ../Sources/main.c
-Executing target #57 ../Sources/main.c
-Invoking: Standard S32DS C Compiler
-arm-none-eabi-gcc "@Sources/main.args" -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
-In file included from ../Sources/main.c:34:0:
-../Sources/automationfunctions.h:102:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
- void safety_power();
- ^
-../Sources/automationfunctions.h:104:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
- void updatespeedvalue();
- ^
-../Sources/automationfunctions.h:108:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
- void sendspeedCommand();
- ^
-../Sources/automationfunctions.h:89:6: warning: array 'checkCommand' assumed to have one element
- char  checkCommand[];
-      ^
-Finished building: ../Sources/main.c
- 
-Building target: TestBench_v3.elf
-Executing target #58 TestBench_v3.elf
-Invoking: Standard S32DS C Linker
-arm-none-eabi-gcc -o "TestBench_v3.elf" "@TestBench_v3.args"   
-Finished building target: TestBench_v3.elf
- 
 Executing target #59 TestBench_v3.siz
 Invoking: Standard S32DS Print Size
 arm-none-eabi-size --format=berkeley  TestBench_v3.elf 
    text	   data	    bss	    dec	    hex	filename
-  36024	   2788	   3720	  42532	   a624	TestBench_v3.elf
+  37032	   2812	   3768	  43612	   aa5c	TestBench_v3.elf
 Finished building: TestBench_v3.siz
  
-15:23:11 **** Incremental Build of configuration Debug_FLASH for project TestBench_v3 ****
+17:13:10 **** Incremental Build of configuration Debug_FLASH for project TestBench_v3 ****
 make -j8 all 
 Executing target #59 TestBench_v3.siz
 Invoking: Standard S32DS Print Size
 arm-none-eabi-size --format=berkeley  TestBench_v3.elf 
    text	   data	    bss	    dec	    hex	filename
-  36024	   2788	   3720	  42532	   a624	TestBench_v3.elf
+  37032	   2812	   3768	  43612	   aa5c	TestBench_v3.elf
 Finished building: TestBench_v3.siz
  
