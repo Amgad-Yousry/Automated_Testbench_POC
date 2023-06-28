@@ -27,17 +27,24 @@
 #include "Callbacks_Globals.h"
 
 
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+//#include "automationdefinit.h"
+#include "automationfunctions.h"
+
+
+
+
 volatile int exit_code = 0;
 
-/* User includes (#include below this line is not maintained by Processor Expert) */
+/* User includes (#include below this line is not
+ *  maintained by Processor Expert) */
 
 
 #include <string.h>
 #include <stdint.h>
 #include <stdbool.h>
-
-
-
 
 
 
@@ -49,7 +56,12 @@ volatile int exit_code = 0;
  */
 int main(void)
 {
+
+
+
 	/* Write your local variable definition here */
+	Init_varAuto();
+
 	Init_var();
 
 	/*** Processor Expert internal initialization. DON'T REMOVE THIS CODE!!! ***/
@@ -69,6 +81,8 @@ int main(void)
 	/* Initialize pins */
 	Init_pins();
 
+
+
 	/*Initialize ADC Instance*/
 	IRQn_Type adcIRQ = Init_ADC();
 
@@ -78,26 +92,23 @@ int main(void)
 	/* Enable ADC 1 interrupt */
 	INT_SYS_EnableIRQ(adcIRQ);
 
-
-	/* Initialize LPI2C Master configuration */
-	LPI2C_DRV_MasterInit(INST_LPI2C1, &lpi2c1_MasterConfig0, &lpi2c1MasterState);  // This cannot go inside of
-											// the Init.c function because the communication does not initialize there.
-
-
 	/*Initialize PDB Instance*/
 	Init_PDB();
 
 	/* Initialize Timing PAL peripheral */
 	Init_PAL();
 
+	/* Initialize Automation timer */
+	Init_AUTO();
+
 	/*Initialize Gasboard LPUART and Timing PAL Instances*/
-	Init_GAS();
+//	Init_GAS();
 
 	/* Initialize SFM related peripheral */
-	Init_SFM();
+//	Init_SFM();
 
     /* Trigger PDB counter to perform the ADC conversions */
-	PDB_DRV_SoftTriggerCmd(PDB_INSTANCE);
+//	PDB_DRV_SoftTriggerCmd(PDB_INSTANCE);
 
 
 	/*** Don't write any code pass this line, or it will be deleted during code generation. ***/

@@ -7,7 +7,7 @@
 **     Version     : Component SDK_S32K14x_09, Driver 01.00, CPU db: 3.00.000
 **     Repository  : SDK_S32K14x_09
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2023-06-22, 11:35, # CodeGen: 1
+**     Date/Time   : 2023-06-28, 12:30, # CodeGen: 18
 **     Contents    :
 **         TIMING_Init                - status_t TIMING_Init(const timer_instance_t instance, const timer_config_t *...
 **         TIMING_Deinit              - void TIMING_Deinit(const timer_instance_t instance);
@@ -65,7 +65,7 @@ extern void timing_pal_GAS_callBack(void * userData);
 /*! @brief Callback function of channel configuration 1 */
 extern void timing_pal_SFM_callBack(void * userData);
 /*! @brief Callback function of channel configuration 2 */
-extern void timing_pal_CO2_callBack(void * userData);
+extern void timing_pal_AUTO_callBack(void * userData);
 /*! @brief Callback function of channel configuration 3 */
 extern void timing_pal_MPR_callBack(void * userData);
 

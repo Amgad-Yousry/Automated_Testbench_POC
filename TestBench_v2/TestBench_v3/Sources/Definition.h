@@ -16,10 +16,10 @@
 #define ADC_VREFH  		3.3f
 #define ADC_VREFL  		0.0f
 #define PDB_INSTANCE	0UL
-#define ADC_COCO_IO		PTD
-#define ADC_COCO_PIN	7
-#define RMS_COCO_IO		PTE
-#define RMS_COCO_PIN	1
+#define ADC_COCO_IO		PTC
+#define ADC_COCO_PIN	3
+#define RMS_COCO_IO		PTC
+#define RMS_COCO_PIN	14
 #define RMS_BUFFER_SIZE 500// 0.2 sec 20kHz
 
 
@@ -46,13 +46,13 @@
 /* LPIT channel used */
 #define LPIT_CHANNEL_GAS	    0UL
 #define LPIT_CHANNEL_SFM	    1UL
-#define LPIT_CHANNEL_CO2	    2UL
+#define LPIT_CHANNEL_AUTO	    2UL
 #define LPIT_CHANNEL_MPR	    3UL
 
 /* Period in nanosecond unit */
 #define GAS_PERIOD_BY_NS	480000000UL  /* The period is 0.5 second */
 #define SFM_PERIOD_BY_NS	100000000UL  /* The period is 0.5 second */
-#define CO2_PERIOD_BY_NS	1000000000UL /* The period is 1 second */
+#define AUTO_PERIOD_BY_NS	10000000UL /* The period is 10000 micro seconds */
 #define MPR_PERIOD_BY_NS	500000000UL /* The period is 1 second. The actual period is going to be the
 										   double of this value, because it requires two communications.  */
 

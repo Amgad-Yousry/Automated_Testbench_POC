@@ -7,7 +7,7 @@
 **     Version     : Component SDK_S32K14x_09, Driver 01.00, CPU db: 3.00.000
 **     Repository  : SDK_S32K14x_09
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2023-06-22, 11:35, # CodeGen: 1
+**     Date/Time   : 2023-06-28, 12:30, # CodeGen: 18
 **
 **     Copyright 1997 - 2015 Freescale Semiconductor, Inc.
 **     Copyright 2016-2017 NXP
@@ -57,7 +57,7 @@ timer_chan_config_t timing_pal1_channelConfigs[4] =
     {
          .channel        = 2U,
          .chanType       = TIMER_CHAN_TYPE_CONTINUOUS,
-         .callback       = timing_pal_CO2_callBack,
+         .callback       = timing_pal_AUTO_callBack,
          .callbackParam  = NULL
     },
     /* Channel configuration 3 */

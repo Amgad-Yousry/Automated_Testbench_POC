@@ -124,8 +124,6 @@ void timing_pal_MPR_callBack(void * userData);
 
 
 
-
-
 #endif /* SOURCES_CALLBACKS_H_ */
 
 

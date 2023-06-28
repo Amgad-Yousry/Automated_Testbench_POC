@@ -97,7 +97,7 @@ void timing_pal_GAS_callBack(void * userData)
 	(void)userData;
 
 	/* Receive Data from Gasboard */
-	LPUART_DRV_ReceiveData(INST_LPUART_GASBOARD, &GAS_RX_buffer, GAS_RX_BUFFER_SIZE);
+	LPUART_DRV_ReceiveData(INST_LPUART_GASBOARD, GAS_RX_buffer, GAS_RX_BUFFER_SIZE);
 
 	/* Ignore bits without significant data and convert the others to float */
 	for (uint8_t i = 0; i<GAS_SD_BUFFER_SIZE; i++)
@@ -145,3 +145,5 @@ void timing_pal_MPR_callBack(void * userData)
 {
 	(void)userData;
 }
+
+

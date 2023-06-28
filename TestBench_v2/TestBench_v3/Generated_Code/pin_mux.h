@@ -7,7 +7,7 @@
 **     Version     : Component 1.2.0, Driver 1.4, CPU db: 3.00.000
 **     Repository  : SDK_S32K14x_09
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2023-06-23, 12:57, # CodeGen: 9
+**     Date/Time   : 2023-06-28, 14:59, # CodeGen: 19
 **     Abstract    :
 **
 **     Settings    :
@@ -323,12 +323,12 @@
 **                  Direction                              : <Automatic>
 **                Custom name                              : PTD
 **                PTD                                      : 
-**                  Pin 0                                  : <Automatic>
-**                  Direction                              : <Automatic>
+**                  Pin 0                                  : PTD0
+**                  Direction                              : Output
 **                  Pin 1                                  : <Automatic>
 **                  Direction                              : <Automatic>
-**                  Pin 2                                  : <Automatic>
-**                  Direction                              : <Automatic>
+**                  Pin 2                                  : PTD2
+**                  Direction                              : Output
 **                  Pin 3                                  : <Automatic>
 **                  Direction                              : <Automatic>
 **                  Pin 4                                  : <Automatic>
@@ -339,10 +339,10 @@
 **                  Direction                              : <Automatic>
 **                  Pin 7                                  : PTD7
 **                  Direction                              : Output
-**                  Pin 8                                  : <Automatic>
-**                  Direction                              : <Automatic>
-**                  Pin 9                                  : <Automatic>
-**                  Direction                              : <Automatic>
+**                  Pin 8                                  : PTD8
+**                  Direction                              : Output
+**                  Pin 9                                  : PTD9
+**                  Direction                              : Output
 **                  Pin 10                                 : <Automatic>
 **                  Direction                              : <Automatic>
 **                  Pin 11                                 : <Automatic>
@@ -487,8 +487,8 @@
 **                LPUART2                                  : 
 **                  Clear to Send                          : <Automatic>
 **                  Request to Send                        : <Automatic>
-**                  Receive Data                           : <Automatic>
-**                  Transmit Data                          : <Automatic>
+**                  Receive Data                           : PTA8
+**                  Transmit Data                          : PTA9
 **                  Direction                              : <Automatic>
 **              Peripheral Type MCM                        : 
 **                Custom name                              : MCM

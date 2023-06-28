@@ -23,6 +23,7 @@
 
 #include "Definition.h"
 #include "Callbacks_Globals.h"
+#include "automationdefinit.h"
 
 
 uint64_t u64LPITResolution;
@@ -58,6 +59,14 @@ void Init_var(void)
 
 	/* Flag used to toggle the pin when the program finishes the RMS calculation */
 	gbRMSCoCo = false;
+
+	/* Clear all the flags */
+		gbSFMDone = false;
+		gbSFMflag = false;
+		gbGASDone = false;
+		gbGASflag = false;
+
+
 
 }
 
@@ -148,6 +157,12 @@ void Init_GAS(void)
 void Init_SFM(void)
 {
 
+
+	/* Initialize LPI2C Master configuration */
+	LPI2C_DRV_MasterInit(INST_LPI2C1, &lpi2c1_MasterConfig0, &lpi2c1MasterState);  // This cannot go inside of
+											// the Init.c function because the communication does not initialize there.
+
+
 	/* Request Data from the SFM sensor */
 	uint8_t u8_TX_SFM [SFM_TX_BUFFER_SIZE] = {0x10, 0x00};
 	LPI2C_DRV_MasterSendData(INST_LPI2C1, u8_TX_SFM,SFM_TX_BUFFER_SIZE, true);
@@ -166,7 +181,7 @@ void Init_CO2(void)
 
     /* Start LPIT channel 2 counting with the period is 1 second,
     	   the period in tick = the period in nanosecond / LPIT tick resolution in nanosecond */
-    TIMING_StartChannel(INST_TIMING_PAL1, LPIT_CHANNEL_CO2, CO2_PERIOD_BY_NS/u64LPITResolution);
+ //   TIMING_StartChannel(INST_TIMING_PAL1, LPIT_CHANNEL_CO2, CO2_PERIOD_BY_NS/u64LPITResolution);
 
 }
 
@@ -188,6 +203,23 @@ void Init_MPR(void)
 
 }
 
+/* Initialize Automation timer */
+void Init_AUTO(void)
+{
 
+	PINS_DRV_SetPinDirection(GPIO_PORT1,ONOFF,OUTPUT_DIR);
+	PINS_DRV_SetPinDirection(GPIO_PORT1,PLUS,OUTPUT_DIR);
+	PINS_DRV_SetPinDirection(GPIO_PORT1,MINUS,OUTPUT_DIR);
+	PINS_DRV_SetPinDirection(GPIO_PORT1,BELL,OUTPUT_DIR);
+
+
+
+	LPUART_DRV_Init(INST_LPUART1, &lpuart1_State, &lpuart1_InitConfig0);
+
+    /* Start LPIT channel 2 counting with the period is 1 second,
+    	   the period in tick = the period in nanosecond / LPIT tick resolution in nanosecond */
+    TIMING_StartChannel(INST_TIMING_PAL1, LPIT_CHANNEL_AUTO, AUTO_PERIOD_BY_NS/u64LPITResolution);
+
+}
 
 

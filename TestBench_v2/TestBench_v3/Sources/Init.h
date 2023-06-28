@@ -43,4 +43,7 @@ void Init_CO2(void);
 /* Initialize MPR related peripheral */
 void Init_MPR(void);
 
+/* Initialize Automation timer */
+void Init_AUTO(void);
+
 #endif /* SOURCES_INIT_H_ */
