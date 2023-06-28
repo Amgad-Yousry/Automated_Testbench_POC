@@ -126,7 +126,6 @@ void receiveResponse(volatile uart_state_t* uartstate)
     status = LPUART_DRV_ReceiveData(INST_LPUART1, packet, sizeof(packet)-1);
 
     if(status == STATUS_SUCCESS) {
-
     	    *uartstate = UART_STATE_PROCESS;
 
     }
