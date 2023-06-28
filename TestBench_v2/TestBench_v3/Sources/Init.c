@@ -22,6 +22,7 @@
 #include "LPSPI_MPR.h"
 
 #include "Definition.h"
+#include "Callbacks_Globals.h"
 
 
 uint64_t u64LPITResolution;
@@ -29,6 +30,36 @@ uint64_t u64LPITResolution;
 /* Read O2 concentrations on the default mode (extended mode = 0% to 100%, default mode = 20.5% to 95.6% ) */
 uint8_t	 GAS_TX_buffer[GAS_TX_BUFFER_SIZE] = {0x11, 0x01, 0x01, 0xED};
 // Obs: This must be declared as global, otherwise it changes its value during the cycles
+
+
+
+/* Initialize Variables */
+void Init_var(void)
+{
+
+	/* Variable to count the number of conversions done and included on the RMS calculation */
+	gu16NrConvDone = 0U;
+
+	/* Variable to count and index the RMS calculation that is used to verify the
+	 * reliability of the data in FreeMaster */
+	gu16RMSIdx = 0U;
+
+	/* Number total of conversions used to compute one RMS value. Global to allow the change in FreeMaster */
+	gu16RMSBuffer = RMS_BUFFER_SIZE;
+
+	/* Sum of the squared values of the current */
+	RMSCurrentAux = 0;
+
+	/* Flag used to store if an ADC IRQ was executed */
+	gbADCConvDone = false;
+
+	/* Flag used to toggle the pin when the program enters the ADC interrupt routine */
+	gbCocoFlag = false;
+
+	/* Flag used to toggle the pin when the program finishes the RMS calculation */
+	gbRMSCoCo = false;
+
+}
 
 
 /* Initialize pins */

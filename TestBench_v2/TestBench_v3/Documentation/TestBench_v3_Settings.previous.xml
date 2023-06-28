@@ -202,66 +202,11 @@
       <EmptySection_DummyValue />
     </Events>
   </Bean>
-  <Bean name="lpTmr1" type="lptmr">
-    <Enabled v="Y" />
-    <Properties>
-      <Component_name v="lpTmr1" />
-      <Device v="LPTMR0" />
-      <Component_version v="S32K144_SDK01" />
-    </Properties>
-    <Methods>
-      <EmptySection_DummyValue />
-    </Methods>
-    <Events>
-      <EmptySection_DummyValue />
-    </Events>
-  </Bean>
-  <Bean name="adConv2" type="adc">
-    <Enabled v="Y" />
-    <Properties>
-      <Component_name v="adConv2" />
-      <Device v="ADC0" />
-      <Component_version v="S32K144_SDK01" />
-    </Properties>
-    <Methods>
-      <EmptySection_DummyValue />
-    </Methods>
-    <Events>
-      <EmptySection_DummyValue />
-    </Events>
-  </Bean>
-  <Bean name="lpuart2" type="lpuart">
-    <Enabled v="Y" />
-    <Properties>
-      <Component_name v="lpuart2" />
-      <Device v="LPUART0" />
-      <Component_version v="S32K144_SDK01" />
-    </Properties>
-    <Methods>
-      <EmptySection_DummyValue />
-    </Methods>
-    <Events>
-      <EmptySection_DummyValue />
-    </Events>
-  </Bean>
   <Bean name="pdly1" type="pdb">
     <Enabled v="Y" />
     <Properties>
       <Component_name v="pdly1" />
       <Device v="PDB0" />
-      <Component_version v="S32K144_SDK01" />
-    </Properties>
-    <Methods>
-      <EmptySection_DummyValue />
-    </Methods>
-    <Events>
-      <EmptySection_DummyValue />
-    </Events>
-  </Bean>
-  <Bean name="pwrMan1" type="power_manager">
-    <Enabled v="Y" />
-    <Properties>
-      <Component_name v="pwrMan1" />
       <Component_version v="S32K144_SDK01" />
     </Properties>
     <Methods>

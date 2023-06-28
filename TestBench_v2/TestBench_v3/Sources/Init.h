@@ -9,6 +9,8 @@
 #ifndef SOURCES_INIT_H_
 #define SOURCES_INIT_H_
 
+/* Initialize Variables */
+void Init_var(void);
 
 
 /* Initialize pins */

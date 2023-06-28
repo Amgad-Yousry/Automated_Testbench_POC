@@ -1,0 +1,84 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+-include ../makefile.local
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS_QUOTED += \
+"../Sources/Callbacks.c" \
+"../Sources/Computations.c" \
+"../Sources/Init.c" \
+"../Sources/main.c" \
+
+C_SRCS += \
+../Sources/Callbacks.c \
+../Sources/Computations.c \
+../Sources/Init.c \
+../Sources/main.c \
+
+OBJS_OS_FORMAT += \
+./Sources/Callbacks.o \
+./Sources/Computations.o \
+./Sources/Init.o \
+./Sources/main.o \
+
+C_DEPS_QUOTED += \
+"./Sources/Callbacks.d" \
+"./Sources/Computations.d" \
+"./Sources/Init.d" \
+"./Sources/main.d" \
+
+OBJS += \
+./Sources/Callbacks.o \
+./Sources/Computations.o \
+./Sources/Init.o \
+./Sources/main.o \
+
+OBJS_QUOTED += \
+"./Sources/Callbacks.o" \
+"./Sources/Computations.o" \
+"./Sources/Init.o" \
+"./Sources/main.o" \
+
+C_DEPS += \
+./Sources/Callbacks.d \
+./Sources/Computations.d \
+./Sources/Init.d \
+./Sources/main.d \
+
+
+# Each subdirectory must supply rules for building sources it contributes
+Sources/Callbacks.o: ../Sources/Callbacks.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #52 $<'
+	@echo 'Invoking: Standard S32DS C Compiler'
+	arm-none-eabi-gcc "@Sources/Callbacks.args" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -c -o "Sources/Callbacks.o" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Sources/Computations.o: ../Sources/Computations.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #53 $<'
+	@echo 'Invoking: Standard S32DS C Compiler'
+	arm-none-eabi-gcc "@Sources/Computations.args" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -c -o "Sources/Computations.o" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Sources/Init.o: ../Sources/Init.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #54 $<'
+	@echo 'Invoking: Standard S32DS C Compiler'
+	arm-none-eabi-gcc "@Sources/Init.args" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -c -o "Sources/Init.o" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Sources/main.o: ../Sources/main.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #55 $<'
+	@echo 'Invoking: Standard S32DS C Compiler'
+	arm-none-eabi-gcc "@Sources/main.args" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -c -o "Sources/main.o" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+
