@@ -1,0 +1,189 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+-include ../makefile.local
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS_QUOTED += \
+"../Generated_Code/Cpu.c" \
+"../Generated_Code/LPSPI_MPR.c" \
+"../Generated_Code/adConv1.c" \
+"../Generated_Code/clockMan1.c" \
+"../Generated_Code/dmaController1.c" \
+"../Generated_Code/lpi2c1.c" \
+"../Generated_Code/lpuart1.c" \
+"../Generated_Code/lpuart_gasboard.c" \
+"../Generated_Code/pdly1.c" \
+"../Generated_Code/pin_mux.c" \
+"../Generated_Code/timing_pal1.c" \
+
+C_SRCS += \
+../Generated_Code/Cpu.c \
+../Generated_Code/LPSPI_MPR.c \
+../Generated_Code/adConv1.c \
+../Generated_Code/clockMan1.c \
+../Generated_Code/dmaController1.c \
+../Generated_Code/lpi2c1.c \
+../Generated_Code/lpuart1.c \
+../Generated_Code/lpuart_gasboard.c \
+../Generated_Code/pdly1.c \
+../Generated_Code/pin_mux.c \
+../Generated_Code/timing_pal1.c \
+
+OBJS_OS_FORMAT += \
+./Generated_Code/Cpu.o \
+./Generated_Code/LPSPI_MPR.o \
+./Generated_Code/adConv1.o \
+./Generated_Code/clockMan1.o \
+./Generated_Code/dmaController1.o \
+./Generated_Code/lpi2c1.o \
+./Generated_Code/lpuart1.o \
+./Generated_Code/lpuart_gasboard.o \
+./Generated_Code/pdly1.o \
+./Generated_Code/pin_mux.o \
+./Generated_Code/timing_pal1.o \
+
+C_DEPS_QUOTED += \
+"./Generated_Code/Cpu.d" \
+"./Generated_Code/LPSPI_MPR.d" \
+"./Generated_Code/adConv1.d" \
+"./Generated_Code/clockMan1.d" \
+"./Generated_Code/dmaController1.d" \
+"./Generated_Code/lpi2c1.d" \
+"./Generated_Code/lpuart1.d" \
+"./Generated_Code/lpuart_gasboard.d" \
+"./Generated_Code/pdly1.d" \
+"./Generated_Code/pin_mux.d" \
+"./Generated_Code/timing_pal1.d" \
+
+OBJS += \
+./Generated_Code/Cpu.o \
+./Generated_Code/LPSPI_MPR.o \
+./Generated_Code/adConv1.o \
+./Generated_Code/clockMan1.o \
+./Generated_Code/dmaController1.o \
+./Generated_Code/lpi2c1.o \
+./Generated_Code/lpuart1.o \
+./Generated_Code/lpuart_gasboard.o \
+./Generated_Code/pdly1.o \
+./Generated_Code/pin_mux.o \
+./Generated_Code/timing_pal1.o \
+
+OBJS_QUOTED += \
+"./Generated_Code/Cpu.o" \
+"./Generated_Code/LPSPI_MPR.o" \
+"./Generated_Code/adConv1.o" \
+"./Generated_Code/clockMan1.o" \
+"./Generated_Code/dmaController1.o" \
+"./Generated_Code/lpi2c1.o" \
+"./Generated_Code/lpuart1.o" \
+"./Generated_Code/lpuart_gasboard.o" \
+"./Generated_Code/pdly1.o" \
+"./Generated_Code/pin_mux.o" \
+"./Generated_Code/timing_pal1.o" \
+
+C_DEPS += \
+./Generated_Code/Cpu.d \
+./Generated_Code/LPSPI_MPR.d \
+./Generated_Code/adConv1.d \
+./Generated_Code/clockMan1.d \
+./Generated_Code/dmaController1.d \
+./Generated_Code/lpi2c1.d \
+./Generated_Code/lpuart1.d \
+./Generated_Code/lpuart_gasboard.d \
+./Generated_Code/pdly1.d \
+./Generated_Code/pin_mux.d \
+./Generated_Code/timing_pal1.d \
+
+
+# Each subdirectory must supply rules for building sources it contributes
+Generated_Code/Cpu.o: ../Generated_Code/Cpu.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #13 $<'
+	@echo 'Invoking: Standard S32DS C Compiler'
+	arm-none-eabi-gcc "@Generated_Code/Cpu.args" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -c -o "Generated_Code/Cpu.o" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Generated_Code/LPSPI_MPR.o: ../Generated_Code/LPSPI_MPR.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #14 $<'
+	@echo 'Invoking: Standard S32DS C Compiler'
+	arm-none-eabi-gcc "@Generated_Code/LPSPI_MPR.args" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -c -o "Generated_Code/LPSPI_MPR.o" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Generated_Code/adConv1.o: ../Generated_Code/adConv1.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #15 $<'
+	@echo 'Invoking: Standard S32DS C Compiler'
+	arm-none-eabi-gcc "@Generated_Code/adConv1.args" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -c -o "Generated_Code/adConv1.o" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Generated_Code/clockMan1.o: ../Generated_Code/clockMan1.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #16 $<'
+	@echo 'Invoking: Standard S32DS C Compiler'
+	arm-none-eabi-gcc "@Generated_Code/clockMan1.args" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -c -o "Generated_Code/clockMan1.o" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Generated_Code/dmaController1.o: ../Generated_Code/dmaController1.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #17 $<'
+	@echo 'Invoking: Standard S32DS C Compiler'
+	arm-none-eabi-gcc "@Generated_Code/dmaController1.args" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -c -o "Generated_Code/dmaController1.o" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Generated_Code/lpi2c1.o: ../Generated_Code/lpi2c1.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #18 $<'
+	@echo 'Invoking: Standard S32DS C Compiler'
+	arm-none-eabi-gcc "@Generated_Code/lpi2c1.args" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -c -o "Generated_Code/lpi2c1.o" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Generated_Code/lpuart1.o: ../Generated_Code/lpuart1.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #19 $<'
+	@echo 'Invoking: Standard S32DS C Compiler'
+	arm-none-eabi-gcc "@Generated_Code/lpuart1.args" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -c -o "Generated_Code/lpuart1.o" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Generated_Code/lpuart_gasboard.o: ../Generated_Code/lpuart_gasboard.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #20 $<'
+	@echo 'Invoking: Standard S32DS C Compiler'
+	arm-none-eabi-gcc "@Generated_Code/lpuart_gasboard.args" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -c -o "Generated_Code/lpuart_gasboard.o" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Generated_Code/pdly1.o: ../Generated_Code/pdly1.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #21 $<'
+	@echo 'Invoking: Standard S32DS C Compiler'
+	arm-none-eabi-gcc "@Generated_Code/pdly1.args" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -c -o "Generated_Code/pdly1.o" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Generated_Code/pin_mux.o: ../Generated_Code/pin_mux.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #22 $<'
+	@echo 'Invoking: Standard S32DS C Compiler'
+	arm-none-eabi-gcc "@Generated_Code/pin_mux.args" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -c -o "Generated_Code/pin_mux.o" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Generated_Code/timing_pal1.o: ../Generated_Code/timing_pal1.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #23 $<'
+	@echo 'Invoking: Standard S32DS C Compiler'
+	arm-none-eabi-gcc "@Generated_Code/timing_pal1.args" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -c -o "Generated_Code/timing_pal1.o" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+

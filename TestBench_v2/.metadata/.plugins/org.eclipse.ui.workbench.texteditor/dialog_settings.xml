@@ -2,12 +2,13 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="gu16CurrentRawValue" key="selection"/>
+		<item value="gu16RMSBuffer" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="gu16RMSBuffer"/>
 			<item value="gu16CurrentRawValue"/>
 			<item value="UART"/>
 			<item value="masterDataReceive"/>
@@ -15,7 +16,6 @@
 			<item value="gfPressureMPR"/>
 			<item value="gfPressMPR"/>
 			<item value="gfPressMPR_PC"/>
-			<item value="pressure_hdtdm_spi"/>
 		</list>
 		<list key="replacehistory">
 			<item value="fPressMPR_P100"/>

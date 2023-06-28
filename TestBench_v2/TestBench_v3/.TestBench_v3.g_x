@@ -34,7 +34,7 @@
       <File Name="SDK/platform/drivers/inc/pins_driver.h" FileDate="2023-06-12, 15:43:40" FileAge="1686577420716" FileType="262144" />
       <File Name="SDK/platform/drivers/src/clock/S32K1xx/pcc_hw_access.h" FileDate="2023-06-12, 15:43:40" FileAge="1686577420756" FileType="262144" />
       <File Name="SDK/platform/drivers/src/pdb/pdb_driver.c" FileDate="2023-06-12, 15:43:40" FileAge="1686577420996" FileType="262144" />
-      <File Name="Generated_Code/Cpu.h" FileDate="2023-06-27, 17:33:45" FileAge="1687880025197" FileType="45637" CompNumb="1" />
+      <File Name="Generated_Code/Cpu.h" FileDate="2023-06-28, 11:01:09" FileAge="1687942869562" FileType="45637" CompNumb="1" />
       <File Name="SDK/platform/devices/S32K144/include/S32K144.h" FileDate="2023-06-12, 15:43:39" FileAge="1686577419895" FileType="262144" />
       <File Name="SDK/platform/devices/S32K144/startup/system_S32K144.h" FileDate="2023-06-12, 15:43:40" FileAge="1686577420126" FileType="262144" />
       <File Name="Generated_Code/Cpu.c" FileDate="2023-06-27, 14:33:12" FileAge="1687869192141" FileType="45637" CompNumb="1" />
@@ -81,14 +81,14 @@
       <File Name="SDK/platform/drivers/src/edma/edma_driver.c" FileDate="2023-06-12, 15:43:40" FileAge="1686577420786" FileType="262144" />
       <File Name="SDK/platform/drivers/src/lpit/lpit_hw_access.h" FileDate="2023-06-12, 15:43:40" FileAge="1686577420936" FileType="262144" />
       <File Name="SDK/platform/drivers/src/lpuart/lpuart_irq.h" FileDate="2023-06-12, 15:43:40" FileAge="1686577420976" FileType="262144" />
-      <File Name="SDK/platform/drivers/src/lpspi/lpspi_master_driver.c" FileDate="2023-06-12, 15:43:40" FileAge="1686577420946" FileType="262144" />
       <File Name="SDK/platform/drivers/src/pins/pins_port_hw_access.c" FileDate="2023-06-12, 15:43:41" FileAge="1686577421016" FileType="262144" />
       <File Name="SDK/platform/drivers/src/lpuart/lpuart_irq.c" FileDate="2023-06-12, 15:43:40" FileAge="1686577420976" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/lpspi/lpspi_master_driver.c" FileDate="2023-06-12, 15:43:40" FileAge="1686577420946" FileType="262144" />
       <File Name="Generated_Code/timing_pal1.h" FileDate="2023-06-27, 14:33:12" FileAge="1687869192173" FileType="45637" CompNumb="29" />
       <File Name="SDK/platform/drivers/inc/lpit_driver.h" FileDate="2023-06-12, 15:43:40" FileAge="1686577420696" FileType="262144" />
       <File Name="SDK/platform/drivers/inc/clock_manager.h" FileDate="2023-06-12, 15:43:40" FileAge="1686577420646" FileType="262144" />
+      <File Name="Documentation/TestBench_v3.txt" FileDate="2023-06-28, 11:01:09" FileAge="1687942869722" FileType="3072" />
       <File Name="Generated_Code/timing_pal1.c" FileDate="2023-06-27, 14:33:12" FileAge="1687869192173" FileType="45637" CompNumb="29" />
-      <File Name="Documentation/TestBench_v3.txt" FileDate="2023-06-27, 17:33:45" FileAge="1687880025399" FileType="3072" />
       <File Name="SDK/platform/drivers/src/clock/S32K1xx/sim_hw_access.h" FileDate="2023-06-12, 15:43:40" FileAge="1686577420756" FileType="262144" />
       <File Name="SDK/platform/drivers/src/interrupt/interrupt_manager.c" FileDate="2023-06-12, 15:43:40" FileAge="1686577420916" FileType="262144" />
       <File Name="Generated_Code/lpuart_gasboard.h" FileDate="2023-06-27, 14:33:12" FileAge="1687869192165" FileType="45637" CompNumb="9" />
@@ -105,18 +105,20 @@
       <File Name="SDK/platform/pal/timing/src/timing_irq.c" FileDate="2023-06-12, 15:43:41" FileAge="1686577421166" FileType="262144" />
       <File Name="SDK/platform/drivers/src/lpspi/lpspi_hw_access.c" FileDate="2023-06-12, 15:43:40" FileAge="1686577420946" FileType="262144" />
       <File Name="SDK/platform/devices/callbacks.h" FileDate="2023-06-12, 15:43:39" FileAge="1686577419795" FileType="262144" />
+      <File Name="Generated_Code/lpuart1.h" FileDate="2023-06-28, 11:01:09" FileAge="1687942869552" FileType="45637" CompNumb="32" />
       <File Name="Generated_Code/lpi2c1.h" FileDate="2023-06-27, 14:33:12" FileAge="1687869192157" FileType="45637" CompNumb="28" />
       <File Name="SDK/platform/drivers/inc/lpi2c_driver.h" FileDate="2023-06-12, 15:43:40" FileAge="1686577420696" FileType="262144" />
+      <File Name="Generated_Code/lpuart1.c" FileDate="2023-06-28, 11:01:09" FileAge="1687942869552" FileType="45637" CompNumb="32" />
       <File Name="Generated_Code/pdly1.h" FileDate="2023-06-27, 14:33:12" FileAge="1687869192165" FileType="45637" CompNumb="26" />
       <File Name="SDK/rtos/osif/osif_baremetal.c" FileDate="2023-06-12, 15:43:41" FileAge="1686577421306" FileType="262144" />
       <File Name="Generated_Code/LPSPI_MPR.h" FileDate="2023-06-27, 14:33:12" FileAge="1687869192141" FileType="45637" CompNumb="30" />
       <File Name="Generated_Code/lpi2c1.c" FileDate="2023-06-27, 14:33:12" FileAge="1687869192157" FileType="45637" CompNumb="28" />
-      <File Name="Documentation/TestBench_v3_Settings.xml" FileDate="2023-06-27, 17:33:45" FileAge="1687880025369" FileType="3072" />
+      <File Name="Documentation/TestBench_v3_Settings.xml" FileDate="2023-06-28, 11:01:09" FileAge="1687942869702" FileType="3072" />
       <File Name="Generated_Code/pdly1.c" FileDate="2023-06-27, 14:33:12" FileAge="1687869192165" FileType="45637" CompNumb="26" />
       <File Name="Generated_Code/LPSPI_MPR.c" FileDate="2023-06-27, 14:33:12" FileAge="1687869192141" FileType="45637" CompNumb="30" />
       <File Name="SDK/platform/devices/S32K144/include/S32K144_features.h" FileDate="2023-06-12, 15:43:39" FileAge="1686577419905" FileType="262144" />
-      <File Name="Sources/main.c" FileDate="2023-06-27, 17:33:45" FileAge="1687880025187" FileType="128" />
+      <File Name="Sources/main.c" FileDate="2023-06-28, 11:49:05" FileAge="1687945745957" FileType="128" />
     </GeneratedByPE>
   </GeneratedFilesList>
-  <CodeGenReference>14</CodeGenReference>
+  <CodeGenReference>18</CodeGenReference>
 </CodeGenerationInfo>
