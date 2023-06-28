@@ -45,8 +45,7 @@ minus_release_delay=15;
  setting_counter = 1;
  const uint8_t MAX_SETTING_COUNTER = 20U;
  const uint8_t MIN_SETTING_COUNTER = 1U;
-
- strncpy(checkCommand,CHECK_COMMAND,8);
+ snprintf(checkCommand, sizeof(checkCommand),CHECK_COMMAND);
 		speed_value = 20;
 		  uart_state = UART_STATE_IDLE;
 

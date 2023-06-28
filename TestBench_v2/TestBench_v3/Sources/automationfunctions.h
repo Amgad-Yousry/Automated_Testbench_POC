@@ -86,7 +86,7 @@ volatile int SESSION_TIMER =0;
 
 
 uint8_t packet[PACKET_SIZE];
-char  checkCommand[];
+char  checkCommand[20];
 status_t status;
  int speed_value ;
 char speed_minus[20];
