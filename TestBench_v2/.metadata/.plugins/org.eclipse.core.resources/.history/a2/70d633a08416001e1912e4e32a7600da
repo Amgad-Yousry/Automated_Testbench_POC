@@ -100,25 +100,25 @@
       <File Name="SDK/platform/pal/timing/src/timing_irq.h" FileDate="2023-06-12, 15:43:41" FileAge="1686577421176" FileType="262144" />
       <File Name="SDK/platform/drivers/src/lpspi/lpspi_hw_access.h" FileDate="2023-06-12, 15:43:40" FileAge="1686577420946" FileType="262144" />
       <File Name="SDK/platform/drivers/inc/lpspi_shared_function.h" FileDate="2023-06-12, 15:43:40" FileAge="1686577420696" FileType="262144" />
-      <File Name="SDK/platform/pal/timing/inc/timing_pal_mapping.h" FileDate="2023-06-12, 15:43:41" FileAge="1686577421166" FileType="262144" />
       <File Name="SDK/platform/devices/device_registers.h" FileDate="2023-06-12, 15:43:39" FileAge="1686577419805" FileType="262144" />
+      <File Name="SDK/platform/pal/timing/inc/timing_pal_mapping.h" FileDate="2023-06-12, 15:43:41" FileAge="1686577421166" FileType="262144" />
       <File Name="SDK/platform/pal/timing/src/timing_irq.c" FileDate="2023-06-12, 15:43:41" FileAge="1686577421166" FileType="262144" />
       <File Name="SDK/platform/drivers/src/lpspi/lpspi_hw_access.c" FileDate="2023-06-12, 15:43:40" FileAge="1686577420946" FileType="262144" />
-      <File Name="Generated_Code/lpuart1.h" FileDate="2023-06-28, 12:06:32" FileAge="1687946792657" FileType="45637" CompNumb="32" />
       <File Name="SDK/platform/devices/callbacks.h" FileDate="2023-06-12, 15:43:39" FileAge="1686577419795" FileType="262144" />
+      <File Name="Generated_Code/lpuart1.h" FileDate="2023-06-28, 12:06:32" FileAge="1687946792657" FileType="45637" CompNumb="32" />
       <File Name="Generated_Code/lpi2c1.h" FileDate="2023-06-27, 14:33:12" FileAge="1687869192157" FileType="45637" CompNumb="28" />
-      <File Name="Generated_Code/lpuart1.c" FileDate="2023-06-28, 12:06:32" FileAge="1687946792657" FileType="45637" CompNumb="32" />
       <File Name="SDK/platform/drivers/inc/lpi2c_driver.h" FileDate="2023-06-12, 15:43:40" FileAge="1686577420696" FileType="262144" />
-      <File Name="SDK/rtos/osif/osif_baremetal.c" FileDate="2023-06-12, 15:43:41" FileAge="1686577421306" FileType="262144" />
+      <File Name="Generated_Code/lpuart1.c" FileDate="2023-06-28, 12:06:32" FileAge="1687946792657" FileType="45637" CompNumb="32" />
       <File Name="Generated_Code/pdly1.h" FileDate="2023-06-27, 14:33:12" FileAge="1687869192165" FileType="45637" CompNumb="26" />
-      <File Name="Generated_Code/lpi2c1.c" FileDate="2023-06-27, 14:33:12" FileAge="1687869192157" FileType="45637" CompNumb="28" />
+      <File Name="SDK/rtos/osif/osif_baremetal.c" FileDate="2023-06-12, 15:43:41" FileAge="1686577421306" FileType="262144" />
       <File Name="Generated_Code/LPSPI_MPR.h" FileDate="2023-06-27, 14:33:12" FileAge="1687869192141" FileType="45637" CompNumb="30" />
+      <File Name="Generated_Code/lpi2c1.c" FileDate="2023-06-27, 14:33:12" FileAge="1687869192157" FileType="45637" CompNumb="28" />
       <File Name="Documentation/TestBench_v3_Settings.xml" FileDate="2023-06-28, 12:06:32" FileAge="1687946792657" FileType="3072" />
       <File Name="Generated_Code/pdly1.c" FileDate="2023-06-27, 14:33:12" FileAge="1687869192165" FileType="45637" CompNumb="26" />
-      <File Name="Generated_Code/LPSPI_MPR.c" FileDate="2023-06-27, 14:33:12" FileAge="1687869192141" FileType="45637" CompNumb="30" />
       <File Name="SDK/platform/devices/S32K144/include/S32K144_features.h" FileDate="2023-06-12, 15:43:39" FileAge="1686577419905" FileType="262144" />
+      <File Name="Generated_Code/LPSPI_MPR.c" FileDate="2023-06-27, 14:33:12" FileAge="1687869192141" FileType="45637" CompNumb="30" />
       <File Name="Sources/main.c" FileDate="2023-06-28, 17:35:31" FileAge="1687966531452" FileType="128" />
     </GeneratedByPE>
   </GeneratedFilesList>
-  <CodeGenReference>7</CodeGenReference>
+  <CodeGenReference>6</CodeGenReference>
 </CodeGenerationInfo>
