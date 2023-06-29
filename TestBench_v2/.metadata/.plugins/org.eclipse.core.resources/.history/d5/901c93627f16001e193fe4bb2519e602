@@ -11,8 +11,8 @@
 #define EVB
 
 #define GPIO_PORT1	PTD
-#define MINUS		9U
-#define BELL		8U
+#define MINUS		8U
+#define BELL		9U
 #define ONOFF		2U
 #define PLUS		0U
 #define Tx			7U

@@ -1,12 +1,12 @@
-17:13:10 **** Incremental Build of configuration Debug_FLASH for project TestBench_v3 ****
+15:30:39 **** Incremental Build of configuration Debug_FLASH for project TestBench_v3 ****
 make -j8 all 
 Executing target #59 TestBench_v3.siz
 Invoking: Standard S32DS Print Size
 arm-none-eabi-size --format=berkeley  TestBench_v3.elf 
    text	   data	    bss	    dec	    hex	filename
-  37032	   2812	   3768	  43612	   aa5c	TestBench_v3.elf
+  37032	   2812	   3784	  43628	   aa6c	TestBench_v3.elf
 Finished building: TestBench_v3.siz
  
 
-17:13:11 Build Finished (took 460ms)
+15:30:40 Build Finished (took 521ms)
 
