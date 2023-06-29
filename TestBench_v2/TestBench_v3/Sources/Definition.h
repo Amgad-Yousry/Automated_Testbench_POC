@@ -51,7 +51,7 @@
 
 /* Period in nanosecond unit */
 #define GAS_PERIOD_BY_NS	480000000UL  /* The period is 0.5 second */
-#define SFM_PERIOD_BY_NS	100000000UL  /* The period is 0.5 second */
+#define SFM_PERIOD_BY_NS	10000000UL  /* The period is 0.5 second */
 #define AUTO_PERIOD_BY_NS	10000000UL /* The period is 10000 micro seconds */
 #define MPR_PERIOD_BY_NS	500000000UL /* The period is 1 second. The actual period is going to be the
 										   double of this value, because it requires two communications.  */
