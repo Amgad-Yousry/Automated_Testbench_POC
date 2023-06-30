@@ -15,13 +15,11 @@
 #include "dmaController1.h"
 #include "pdly1.h"
 #include "clockMan1.h"
-#include "freemaster.h"
 #include "lpi2c1.h"
-#include "lpuart_gasboard.h"
-#include "LPSPI_MPR.h"
+#include "lpuart1.h"
 
 
-#include "Definition.h"
+//#include "Definition.h"
 #include "Init.h"
 #include "Computations.h"
 #include "Callbacks_Globals.h"

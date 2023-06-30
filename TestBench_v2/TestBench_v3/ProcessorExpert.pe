@@ -3,7 +3,7 @@
   <Header>
     <Name>TestBench_v3</Name>
     <SavedBy>B58799</SavedBy>
-    <ModificationStamp>21</ModificationStamp>
+    <ModificationStamp>24</ModificationStamp>
     <Date>2016-08-09</Date>
     <IDE>Eclipse IDE</IDE>
     <PEversion>1.12.2.RT7_b1743-0713</PEversion>
@@ -4122,7 +4122,7 @@
         <ItemSymbol>LPUART2_lpuart_tx_Dir</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
-        <Value>&lt;Automatic&gt;</Value>
+        <Value>Output</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>MCM</ItemSymbol>
@@ -12178,7 +12178,7 @@
         <ItemSymbol>PeripheralClocksCount0</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
-        <Value>17</Value>
+        <Value>10</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>PeripheralClocksGrp0</ItemSymbol>
@@ -12888,8 +12888,8 @@
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>true</Value>
-        <Expanded>true</Expanded>
+        <Value>false</Value>
+        <Expanded>false</Expanded>
       </ItemState>
       <ItemState>
         <ItemSymbol>Peripheral7_CLOCK_NAME0</ItemSymbol>
@@ -12918,7 +12918,7 @@
       </ItemState>
       <ItemState>
         <ItemSymbol>Peripheral7_FUNC_CLK0</ItemSymbol>
-        <Value>48 MHz</Value>
+        <Value>0 Hz</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>Peripheral8_CLK_Grp0</ItemSymbol>
@@ -12931,8 +12931,8 @@
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>true</Value>
-        <Expanded>true</Expanded>
+        <Value>false</Value>
+        <Expanded>false</Expanded>
       </ItemState>
       <ItemState>
         <ItemSymbol>Peripheral8_CLOCK_NAME0</ItemSymbol>
@@ -12961,7 +12961,7 @@
       </ItemState>
       <ItemState>
         <ItemSymbol>Peripheral8_FUNC_CLK0</ItemSymbol>
-        <Value>8 MHz</Value>
+        <Value>0 Hz</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>Peripheral9_CLK_Grp0</ItemSymbol>
@@ -12974,8 +12974,8 @@
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>true</Value>
-        <Expanded>true</Expanded>
+        <Value>false</Value>
+        <Expanded>false</Expanded>
       </ItemState>
       <ItemState>
         <ItemSymbol>Peripheral9_CLOCK_NAME0</ItemSymbol>
@@ -13004,7 +13004,7 @@
       </ItemState>
       <ItemState>
         <ItemSymbol>Peripheral9_FUNC_CLK0</ItemSymbol>
-        <Value>8 MHz</Value>
+        <Value>0 Hz</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>Peripheral19_CLK_Grp0</ItemSymbol>
@@ -13017,8 +13017,8 @@
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>true</Value>
-        <Expanded>true</Expanded>
+        <Value>false</Value>
+        <Expanded>false</Expanded>
       </ItemState>
       <ItemState>
         <ItemSymbol>Peripheral19_CLOCK_NAME0</ItemSymbol>
@@ -13057,7 +13057,7 @@
       </ItemState>
       <ItemState>
         <ItemSymbol>Peripheral19_FUNC_CLK0</ItemSymbol>
-        <Value>8 MHz</Value>
+        <Value>0 Hz</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>Peripheral28_CLK_Grp0</ItemSymbol>
@@ -13070,8 +13070,8 @@
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>true</Value>
-        <Expanded>true</Expanded>
+        <Value>false</Value>
+        <Expanded>false</Expanded>
       </ItemState>
       <ItemState>
         <ItemSymbol>Peripheral28_CLOCK_NAME0</ItemSymbol>
@@ -13100,7 +13100,7 @@
       </ItemState>
       <ItemState>
         <ItemSymbol>Peripheral28_FUNC_CLK0</ItemSymbol>
-        <Value>8 MHz</Value>
+        <Value>0 Hz</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>Peripheral29_CLK_Grp0</ItemSymbol>
@@ -13313,8 +13313,8 @@
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>true</Value>
-        <Expanded>true</Expanded>
+        <Value>false</Value>
+        <Expanded>false</Expanded>
       </ItemState>
       <ItemState>
         <ItemSymbol>Peripheral21_CLOCK_NAME0</ItemSymbol>
@@ -13427,8 +13427,8 @@
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>true</Value>
-        <Expanded>true</Expanded>
+        <Value>false</Value>
+        <Expanded>false</Expanded>
       </ItemState>
       <ItemState>
         <ItemSymbol>Peripheral24_CLOCK_NAME0</ItemSymbol>
@@ -15561,23 +15561,23 @@
       </ItemState>
       <ItemState>
         <ItemSymbol>LPSPI_0_CLOCK_GATE_0</ItemSymbol>
-        <Value>'on'</Value>
+        <Value>'off'</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>LPSPI_1_CLOCK_GATE_0</ItemSymbol>
-        <Value>'on'</Value>
+        <Value>'off'</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>LPSPI_2_CLOCK_GATE_0</ItemSymbol>
-        <Value>'on'</Value>
+        <Value>'off'</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>LPTMR_0_CLOCK_GATE_0</ItemSymbol>
-        <Value>'on'</Value>
+        <Value>'off'</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>LPUART_0_CLOCK_GATE_0</ItemSymbol>
-        <Value>'on'</Value>
+        <Value>'off'</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>LPUART_1_CLOCK_GATE_0</ItemSymbol>
@@ -15601,7 +15601,7 @@
       </ItemState>
       <ItemState>
         <ItemSymbol>PORT_1_CLOCK_GATE_0</ItemSymbol>
-        <Value>'on'</Value>
+        <Value>'off'</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>PORT_2_CLOCK_GATE_0</ItemSymbol>
@@ -15613,7 +15613,7 @@
       </ItemState>
       <ItemState>
         <ItemSymbol>PORT_4_CLOCK_GATE_0</ItemSymbol>
-        <Value>'on'</Value>
+        <Value>'off'</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>RTC_0_CLOCK_GATE_0</ItemSymbol>
@@ -15663,23 +15663,23 @@
       </ItemState>
       <ItemState>
         <ItemSymbol>LPSPI0_CLK0</ItemSymbol>
-        <Value>48000000</Value>
+        <Value>0</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>LPSPI1_CLK0</ItemSymbol>
-        <Value>8000000</Value>
+        <Value>0</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>LPSPI2_CLK0</ItemSymbol>
-        <Value>8000000</Value>
+        <Value>0</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>LPTMR0_CLK0</ItemSymbol>
-        <Value>8000000</Value>
+        <Value>0</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>LPUART0_CLK0</ItemSymbol>
-        <Value>8000000</Value>
+        <Value>0</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>LPUART1_CLK0</ItemSymbol>
@@ -15786,7 +15786,7 @@
         <ItemSymbol>ProjectComponentsCount</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
-        <Value>12</Value>
+        <Value>11</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>PeripheralMaxIdValue</ItemSymbol>
@@ -36774,529 +36774,6 @@
       </ItemState>
     </Methods>
     <Events />
-  </Bean>
-  <Bean>
-    <Repository>file:/${ProcessorExpert_loc}/../../S32DS/S32SDK_S32K14x_EAR_0.8.6/tools/pex/Repositories/SDK_S32K14x_09_Repository</Repository>
-    <ComponentUUID>com.freescale.processorexpert.ksdk.lpspi</ComponentUUID>
-    <BeanType>lpspi</BeanType>
-    <Name>LPSPI_MPR</Name>
-    <CompNumb>30</CompNumb>
-    <CompEnabled>true</CompEnabled>
-    <GenCodeMode>ALWAYS_WRITE</GenCodeMode>
-    <IconName>PHONE_LDD</IconName>
-    <UserFolderName />
-    <Comment lines_count="0" />
-    <Template />
-    <BeanVersion>1.0.0</BeanVersion>
-    <LightErrorsIgnored>false</LightErrorsIgnored>
-    <Properties>
-      <ItemState>
-        <ItemSymbol>DeviceName</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <Value>LPSPI_MPR</Value>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>PeriphDevice</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <Value>LPSPI0</Value>
-        <SharedPrphMode>false</SharedPrphMode>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>CompVersion</ItemSymbol>
-        <Value>S32K144_SDK01</Value>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>VersionSpecificItem</ItemSymbol>
-        <ListItemCount>1</ListItemCount>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>Settings</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>PropertiesItem</ItemSymbol>
-        <ListItemCount>1</ListItemCount>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>MainConfigurationsGrp</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>true</Value>
-        <Expanded>true</Expanded>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>lpspiMasterCfg_group</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>true</Value>
-        <Expanded>true</Expanded>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>lpspiMasterCfg</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <ListItemCount>1</ListItemCount>
-        <UserReadOnly>false</UserReadOnly>
-        <Expanded>true</Expanded>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>lpspiMasterCfg_0</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>true</Value>
-        <Expanded>true</Expanded>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>lpspiMasterCfg_NAME0</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <Value>LPSPI_MPR_MasterConfig</Value>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>lpspiMasterCfg_TYPE0</ItemSymbol>
-        <ReadOnly>true</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <Value>lpspi_master_config_t</Value>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>lpspiMasterCfg_READONLY0</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>BaudRate0</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>100000</Value>
-        <Base>DEC</Base>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>MasterPcsSelection0</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <EnumSymbVal>LPSPI_PCS0</EnumSymbVal>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>MasterPolarity0</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>1</Index>
-        <EnumSymbVal>LPSPI_ACTIVE_LOW</EnumSymbVal>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>lpspiPcsContinuous0</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>MasterbitsPerFrame0</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>8</Value>
-        <Base>DEC</Base>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>ClockSource0</ItemSymbol>
-        <ReadOnly>true</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>48000000</Value>
-        <Base>DEC</Base>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>MasterPhase0</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <EnumSymbVal>LPSPI_CLOCK_PHASE_1ST_EDGE</EnumSymbVal>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>MasterClockPolarity0</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <EnumSymbVal>LPSPI_SCK_ACTIVE_HIGH</EnumSymbVal>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>MasterDirection0</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <EnumSymbVal>false</EnumSymbVal>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>MasterTransferType0</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <EnumSymbVal>LPSPI_USING_INTERRUPTS</EnumSymbVal>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>rxDMAChannelMaster0</ItemSymbol>
-        <ReadOnly>true</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <EnumSymbVal>255</EnumSymbVal>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>txDMAChannelMaster0</ItemSymbol>
-        <ReadOnly>true</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <TypeSpecNameState>DMAchannel_t</TypeSpecNameState>
-        <Index>0</Index>
-        <EnumSymbVal>255</EnumSymbVal>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>CallbackMaster0</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <Value>NULL</Value>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>CallbackParamMaster0</ItemSymbol>
-        <Value>NULL</Value>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>lpspiSlaveCfg_group</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>false</Value>
-        <Expanded>false</Expanded>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>lpspiSlaveCfg</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <ListItemCount>1</ListItemCount>
-        <UserReadOnly>false</UserReadOnly>
-        <Expanded>true</Expanded>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>lpspiSlaveCfg_0</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>false</Value>
-        <Expanded>false</Expanded>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>lpspiSlaveCfg_NAME0</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <Value>LPSPI_MPR_SlaveConfig0</Value>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>lpspiSlaveCfg_TYPE0</ItemSymbol>
-        <ReadOnly>true</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <Value>lpspi_slave_config_t</Value>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>lpspiSlaveCfg_READONLY0</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>SlavePolarity0</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <EnumSymbVal>LPSPI_ACTIVE_HIGH</EnumSymbVal>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>SlavebitsPerFrame0</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>8</Value>
-        <Base>DEC</Base>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>SlavePhase0</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <EnumSymbVal>LPSPI_CLOCK_PHASE_1ST_EDGE</EnumSymbVal>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>SlavePcsSelection0</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <EnumSymbVal>LPSPI_PCS0</EnumSymbVal>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>SlaveClockPolarity0</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <EnumSymbVal>LPSPI_SCK_ACTIVE_HIGH</EnumSymbVal>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>SlaveDirection0</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <EnumSymbVal>false</EnumSymbVal>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>SlaveTransferType0</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <EnumSymbVal>LPSPI_USING_INTERRUPTS</EnumSymbVal>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>rxDMAChannelSlave0</ItemSymbol>
-        <ReadOnly>true</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <EnumSymbVal>255</EnumSymbVal>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>txDMAChannelSlave0</ItemSymbol>
-        <ReadOnly>true</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <TypeSpecNameState>DMAchannel_t</TypeSpecNameState>
-        <Index>0</Index>
-        <EnumSymbVal>255</EnumSymbVal>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>CallbackSlave0</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <Value>NULL</Value>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>CallbackParamSlave0</ItemSymbol>
-        <Value>NULL</Value>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>LinkItem</ItemSymbol>
-        <ListItemCount>1</ListItemCount>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>LinkGrp</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <Expanded>true</Expanded>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>Link0</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <Value>clockMan1</Value>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>Link1</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <Value>intMan1</Value>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>Link3</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <Value>dmaController1</Value>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>Link2</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <Value>osif1</Value>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>InhrItem</ItemSymbol>
-        <ListItemCount>1</ListItemCount>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>InhrGrp</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <Expanded>true</Expanded>
-      </ItemState>
-    </Properties>
-    <Methods>
-      <ItemState>
-        <ItemSymbol>SdkSpecificMethods</ItemSymbol>
-        <ListItemCount>1</ListItemCount>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>lpspi_i2cgroup</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>LPSPI_DRV_MasterInit</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>LPSPI_DRV_MasterInit</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>LPSPI_DRV_MasterDeinit</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>LPSPI_DRV_MasterDeinit</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>LPSPI_DRV_MasterSetDelay</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>LPSPI_DRV_MasterSetDelay</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>LPSPI_DRV_MasterConfigureBus</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>LPSPI_DRV_MasterConfigureBus</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>LPSPI_DRV_MasterTransferBlocking</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>LPSPI_DRV_MasterTransferBlocking</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>LPSPI_DRV_MasterTransfer</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>LPSPI_DRV_MasterTransfer</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>LPSPI_DRV_MasterGetTransferStatus</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>LPSPI_DRV_MasterGetTransferStatus</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>LPSPI_DRV_MasterAbortTransfer</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>LPSPI_DRV_MasterAbortTransfer</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>LPSPI_DRV_SlaveInit</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>LPSPI_DRV_SlaveInit</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>LPSPI_DRV_SlaveDeinit</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>LPSPI_DRV_SlaveDeinit</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>LPSPI_DRV_SlaveTransferBlocking</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>LPSPI_DRV_SlaveTransferBlocking</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>LPSPI_DRV_SlaveTransfer</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>LPSPI_DRV_SlaveTransfer</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>LPSPI_DRV_SlaveAbortTransfer</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>LPSPI_DRV_SlaveAbortTransfer</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>LPSPI_DRV_SlaveGetTransferStatus</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>LPSPI_DRV_SlaveGetTransferStatus</UsrMethodName>
-      </ItemState>
-    </Methods>
-    <Events>
-      <ItemState>
-        <ItemSymbol>SdkSpecificEvents</ItemSymbol>
-        <ListItemCount>1</ListItemCount>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>lpspieventgroup</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-      </ItemState>
-    </Events>
   </Bean>
   <Bean>
     <Repository>file:/${ProcessorExpert_loc}/../../S32DS/S32SDK_S32K14x_EAR_0.8.6/tools/pex/Repositories/SDK_S32K14x_09_Repository</Repository>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>TestBench_v3</name>
+	<name>lpi2c_master_s32k144kl</name>
 	<comment>
 	</comment>
 	<projects>
@@ -93,11 +93,6 @@
 			<location>D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/common/s32_core_cm4.h</location>
 		</link>
 		<link>
-			<name>SDK/platform/drivers/inc/adc_driver.h</name>
-			<type>1</type>
-			<location>D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/adc_driver.h</location>
-		</link>
-		<link>
 			<name>SDK/platform/drivers/inc/clock_manager.h</name>
 			<type>1</type>
 			<location>D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/clock_manager.h</location>
@@ -116,21 +111,6 @@
 			<name>SDK/platform/drivers/inc/lpi2c_driver.h</name>
 			<type>1</type>
 			<location>D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h</location>
-		</link>
-		<link>
-			<name>SDK/platform/drivers/inc/lpit_driver.h</name>
-			<type>1</type>
-			<location>D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpit_driver.h</location>
-		</link>
-		<link>
-			<name>SDK/platform/drivers/inc/lpuart_driver.h</name>
-			<type>1</type>
-			<location>D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpuart_driver.h</location>
-		</link>
-		<link>
-			<name>SDK/platform/drivers/inc/pdb_driver.h</name>
-			<type>1</type>
-			<location>D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/pdb_driver.h</location>
 		</link>
 		<link>
 			<name>SDK/platform/drivers/inc/pins_driver.h</name>
@@ -156,16 +136,6 @@
 			<name>SDK/platform/devices/S32K144/startup/system_S32K144.h</name>
 			<type>1</type>
 			<location>D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K144/startup/system_S32K144.h</location>
-		</link>
-		<link>
-			<name>SDK/platform/drivers/src/adc/adc_driver.c</name>
-			<type>1</type>
-			<location>D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/adc/adc_driver.c</location>
-		</link>
-		<link>
-			<name>SDK/platform/drivers/src/adc/adc_hw_access.h</name>
-			<type>1</type>
-			<location>D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/adc/adc_hw_access.h</location>
 		</link>
 		<link>
 			<name>SDK/platform/drivers/src/clock/clock_manager.c</name>
@@ -223,56 +193,6 @@
 			<location>D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpi2c/lpi2c_irq.c</location>
 		</link>
 		<link>
-			<name>SDK/platform/drivers/src/lpit/lpit_driver.c</name>
-			<type>1</type>
-			<location>D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpit/lpit_driver.c</location>
-		</link>
-		<link>
-			<name>SDK/platform/drivers/src/lpit/lpit_hw_access.h</name>
-			<type>1</type>
-			<location>D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpit/lpit_hw_access.h</location>
-		</link>
-		<link>
-			<name>SDK/platform/drivers/src/lpuart/lpuart_driver.c</name>
-			<type>1</type>
-			<location>D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpuart/lpuart_driver.c</location>
-		</link>
-		<link>
-			<name>SDK/platform/drivers/src/lpuart/lpuart_hw_access.c</name>
-			<type>1</type>
-			<location>D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpuart/lpuart_hw_access.c</location>
-		</link>
-		<link>
-			<name>SDK/platform/drivers/src/lpuart/lpuart_hw_access.h</name>
-			<type>1</type>
-			<location>D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpuart/lpuart_hw_access.h</location>
-		</link>
-		<link>
-			<name>SDK/platform/drivers/src/lpuart/lpuart_irq.c</name>
-			<type>1</type>
-			<location>D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpuart/lpuart_irq.c</location>
-		</link>
-		<link>
-			<name>SDK/platform/drivers/src/lpuart/lpuart_irq.h</name>
-			<type>1</type>
-			<location>D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/lpuart/lpuart_irq.h</location>
-		</link>
-		<link>
-			<name>SDK/platform/drivers/src/pdb/pdb_driver.c</name>
-			<type>1</type>
-			<location>D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/pdb/pdb_driver.c</location>
-		</link>
-		<link>
-			<name>SDK/platform/drivers/src/pdb/pdb_hw_access.c</name>
-			<type>1</type>
-			<location>D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/pdb/pdb_hw_access.c</location>
-		</link>
-		<link>
-			<name>SDK/platform/drivers/src/pdb/pdb_hw_access.h</name>
-			<type>1</type>
-			<location>D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/pdb/pdb_hw_access.h</location>
-		</link>
-		<link>
 			<name>SDK/platform/drivers/src/pins/pins_driver.c</name>
 			<type>1</type>
 			<location>D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/pins/pins_driver.c</location>
@@ -291,31 +211,6 @@
 			<name>SDK/platform/drivers/src/pins/pins_port_hw_access.h</name>
 			<type>1</type>
 			<location>D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/src/pins/pins_port_hw_access.h</location>
-		</link>
-		<link>
-			<name>SDK/platform/pal/timing/inc/timing_pal.h</name>
-			<type>1</type>
-			<location>D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/pal/timing/inc/timing_pal.h</location>
-		</link>
-		<link>
-			<name>SDK/platform/pal/timing/inc/timing_pal_mapping.h</name>
-			<type>1</type>
-			<location>D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/pal/timing/inc/timing_pal_mapping.h</location>
-		</link>
-		<link>
-			<name>SDK/platform/pal/timing/src/timing_irq.c</name>
-			<type>1</type>
-			<location>D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/pal/timing/src/timing_irq.c</location>
-		</link>
-		<link>
-			<name>SDK/platform/pal/timing/src/timing_irq.h</name>
-			<type>1</type>
-			<location>D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/pal/timing/src/timing_irq.h</location>
-		</link>
-		<link>
-			<name>SDK/platform/pal/timing/src/timing_pal.c</name>
-			<type>1</type>
-			<location>D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/pal/timing/src/timing_pal.c</location>
 		</link>
 		<link>
 			<name>SDK/platform/drivers/src/clock/S32K1xx/clock_S32K1xx.c</name>

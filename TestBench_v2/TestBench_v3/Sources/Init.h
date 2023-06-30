@@ -37,11 +37,6 @@ void Init_GAS(void);
 /* Initialize SFM related peripheral */
 void Init_SFM(void);
 
-/* Initialize CO2 related peripheral */
-void Init_CO2(void);
-
-/* Initialize MPR related peripheral */
-void Init_MPR(void);
 
 /* Initialize Automation timer */
 void Init_AUTO(void);

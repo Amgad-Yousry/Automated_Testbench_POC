@@ -19,7 +19,7 @@
 //#include "lpit1.h"
 #include "lpi2c1.h"
 #include "timing_pal1.h"
-#include "LPSPI_MPR.h"
+
 
 #include "Definition.h"
 #include "Callbacks_Globals.h"
@@ -173,35 +173,8 @@ void Init_SFM(void)
 
 }
 
-/* Initialize CO2 related peripheral */
-void Init_CO2(void)
-{
 
 
-
-    /* Start LPIT channel 2 counting with the period is 1 second,
-    	   the period in tick = the period in nanosecond / LPIT tick resolution in nanosecond */
- //   TIMING_StartChannel(INST_TIMING_PAL1, LPIT_CHANNEL_CO2, CO2_PERIOD_BY_NS/u64LPITResolution);
-
-}
-
-/* Initialize MPR related peripheral */
-void Init_MPR(void)
-{
-
-	   /* Start SPI Communication */
-
-
-
-	    	/* Delays between the clock and the chip enable */
-	    	LPSPI_DRV_MasterSetDelay(LPSPI_MPR, SPI_DELAY, SPI_DELAY, SPI_DELAY);
-
-
-    /* Start LPIT channel 3 counting with the period is 1 second,
-    	   the period in tick = the period in nanosecond / LPIT tick resolution in nanosecond */
-    TIMING_StartChannel(INST_TIMING_PAL1, LPIT_CHANNEL_MPR, MPR_PERIOD_BY_NS/u64LPITResolution);
-
-}
 
 /* Initialize Automation timer */
 void Init_AUTO(void)
