@@ -4232,6 +4232,7 @@ Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 !ENTRY com.freescale.processorexpert.core 4 0 2023-06-29 15:13:36.601
 !MESSAGE Type specification is not defined "typelpspi_bitsperframe_t", symbol: MasterbitsPerFrame
 
@@ -4304,6 +4305,8 @@ Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 !ENTRY org.eclipse.launchbar.core 2 0 2023-06-28 17:50:19.564
 !MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
 
@@ -4364,6 +4367,9 @@ Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to
 !ENTRY com.pemicro.debug.gdbjtag.pne 4 5012 2023-06-28 17:50:23.994
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -4388,6 +4394,7 @@ org.eclipse.core.runtime.CoreException: PEmicro GDB Launch Failure : Unable to a
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 !SUBENTRY 1 com.pemicro.debug.gdbjtag.pne 8 1 2023-06-29 15:19:10.024
 !MESSAGE PEmicro GDB Launch Failure : Unable to auto-detect debug hardware. Please specify on the command-line. If running from Eclipse, check the launch Debug Configuration settings. Halting.
 
@@ -4405,6 +4412,8 @@ org.eclipse.core.runtime.CoreException: PEmicro GDB Launch Failure : Unable to a
 !STACK 1
 org.eclipse.core.runtime.CoreException: PEmicro GDB Launch Failure : Another GDB Server debug session is alreadyusing the same Server Port number. To run simultaneous debug sessions, please specify a unique Server Port and GDBMI Port in the Debug Configuration for each project. If another session is not running simultaneously, make sure that the pegdbserver_console and the arm-none-eabi-gdb processes have terminated.
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -4436,6 +4445,9 @@ org.eclipse.core.runtime.CoreException: PEmicro GDB Launch Failure : Another GDB
 org.eclipse.core.runtime.CoreException: PEmicro GDB Launch Failure : Unable to auto-detect debug hardware. Please specify on the command-line. If running from Eclipse, check the launch Debug Configuration settings. Halting.
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -4457,9 +4469,15 @@ org.eclipse.core.runtime.CoreException: PEmicro GDB Launch Failure : Unable to a
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 !SUBENTRY 1 com.pemicro.debug.gdbjtag.pne 8 1 2023-06-29 15:28:33.376
 !MESSAGE PEmicro GDB Launch Failure : Another GDB Server debug session is alreadyusing the same Server Port number. To run simultaneous debug sessions, please specify a unique Server Port and GDBMI Port in the Debug Configuration for each project. If another session is not running simultaneously, make sure that the pegdbserver_console and the arm-none-eabi-gdb processes have terminated.
 !SESSION 2023-06-29 15:29:26.503 -----------------------------------------------
+=======
+!SUBENTRY 1 com.pemicro.debug.gdbjtag.pne 8 1 2023-06-28 17:53:13.241
+!MESSAGE PEmicro GDB Launch Failure : Unable to auto-detect debug hardware. Please specify on the command-line. If running from Eclipse, check the launch Debug Configuration settings. Halting.
+!SESSION 2023-06-29 15:11:36.050 -----------------------------------------------
+>>>>>>> Stashed changes
 =======
 !SUBENTRY 1 com.pemicro.debug.gdbjtag.pne 8 1 2023-06-28 17:53:13.241
 !MESSAGE PEmicro GDB Launch Failure : Unable to auto-detect debug hardware. Please specify on the command-line. If running from Eclipse, check the launch Debug Configuration settings. Halting.
@@ -4485,7 +4503,11 @@ Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.freescale.s3
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 !ENTRY org.eclipse.egit.ui 2 0 2023-06-29 15:29:43.453
+=======
+!ENTRY org.eclipse.egit.ui 2 0 2023-06-29 15:11:52.438
+>>>>>>> Stashed changes
 =======
 !ENTRY org.eclipse.egit.ui 2 0 2023-06-29 15:11:52.438
 >>>>>>> Stashed changes
@@ -4504,6 +4526,7 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 !ENTRY com.freescale.processorexpert.core 4 0 2023-06-29 15:29:45.392
 !MESSAGE Type specification is not defined "typelpspi_bitsperframe_t", symbol: MasterbitsPerFrame
 
@@ -4514,6 +4537,9 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 !MESSAGE Type specification is not defined "typelpspi_bitsperframe_t", symbol: SlavebitsPerFrame
 
 !ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2023-06-29 15:29:45.877
+=======
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2023-06-29 15:11:56.274
+>>>>>>> Stashed changes
 =======
 !ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2023-06-29 15:11:56.274
 >>>>>>> Stashed changes
@@ -4568,6 +4594,7 @@ Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to
 	at java.security.cert.CertPathBuilder.build(Unknown Source)
 	... 30 more
 
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -5630,6 +5657,9 @@ Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to
 	... 30 more
 
 !ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2023-06-30 11:48:16.861
+=======
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2023-06-29 15:11:59.373
+>>>>>>> Stashed changes
 =======
 !ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2023-06-29 15:11:59.373
 >>>>>>> Stashed changes

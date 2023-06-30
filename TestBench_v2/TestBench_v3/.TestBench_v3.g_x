@@ -25,6 +25,7 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <File Name="Generated_Code/lpuart1.c" FileDate="2023-06-28, 12:14:03" FileAge="1687947243213" FileType="45637" CompNumb="32" />
       <File Name="SDK/platform/drivers/src/lpi2c/lpi2c_irq.c" FileDate="2023-02-22, 11:18:32" FileAge="1677061112425" FileType="262144" />
       <File Name="SDK/platform/devices/common/s32_core_cm4.h" FileDate="2023-02-22, 11:18:31" FileAge="1677061111940" FileType="262144" />
@@ -133,6 +134,8 @@
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
       <File Name="SDK/platform/drivers/src/clock/S32K1xx/clock_S32K1xx.h" FileDate="2023-06-12, 15:43:40" FileAge="1686577420746" FileType="262144" />
       <File Name="SDK/platform/drivers/src/lpi2c/lpi2c_irq.c" FileDate="2023-06-12, 15:43:40" FileAge="1686577420936" FileType="262144" />
       <File Name="SDK/platform/devices/common/s32_core_cm4.h" FileDate="2023-06-12, 15:43:39" FileAge="1686577419795" FileType="262144" />
@@ -234,6 +237,9 @@
   <CodeGenReference>1</CodeGenReference>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes

@@ -1,6 +1,7 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 11:52:00 **** Incremental Build of configuration Debug_FLASH for project TestBench_v3 ****
 =======
 17:53:01 **** Incremental Build of configuration Debug_FLASH for project TestBench_v3 ****
@@ -188,6 +189,9 @@ Finished building: TestBench_v3.siz
 =======
 17:53:01 **** Incremental Build of configuration Debug_FLASH for project TestBench_v3 ****
 >>>>>>> Stashed changes
+=======
+17:53:01 **** Incremental Build of configuration Debug_FLASH for project TestBench_v3 ****
+>>>>>>> Stashed changes
 make -j8 all 
 Executing target #59 TestBench_v3.siz
 Invoking: Standard S32DS Print Size
@@ -196,8 +200,11 @@ arm-none-eabi-size --format=berkeley  TestBench_v3.elf
   37040	   2812	   3784	  43636	   aa74	TestBench_v3.elf
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 Finished building: TestBench_v3.siz
@@ -210,6 +217,9 @@ arm-none-eabi-size --format=berkeley  TestBench_v3.elf
    text	   data	    bss	    dec	    hex	filename
   37040	   2812	   3784	  43636	   aa74	TestBench_v3.elf
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes

@@ -313,6 +313,7 @@
     </sharedElements>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <sharedElements xsi:type="advanced:Area" xmi:id="_6Du5PBc0Ee6gA5fycNMYaA" elementId="org.eclipse.ui.editorss" selectedElement="_6Du5PRc0Ee6gA5fycNMYaA">
       <children xsi:type="basic:PartStack" xmi:id="_6Du5PRc0Ee6gA5fycNMYaA" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_6Du5Pxc0Ee6gA5fycNMYaA">
         <tags>org.eclipse.e4.primaryDataStack</tags>
@@ -323,6 +324,12 @@
       <children xsi:type="basic:PartStack" xmi:id="_uF1x8RWbEe6tddgOYSyKhg" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_7uPfUBWxEe6tddgOYSyKhg">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
+=======
+    <sharedElements xsi:type="advanced:Area" xmi:id="_uF1x8BWbEe6tddgOYSyKhg" elementId="org.eclipse.ui.editorss" selectedElement="_uF1x8RWbEe6tddgOYSyKhg">
+      <children xsi:type="basic:PartStack" xmi:id="_uF1x8RWbEe6tddgOYSyKhg" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_7uPfUBWxEe6tddgOYSyKhg">
+        <tags>org.eclipse.e4.primaryDataStack</tags>
+        <tags>EditorStack</tags>
+>>>>>>> Stashed changes
 =======
     <sharedElements xsi:type="advanced:Area" xmi:id="_uF1x8BWbEe6tddgOYSyKhg" elementId="org.eclipse.ui.editorss" selectedElement="_uF1x8RWbEe6tddgOYSyKhg">
       <children xsi:type="basic:PartStack" xmi:id="_uF1x8RWbEe6tddgOYSyKhg" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_7uPfUBWxEe6tddgOYSyKhg">
@@ -344,6 +351,9 @@
         <children xsi:type="basic:Part" xmi:id="_9zuAEBWbEe6tddgOYSyKhg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="main.c" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/obj16/c_file_obj.gif" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;main.c&quot; partName=&quot;main.c&quot; title=&quot;main.c&quot; tooltip=&quot;TestBench_v3/Sources/main.c&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/TestBench_v3/Sources/main.c&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;2200&quot; selectionTopPixel=&quot;1405&quot;/>&#xD;&#xA;&lt;/editor>"/>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -381,9 +391,12 @@
         </children>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         <children xsi:type="basic:Part" xmi:id="_6Du5RRc0Ee6gA5fycNMYaA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="automationdefinit.h" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/obj16/c_file_obj.gif" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;automationdefinit.h&quot; partName=&quot;automationdefinit.h&quot; title=&quot;automationdefinit.h&quot; tooltip=&quot;TestBench_v3/Sources/automationdefinit.h&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/TestBench_v3/Sources/automationdefinit.h&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;299&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
         <children xsi:type="basic:Part" xmi:id="_lj83IBWgEe6tddgOYSyKhg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="automationdefinit.h" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/obj16/c_file_obj.gif" closeable="true">
@@ -416,6 +429,9 @@
         <children xsi:type="basic:Part" xmi:id="_Siz4wBWxEe6tddgOYSyKhg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="automationfunctions.h" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/obj16/c_file_obj.gif" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;automationfunctions.h&quot; partName=&quot;automationfunctions.h&quot; title=&quot;automationfunctions.h&quot; tooltip=&quot;TestBench_v3/Sources/automationfunctions.h&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/TestBench_v3/Sources/automationfunctions.h&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1110&quot; selectionTopPixel=&quot;600&quot;/>&#xD;&#xA;&lt;/editor>"/>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -430,12 +446,16 @@
 =======
         <children xsi:type="basic:Part" xmi:id="_7uPfUBWxEe6tddgOYSyKhg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Definition.h" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/obj16/c_file_obj.gif" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;Definition.h&quot; partName=&quot;Definition.h&quot; title=&quot;Definition.h&quot; tooltip=&quot;TestBench_v3/Sources/Definition.h&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/TestBench_v3/Sources/Definition.h&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;463&quot; selectionTopPixel=&quot;363&quot;/>&#xD;&#xA;&lt;/editor>"/>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
           <tags>Editor</tags>
           <tags>org.eclipse.cdt.ui.editor.CEditor</tags>
           <tags>removeOnHide</tags>
           <tags>active</tags>
           <tags>activeOnClose</tags>
+<<<<<<< Updated upstream
         </children>
         <children xsi:type="basic:Part" xmi:id="_6Du5Shc0Ee6gA5fycNMYaA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="automationfunctions.c" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/obj16/c_file_obj.gif" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;automationfunctions.c&quot; partName=&quot;automationfunctions.c&quot; title=&quot;automationfunctions.c&quot; tooltip=&quot;TestBench_v3/Sources/automationfunctions.c&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/TestBench_v3/Sources/automationfunctions.c&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1277&quot; selectionTopPixel=&quot;740&quot;/>&#xD;&#xA;&lt;/editor>"/>
@@ -448,6 +468,8 @@
           <tags>removeOnHide</tags>
           <tags>active</tags>
           <tags>activeOnClose</tags>
+=======
+>>>>>>> Stashed changes
         </children>
       </children>
     </sharedElements>
@@ -491,7 +513,11 @@
       <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.ui.ide"/>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view PRIMARY_SORT_FIELD=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot; categoryGroup=&quot;org.eclipse.ui.ide.severity&quot; markerContentGenerator=&quot;org.eclipse.ui.ide.problemsGenerator&quot; partName=&quot;Problems&quot;>&#xD;&#xA;&lt;expanded>&#xD;&#xA;&lt;category IMemento.internal.id=&quot;Errors&quot;/>&#xD;&#xA;&lt;category IMemento.internal.id=&quot;Warnings&quot;/>&#xD;&#xA;&lt;/expanded>&#xD;&#xA;&lt;columnWidths org.eclipse.ui.ide.locationField=&quot;120&quot; org.eclipse.ui.ide.markerType=&quot;120&quot; org.eclipse.ui.ide.pathField=&quot;160&quot; org.eclipse.ui.ide.resourceField=&quot;292&quot; org.eclipse.ui.ide.severityAndDescriptionField=&quot;856&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.resourceField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.pathField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.locationField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.markerType&quot;/>&#xD;&#xA;&lt;/view>"/>
+=======
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view PRIMARY_SORT_FIELD=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot; categoryGroup=&quot;org.eclipse.ui.ide.severity&quot; markerContentGenerator=&quot;org.eclipse.ui.ide.problemsGenerator&quot; partName=&quot;Problems&quot;>&#xD;&#xA;&lt;expanded>&#xD;&#xA;&lt;category IMemento.internal.id=&quot;Warnings (1 item)&quot;/>&#xD;&#xA;&lt;/expanded>&#xD;&#xA;&lt;columnWidths org.eclipse.ui.ide.locationField=&quot;120&quot; org.eclipse.ui.ide.markerType=&quot;120&quot; org.eclipse.ui.ide.pathField=&quot;160&quot; org.eclipse.ui.ide.resourceField=&quot;292&quot; org.eclipse.ui.ide.severityAndDescriptionField=&quot;580&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.resourceField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.pathField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.locationField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.markerType&quot;/>&#xD;&#xA;&lt;/view>"/>
+>>>>>>> Stashed changes
 =======
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view PRIMARY_SORT_FIELD=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot; categoryGroup=&quot;org.eclipse.ui.ide.severity&quot; markerContentGenerator=&quot;org.eclipse.ui.ide.problemsGenerator&quot; partName=&quot;Problems&quot;>&#xD;&#xA;&lt;expanded>&#xD;&#xA;&lt;category IMemento.internal.id=&quot;Warnings (1 item)&quot;/>&#xD;&#xA;&lt;/expanded>&#xD;&#xA;&lt;columnWidths org.eclipse.ui.ide.locationField=&quot;120&quot; org.eclipse.ui.ide.markerType=&quot;120&quot; org.eclipse.ui.ide.pathField=&quot;160&quot; org.eclipse.ui.ide.resourceField=&quot;292&quot; org.eclipse.ui.ide.severityAndDescriptionField=&quot;580&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.resourceField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.pathField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.locationField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.markerType&quot;/>&#xD;&#xA;&lt;/view>"/>
 >>>>>>> Stashed changes
@@ -531,9 +557,12 @@
       <tags>categoryTag:General</tags>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <tags>highlighted</tags>
       <menus xmi:id="_6Du5sBc0Ee6gA5fycNMYaA" elementId="org.eclipse.ui.console.ConsoleView">
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
       <menus xmi:id="_uXSuUBWbEe6tddgOYSyKhg" elementId="org.eclipse.ui.console.ConsoleView">
@@ -815,6 +844,7 @@
         <tags>Draggable</tags>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         <children xsi:type="menu:DirectToolItem" xmi:id="_6Du6Nhc0Ee6gA5fycNMYaA" elementId="new.group">
           <tags>Opaque</tags>
         </children>
@@ -858,6 +888,9 @@
         <children xsi:type="menu:DirectToolItem" xmi:id="_6Du6RBc0Ee6gA5fycNMYaA" elementId="org.eclipse.cdt.ui.buildActiveConfigToolbarAction">
           <tags>Opaque</tags>
         </children>
+=======
+        <children xsi:type="menu:HandledToolItem" xmi:id="_1d0WMBXJEe6rh-bOVpbMWA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_t3LEaRWbEe6tddgOYSyKhg"/>
+>>>>>>> Stashed changes
 =======
         <children xsi:type="menu:HandledToolItem" xmi:id="_1d0WMBXJEe6rh-bOVpbMWA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_t3LEaRWbEe6tddgOYSyKhg"/>
 >>>>>>> Stashed changes
@@ -943,6 +976,7 @@
         <tags>Draggable</tags>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         <children xsi:type="menu:DirectToolItem" xmi:id="_6Du6lRc0Ee6gA5fycNMYaA" elementId="history.group">
           <tags>Opaque</tags>
         </children>
@@ -968,6 +1002,9 @@
         <children xsi:type="menu:DirectToolItem" xmi:id="_6Du6nRc0Ee6gA5fycNMYaA" elementId="org.eclipse.ui.edit.text.gotoLastEditPosition">
           <tags>Opaque</tags>
         </children>
+=======
+        <children xsi:type="menu:HandledToolItem" xmi:id="_1d0WOxXJEe6rh-bOVpbMWA" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_t3LD5BWbEe6tddgOYSyKhg"/>
+>>>>>>> Stashed changes
 =======
         <children xsi:type="menu:HandledToolItem" xmi:id="_1d0WOxXJEe6rh-bOVpbMWA" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_t3LD5BWbEe6tddgOYSyKhg"/>
 >>>>>>> Stashed changes
