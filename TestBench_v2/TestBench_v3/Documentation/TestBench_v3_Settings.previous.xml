@@ -244,20 +244,6 @@
       <EmptySection_DummyValue />
     </Events>
   </Bean>
-  <Bean name="LPSPI_MPR" type="lpspi">
-    <Enabled v="Y" />
-    <Properties>
-      <Component_name v="LPSPI_MPR" />
-      <Device v="LPSPI0" />
-      <Component_version v="S32K144_SDK01" />
-    </Properties>
-    <Methods>
-      <EmptySection_DummyValue />
-    </Methods>
-    <Events>
-      <EmptySection_DummyValue />
-    </Events>
-  </Bean>
   <Bean name="lpuart1" type="lpuart">
     <Enabled v="Y" />
     <Properties>
