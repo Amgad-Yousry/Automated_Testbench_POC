@@ -1,0 +1,99 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+-include ../makefile.local
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS_QUOTED += \
+"../Sources/Callbacks_Globals.c" \
+"../Sources/Computations.c" \
+"../Sources/Init.c" \
+"../Sources/automationfunctions.c" \
+"../Sources/main.c" \
+
+C_SRCS += \
+../Sources/Callbacks_Globals.c \
+../Sources/Computations.c \
+../Sources/Init.c \
+../Sources/automationfunctions.c \
+../Sources/main.c \
+
+OBJS_OS_FORMAT += \
+./Sources/Callbacks_Globals.o \
+./Sources/Computations.o \
+./Sources/Init.o \
+./Sources/automationfunctions.o \
+./Sources/main.o \
+
+C_DEPS_QUOTED += \
+"./Sources/Callbacks_Globals.d" \
+"./Sources/Computations.d" \
+"./Sources/Init.d" \
+"./Sources/automationfunctions.d" \
+"./Sources/main.d" \
+
+OBJS += \
+./Sources/Callbacks_Globals.o \
+./Sources/Computations.o \
+./Sources/Init.o \
+./Sources/automationfunctions.o \
+./Sources/main.o \
+
+OBJS_QUOTED += \
+"./Sources/Callbacks_Globals.o" \
+"./Sources/Computations.o" \
+"./Sources/Init.o" \
+"./Sources/automationfunctions.o" \
+"./Sources/main.o" \
+
+C_DEPS += \
+./Sources/Callbacks_Globals.d \
+./Sources/Computations.d \
+./Sources/Init.d \
+./Sources/automationfunctions.d \
+./Sources/main.d \
+
+
+# Each subdirectory must supply rules for building sources it contributes
+Sources/Callbacks_Globals.o: ../Sources/Callbacks_Globals.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #47 $<'
+	@echo 'Invoking: Standard S32DS C Compiler'
+	arm-none-eabi-gcc "@Sources/Callbacks_Globals.args" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -c -o "Sources/Callbacks_Globals.o" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Sources/Computations.o: ../Sources/Computations.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #48 $<'
+	@echo 'Invoking: Standard S32DS C Compiler'
+	arm-none-eabi-gcc "@Sources/Computations.args" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -c -o "Sources/Computations.o" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Sources/Init.o: ../Sources/Init.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #49 $<'
+	@echo 'Invoking: Standard S32DS C Compiler'
+	arm-none-eabi-gcc "@Sources/Init.args" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -c -o "Sources/Init.o" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Sources/automationfunctions.o: ../Sources/automationfunctions.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #50 $<'
+	@echo 'Invoking: Standard S32DS C Compiler'
+	arm-none-eabi-gcc "@Sources/automationfunctions.args" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -c -o "Sources/automationfunctions.o" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Sources/main.o: ../Sources/main.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #51 $<'
+	@echo 'Invoking: Standard S32DS C Compiler'
+	arm-none-eabi-gcc "@Sources/main.args" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -c -o "Sources/main.o" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+
