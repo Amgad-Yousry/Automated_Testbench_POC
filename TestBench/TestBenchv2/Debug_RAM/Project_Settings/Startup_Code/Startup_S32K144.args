@@ -1,0 +1,19 @@
+-I"D:/MASTERS/scaleo/Internship/TestBench/TestBenchv2/Sources"
+-I"D:/MASTERS/scaleo/Internship/TestBench/TestBenchv2/Generated_Code"
+-I"D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.4/platform/devices/S32K144/include"
+-I"D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.4/platform/devices/S32K144"
+-I"D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.4/platform/devices/common"
+-I"D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.4/platform/devices/S32K144/startup"
+-I"D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.4/platform/devices"
+-I"D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.4/platform/hal/inc"
+-I"D:/Program Files (x86)/S32DS/S32SDK_S32K14x_EAR_0.8.4/platform/drivers/inc"
+-x assembler-with-cpp
+-O0
+-g3
+-mcpu=cortex-m4
+-mthumb
+-mfloat-abi=hard
+-mfpu=fpv4-sp-d16
+-specs=nano.specs
+-specs=nosys.specs
+--sysroot="D:/Program Files (x86)/Cross_Tools/gcc-arm-none-eabi-4_9/arm-none-eabi/newlib"
