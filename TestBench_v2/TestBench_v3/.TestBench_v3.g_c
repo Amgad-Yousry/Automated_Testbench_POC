@@ -134,8 +134,13 @@
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule>Events</GenEventModule>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <HeaderAge>1457413508</HeaderAge>
     <CodeAge>1457413508</CodeAge>
+=======
+    <HeaderAge>1457283280</HeaderAge>
+    <CodeAge>1457222694</CodeAge>
+>>>>>>> Stashed changes
 =======
     <HeaderAge>1457283280</HeaderAge>
     <CodeAge>1457222694</CodeAge>
@@ -181,8 +186,13 @@
     <GenDriverVersion>1.4</GenDriverVersion>
     <GenEventModule />
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <HeaderAge>1457413163</HeaderAge>
     <CodeAge>1457290898</CodeAge>
+=======
+    <HeaderAge>1457289076</HeaderAge>
+    <CodeAge>1457289076</CodeAge>
+>>>>>>> Stashed changes
 =======
     <HeaderAge>1457289076</HeaderAge>
     <CodeAge>1457289076</CodeAge>
@@ -233,8 +243,13 @@
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule />
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <HeaderAge>1457413508</HeaderAge>
     <CodeAge>1457413508</CodeAge>
+=======
+    <HeaderAge>1457222694</HeaderAge>
+    <CodeAge>1457222694</CodeAge>
+>>>>>>> Stashed changes
 =======
     <HeaderAge>1457222694</HeaderAge>
     <CodeAge>1457222694</CodeAge>
@@ -603,6 +618,7 @@
     <GenEventModule />
     <HeaderAge>1457222694</HeaderAge>
     <CodeAge>1457222694</CodeAge>
+<<<<<<< Updated upstream
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>14</GenNumMethods>
     <LPSPI_DRV_MasterInit>true</LPSPI_DRV_MasterInit>
@@ -683,6 +699,8 @@
     <GenEventModule />
     <HeaderAge>1457413508</HeaderAge>
     <CodeAge>1457413508</CodeAge>
+=======
+>>>>>>> Stashed changes
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>14</GenNumMethods>
     <LPSPI_DRV_MasterInit>true</LPSPI_DRV_MasterInit>
@@ -705,6 +723,7 @@
     <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
     <GenMethodPos>0</GenMethodPos>
     <GenExtraFilesCount>9</GenExtraFilesCount>
+<<<<<<< Updated upstream
     <ExtraFile0>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\inc\lpspi_slave_driver.h</ExtraFile0>
     <ExtraFile1>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\inc\lpspi_shared_function.h</ExtraFile1>
     <ExtraFile2>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\inc\lpspi_master_driver.h</ExtraFile2>
@@ -715,6 +734,57 @@
     <ExtraFile7>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\lpspi\lpspi_master_driver.c</ExtraFile7>
     <ExtraFile8>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\lpspi\lpspi_irq.c</ExtraFile8>
   </ComponentID_33>
+=======
+    <ExtraFile0>C:\Users\kamil\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\inc\lpspi_slave_driver.h</ExtraFile0>
+    <ExtraFile1>C:\Users\kamil\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\inc\lpspi_shared_function.h</ExtraFile1>
+    <ExtraFile2>C:\Users\kamil\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\inc\lpspi_master_driver.h</ExtraFile2>
+    <ExtraFile3>C:\Users\kamil\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\lpspi\lpspi_hw_access.h</ExtraFile3>
+    <ExtraFile4>C:\Users\kamil\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\lpspi\lpspi_hw_access.c</ExtraFile4>
+    <ExtraFile5>C:\Users\kamil\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\lpspi\lpspi_slave_driver.c</ExtraFile5>
+    <ExtraFile6>C:\Users\kamil\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\lpspi\lpspi_shared_function.c</ExtraFile6>
+    <ExtraFile7>C:\Users\kamil\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\lpspi\lpspi_master_driver.c</ExtraFile7>
+    <ExtraFile8>C:\Users\kamil\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\lpspi\lpspi_irq.c</ExtraFile8>
+  </ComponentID_30>
+  <ComponentID_32>
+    <Generated>true</Generated>
+    <GenCompName>lpuart1</GenCompName>
+    <GenComponentVersion>SDK_S32K14x_09</GenComponentVersion>
+    <GenDriverVersion>01.00</GenDriverVersion>
+    <GenEventModule />
+    <HeaderAge>1457283280</HeaderAge>
+    <CodeAge>1457283280</CodeAge>
+    <AsemblAge>-1</AsemblAge>
+    <GenNumMethods>16</GenNumMethods>
+    <LPUART_DRV_Init>true</LPUART_DRV_Init>
+    <LPUART_DRV_Deinit>true</LPUART_DRV_Deinit>
+    <LPUART_DRV_InstallRxCallback>true</LPUART_DRV_InstallRxCallback>
+    <LPUART_DRV_InstallTxCallback>true</LPUART_DRV_InstallTxCallback>
+    <LPUART_DRV_SendDataBlocking>true</LPUART_DRV_SendDataBlocking>
+    <LPUART_DRV_SendDataPolling>true</LPUART_DRV_SendDataPolling>
+    <LPUART_DRV_SendData>true</LPUART_DRV_SendData>
+    <LPUART_DRV_GetTransmitStatus>true</LPUART_DRV_GetTransmitStatus>
+    <LPUART_DRV_AbortSendingData>true</LPUART_DRV_AbortSendingData>
+    <LPUART_DRV_ReceiveDataBlocking>true</LPUART_DRV_ReceiveDataBlocking>
+    <LPUART_DRV_ReceiveDataPolling>true</LPUART_DRV_ReceiveDataPolling>
+    <LPUART_DRV_ReceiveData>true</LPUART_DRV_ReceiveData>
+    <LPUART_DRV_GetReceiveStatus>true</LPUART_DRV_GetReceiveStatus>
+    <LPUART_DRV_AbortReceivingData>true</LPUART_DRV_AbortReceivingData>
+    <LPUART_DRV_SetBaudRate>true</LPUART_DRV_SetBaudRate>
+    <LPUART_DRV_GetBaudRate>true</LPUART_DRV_GetBaudRate>
+    <GenNumEvents>0</GenNumEvents>
+    <GenSmartUserChangesDetected_Header>false</GenSmartUserChangesDetected_Header>
+    <GenSmartUserChangesDetected_Code>false</GenSmartUserChangesDetected_Code>
+    <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
+    <GenMethodPos>0</GenMethodPos>
+    <GenExtraFilesCount>6</GenExtraFilesCount>
+    <ExtraFile0>C:\Users\kamil\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\inc\lpuart_driver.h</ExtraFile0>
+    <ExtraFile1>C:\Users\kamil\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\lpuart\lpuart_irq.h</ExtraFile1>
+    <ExtraFile2>C:\Users\kamil\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\lpuart\lpuart_irq.c</ExtraFile2>
+    <ExtraFile3>C:\Users\kamil\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\lpuart\lpuart_driver.c</ExtraFile3>
+    <ExtraFile4>C:\Users\kamil\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\lpuart\lpuart_hw_access.h</ExtraFile4>
+    <ExtraFile5>C:\Users\kamil\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\lpuart\lpuart_hw_access.c</ExtraFile5>
+  </ComponentID_32>
+>>>>>>> Stashed changes
   <UsedSrcFiles>
     <SrcFile0>Drivers\S32K\S32_SDK\timing_pal.drv=-1</SrcFile0>
     <SrcFile1>Drivers\interrupt_manager.src=-1</SrcFile1>

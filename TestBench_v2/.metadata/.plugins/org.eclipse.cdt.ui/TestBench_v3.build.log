@@ -1,5 +1,9 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 11:52:00 **** Incremental Build of configuration Debug_FLASH for project TestBench_v3 ****
+=======
+17:53:11 **** Incremental Build of configuration Debug_FLASH for project TestBench_v3 ****
+>>>>>>> Stashed changes
 =======
 17:53:11 **** Incremental Build of configuration Debug_FLASH for project TestBench_v3 ****
 >>>>>>> Stashed changes
@@ -174,11 +178,19 @@ Invoking: Standard S32DS Print Size
 arm-none-eabi-size --format=berkeley  TestBench_v3.elf 
    text	   data	    bss	    dec	    hex	filename
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   37032	   2776	   3784	  43592	   aa48	TestBench_v3.elf
 Finished building: TestBench_v3.siz
  
 
 11:52:04 Build Finished (took 3s.891ms)
+=======
+  37040	   2812	   3784	  43636	   aa74	TestBench_v3.elf
+Finished building: TestBench_v3.siz
+ 
+
+17:53:12 Build Finished (took 660ms)
+>>>>>>> Stashed changes
 =======
   37040	   2812	   3784	  43636	   aa74	TestBench_v3.elf
 Finished building: TestBench_v3.siz
