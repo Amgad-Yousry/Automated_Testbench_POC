@@ -1,12 +1,177 @@
-16:13:00 **** Incremental Build of configuration Debug_FLASH for project TestBench_v3 ****
+11:52:00 **** Incremental Build of configuration Debug_FLASH for project TestBench_v3 ****
 make -j8 all 
-Executing target #59 TestBench_v3.siz
+Building file: ../Generated_Code/adConv1.c
+Building file: ../Generated_Code/clockMan1.c
+Building file: ../Generated_Code/dmaController1.c
+Executing target #14 ../Generated_Code/adConv1.c
+Executing target #15 ../Generated_Code/clockMan1.c
+Building file: ../Generated_Code/lpi2c1.c
+Executing target #16 ../Generated_Code/dmaController1.c
+Invoking: Standard S32DS C Compiler
+Invoking: Standard S32DS C Compiler
+Executing target #17 ../Generated_Code/lpi2c1.c
+arm-none-eabi-gcc "@Generated_Code/adConv1.args" -MMD -MP -MF"Generated_Code/adConv1.d" -MT"Generated_Code/adConv1.o" -c -o "Generated_Code/adConv1.o" "../Generated_Code/adConv1.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Generated_Code/clockMan1.args" -MMD -MP -MF"Generated_Code/clockMan1.d" -MT"Generated_Code/clockMan1.o" -c -o "Generated_Code/clockMan1.o" "../Generated_Code/clockMan1.c"
+arm-none-eabi-gcc "@Generated_Code/dmaController1.args" -MMD -MP -MF"Generated_Code/dmaController1.d" -MT"Generated_Code/dmaController1.o" -c -o "Generated_Code/dmaController1.o" "../Generated_Code/dmaController1.c"
+Invoking: Standard S32DS C Compiler
+Building file: ../Generated_Code/lpuart1.c
+arm-none-eabi-gcc "@Generated_Code/lpi2c1.args" -MMD -MP -MF"Generated_Code/lpi2c1.d" -MT"Generated_Code/lpi2c1.o" -c -o "Generated_Code/lpi2c1.o" "../Generated_Code/lpi2c1.c"
+Building file: ../Generated_Code/lpuart_gasboard.c
+Executing target #18 ../Generated_Code/lpuart1.c
+Executing target #19 ../Generated_Code/lpuart_gasboard.c
+Building file: ../Generated_Code/pdly1.c
+Invoking: Standard S32DS C Compiler
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Generated_Code/lpuart1.args" -MMD -MP -MF"Generated_Code/lpuart1.d" -MT"Generated_Code/lpuart1.o" -c -o "Generated_Code/lpuart1.o" "../Generated_Code/lpuart1.c"
+Executing target #20 ../Generated_Code/pdly1.c
+arm-none-eabi-gcc "@Generated_Code/lpuart_gasboard.args" -MMD -MP -MF"Generated_Code/lpuart_gasboard.d" -MT"Generated_Code/lpuart_gasboard.o" -c -o "Generated_Code/lpuart_gasboard.o" "../Generated_Code/lpuart_gasboard.c"
+Invoking: Standard S32DS C Compiler
+Building file: ../Generated_Code/pin_mux.c
+arm-none-eabi-gcc "@Generated_Code/pdly1.args" -MMD -MP -MF"Generated_Code/pdly1.d" -MT"Generated_Code/pdly1.o" -c -o "Generated_Code/pdly1.o" "../Generated_Code/pdly1.c"
+../Generated_Code/lpi2c1.c:96:51: warning: ISO C forbids empty initializer braces [-Wpedantic]
+ lpi2c_master_user_config_t lpi2c1_MasterConfig1 = {
+                                                   ^
+../Generated_Code/lpi2c1.c:97:1: warning: missing initializer for field 'slaveAddress' of 'lpi2c_master_user_config_t' [-Wmissing-field-initializers]
+ };
+ ^
+In file included from ../Generated_Code/Cpu.h:66:0,
+                 from ../Generated_Code/clockMan1.h:61,
+                 from ../Generated_Code/lpi2c1.h:65,
+                 from ../Generated_Code/lpi2c1.c:39:
+C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpi2c_driver.h:116:14: note: 'slaveAddress' declared here
+     uint16_t slaveAddress;                      /*!< Slave address, 7-bit or 10-bit */
+              ^
+Executing target #21 ../Generated_Code/pin_mux.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Generated_Code/pin_mux.args" -MMD -MP -MF"Generated_Code/pin_mux.d" -MT"Generated_Code/pin_mux.o" -c -o "Generated_Code/pin_mux.o" "../Generated_Code/pin_mux.c"
+Finished building: ../Generated_Code/adConv1.c
+Finished building: ../Generated_Code/clockMan1.c
+ 
+Finished building: ../Generated_Code/dmaController1.c
+ 
+Finished building: ../Generated_Code/lpi2c1.c
+ 
+Building file: ../Generated_Code/timing_pal1.c
+ 
+Executing target #22 ../Generated_Code/timing_pal1.c
+Finished building: ../Generated_Code/lpuart1.c
+Finished building: ../Generated_Code/lpuart_gasboard.c
+Invoking: Standard S32DS C Compiler
+Finished building: ../Generated_Code/pdly1.c
+ 
+arm-none-eabi-gcc "@Generated_Code/timing_pal1.args" -MMD -MP -MF"Generated_Code/timing_pal1.d" -MT"Generated_Code/timing_pal1.o" -c -o "Generated_Code/timing_pal1.o" "../Generated_Code/timing_pal1.c"
+ 
+ 
+Building file: ../Sources/Callbacks_Globals.c
+Finished building: ../Generated_Code/pin_mux.c
+Building file: ../Sources/Computations.c
+Executing target #52 ../Sources/Callbacks_Globals.c
+ 
+Building file: ../Sources/Init.c
+Executing target #53 ../Sources/Computations.c
+Invoking: Standard S32DS C Compiler
+Executing target #54 ../Sources/Init.c
+Building file: ../Sources/main.c
+arm-none-eabi-gcc "@Sources/Callbacks_Globals.args" -MMD -MP -MF"Sources/Callbacks_Globals.d" -MT"Sources/Callbacks_Globals.o" -c -o "Sources/Callbacks_Globals.o" "../Sources/Callbacks_Globals.c"
+Invoking: Standard S32DS C Compiler
+Executing target #56 ../Sources/main.c
+arm-none-eabi-gcc "@Sources/Computations.args" -MMD -MP -MF"Sources/Computations.d" -MT"Sources/Computations.o" -c -o "Sources/Computations.o" "../Sources/Computations.c"
+Invoking: Standard S32DS C Compiler
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/Init.args" -MMD -MP -MF"Sources/Init.d" -MT"Sources/Init.o" -c -o "Sources/Init.o" "../Sources/Init.c"
+Building file: ../Sources/automationfunctions.c
+arm-none-eabi-gcc "@Sources/main.args" -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Executing target #55 ../Sources/automationfunctions.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/automationfunctions.args" -MMD -MP -MF"Sources/automationfunctions.d" -MT"Sources/automationfunctions.o" -c -o "Sources/automationfunctions.o" "../Sources/automationfunctions.c"
+Finished building: ../Generated_Code/timing_pal1.c
+../Sources/Callbacks_Globals.c: In function 'ADC_IRQHandler':
+../Sources/Callbacks_Globals.c:76:3: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+   gfRMSCurrent = (float) sqrt(RMSCurrentAux/gu16NrConvDone);
+   ^
+../Sources/Callbacks_Globals.c:76:26: warning: incompatible implicit declaration of built-in function 'sqrt'
+   gfRMSCurrent = (float) sqrt(RMSCurrentAux/gu16NrConvDone);
+                          ^
+../Sources/Computations.c: In function 'ComputePressureMPR':
+../Sources/Computations.c:99:8: warning: variable 'fPressMPR_P100' set but not used [-Wunused-but-set-variable]
+  float fPressMPR_P100;
+        ^
+../Sources/Computations.c: In function 'ComputeTemperatureMPR':
+../Sources/Computations.c:129:8: warning: variable 'fTempMPR' set but not used [-Wunused-but-set-variable]
+  float fTempMPR;
+        ^
+ 
+In file included from ../Sources/main.c:32:0:
+../Sources/automationfunctions.h:102:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ void safety_power();
+ ^
+../Sources/automationfunctions.h:104:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ void updatespeedvalue();
+ ^
+../Sources/automationfunctions.h:108:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ void sendspeedCommand();
+ ^
+In file included from ../Sources/automationfunctions.c:18:0:
+../Sources/automationfunctions.h:102:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ void safety_power();
+ ^
+../Sources/automationfunctions.h:104:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ void updatespeedvalue();
+ ^
+../Sources/automationfunctions.h:108:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ void sendspeedCommand();
+ ^
+../Sources/automationfunctions.c: In function 'Init_varAuto':
+../Sources/automationfunctions.c:47:16: warning: unused variable 'MIN_SETTING_COUNTER' [-Wunused-variable]
+  const uint8_t MIN_SETTING_COUNTER = 1U;
+                ^
+../Sources/automationfunctions.c:46:16: warning: unused variable 'MAX_SETTING_COUNTER' [-Wunused-variable]
+  const uint8_t MAX_SETTING_COUNTER = 20U;
+                ^
+../Sources/automationfunctions.c: At top level:
+../Sources/automationfunctions.c:88:6: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ void updatespeedvalue(){
+      ^
+../Sources/automationfunctions.c: In function 'sendCheckCommand':
+../Sources/automationfunctions.c:92:26: warning: pointer targets in passing argument 2 of 'LPUART_DRV_SendData' differ in signedness [-Wpointer-sign]
+ LPUART_DRV_SendData(INST_LPUART1,checkCommand, strlen((const char*)checkCommand));
+                          ^
+In file included from C:/Users/kamil/OneDrive/Documents/GitHub/Internship/TestBench_v2/TestBench_v3/Generated_Code/Cpu.h:63:0,
+                 from ../Sources/automationfunctions.c:8:
+C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/lpuart_driver.h:258:10: note: expected 'const uint8_t *' but argument is of type 'char *'
+ status_t LPUART_DRV_SendData(uint32_t instance,
+          ^
+../Sources/automationfunctions.c:91:46: warning: unused parameter 'uartstate' [-Wunused-parameter]
+ void sendCheckCommand(volatile uart_state_t* uartstate) {
+                                              ^
+../Sources/automationfunctions.c: At top level:
+../Sources/automationfunctions.c:94:6: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ void sendspeedCommand() {
+      ^
+Finished building: ../Sources/Computations.c
+Finished building: ../Sources/Callbacks_Globals.c
+ 
+ 
+Finished building: ../Sources/Init.c
+Finished building: ../Sources/main.c
+ 
+ 
+Finished building: ../Sources/automationfunctions.c
+ 
+Building target: TestBench_v3.elf
+Executing target #57 TestBench_v3.elf
+Invoking: Standard S32DS C Linker
+arm-none-eabi-gcc -o "TestBench_v3.elf" "@TestBench_v3.args"   
+Finished building target: TestBench_v3.elf
+ 
+Executing target #58 TestBench_v3.siz
 Invoking: Standard S32DS Print Size
 arm-none-eabi-size --format=berkeley  TestBench_v3.elf 
    text	   data	    bss	    dec	    hex	filename
-  37032	   2812	   3784	  43628	   aa6c	TestBench_v3.elf
+  37032	   2776	   3784	  43592	   aa48	TestBench_v3.elf
 Finished building: TestBench_v3.siz
  
 
-16:13:01 Build Finished (took 505ms)
+11:52:04 Build Finished (took 3s.891ms)
 
