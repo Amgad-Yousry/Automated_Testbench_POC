@@ -109,5 +109,5 @@
       <File Name="SDK/platform/drivers/src/lpi2c/lpi2c_hw_access.c" FileDate="2023-05-25, 11:27:35" FileAge="1685006855253" FileType="262144" />
     </GeneratedByPE>
   </GeneratedFilesList>
-  <CodeGenReference>15</CodeGenReference>
+  <CodeGenReference>16</CodeGenReference>
 </CodeGenerationInfo>
