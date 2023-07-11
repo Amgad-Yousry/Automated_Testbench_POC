@@ -2,7 +2,11 @@
 <GenerationInfo_G_C>
   <Options>
     <ProjectName>TestBench_v3</ProjectName>
+<<<<<<< Updated upstream
     <ProjectDirectory>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\</ProjectDirectory>
+=======
+    <ProjectDirectory>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\</ProjectDirectory>
+>>>>>>> Stashed changes
     <ProjectMainModuleName>main</ProjectMainModuleName>
     <DestEventsDirectory>Sources\</DestEventsDirectory>
     <DestDriversSubDirectory>..\Generated_Code\</DestDriversSubDirectory>
@@ -17,7 +21,11 @@
       <GenExtraFiles lines_count="1">
         <Line>Generated_Code\timing_pal_cfg.h</Line>
       </GenExtraFiles>
+<<<<<<< Updated upstream
       <XtraAge0>1457410842</XtraAge0>
+=======
+      <XtraAge0>1457282580</XtraAge0>
+>>>>>>> Stashed changes
       <GenExtraFileType0>4</GenExtraFileType0>
       <GenLinkedFiles lines_count="70">
         <Line>SDK\platform\devices\devassert.h=D:\Program Files (x86)\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\devices\devassert.h</Line>
@@ -125,7 +133,7 @@
     </GenFiles>
     <SignalListFile />
     <DestinationCompiler>GNUC</DestinationCompiler>
-    <ProjectModificationStamp>21</ProjectModificationStamp>
+    <ProjectModificationStamp>22</ProjectModificationStamp>
   </Options>
   <CpuID_1>
     <Generated>true</Generated>
@@ -133,8 +141,13 @@
     <GenComponentVersion>01.197</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule>Events</GenEventModule>
+<<<<<<< Updated upstream
     <HeaderAge>1457419496</HeaderAge>
     <CodeAge>1457419485</CodeAge>
+=======
+    <HeaderAge>1457415754</HeaderAge>
+    <CodeAge>1457415754</CodeAge>
+>>>>>>> Stashed changes
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>3</GenNumMethods>
     <SystemInit>true</SystemInit>
@@ -148,6 +161,7 @@
     <GenSmartUserChangesDetected_Code>false</GenSmartUserChangesDetected_Code>
     <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
     <GenExtraFilesCount>20</GenExtraFilesCount>
+<<<<<<< Updated upstream
     <ExtraFile0>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\inc\lpit_driver.h</ExtraFile0>
     <ExtraFile1>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\lpit\lpit_hw_access.h</ExtraFile1>
     <ExtraFile2>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\lpit\lpit_driver.c</ExtraFile2>
@@ -168,6 +182,28 @@
     <ExtraFile17>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\devices\device_registers.h</ExtraFile17>
     <ExtraFile18>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\devices\status.h</ExtraFile18>
     <ExtraFile19>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\devices\devassert.h</ExtraFile19>
+=======
+    <ExtraFile0>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\inc\lpit_driver.h</ExtraFile0>
+    <ExtraFile1>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\lpit\lpit_hw_access.h</ExtraFile1>
+    <ExtraFile2>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\lpit\lpit_driver.c</ExtraFile2>
+    <ExtraFile3>Generated_Code\timing_pal_cfg.h</ExtraFile3>
+    <ExtraFile4>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\pal\timing\inc\timing_pal.h</ExtraFile4>
+    <ExtraFile5>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\pal\timing\inc\timing_pal_mapping.h</ExtraFile5>
+    <ExtraFile6>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\pal\timing\src\timing_irq.h</ExtraFile6>
+    <ExtraFile7>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\pal\timing\src\timing_irq.c</ExtraFile7>
+    <ExtraFile8>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\pal\timing\src\timing_pal.c</ExtraFile8>
+    <ExtraFile9>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\devices\S32K144\include\S32K144.h</ExtraFile9>
+    <ExtraFile10>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\devices\S32K144\include\S32K144_features.h</ExtraFile10>
+    <ExtraFile11>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\devices\S32K144\startup\system_S32K144.c</ExtraFile11>
+    <ExtraFile12>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\devices\S32K144\startup\system_S32K144.h</ExtraFile12>
+    <ExtraFile13>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\devices\startup.c</ExtraFile13>
+    <ExtraFile14>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\devices\startup.h</ExtraFile14>
+    <ExtraFile15>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\devices\common\s32_core_cm4.h</ExtraFile15>
+    <ExtraFile16>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\devices\callbacks.h</ExtraFile16>
+    <ExtraFile17>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\devices\device_registers.h</ExtraFile17>
+    <ExtraFile18>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\devices\status.h</ExtraFile18>
+    <ExtraFile19>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\devices\devassert.h</ExtraFile19>
+>>>>>>> Stashed changes
   </CpuID_1>
   <ComponentID_2>
     <Generated>true</Generated>
@@ -175,8 +211,13 @@
     <GenComponentVersion>1.2.0</GenComponentVersion>
     <GenDriverVersion>1.4</GenDriverVersion>
     <GenEventModule />
+<<<<<<< Updated upstream
     <HeaderAge>1457419496</HeaderAge>
     <CodeAge>1457419496</CodeAge>
+=======
+    <HeaderAge>1457418101</HeaderAge>
+    <CodeAge>1457290898</CodeAge>
+>>>>>>> Stashed changes
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>25</GenNumMethods>
     <PINS_DRV_Init>true</PINS_DRV_Init>
@@ -210,11 +251,19 @@
     <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
     <GenMethodPos>0</GenMethodPos>
     <GenExtraFilesCount>5</GenExtraFilesCount>
+<<<<<<< Updated upstream
     <ExtraFile0>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\pins\pins_port_hw_access.h</ExtraFile0>
     <ExtraFile1>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\pins\pins_port_hw_access.c</ExtraFile1>
     <ExtraFile2>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\inc\pins_driver.h</ExtraFile2>
     <ExtraFile3>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\pins\pins_gpio_hw_access.h</ExtraFile3>
     <ExtraFile4>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\pins\pins_driver.c</ExtraFile4>
+=======
+    <ExtraFile0>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\pins\pins_port_hw_access.h</ExtraFile0>
+    <ExtraFile1>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\pins\pins_port_hw_access.c</ExtraFile1>
+    <ExtraFile2>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\inc\pins_driver.h</ExtraFile2>
+    <ExtraFile3>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\pins\pins_gpio_hw_access.h</ExtraFile3>
+    <ExtraFile4>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\pins\pins_driver.c</ExtraFile4>
+>>>>>>> Stashed changes
   </ComponentID_2>
   <ComponentID_4>
     <Generated>true</Generated>
@@ -222,8 +271,13 @@
     <GenComponentVersion>SDK_S32K14x_09</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule />
+<<<<<<< Updated upstream
     <HeaderAge>1457419485</HeaderAge>
     <CodeAge>1457419485</CodeAge>
+=======
+    <HeaderAge>1457415754</HeaderAge>
+    <CodeAge>1457415754</CodeAge>
+>>>>>>> Stashed changes
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>16</GenNumMethods>
     <CLOCK_SYS_Init>true</CLOCK_SYS_Init>
@@ -248,6 +302,7 @@
     <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
     <GenMethodPos>0</GenMethodPos>
     <GenExtraFilesCount>9</GenExtraFilesCount>
+<<<<<<< Updated upstream
     <ExtraFile0>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\inc\clock_manager.h</ExtraFile0>
     <ExtraFile1>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\clock\S32K1xx\smc_hw_access.h</ExtraFile1>
     <ExtraFile2>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\clock\S32K1xx\sim_hw_access.h</ExtraFile2>
@@ -257,6 +312,17 @@
     <ExtraFile6>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\clock\S32K1xx\clock_S32K1xx.h</ExtraFile6>
     <ExtraFile7>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\clock\S32K1xx\clock_S32K1xx.c</ExtraFile7>
     <ExtraFile8>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\clock\clock_manager.c</ExtraFile8>
+=======
+    <ExtraFile0>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\inc\clock_manager.h</ExtraFile0>
+    <ExtraFile1>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\clock\S32K1xx\smc_hw_access.h</ExtraFile1>
+    <ExtraFile2>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\clock\S32K1xx\sim_hw_access.h</ExtraFile2>
+    <ExtraFile3>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\clock\S32K1xx\scg_hw_access.h</ExtraFile3>
+    <ExtraFile4>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\clock\S32K1xx\pmc_hw_access.h</ExtraFile4>
+    <ExtraFile5>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\clock\S32K1xx\pcc_hw_access.h</ExtraFile5>
+    <ExtraFile6>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\clock\S32K1xx\clock_S32K1xx.h</ExtraFile6>
+    <ExtraFile7>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\clock\S32K1xx\clock_S32K1xx.c</ExtraFile7>
+    <ExtraFile8>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\clock\clock_manager.c</ExtraFile8>
+>>>>>>> Stashed changes
   </ComponentID_4>
   <ComponentID_9>
     <Generated>true</Generated>
@@ -264,8 +330,13 @@
     <GenComponentVersion>SDK_S32K14x_09</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule />
+<<<<<<< Updated upstream
     <HeaderAge>1457410842</HeaderAge>
     <CodeAge>1457410842</CodeAge>
+=======
+    <HeaderAge>1457282580</HeaderAge>
+    <CodeAge>1457282580</CodeAge>
+>>>>>>> Stashed changes
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>16</GenNumMethods>
     <LPUART_DRV_Init>true</LPUART_DRV_Init>
@@ -290,12 +361,21 @@
     <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
     <GenMethodPos>0</GenMethodPos>
     <GenExtraFilesCount>6</GenExtraFilesCount>
+<<<<<<< Updated upstream
     <ExtraFile0>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\inc\lpuart_driver.h</ExtraFile0>
     <ExtraFile1>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\lpuart\lpuart_irq.h</ExtraFile1>
     <ExtraFile2>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\lpuart\lpuart_irq.c</ExtraFile2>
     <ExtraFile3>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\lpuart\lpuart_driver.c</ExtraFile3>
     <ExtraFile4>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\lpuart\lpuart_hw_access.h</ExtraFile4>
     <ExtraFile5>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\lpuart\lpuart_hw_access.c</ExtraFile5>
+=======
+    <ExtraFile0>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\inc\lpuart_driver.h</ExtraFile0>
+    <ExtraFile1>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\lpuart\lpuart_irq.h</ExtraFile1>
+    <ExtraFile2>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\lpuart\lpuart_irq.c</ExtraFile2>
+    <ExtraFile3>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\lpuart\lpuart_driver.c</ExtraFile3>
+    <ExtraFile4>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\lpuart\lpuart_hw_access.h</ExtraFile4>
+    <ExtraFile5>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\lpuart\lpuart_hw_access.c</ExtraFile5>
+>>>>>>> Stashed changes
   </ComponentID_9>
   <ComponentID_11>
     <Generated>true</Generated>
@@ -303,8 +383,13 @@
     <GenComponentVersion>SDK_S32K14x_09</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule />
+<<<<<<< Updated upstream
     <HeaderAge>1457410842</HeaderAge>
     <CodeAge>1457410842</CodeAge>
+=======
+    <HeaderAge>1457282580</HeaderAge>
+    <CodeAge>1457282580</CodeAge>
+>>>>>>> Stashed changes
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>32</GenNumMethods>
     <EDMA_DRV_Init>true</EDMA_DRV_Init>
@@ -345,12 +430,21 @@
     <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
     <GenMethodPos>0</GenMethodPos>
     <GenExtraFilesCount>6</GenExtraFilesCount>
+<<<<<<< Updated upstream
     <ExtraFile0>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\inc\edma_driver.h</ExtraFile0>
     <ExtraFile1>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\edma\edma_irq.h</ExtraFile1>
     <ExtraFile2>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\edma\edma_hw_access.h</ExtraFile2>
     <ExtraFile3>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\edma\edma_irq.c</ExtraFile3>
     <ExtraFile4>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\edma\edma_hw_access.c</ExtraFile4>
     <ExtraFile5>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\edma\edma_driver.c</ExtraFile5>
+=======
+    <ExtraFile0>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\inc\edma_driver.h</ExtraFile0>
+    <ExtraFile1>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\edma\edma_irq.h</ExtraFile1>
+    <ExtraFile2>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\edma\edma_hw_access.h</ExtraFile2>
+    <ExtraFile3>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\edma\edma_irq.c</ExtraFile3>
+    <ExtraFile4>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\edma\edma_hw_access.c</ExtraFile4>
+    <ExtraFile5>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\edma\edma_driver.c</ExtraFile5>
+>>>>>>> Stashed changes
   </ComponentID_11>
   <ComponentID_15>
     <Generated>true</Generated>
@@ -378,8 +472,13 @@
     <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
     <GenMethodPos>0</GenMethodPos>
     <GenExtraFilesCount>2</GenExtraFilesCount>
+<<<<<<< Updated upstream
     <ExtraFile0>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\rtos\osif\osif_baremetal.c</ExtraFile0>
     <ExtraFile1>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\rtos\osif\osif.h</ExtraFile1>
+=======
+    <ExtraFile0>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\rtos\osif\osif_baremetal.c</ExtraFile0>
+    <ExtraFile1>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\rtos\osif\osif.h</ExtraFile1>
+>>>>>>> Stashed changes
   </ComponentID_15>
   <ComponentID_16>
     <Generated>true</Generated>
@@ -411,8 +510,13 @@
     <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
     <GenMethodPos>0</GenMethodPos>
     <GenExtraFilesCount>2</GenExtraFilesCount>
+<<<<<<< Updated upstream
     <ExtraFile0>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\inc\interrupt_manager.h</ExtraFile0>
     <ExtraFile1>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\interrupt\interrupt_manager.c</ExtraFile1>
+=======
+    <ExtraFile0>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\inc\interrupt_manager.h</ExtraFile0>
+    <ExtraFile1>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\interrupt\interrupt_manager.c</ExtraFile1>
+>>>>>>> Stashed changes
   </ComponentID_16>
   <ComponentID_17>
     <Generated>true</Generated>
@@ -420,8 +524,13 @@
     <GenComponentVersion>SDK_S32K14x_09</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule />
+<<<<<<< Updated upstream
     <HeaderAge>1457410842</HeaderAge>
     <CodeAge>1457410842</CodeAge>
+=======
+    <HeaderAge>1457282580</HeaderAge>
+    <CodeAge>1457282580</CodeAge>
+>>>>>>> Stashed changes
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>25</GenNumMethods>
     <ADC_DRV_InitConverterStruct>true</ADC_DRV_InitConverterStruct>
@@ -455,9 +564,15 @@
     <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
     <GenMethodPos>0</GenMethodPos>
     <GenExtraFilesCount>3</GenExtraFilesCount>
+<<<<<<< Updated upstream
     <ExtraFile0>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\inc\adc_driver.h</ExtraFile0>
     <ExtraFile1>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\adc\adc_hw_access.h</ExtraFile1>
     <ExtraFile2>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\adc\adc_driver.c</ExtraFile2>
+=======
+    <ExtraFile0>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\inc\adc_driver.h</ExtraFile0>
+    <ExtraFile1>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\adc\adc_hw_access.h</ExtraFile1>
+    <ExtraFile2>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\adc\adc_driver.c</ExtraFile2>
+>>>>>>> Stashed changes
   </ComponentID_17>
   <ComponentID_26>
     <Generated>true</Generated>
@@ -465,8 +580,13 @@
     <GenComponentVersion>SDK_S32K14x_09</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule />
+<<<<<<< Updated upstream
     <HeaderAge>1457410842</HeaderAge>
     <CodeAge>1457410842</CodeAge>
+=======
+    <HeaderAge>1457282580</HeaderAge>
+    <CodeAge>1457282580</CodeAge>
+>>>>>>> Stashed changes
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>21</GenNumMethods>
     <PDB_DRV_Init>true</PDB_DRV_Init>
@@ -496,10 +616,17 @@
     <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
     <GenMethodPos>0</GenMethodPos>
     <GenExtraFilesCount>4</GenExtraFilesCount>
+<<<<<<< Updated upstream
     <ExtraFile0>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\inc\pdb_driver.h</ExtraFile0>
     <ExtraFile1>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\pdb\pdb_hw_access.h</ExtraFile1>
     <ExtraFile2>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\pdb\pdb_hw_access.c</ExtraFile2>
     <ExtraFile3>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\pdb\pdb_driver.c</ExtraFile3>
+=======
+    <ExtraFile0>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\inc\pdb_driver.h</ExtraFile0>
+    <ExtraFile1>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\pdb\pdb_hw_access.h</ExtraFile1>
+    <ExtraFile2>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\pdb\pdb_hw_access.c</ExtraFile2>
+    <ExtraFile3>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\pdb\pdb_driver.c</ExtraFile3>
+>>>>>>> Stashed changes
   </ComponentID_26>
   <ComponentID_28>
     <Generated>true</Generated>
@@ -507,8 +634,13 @@
     <GenComponentVersion>SDK_S32K14x_09</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule />
+<<<<<<< Updated upstream
     <HeaderAge>1457410842</HeaderAge>
     <CodeAge>1457410842</CodeAge>
+=======
+    <HeaderAge>1457282580</HeaderAge>
+    <CodeAge>1457282580</CodeAge>
+>>>>>>> Stashed changes
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>23</GenNumMethods>
     <LPI2C_DRV_MasterInit>true</LPI2C_DRV_MasterInit>
@@ -540,11 +672,19 @@
     <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
     <GenMethodPos>0</GenMethodPos>
     <GenExtraFilesCount>5</GenExtraFilesCount>
+<<<<<<< Updated upstream
     <ExtraFile0>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\inc\lpi2c_driver.h</ExtraFile0>
     <ExtraFile1>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\lpi2c\lpi2c_hw_access.h</ExtraFile1>
     <ExtraFile2>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\lpi2c\lpi2c_hw_access.c</ExtraFile2>
     <ExtraFile3>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\lpi2c\lpi2c_driver.c</ExtraFile3>
     <ExtraFile4>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\lpi2c\lpi2c_irq.c</ExtraFile4>
+=======
+    <ExtraFile0>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\inc\lpi2c_driver.h</ExtraFile0>
+    <ExtraFile1>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\lpi2c\lpi2c_hw_access.h</ExtraFile1>
+    <ExtraFile2>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\lpi2c\lpi2c_hw_access.c</ExtraFile2>
+    <ExtraFile3>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\lpi2c\lpi2c_driver.c</ExtraFile3>
+    <ExtraFile4>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\lpi2c\lpi2c_irq.c</ExtraFile4>
+>>>>>>> Stashed changes
   </ComponentID_28>
   <ComponentID_29>
     <Generated>true</Generated>
@@ -552,8 +692,13 @@
     <GenComponentVersion>SDK_S32K14x_09</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule />
+<<<<<<< Updated upstream
     <HeaderAge>1457419496</HeaderAge>
     <CodeAge>1457419496</CodeAge>
+=======
+    <HeaderAge>1457290898</HeaderAge>
+    <CodeAge>1457290898</CodeAge>
+>>>>>>> Stashed changes
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>10</GenNumMethods>
     <TIMING_Init>true</TIMING_Init>
@@ -572,11 +717,19 @@
     <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
     <GenMethodPos>0</GenMethodPos>
     <GenExtraFilesCount>5</GenExtraFilesCount>
+<<<<<<< Updated upstream
     <ExtraFile0>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\pal\timing\inc\timing_pal.h</ExtraFile0>
     <ExtraFile1>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\pal\timing\inc\timing_pal_mapping.h</ExtraFile1>
     <ExtraFile2>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\pal\timing\src\timing_irq.h</ExtraFile2>
     <ExtraFile3>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\pal\timing\src\timing_irq.c</ExtraFile3>
     <ExtraFile4>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\pal\timing\src\timing_pal.c</ExtraFile4>
+=======
+    <ExtraFile0>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\pal\timing\inc\timing_pal.h</ExtraFile0>
+    <ExtraFile1>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\pal\timing\inc\timing_pal_mapping.h</ExtraFile1>
+    <ExtraFile2>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\pal\timing\src\timing_irq.h</ExtraFile2>
+    <ExtraFile3>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\pal\timing\src\timing_irq.c</ExtraFile3>
+    <ExtraFile4>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\pal\timing\src\timing_pal.c</ExtraFile4>
+>>>>>>> Stashed changes
   </ComponentID_29>
   <ComponentID_30>
     <Generated>true</Generated>
@@ -584,8 +737,13 @@
     <GenComponentVersion>1.0.0</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule />
+<<<<<<< Updated upstream
     <HeaderAge>1457419485</HeaderAge>
     <CodeAge>1457419485</CodeAge>
+=======
+    <HeaderAge>1457415819</HeaderAge>
+    <CodeAge>1457415819</CodeAge>
+>>>>>>> Stashed changes
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>14</GenNumMethods>
     <LPSPI_DRV_MasterInit>true</LPSPI_DRV_MasterInit>
@@ -608,6 +766,7 @@
     <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
     <GenMethodPos>0</GenMethodPos>
     <GenExtraFilesCount>9</GenExtraFilesCount>
+<<<<<<< Updated upstream
     <ExtraFile0>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\inc\lpspi_slave_driver.h</ExtraFile0>
     <ExtraFile1>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\inc\lpspi_shared_function.h</ExtraFile1>
     <ExtraFile2>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\inc\lpspi_master_driver.h</ExtraFile2>
@@ -617,6 +776,17 @@
     <ExtraFile6>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\lpspi\lpspi_shared_function.c</ExtraFile6>
     <ExtraFile7>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\lpspi\lpspi_master_driver.c</ExtraFile7>
     <ExtraFile8>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\lpspi\lpspi_irq.c</ExtraFile8>
+=======
+    <ExtraFile0>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\inc\lpspi_slave_driver.h</ExtraFile0>
+    <ExtraFile1>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\inc\lpspi_shared_function.h</ExtraFile1>
+    <ExtraFile2>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\inc\lpspi_master_driver.h</ExtraFile2>
+    <ExtraFile3>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\lpspi\lpspi_hw_access.h</ExtraFile3>
+    <ExtraFile4>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\lpspi\lpspi_hw_access.c</ExtraFile4>
+    <ExtraFile5>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\lpspi\lpspi_slave_driver.c</ExtraFile5>
+    <ExtraFile6>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\lpspi\lpspi_shared_function.c</ExtraFile6>
+    <ExtraFile7>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\lpspi\lpspi_master_driver.c</ExtraFile7>
+    <ExtraFile8>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\lpspi\lpspi_irq.c</ExtraFile8>
+>>>>>>> Stashed changes
   </ComponentID_30>
   <ComponentID_32>
     <Generated>true</Generated>
@@ -624,8 +794,13 @@
     <GenComponentVersion>SDK_S32K14x_09</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule />
+<<<<<<< Updated upstream
     <HeaderAge>1457419496</HeaderAge>
     <CodeAge>1457419496</CodeAge>
+=======
+    <HeaderAge>1457283521</HeaderAge>
+    <CodeAge>1457283521</CodeAge>
+>>>>>>> Stashed changes
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>16</GenNumMethods>
     <LPUART_DRV_Init>true</LPUART_DRV_Init>
@@ -650,12 +825,21 @@
     <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
     <GenMethodPos>0</GenMethodPos>
     <GenExtraFilesCount>6</GenExtraFilesCount>
+<<<<<<< Updated upstream
     <ExtraFile0>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\inc\lpuart_driver.h</ExtraFile0>
     <ExtraFile1>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\lpuart\lpuart_irq.h</ExtraFile1>
     <ExtraFile2>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\lpuart\lpuart_irq.c</ExtraFile2>
     <ExtraFile3>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\lpuart\lpuart_driver.c</ExtraFile3>
     <ExtraFile4>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\lpuart\lpuart_hw_access.h</ExtraFile4>
     <ExtraFile5>D:\MASTERS\scaleo\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\lpuart\lpuart_hw_access.c</ExtraFile5>
+=======
+    <ExtraFile0>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\inc\lpuart_driver.h</ExtraFile0>
+    <ExtraFile1>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\lpuart\lpuart_irq.h</ExtraFile1>
+    <ExtraFile2>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\lpuart\lpuart_irq.c</ExtraFile2>
+    <ExtraFile3>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\lpuart\lpuart_driver.c</ExtraFile3>
+    <ExtraFile4>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\lpuart\lpuart_hw_access.h</ExtraFile4>
+    <ExtraFile5>C:\Users\amgad\OneDrive\Documents\GitHub\Internship\TestBench_v2\TestBench_v3\SDK\platform\drivers\src\lpuart\lpuart_hw_access.c</ExtraFile5>
+>>>>>>> Stashed changes
   </ComponentID_32>
   <UsedSrcFiles>
     <SrcFile0>Drivers\S32K\S32_SDK\timing_pal.drv=-1</SrcFile0>
@@ -672,7 +856,11 @@
     <SrcFile11>Drivers\Common\RTOSAdaptor.prg=1266523040</SrcFile11>
     <SrcFile12>Drivers\S32K\S32K144_SDK01\HAL_Port_Bridge.prg=1266523040</SrcFile12>
     <SrcFile13>Drivers\sw\PinSettings.drv=-1</SrcFile13>
+<<<<<<< Updated upstream
     <SrcFile14>Drivers\Common\Header.doxy=1454988146</SrcFile14>
+=======
+    <SrcFile14>Drivers\Common\Header.doxy=1448499792</SrcFile14>
+>>>>>>> Stashed changes
     <SrcFile15>Drivers\Common\GenInitConfigSequence.prg=1266523040</SrcFile15>
     <SrcFile16>Drivers\S32K\S32K144_SDK01\StaticSdk_S32K.prg=1266523040</SrcFile16>
     <SrcFile17>Drivers\PinSettings.src=-1</SrcFile17>
@@ -693,10 +881,17 @@
     <SrcFile32>Drivers\S32K\S32K144_SDK01\lpspi.drv=-1</SrcFile32>
     <SrcFile33>Drivers\Common\Header.h=1266523040</SrcFile33>
     <SrcFile34>Drivers\adc.src=-1</SrcFile34>
+<<<<<<< Updated upstream
     <SrcFile35>Drivers\sw\RTOSAdaptor\Common_RTOSAdaptor.prg=1454988146</SrcFile35>
     <SrcFile36>Drivers\Common\Header.c=1266523040</SrcFile36>
     <SrcFile37>Drivers\osif.src=-1</SrcFile37>
     <SrcFile38>Drivers\sw\RTOSAdaptor\Default_RTOSAdaptor.prg=1454988146</SrcFile38>
+=======
+    <SrcFile35>Drivers\sw\RTOSAdaptor\Common_RTOSAdaptor.prg=1448499792</SrcFile35>
+    <SrcFile36>Drivers\Common\Header.c=1266523040</SrcFile36>
+    <SrcFile37>Drivers\osif.src=-1</SrcFile37>
+    <SrcFile38>Drivers\sw\RTOSAdaptor\Default_RTOSAdaptor.prg=1448499792</SrcFile38>
+>>>>>>> Stashed changes
     <SrcFile39>Drivers\Common\WriteBlock_NotRst.prg=1266523040</SrcFile39>
     <SrcFile40>Drivers\timing_pal.src=-1</SrcFile40>
     <SrcFile41>Drivers\Common\lpuartAbstract.inc=-1</SrcFile41>

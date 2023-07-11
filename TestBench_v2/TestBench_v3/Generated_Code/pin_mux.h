@@ -7,7 +7,7 @@
 **     Version     : Component 1.2.0, Driver 1.4, CPU db: 3.00.000
 **     Repository  : SDK_S32K14x_09
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2023-06-28, 14:59, # CodeGen: 19
+**     Date/Time   : 2023-06-30, 13:59, # CodeGen: 8
 **     Abstract    :
 **
 **     Settings    :
@@ -489,7 +489,7 @@
 **                  Request to Send                        : <Automatic>
 **                  Receive Data                           : PTA8
 **                  Transmit Data                          : PTA9
-**                  Direction                              : <Automatic>
+**                  Direction                              : Output
 **              Peripheral Type MCM                        : 
 **                Custom name                              : MCM
 **              Peripheral Type MPU                        : 
