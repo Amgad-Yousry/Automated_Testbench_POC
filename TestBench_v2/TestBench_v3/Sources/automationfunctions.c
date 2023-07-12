@@ -225,7 +225,7 @@ void p5handshake(volatile uart_state_t* uartstate){
 /**********************************************************************************/
 /**
 Title:switch for time counter for automated tests
-decription: if the function is enabled, it presses either plus or minus button depending on user's required test
+description: if the function is enabled, it presses either plus or minus button depending on user's required test
 eg: auto increment of settings, or auto decrement of settings, time of decrement or increment decided by user for autotime_counter variable
 use: automated tests for P5 oxygen concentrator
 states:
@@ -258,7 +258,11 @@ void autotimecounter(volatile timecount_state_t* sstate,volatile button_state_t*
         	                *timerstate = BUTTON_STATE_PRESSED;
         	                autotime_counter = 0;
         	            }
+<<<<<<< Updated upstream
         	            break;
+=======
+        	   break;
+>>>>>>> Stashed changes
         case TIME_STATE_IDLE: autotime_counter = 0;
         break;
         default:

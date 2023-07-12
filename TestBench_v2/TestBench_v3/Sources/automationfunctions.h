@@ -29,7 +29,7 @@ typedef enum { // BUTTON STATE MACHINE
 typedef enum { // TIMER STATE MACHINE
     TIME_STATE_IDLE,
     TIME_STATE_PRESSED,
-	TIME_STATE_PRESS_TWICE
+	TIME_STATE_PRESS_TWICE,
 } timecount_state_t;
 
 /********************buttons state machine declarations************************/
