@@ -258,6 +258,7 @@ void autotimecounter(volatile timecount_state_t* sstate,volatile button_state_t*
         	                *timerstate = BUTTON_STATE_PRESSED;
         	                autotime_counter = 0;
         	            }
+        	            break;
         case TIME_STATE_IDLE: autotime_counter = 0;
         break;
         default:
