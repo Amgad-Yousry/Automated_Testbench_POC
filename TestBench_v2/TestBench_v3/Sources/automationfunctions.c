@@ -250,7 +250,19 @@ void autotimecounter(volatile timecount_state_t* sstate,volatile button_state_t*
                 autotime_counter = 0;
             }
             break;
-
+        case TIME_STATE_PRESS_TWICE:
+        	(autotime_counter)++;
+        	            if (autotime_counter >= autotime_press_counter)
+        	            {
+        	                *timerstate = BUTTON_STATE_PRESSED;
+        	                *timerstate = BUTTON_STATE_PRESSED;
+        	                autotime_counter = 0;
+        	            }
+<<<<<<< Updated upstream
+        	            break;
+=======
+        	   break;
+>>>>>>> Stashed changes
         case TIME_STATE_IDLE: autotime_counter = 0;
         break;
         default:
