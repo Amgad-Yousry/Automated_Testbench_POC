@@ -7,7 +7,7 @@
 **     Version     : Component 01.197, Driver 01.00, CPU db: 3.00.000
 **     Datasheet   : S32K14XRM Rev. 2, 02/2017
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2023-07-12, 16:02, # CodeGen: 0
+**     Date/Time   : 2023-07-11, 11:30, # CodeGen: 10
 **     Abstract    :
 **
 **     Settings    :
@@ -79,8 +79,8 @@
 #include "pdly1.h"
 #include "lpi2c1.h"
 #include "timing_pal1.h"
+#include "LPSPI_MPR.h"
 #include "lpuart1.h"
-#include "lpspiCom1.h"
 
 #ifdef __cplusplus
 extern "C" {

@@ -33,6 +33,21 @@
 	</natures>
 	<linkedResources>
 		<link>
+			<name>Project_Settings/Linker_Files/S32K1xx_flash.ld</name>
+			<type>1</type>
+			<locationURI>$%7BS32K144_SDK_GCC_0_8_6_PATH%7D/platform/devices/S32K144/linker/gcc/S32K144_64_flash.ld</locationURI>
+		</link>
+		<link>
+			<name>Project_Settings/Linker_Files/S32K1xx_ram.ld</name>
+			<type>1</type>
+			<locationURI>$%7BS32K144_SDK_GCC_0_8_6_PATH%7D/platform/devices/S32K144/linker/gcc/S32K144_64_ram.ld</locationURI>
+		</link>
+		<link>
+			<name>Project_Settings/Startup_Code/Startup_S32K144.S</name>
+			<type>1</type>
+			<locationURI>$%7BS32K144_SDK_GCC_0_8_6_PATH%7D/platform/devices/S32K144/startup/gcc/startup_S32K144.S</locationURI>
+		</link>
+		<link>
 			<name>SDK/platform/devices/callbacks.h</name>
 			<type>1</type>
 			<location>C:/NXP/S32DS_ARM_v2.0/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/callbacks.h</location>
