@@ -7,7 +7,7 @@
 **     Version     : Component 01.197, Driver 01.00, CPU db: 3.00.000
 **     Datasheet   : S32K14XRM Rev. 2, 02/2017
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2023-06-30, 11:44, # CodeGen: 17
+**     Date/Time   : 2023-06-30, 11:56, # CodeGen: 1
 **     Abstract    :
 **
 **     Settings    :
@@ -65,9 +65,6 @@
 #include "pdb_driver.h"
 #include "lpi2c_driver.h"
 #include "timing_pal.h"
-#include "lpspi_master_driver.h"
-#include "lpspi_slave_driver.h"
-#include "lpspi_shared_function.h"
 #include "system_S32K144.h"
 
 /* Including needed modules to compile this module/procedure */
@@ -80,7 +77,6 @@
 #include "lpi2c1.h"
 #include "timing_pal1.h"
 #include "lpuart1.h"
-#include "lpspiCom1.h"
 
 #ifdef __cplusplus
 extern "C" {
